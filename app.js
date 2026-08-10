@@ -485,13 +485,15 @@ function renderProducts() {
       <div class="product-card-image-wrap">
         ${prod.tag_en ? `<div class="product-ribbon">${tag}</div>` : ""}
         <img src="${prod.image}" alt="${name}" class="product-card-img" loading="lazy">
-      </div>
-      <div class="product-card-info">
-        <h3 class="product-card-title">${name}</h3>
-        <p class="product-card-desc">${desc}</p>
-        <div class="product-card-footer">
-          <span class="product-card-price-label">${priceLabel}</span>
-          <span class="product-card-price">${priceText}</span>
+        <div class="product-card-overlay">
+          <div class="product-card-details">
+            <h3 class="product-card-title">${name}</h3>
+            <p class="product-card-desc">${desc}</p>
+            <div class="product-card-footer">
+              <span class="product-card-price">${priceLabel} ${priceText}</span>
+              <span class="product-card-action">View details</span>
+            </div>
+          </div>
         </div>
       </div>
     `;
