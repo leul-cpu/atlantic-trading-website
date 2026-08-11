@@ -1,7 +1,4 @@
-// ──────────────────────────────────────
-// Product Catalog Data
-// ──────────────────────────────────────
-const products = [
+[
   {
     "id": "folding-tent",
     "name_en": "Foldable Storage Tent",
@@ -29,8 +26,8 @@ const products = [
     "price_display_en": "49,000 ETB",
     "price_display_am": "49,000 ብር",
     "source_post": "https://t.me/atlantictradingtent/161",
-    "image_thumb": "assets/products/folding-tent-thumb.webp",
-    "image_full": "assets/products/folding-tent-full.webp"
+    "image_thumb": "assets/products\\folding-tent-thumb.webp",
+    "image_full": "assets/products\\folding-tent-full.webp"
   },
   {
     "id": "handheld-light-umbrella",
@@ -59,8 +56,8 @@ const products = [
     "price_display_en": "1,900 ETB",
     "price_display_am": "1,900 ብር",
     "source_post": "https://t.me/atlantictradingtent/153",
-    "image_thumb": "assets/products/handheld-light-umbrella-thumb.webp",
-    "image_full": "assets/products/handheld-light-umbrella-full.webp"
+    "image_thumb": "assets/products\\handheld-light-umbrella-thumb.webp",
+    "image_full": "assets/products\\handheld-light-umbrella-full.webp"
   },
   {
     "id": "hollyday-chair",
@@ -89,8 +86,8 @@ const products = [
     "price_display_en": "1,150 ETB",
     "price_display_am": "1,150 ብር",
     "source_post": "https://t.me/atlantictradingtent/125",
-    "image_thumb": "assets/products/hollyday-chair-thumb.webp",
-    "image_full": "assets/products/hollyday-chair-full.webp"
+    "image_thumb": "assets/products\\hollyday-chair-thumb.webp",
+    "image_full": "assets/products\\hollyday-chair-full.webp"
   },
   {
     "id": "plastic-duka-small",
@@ -119,8 +116,8 @@ const products = [
     "price_display_en": "450 ETB",
     "price_display_am": "450 ብር",
     "source_post": "https://t.me/atlantictradingtent/119",
-    "image_thumb": "assets/products/plastic-duka-small-thumb.webp",
-    "image_full": "assets/products/plastic-duka-small-full.webp"
+    "image_thumb": "assets/products\\plastic-duka-small-thumb.webp",
+    "image_full": "assets/products\\plastic-duka-small-full.webp"
   },
   {
     "id": "unique-duka",
@@ -149,8 +146,8 @@ const products = [
     "price_display_en": "3,900 ETB",
     "price_display_am": "3,900 ብር",
     "source_post": "https://t.me/atlantictradingtent/96",
-    "image_thumb": "assets/products/unique-duka-thumb.webp",
-    "image_full": "assets/products/unique-duka-full.webp"
+    "image_thumb": "assets/products\\unique-duka-thumb.webp",
+    "image_full": "assets/products\\unique-duka-full.webp"
   },
   {
     "id": "arm-chair",
@@ -179,8 +176,8 @@ const products = [
     "price_display_en": "5,700 ETB",
     "price_display_am": "5,700 ብር",
     "source_post": "https://t.me/atlantictradingtent/88",
-    "image_thumb": "assets/products/arm-chair-thumb.webp",
-    "image_full": "assets/products/arm-chair-full.webp"
+    "image_thumb": "assets/products\\arm-chair-thumb.webp",
+    "image_full": "assets/products\\arm-chair-full.webp"
   },
   {
     "id": "armless-chair",
@@ -209,8 +206,8 @@ const products = [
     "price_display_en": "5,200 ETB",
     "price_display_am": "5,200 ብር",
     "source_post": "https://t.me/atlantictradingtent/88",
-    "image_thumb": "assets/products/armless-chair-thumb.webp",
-    "image_full": "assets/products/armless-chair-full.webp"
+    "image_thumb": "assets/products\\armless-chair-thumb.webp",
+    "image_full": "assets/products\\armless-chair-full.webp"
   },
   {
     "id": "stainless-dustbin",
@@ -256,8 +253,8 @@ const products = [
       }
     ],
     "source_post": "https://t.me/atlantictradingtent/55",
-    "image_thumb": "assets/products/stainless-dustbin-thumb.webp",
-    "image_full": "assets/products/stainless-dustbin-full.webp"
+    "image_thumb": "assets/products\\stainless-dustbin-thumb.webp",
+    "image_full": "assets/products\\stainless-dustbin-full.webp"
   },
   {
     "id": "mop-bucket-wringer",
@@ -286,8 +283,8 @@ const products = [
     "price_display_en": "18,000 ETB",
     "price_display_am": "18,000 ብር",
     "source_post": "https://t.me/atlantictradingtent/70",
-    "image_thumb": "assets/products/mop-bucket-wringer-thumb.webp",
-    "image_full": "assets/products/mop-bucket-wringer-full.webp"
+    "image_thumb": "assets/products\\mop-bucket-wringer-thumb.webp",
+    "image_full": "assets/products\\mop-bucket-wringer-full.webp"
   },
   {
     "id": "standalone-glass-table",
@@ -316,8 +313,8 @@ const products = [
     "price_display_en": "15,000 ETB",
     "price_display_am": "15,000 ብር",
     "source_post": "https://t.me/atlantictradingtent/50",
-    "image_thumb": "assets/products/standalone-glass-table-thumb.webp",
-    "image_full": "assets/products/standalone-glass-table-full.webp"
+    "image_thumb": "assets/products\\standalone-glass-table-thumb.webp",
+    "image_full": "assets/products\\standalone-glass-table-full.webp"
   },
   {
     "id": "3x3m-lit-umbrella-powerbank",
@@ -346,8 +343,8 @@ const products = [
     "price_display_en": "110,000 ETB",
     "price_display_am": "110,000 ብር",
     "source_post": "https://t.me/atlantictradingtent/164",
-    "image_thumb": "assets/products/3x3m-lit-umbrella-powerbank-thumb.webp",
-    "image_full": "assets/products/3x3m-lit-umbrella-powerbank-full.webp"
+    "image_thumb": "assets/products\\3x3m-lit-umbrella-powerbank-thumb.webp",
+    "image_full": "assets/products\\3x3m-lit-umbrella-powerbank-full.webp"
   },
   {
     "id": "gojo-shade",
@@ -385,8 +382,8 @@ const products = [
       }
     ],
     "source_post": "https://t.me/atlantictradingtent/84",
-    "image_thumb": "assets/products/gojo-shade-thumb.webp",
-    "image_full": "assets/products/gojo-shade-full.webp"
+    "image_thumb": "assets/products\\gojo-shade-thumb.webp",
+    "image_full": "assets/products\\gojo-shade-full.webp"
   },
   {
     "id": "double-layer-shade",
@@ -424,8 +421,8 @@ const products = [
       }
     ],
     "source_post": "https://t.me/atlantictradingtent/73",
-    "image_thumb": "assets/products/double-layer-shade-thumb.webp",
-    "image_full": "assets/products/double-layer-shade-full.webp"
+    "image_thumb": "assets/products\\double-layer-shade-thumb.webp",
+    "image_full": "assets/products\\double-layer-shade-full.webp"
   },
   {
     "id": "table-set-glass",
@@ -454,8 +451,8 @@ const products = [
     "price_display_en": "60,000 ETB",
     "price_display_am": "60,000 ብር",
     "source_post": "https://t.me/atlantictradingtent/159",
-    "image_thumb": "assets/products/table-set-glass-thumb.webp",
-    "image_full": "assets/products/table-set-glass-full.webp"
+    "image_thumb": "assets/products\\table-set-glass-thumb.webp",
+    "image_full": "assets/products\\table-set-glass-full.webp"
   },
   {
     "id": "table-set-70x70-glass",
@@ -484,8 +481,8 @@ const products = [
     "price_display_en": "25,900 ETB",
     "price_display_am": "25,900 ብር",
     "source_post": "https://t.me/atlantictradingtent/112",
-    "image_thumb": "assets/products/table-set-70x70-glass-thumb.webp",
-    "image_full": "assets/products/table-set-70x70-glass-full.webp"
+    "image_thumb": "assets/products\\table-set-70x70-glass-thumb.webp",
+    "image_full": "assets/products\\table-set-70x70-glass-full.webp"
   },
   {
     "id": "table-set-plastic",
@@ -514,8 +511,8 @@ const products = [
     "price_display_en": "15,800 ETB",
     "price_display_am": "15,800 ብር",
     "source_post": "https://t.me/atlantictradingtent/112",
-    "image_thumb": "assets/products/table-set-plastic-thumb.webp",
-    "image_full": "assets/products/table-set-plastic-full.webp"
+    "image_thumb": "assets/products\\table-set-plastic-thumb.webp",
+    "image_full": "assets/products\\table-set-plastic-full.webp"
   },
   {
     "id": "table-set-mdf",
@@ -543,9 +540,10 @@ const products = [
     "price": 17500,
     "price_display_en": "17,500 ETB",
     "price_display_am": "17,500 ብር",
+    "note": "Only post mentioning the MDF table (Jun 4) — worth double-checking this is still in stock at this price.",
     "source_post": "https://t.me/atlantictradingtent/28",
-    "image_thumb": "assets/products/table-set-mdf-thumb.webp",
-    "image_full": "assets/products/table-set-mdf-full.webp"
+    "image_thumb": "assets/products\\table-set-mdf-thumb.webp",
+    "image_full": "assets/products\\table-set-mdf-full.webp"
   },
   {
     "id": "zufan-bundle",
@@ -590,353 +588,9 @@ const products = [
         "price": 90000
       }
     ],
+    "note": "Source post lists these four numbers together without saying whether they stack or replace each other — listed as separate options rather than guessed bundle math. Confirm with whoever quotes this in person before it goes live.",
     "source_post": "https://t.me/atlantictradingtent/149",
-    "image_thumb": "assets/products/zufan-bundle-thumb.webp",
-    "image_full": "assets/products/zufan-bundle-full.webp"
+    "image_thumb": "assets/products\\zufan-bundle-thumb.webp",
+    "image_full": "assets/products\\zufan-bundle-full.webp"
   }
-];
-
-// ──────────────────────────────────────
-// Categories
-// ──────────────────────────────────────
-const categories = [
-  { id: "all",           name_en: "All Products",    name_am: "ሁሉም ምርቶች" },
-  { id: "bins",          name_en: "Garbage Cans",    name_am: "የቆሻሻ መጣያ",    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=400" },
-  { id: "umbrellas",     name_en: "Shade Umbrellas", name_am: "የፀሐይ ጥላዎች",   image: "https://images.unsplash.com/photo-1572085312048-a006c9a92892?auto=format&fit=crop&q=80&w=400" },
-  { id: "chairs-tables", name_en: "Chairs & Tables", name_am: "ወንበርና ጠረጴዛ",  image: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&q=80&w=400" },
-  { id: "tents",         name_en: "Tents & Gazebos", name_am: "ድንኳኖች",        image: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&q=80&w=400" },
-  { id: "plastics",      name_en: "Plastic Goods",   name_am: "የፕላስቲክ ዕቃዎች", image: "https://images.unsplash.com/photo-1610557892470-76d74cd120a2?auto=format&fit=crop&q=80&w=400" }
-];
-
-// ──────────────────────────────────────
-// Translation Dictionary
-// ──────────────────────────────────────
-const dictionary = {
-  en: {
-    "hero-badge":         "TRUSTED SUPPLIER",
-    "hero-title-main":    "Quality Outdoor & Plastic Gear",
-    "hero-title-sub":     "For Your Business & Home",
-    "hero-subtitle":      "Premium shade umbrellas, tents, plastic chairs, and garbage cans in Addis Ababa.",
-    "hero-cta":           "Browse Catalog",
-    "hero-tg-cta":        "Order on Telegram",
-    "call-now":           "Call to Order",
-    "section-categories": "Browse Categories",
-    "section-catalog":    "Our Product Catalog",
-    "search-placeholder": "Search products...",
-    "pdp-key-features":   "Key Specifications",
-    "pdp-pricing-table":  "Size & Price Tiers",
-    "th-size":            "Capacity / Size",
-    "th-price":           "Price (ETB)",
-    "order-telegram":     "Order via Telegram",
-    "order-call":         "Call to Order",
-    "footer-contact-us":  "Get in Touch",
-    "footer-location":    "Addis Ababa, Ethiopia",
-    "footer-follow-us":   "Follow Us",
-    "footer-rights":      "All Rights Reserved.",
-    "sticky-tg":          "Order on Telegram",
-    "sticky-call":        "Call",
-    "price-from":         "From",
-    "nav-join-tg":        "Join Channel",
-    "no-results":         "No products found. Try a different search."
-  },
-  am: {
-    "hero-badge":         "ታማኝ አቅራቢ",
-    "hero-title-main":    "ጥራት ያላቸው የውጪና ፕላስቲክ ዕቃዎች",
-    "hero-title-sub":     "ለቤትዎ እና ለንግድዎ",
-    "hero-subtitle":      "ምርጥ የፀሐይ ጥላዎች፣ ድንኳኖች፣ የፕላስቲክ ወንበሮች እና የቆሻሻ መጣያ ባልዲዎች በአዲስ አበባ።",
-    "hero-cta":           "ካታሎግ ይመልከቱ",
-    "hero-tg-cta":        "በቴሌግራም እዘዝ",
-    "call-now":           "ደውለው ይዘዙ",
-    "section-categories": "ምድቦች",
-    "section-catalog":    "የምርት ዝርዝር",
-    "search-placeholder": "ዕቃዎችን ይፈልጉ...",
-    "pdp-key-features":   "ዋና መለያዎች",
-    "pdp-pricing-table":  "የመጠን እና የዋጋ ዝርዝር",
-    "th-size":            "መጠን / ሊትር",
-    "th-price":           "ዋጋ (ብር)",
-    "order-telegram":     "በቴሌግራም እዘዝ",
-    "order-call":         "ደውለው ለማዘዝ",
-    "footer-contact-us":  "ያግኙን",
-    "footer-location":    "አዲስ አበባ፣ ኢትዮጵያ",
-    "footer-follow-us":   "ይከተሉን",
-    "footer-rights":      "መብቱ በህግ የተጠበቀ ነው።",
-    "sticky-tg":          "በቴሌግራም እዘዝ",
-    "sticky-call":        "ደውል",
-    "price-from":         "ከ",
-    "nav-join-tg":        "ቴሌግራም ቻናል",
-    "no-results":         "ምንም ምርት አልተገኘም። ሌላ ቃል ይሞክሩ።"
-  }
-};
-
-// ──────────────────────────────────────
-// App State
-// ──────────────────────────────────────
-let currentLang = "en";
-let currentCategory = "all";
-let searchQuery = "";
-
-// ──────────────────────────────────────
-// Init
-// ──────────────────────────────────────
-document.addEventListener("DOMContentLoaded", () => {
-  renderCategories();
-  renderFilterTabs();
-  renderProducts();
-  applyLanguage(currentLang);
-  initScrollAnimations();
-  // Start sticky bar hidden
-  const bar = document.querySelector(".sticky-cta-bar");
-  if (bar) bar.style.transform = "translateY(100%)";
-  window.addEventListener("scroll", handleScroll);
-});
-
-// ──────────────────────────────────────
-// Language
-// ──────────────────────────────────────
-function applyLanguage(lang) {
-  currentLang = lang;
-  const btn = document.getElementById("langToggleBtn");
-  if (btn) {
-    btn.innerHTML = lang === "en"
-      ? `<span class="active-lang">EN</span><span class="divider">/</span><span class="inactive-lang">አማ</span>`
-      : `<span class="inactive-lang">EN</span><span class="divider">/</span><span class="active-lang">አማ</span>`;
-  }
-  document.querySelectorAll("[data-key]").forEach(el => {
-    const key = el.getAttribute("data-key");
-    if (dictionary[lang][key]) el.textContent = dictionary[lang][key];
-  });
-  document.querySelectorAll("[data-key-placeholder]").forEach(el => {
-    const key = el.getAttribute("data-key-placeholder");
-    if (dictionary[lang][key]) el.setAttribute("placeholder", dictionary[lang][key]);
-  });
-  renderCategories();
-  renderFilterTabs();
-  renderProducts();
-}
-
-function toggleLanguage() {
-  applyLanguage(currentLang === "en" ? "am" : "en");
-}
-
-// ──────────────────────────────────────
-// Render Categories
-// ──────────────────────────────────────
-function renderCategories() {
-  const container = document.getElementById("categoriesScroll");
-  if (!container) return;
-  container.innerHTML = "";
-  categories.filter(c => c.id !== "all").forEach(cat => {
-    const card = document.createElement("div");
-    card.className = "category-card";
-    card.onclick = () => selectCategory(cat.id);
-    card.innerHTML = `
-      <img src="${cat.image}" alt="${cat.name_en}" class="category-card-bg" loading="lazy">
-      <div class="category-card-overlay">
-        <h3 class="category-card-title">${currentLang === "en" ? cat.name_en : cat.name_am}</h3>
-        <span class="category-card-amharic">${currentLang === "en" ? cat.name_am : cat.name_en}</span>
-      </div>
-    `;
-    container.appendChild(card);
-  });
-}
-
-// ──────────────────────────────────────
-// Render Filter Tabs
-// ──────────────────────────────────────
-function renderFilterTabs() {
-  const container = document.getElementById("filterTabs");
-  if (!container) return;
-  container.innerHTML = "";
-  categories.forEach(cat => {
-    const tab = document.createElement("button");
-    tab.className = `filter-tab ${currentCategory === cat.id ? "active" : ""}`;
-    tab.onclick = () => selectCategory(cat.id);
-    tab.textContent = currentLang === "en" ? cat.name_en : cat.name_am;
-    container.appendChild(tab);
-  });
-}
-
-function selectCategory(categoryId) {
-  currentCategory = categoryId;
-  renderFilterTabs();
-  renderProducts();
-  document.getElementById("products")?.scrollIntoView({ behavior: "smooth" });
-}
-
-function handleSearch() {
-  searchQuery = document.getElementById("searchInput").value.toLowerCase();
-  renderProducts();
-}
-
-function resetFilters() {
-  searchQuery = "";
-  const searchInput = document.getElementById("searchInput");
-  if (searchInput) searchInput.value = "";
-  selectCategory('all');
-}
-
-// ──────────────────────────────────────
-// Render Products
-// ──────────────────────────────────────
-function renderProducts() {
-  const grid = document.getElementById("productGrid");
-  if (!grid) return;
-  grid.innerHTML = "";
-
-  const filtered = products.filter(prod => {
-    const matchCat    = currentCategory === "all" || prod.category === currentCategory;
-    const matchSearch = prod.name_en.toLowerCase().includes(searchQuery)
-                     || prod.name_am.includes(searchQuery)
-                     || prod.description_en.toLowerCase().includes(searchQuery);
-    return matchCat && matchSearch;
-  });
-
-  if (filtered.length === 0) {
-    const empty = document.createElement("div");
-    empty.className = "empty-state";
-    empty.innerHTML = `
-      <div class="empty-icon">🔍</div>
-      <p>${dictionary[currentLang]["no-results"]}</p>
-      <button onclick="resetFilters()" class="filter-tab active" style="margin-top:1rem;">
-        ${currentLang === "en" ? "Show all products" : "ሁሉም ምርቶች ይታዩ"}
-      </button>
-    `;
-    grid.appendChild(empty);
-    return;
-  }
-
-  filtered.forEach((prod, idx) => {
-    const card = document.createElement("div");
-    card.className = "product-card";
-    card.tabIndex = 0;
-    card.setAttribute("role", "button");
-    card.style.animationDelay = `${idx * 0.05}s`;
-    
-    card.onclick = () => openPDP(prod.id);
-    card.onkeydown = (e) => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        openPDP(prod.id);
-      }
-    };
-
-    const name       = currentLang === "en" ? prod.name_en        : prod.name_am;
-    const desc       = currentLang === "en" ? prod.description_en : prod.description_am;
-    const priceText  = currentLang === "en" ? prod.price_display_en : prod.price_display_am;
-    const tag        = currentLang === "en" ? prod.tag_en         : prod.tag_am;
-    const priceLabel = prod.price_type === "tiered" ? (currentLang === "en" ? "From" : "ከ") : "";
-
-    card.innerHTML = `
-      <div class="product-card-image-wrap">
-        ${prod.tag_en ? `<div class="product-ribbon">${tag}</div>` : ""}
-        <img src="${(prod.image_thumb || prod.image).replace('assets/products', 'atlantic-scraper/assets/products')}" alt="${name}" class="product-card-img" loading="lazy">
-        <div class="product-card-overlay">
-          <div class="product-card-details">
-            <h3 class="product-card-title">${name}</h3>
-            <p class="product-card-desc">${desc}</p>
-            <div class="product-card-footer">
-              <span class="product-card-price">${priceLabel} ${priceText}</span>
-              <span class="product-card-action">View details</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-    grid.appendChild(card);
-  });
-}
-
-// ──────────────────────────────────────
-// Product Detail Modal (PDP)
-// ──────────────────────────────────────
-function openPDP(productId) {
-  const prod = products.find(p => p.id === productId);
-  if (!prod) return;
-
-  document.getElementById("pdpMainImage").src = (prod.image_full || prod.image).replace('assets/products', 'atlantic-scraper/assets/products');
-  document.getElementById("pdpMainImage").alt = currentLang === "en" ? prod.name_en : prod.name_am;
-  document.getElementById("pdpTagContainer").innerHTML = prod.tag_en
-    ? `<span class="hero-badge-ribbon">${currentLang === "en" ? prod.tag_en : prod.tag_am}</span>` : "";
-  document.getElementById("pdpTitle").textContent       = currentLang === "en" ? prod.name_en        : prod.name_am;
-  document.getElementById("pdpPrice").textContent       = currentLang === "en" ? prod.price_display_en : prod.price_display_am;
-  document.getElementById("pdpDescription").textContent = currentLang === "en" ? prod.description_en : prod.description_am;
-
-  const featuresList = document.getElementById("pdpFeaturesList");
-  featuresList.innerHTML = "";
-  (currentLang === "en" ? prod.features_en : prod.features_am).forEach(feat => {
-    const li = document.createElement("li");
-    li.textContent = feat;
-    featuresList.appendChild(li);
-  });
-
-  const tiersContainer = document.getElementById("pdpTiersContainer");
-  const tiersBody      = document.getElementById("pdpTiersBody");
-  if (prod.price_type === "tiered" && prod.price_tiers) {
-    tiersContainer.style.display = "block";
-    tiersBody.innerHTML = "";
-    prod.price_tiers.forEach(tier => {
-      const row = document.createElement("tr");
-      row.innerHTML = `<td><strong>${tier.size}</strong></td><td>${tier.price.toLocaleString()} ETB</td>`;
-      tiersBody.appendChild(row);
-    });
-  } else {
-    tiersContainer.style.display = "none";
-  }
-
-  const msg = `Hello Atlantic Trading, I would like to order: ${prod.name_en} (${prod.price_display_en})`;
-  document.getElementById("pdpTelegramCta").href = `https://t.me/Atlantictradingplc1?text=${encodeURIComponent(msg)}`;
-
-  document.getElementById("pdpModal").classList.add("active");
-  document.body.style.overflow = "hidden";
-}
-
-function closePDP() {
-  document.getElementById("pdpModal").classList.remove("active");
-  document.body.style.overflow = "";
-}
-
-// Close with Escape key
-document.addEventListener("keydown", e => { if (e.key === "Escape") closePDP(); });
-
-// ──────────────────────────────────────
-// Sticky CTA Bar
-// ──────────────────────────────────────
-function handleScroll() {
-  const bar  = document.querySelector(".sticky-cta-bar");
-  const hero = document.querySelector(".hero-section");
-  const navBar = document.querySelector(".nav-bar");
-
-  // Nav bar scroll effect
-  if (navBar) {
-    if (window.scrollY > 50) {
-      navBar.classList.add("scrolled");
-    } else {
-      navBar.classList.remove("scrolled");
-    }
-  }
-
-  // Sticky CTA bar
-  if (!bar || !hero) return;
-  const heroBottom = hero.offsetTop + hero.offsetHeight;
-  bar.style.transform = window.scrollY > heroBottom - 60 ? "translateY(0)" : "translateY(100%)";
-}
-
-// ──────────────────────────────────────
-// Scroll entrance animations
-// ──────────────────────────────────────
-function initScrollAnimations() {
-  if (!("IntersectionObserver" in window)) return;
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1 });
-
-  document.querySelectorAll(".section-header, .categories-section, .products-section").forEach(el => {
-    el.classList.add("fade-in-up");
-    observer.observe(el);
-  });
-}
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "folding-tent",
+    "name_en": "Foldable Storage Tent",
+    "name_am": "የሚታጠፋ ድንኩዋን",
+    "category": "tents",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "A lightweight tent that folds flat when not in use — sturdy and easy to store between events.",
+    "description_am": "ቀላል የሆነ፣ በማይፈለግበት ጊዜ አጥፍቶ ማስቀመት የሚቻል ድንኳን። ጠንካራና ለማከማቸት ምቹ።",
+    "features_en": [
+      "Folds flat for easy storage",
+      "Durable, weather-resistant build",
+      "Great for iddir gatherings, events, restaurants, and coffee shops",
+      "Quick to set up and pack away"
+    ],
+    "features_am": [
+      "ለማከማቸት ምቹ እንዲሆን ተጣጣፊ",
+      "ጠንካራና የአየር ፀባይ የሚቋቋም",
+      "ለእድር፣ ዝግጅቶች፣ ምግብ ቤቶች እና ካፌዎች ተስማሚ",
+      "በፍጥነት የሚተከልና የሚነሳ"
+    ],
+    "price_type": "flat",
+    "price": 49000,
+    "price_display_en": "49,000 ETB",
+    "price_display_am": "49,000 ብር"
+  },
+  {
+    "id": "handheld-light-umbrella",
+    "name_en": "Handheld Umbrella with Light",
+    "name_am": "የእጅ ጥላ (ማብራት ያለው)",
+    "category": "umbrellas",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Compact handheld umbrella with a built-in light — perfect for rainy-season evenings. Available in multiple colors, for boys and girls.",
+    "description_am": "ማብራት ያለው ትንሽ የእጅ ጥላ፣ ለክረምት ምሽት ተስማሚ። በተለያዩ ቀለማት ለወንድ እና ለሴት ልጆች ይገኛል።",
+    "features_en": [
+      "Built-in light for visibility at night",
+      "Compact, easy to carry",
+      "Available in multiple colors",
+      "Great for kids"
+    ],
+    "features_am": [
+      "በሌሊት ለመታየት የሚረዳ ማብራት አለው",
+      "ለመያዝ ቀላል መጠን",
+      "በተለያዩ ቀለማት ይገኛል",
+      "ለልጆች ተስማሚ"
+    ],
+    "price_type": "flat",
+    "price": 1900,
+    "price_display_en": "1,900 ETB",
+    "price_display_am": "1,900 ብር"
+  },
+  {
+    "id": "hollyday-chair",
+    "name_en": "Holiday Flexible Plastic Chair",
+    "name_am": "ሆሊደይ ተለጣጣቂ የፕላስቲክ ወንበር",
+    "category": "chairs-tables",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Lightweight, flexible plastic chair for iddir gatherings, programs, cafés, and restaurants.",
+    "description_am": "ቀላል፣ ተጣጣፊ የፕላስቲክ ወንበር ለእድር፣ ለፕሮግራም፣ ለካፌዎችና ለምግብ ቤቶች ተስማሚ።",
+    "features_en": [
+      "Lightweight and flexible",
+      "Durable everyday use",
+      "Great for iddir gatherings and programs",
+      "Stackable for storage"
+    ],
+    "features_am": [
+      "ቀላልና ተጣጣፊ",
+      "ለዕለት ተዕለት አገልግሎት ጠንካራ",
+      "ለእድርና ለፕሮግራም ተስማሚ",
+      "ለማስቀመጥ ምቹ ተደራራቢ"
+    ],
+    "price_type": "flat",
+    "price": 1150,
+    "price_display_en": "1,150 ETB",
+    "price_display_am": "1,150 ብር"
+  },
+  {
+    "id": "plastic-duka-small",
+    "name_en": "Small Plastic Stool (ዱካ)",
+    "name_am": "ትንሽ የፕላስቲክ ዱካ",
+    "category": "chairs-tables",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "A compact, budget-friendly plastic stool for cafés and coffee shops.",
+    "description_am": "ትንሽ፣ ተመጣጣኝ ዋጋ ያለው የፕላስቲክ ዱካ ለካፌዎችና ለምግብ ቤቶች ተስማሚ።",
+    "features_en": [
+      "Compact and lightweight",
+      "Budget-friendly",
+      "Durable plastic build",
+      "Great for cafés and coffee shops"
+    ],
+    "features_am": [
+      "ትንሽና ቀላል",
+      "ተመጣጣኝ ዋጋ",
+      "ጠንካራ ፕላስቲክ",
+      "ለካፌና ለቡና ቤት ተስማሚ"
+    ],
+    "price_type": "flat",
+    "price": 450,
+    "price_display_en": "450 ETB",
+    "price_display_am": "450 ብር"
+  },
+  {
+    "id": "unique-duka",
+    "name_en": "Unique ዱካ (Premium)",
+    "name_am": "ልዩ ዱካ",
+    "category": "chairs-tables",
+    "tag_en": "Premium",
+    "tag_am": "ልዩ ምርት",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "A sturdier, premium version of our plastic ዱካ — popular with coffee shops.",
+    "description_am": "ከመደበኛው የበለጠ ጠንካራ የሆነ ልዩ ዱካ፣ ለካፌዎች ተወዳጅ።",
+    "features_en": [
+      "Premium build quality",
+      "Popular with coffee shops",
+      "Durable, stackable",
+      "Comfortable, stable seat"
+    ],
+    "features_am": [
+      "ልዩ ጥራት ያለው ግንባታ",
+      "በካፌዎች ተወዳጅ",
+      "ጠንካራና ተደራራቢ",
+      "ምቹና የተረጋጋ መቀመጫ"
+    ],
+    "price_type": "flat",
+    "price": 3900,
+    "price_display_en": "3,900 ETB",
+    "price_display_am": "3,900 ብር"
+  },
+  {
+    "id": "arm-chair",
+    "name_en": "Arm Chair",
+    "name_am": "የክንድ ወንበር",
+    "category": "chairs-tables",
+    "tag_en": "Bestseller",
+    "tag_am": "ተፈላጊ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Comfortable, neat plastic arm chair for cafés, restaurants, gardens, and homes.",
+    "description_am": "ምቹና ንፁህ የክንድ ወንበር ለካፌዎች፣ ምግብ ቤቶች፣ የአትክልት ስፍራ እና ለቤት ተስማሚ።",
+    "features_en": [
+      "Comfortable armrest design",
+      "Neat, quality finish",
+      "Great for cafés and gardens",
+      "Durable everyday use"
+    ],
+    "features_am": [
+      "ምቹ የክንድ ንድፍ",
+      "ንፁህና ጥራት ያለው",
+      "ለካፌና ለአትክልት ስፍራ ተስማሚ",
+      "ለዕለት ተዕለት አገልግሎት ጠንካራ"
+    ],
+    "price_type": "flat",
+    "price": 5700,
+    "price_display_en": "5,700 ETB",
+    "price_display_am": "5,700 ብር"
+  },
+  {
+    "id": "armless-chair",
+    "name_en": "Armless Chair",
+    "name_am": "ያለ ክንድ ወንበር",
+    "category": "chairs-tables",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Same quality and comfort as our arm chair, without armrests — a more affordable option.",
+    "description_am": "ከክንድ ወንበሩ ጋር ተመሳሳይ ጥራትና ምቾት ያለው፣ ያለ ክንድ በተመጣጣኝ ዋጋ።",
+    "features_en": [
+      "Comfortable, neat design",
+      "More affordable option",
+      "Great for cafés and restaurants",
+      "Durable everyday use"
+    ],
+    "features_am": [
+      "ምቹና ንፁህ ንድፍ",
+      "ተመጣጣኝ ዋጋ",
+      "ለካፌና ለምግብ ቤት ተስማሚ",
+      "ጠንካራ"
+    ],
+    "price_type": "flat",
+    "price": 5200,
+    "price_display_en": "5,200 ETB",
+    "price_display_am": "5,200 ብር"
+  },
+  {
+    "id": "stainless-dustbin",
+    "name_en": "Stainless Steel Dustbin",
+    "name_am": "ስቴይንለስ ስቲል የቆሻሻ መጣያ",
+    "category": "bins",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Sleek stainless steel dustbins for hotels, offices, and upscale spaces — including an ashtray-bin option.",
+    "description_am": "ውብ የስቴይንለስ ስቲል የቆሻሻ መጣያዎች ለሆቴሎችና ለቢሮዎች፣ የሲጋራ አመድ ማስቀመጫም ይገኛል።",
+    "features_en": [
+      "Sleek stainless steel finish",
+      "Multiple sizes including ashtray bin",
+      "Ideal for hotels and offices",
+      "Easy to clean"
+    ],
+    "features_am": [
+      "ውብ የስቴይንለስ ስቲል ገጽታ",
+      "የተለያዩ መጠኖች የሲጋራ ማስቀመጫንም ጨምሮ",
+      "ለሆቴሎችና ለቢሮዎች ተስማሚ",
+      "ለማጽዳት ቀላል"
+    ],
+    "price_type": "tiered",
+    "price_display_en": "From 2,600 ETB",
+    "price_display_am": "ከ 2,600 ብር ጀምሮ",
+    "price_tiers": [
+      {
+        "size": "5L",
+        "price": 2600
+      },
+      {
+        "size": "7L",
+        "price": 3500
+      },
+      {
+        "size": "12L",
+        "price": 3900
+      },
+      {
+        "size": "30L (Ashtray)",
+        "price": 7900
+      }
+    ]
+  },
+  {
+    "id": "mop-bucket-wringer",
+    "name_en": "Dual Mop Bucket & Wringer",
+    "name_am": "ድርብ የመወልወያ መጭመቅያ",
+    "category": "plastics",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Heavy-duty dual mop bucket with wringer, built for hotels, hospitals, schools, and offices.",
+    "description_am": "ጠንካራ ድርብ የመወልወያ መጭመቅያ ለሆቴሎች፣ ሆስፒታሎች፣ ትምህርት ቤቶች እና ቢሮዎች።",
+    "features_en": [
+      "Dual-bucket wringer system",
+      "Heavy-duty commercial build",
+      "Ideal for hotels, hospitals, schools",
+      "Easy to maneuver"
+    ],
+    "features_am": [
+      "ድርብ የመወልወያ ሲስተም",
+      "ጠንካራ የንግድ ደረጃ ግንባታ",
+      "ለሆቴል፣ ሆስፒታልና ትምህርት ቤት ተስማሚ",
+      "በቀላሉ የሚንቀሳቀስ"
+    ],
+    "price_type": "flat",
+    "price": 18000,
+    "price_display_en": "18,000 ETB",
+    "price_display_am": "18,000 ብር"
+  },
+  {
+    "id": "standalone-glass-table",
+    "name_en": "Glass-Top Table",
+    "name_am": "የመስታወት ጠረጴዛ",
+    "category": "chairs-tables",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Clean-finish table with a glass top, sold separately from chair sets.",
+    "description_am": "የመስታወት ላይ ገጽታ ያለው ንፁህ ጠረጴዛ፣ ለብቻው ይሸጣል።",
+    "features_en": [
+      "Clean glass-top finish",
+      "Sold separately from chairs",
+      "Sturdy frame",
+      "Easy to wipe clean"
+    ],
+    "features_am": [
+      "ንፁህ የመስታወት ገጽታ",
+      "ለብቻው የሚሸጥ",
+      "ጠንካራ ፍሬም",
+      "በቀላሉ የሚጸዳ"
+    ],
+    "price_type": "flat",
+    "price": 15000,
+    "price_display_en": "15,000 ETB",
+    "price_display_am": "15,000 ብር"
+  },
+  {
+    "id": "3x3m-lit-umbrella-powerbank",
+    "name_en": "3×3m Lit Shade Umbrella with Power Bank",
+    "name_am": "3x3 ባለ ማብራት ጥላ ከኃይል ባንክ ጋር",
+    "category": "umbrellas",
+    "tag_en": "Premium",
+    "tag_am": "ልዩ ምርት",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "360° rotating shade umbrella with a built-in light and power bank to keep it running after dark. Water-fillable base for wind resistance.",
+    "description_am": "360 ዲግሪ የሚዞር፣ ማብራት እና ኃይል ባንክ ያለው ጥላ። ነፋስ እንዲቋቋም በውሃ የሚሞላ ቤዝ ያለው።",
+    "features_en": [
+      "360° rotating cantilever system",
+      "Built-in light + power bank for evening use",
+      "Water-fillable base for wind resistance",
+      "Great for cafés, restaurants, and cars"
+    ],
+    "features_am": [
+      "360 ዲግሪ የሚዞር",
+      "ማብራትና ኃይል ባንክ ላመሻት አገልግሎት",
+      "ነፋስ እንዲቋቋም የውሃ ቤዝ",
+      "ለካፌ፣ ምግብ ቤትና መኪና ተስማሚ"
+    ],
+    "price_type": "flat",
+    "price": 110000,
+    "price_display_en": "110,000 ETB",
+    "price_display_am": "110,000 ብር"
+  },
+  {
+    "id": "gojo-shade",
+    "name_en": "Gojo-Style Hut Shade",
+    "name_am": "ጐጆ ጥላ",
+    "category": "umbrellas",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Hut-shaped outdoor shade with a wind vent opening — for cafés, restaurants, gardens, and sun cover. Stand sold separately (+1,500 ETB).",
+    "description_am": "ንፋስ ማስገቢያ ያለው ጐጆ ቅርፅ ጥላ — ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ። መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)።",
+    "features_en": [
+      "Hut-style canopy with wind vent",
+      "Sun and weather cover",
+      "Great for cafés, restaurants, gardens",
+      "Stand sold separately (+1,500 ETB)"
+    ],
+    "features_am": [
+      "ንፋስ ማስገቢያ ያለው የጐጆ ቅርፅ",
+      "ፀሐይና የአየር ፀባይ መከላከያ",
+      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
+      "መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)"
+    ],
+    "price_type": "tiered",
+    "price_display_en": "From 7,500 ETB (+1,500 stand)",
+    "price_display_am": "ከ 7,500 ብር ጀምሮ (+1,500 መቆምያ)",
+    "price_tiers": [
+      {
+        "size": "2.5×2.5m",
+        "price": 7500
+      },
+      {
+        "size": "3×3m",
+        "price": 9500
+      }
+    ]
+  },
+  {
+    "id": "double-layer-shade",
+    "name_en": "Double-Layer Shade",
+    "name_am": "ድርብ ጥላ",
+    "category": "umbrellas",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Double-layer, table-mountable outdoor shade — for cafés, restaurants, gardens, and sun cover. Stand sold separately (+1,500 ETB).",
+    "description_am": "ጠረጴዛ ላይ የሚተከል ድርብ ጥላ — ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ። መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)።",
+    "features_en": [
+      "Double-layer canopy",
+      "Table-mountable design",
+      "Great for cafés, restaurants, gardens",
+      "Stand sold separately (+1,500 ETB)"
+    ],
+    "features_am": [
+      "ድርብ ሽፋን ያለው",
+      "ጠረጴዛ ላይ የሚተከል ንድፍ",
+      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
+      "መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)"
+    ],
+    "price_type": "tiered",
+    "price_display_en": "From 7,000 ETB (+1,500 stand)",
+    "price_display_am": "ከ 7,000 ብር ጀምሮ (+1,500 መቆምያ)",
+    "price_tiers": [
+      {
+        "size": "2.6×2.6m",
+        "price": 7000
+      },
+      {
+        "size": "3×3m",
+        "price": 8000
+      }
+    ]
+  },
+  {
+    "id": "table-set-glass",
+    "name_en": "4-Chair Set with Glass Table",
+    "name_am": "4 ወንበር ከመስታወት ጠረጴዛ ጋር",
+    "category": "chairs-tables",
+    "tag_en": "Bestseller",
+    "tag_am": "ተፈላጊ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Complete outdoor seating set — 4 chairs with a glass-top table. Ideal for cafés, restaurants, and gardens.",
+    "description_am": "ሙሉ የውጪ መቀመጫ ስብስብ — 4 ወንበር ከመስታወት ጠረጴዛ ጋር። ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ።",
+    "features_en": [
+      "Set of 4 matching chairs",
+      "Glass-top table included",
+      "Great for cafés, restaurants, gardens",
+      "Weatherproof, easy to clean"
+    ],
+    "features_am": [
+      "4 ተመሳሳይ ወንበሮች",
+      "የመስታወት ጠረጴዛ ያካትታል",
+      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
+      "የአየር ፀባይ የሚቋቋምና ለማጽዳት ቀላል"
+    ],
+    "price_type": "flat",
+    "price": 60000,
+    "price_display_en": "60,000 ETB",
+    "price_display_am": "60,000 ብር"
+  },
+  {
+    "id": "table-set-70x70-glass",
+    "name_en": "4-Chair Set with 70×70 Black Glass Table",
+    "name_am": "4 ወንበር ከ70x70 ጥቁር መስታወት ጠረጴዛ ጋር",
+    "category": "chairs-tables",
+    "tag_en": "Bestseller",
+    "tag_am": "ተፈላጊ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "4-chair seating set with a 70×70cm black glass table — a compact option for cafés and restaurants.",
+    "description_am": "4 ወንበር ከ70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ ጋር — ለካፌና ለምግብ ቤት ምቹ የሆነ አነስተኛ ስብስብ።",
+    "features_en": [
+      "Set of 4 chairs",
+      "70×70cm black glass table",
+      "Compact footprint",
+      "Weatherproof, easy to clean"
+    ],
+    "features_am": [
+      "4 ወንበሮች",
+      "70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ",
+      "አነስተኛ ቦታ የሚይዝ",
+      "የአየር ፀባይ የሚቋቋምና ለማጽዳት ቀላል"
+    ],
+    "price_type": "flat",
+    "price": 25900,
+    "price_display_en": "25,900 ETB",
+    "price_display_am": "25,900 ብር"
+  },
+  {
+    "id": "table-set-plastic",
+    "name_en": "4-Chair Set with Plastic Table",
+    "name_am": "4 ወንበር ከፕላስቲክ ጠረጴዛ ጋር",
+    "category": "chairs-tables",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Budget-friendly 4-chair set with a durable plastic table — great value for cafés and gardens.",
+    "description_am": "ተመጣጣኝ ዋጋ ያለው 4 ወንበር ከጠንካራ ፕላስቲክ ጠረጴዛ ጋር — ለካፌና ለአትክልት ስፍራ ምርጥ።",
+    "features_en": [
+      "Set of 4 chairs",
+      "Durable plastic table",
+      "Budget-friendly",
+      "Weatherproof"
+    ],
+    "features_am": [
+      "4 ወንበሮች",
+      "ጠንካራ ፕላስቲክ ጠረጴዛ",
+      "ተመጣጣኝ ዋጋ",
+      "የአየር ፀባይ የሚቋቋም"
+    ],
+    "price_type": "flat",
+    "price": 15800,
+    "price_display_en": "15,800 ETB",
+    "price_display_am": "15,800 ብር"
+  },
+  {
+    "id": "table-set-mdf",
+    "name_en": "4-Chair Set with MDF Table",
+    "name_am": "4 ወንበር ከMDF ጠረጴዛ ጋር",
+    "category": "chairs-tables",
+    "tag_en": "New",
+    "tag_am": "አዲስ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "4-chair set with a solid MDF wood table — a sturdier, indoor-friendly alternative.",
+    "description_am": "4 ወንበር ከጠንካራ MDF እንጨት ጠረጴዛ ጋር — ለቤት ውስጥም ተስማሚ ጠንካራ አማራጭ።",
+    "features_en": [
+      "Set of 4 chairs",
+      "Solid MDF wood table",
+      "Sturdy build",
+      "Suitable indoors or outdoors"
+    ],
+    "features_am": [
+      "4 ወንበሮች",
+      "ጠንካራ MDF እንጨት ጠረጴዛ",
+      "ጠንካራ ግንባታ",
+      "ለቤት ውስጥም ለውጪም ተስማሚ"
+    ],
+    "price_type": "flat",
+    "price": 17500,
+    "price_display_en": "17,500 ETB",
+    "price_display_am": "17,500 ብር",
+    "note": "Only post mentioning the MDF table (Jun 4) — worth double-checking this is still in stock at this price."
+  },
+  {
+    "id": "zufan-bundle",
+    "name_en": "Zufan Set — Chairs, Table & Umbrella Bundle",
+    "name_am": "ዙፋን ስብስብ — ወንበር፣ ጠረጴዛና ጥላ",
+    "category": "chairs-tables",
+    "tag_en": "Bundle Discount",
+    "tag_am": "የቅናሽ ስብስብ",
+    "image": "PASTE_IMAGE_PATH",
+    "description_en": "Full outdoor set: 4 chairs, a glass table, and your choice of umbrella. Discount available when you take the full bundle.",
+    "description_am": "ሙሉ የውጪ ስብስብ፦ 4 ወንበር፣ የመስታወት ጠረጴዛ እና የመረጡት ጥላ። ሙሉ ስብስቡን ለሚወስዱ ቅናሽ አለ።",
+    "features_en": [
+      "4 chairs + glass table + 1 umbrella",
+      "Choice of lit or unlit umbrella, square or round",
+      "Discount when purchasing the full bundle",
+      "Great for cafés, restaurants, gardens"
+    ],
+    "features_am": [
+      "4 ወንበር + መስታወት ጠረጴዛ + 1 ጥላ",
+      "ማብራት ያለው ወይም የሌለው፣ ካሬ ወይም ክብ ጥላ መምረጥ ይቻላል",
+      "ሙሉ ስብስቡን ለሚወስዱ ቅናሽ",
+      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ"
+    ],
+    "price_type": "tiered",
+    "price_display_en": "From 65,000 ETB",
+    "price_display_am": "ከ 65,000 ብር ጀምሮ",
+    "price_tiers": [
+      {
+        "size": "Chairs + table only",
+        "price": 79000
+      },
+      {
+        "size": "+ Round umbrella (no light)",
+        "price": 65000
+      },
+      {
+        "size": "+ Square umbrella (no light)",
+        "price": 75000
+      },
+      {
+        "size": "+ Lit umbrella",
+        "price": 90000
+      }
+    ],
+    "note": "Source post lists these four numbers together without saying whether they stack or replace each other — listed as separate options rather than guessed bundle math. Confirm with whoever quotes this in person before it goes live."
+  }
+]
