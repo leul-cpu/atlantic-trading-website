@@ -704,7 +704,7 @@ async function initApp() {
   try {
     // Use a relative URL (no leading slash) so it works on GitHub Pages
     // subdirectory URLs like /atlantic-trading-website/ as well as custom domains.
-    const res = await fetch("products.json");
+    const res = await fetch("products.json?v=" + new Date().getTime());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     products = await res.json();
   } catch (err) {
@@ -900,24 +900,26 @@ function openPDP(productId) {
   const prevBtn = document.getElementById("pdpGalleryPrev");
   const nextBtn = document.getElementById("pdpGalleryNext");
   
-  if (imgSrcs.length > 1) {
-    prevBtn.style.display = "flex";
-    nextBtn.style.display = "flex";
-    
-    prevBtn.onclick = () => {
-      const idx = Math.round(gallery.scrollLeft / gallery.offsetWidth);
-      const newIdx = Math.max(0, idx - 1);
-      gallery.scrollTo({ left: gallery.offsetWidth * newIdx, behavior: "smooth" });
-    };
-    
-    nextBtn.onclick = () => {
-      const idx = Math.round(gallery.scrollLeft / gallery.offsetWidth);
-      const newIdx = Math.min(imgSrcs.length - 1, idx + 1);
-      gallery.scrollTo({ left: gallery.offsetWidth * newIdx, behavior: "smooth" });
-    };
-  } else {
-    prevBtn.style.display = "none";
-    nextBtn.style.display = "none";
+  if (prevBtn && nextBtn) {
+    if (imgSrcs.length > 1) {
+      prevBtn.style.display = "flex";
+      nextBtn.style.display = "flex";
+      
+      prevBtn.onclick = () => {
+        const idx = Math.round(gallery.scrollLeft / gallery.offsetWidth);
+        const newIdx = Math.max(0, idx - 1);
+        gallery.scrollTo({ left: gallery.offsetWidth * newIdx, behavior: "smooth" });
+      };
+      
+      nextBtn.onclick = () => {
+        const idx = Math.round(gallery.scrollLeft / gallery.offsetWidth);
+        const newIdx = Math.min(imgSrcs.length - 1, idx + 1);
+        gallery.scrollTo({ left: gallery.offsetWidth * newIdx, behavior: "smooth" });
+      };
+    } else {
+      prevBtn.style.display = "none";
+      nextBtn.style.display = "none";
+    }
   }
 
   imgSrcs.forEach((src, i) => {
