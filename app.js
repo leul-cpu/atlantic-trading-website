@@ -892,7 +892,7 @@ function openPDP(productId) {
   const rawImages = prod.images && prod.images.length ? prod.images : [];
   const imgSrcs = rawImages.length
     ? rawImages.map(img => typeof img === 'object' ? img.image : img).filter(Boolean)
-    : [prod.image_full || prod.image, prod.image_thumb || prod.image].filter((v, i, a) => v && a.indexOf(v) === i);
+    : [prod.image_full || prod.image].filter(Boolean);
 
   const altText = currentLang === "en" ? prod.name_en : prod.name_am;
 

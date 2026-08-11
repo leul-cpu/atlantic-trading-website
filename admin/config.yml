@@ -144,6 +144,7 @@ collections:
         name: "images"
         widget: "list"
         required: false
+        collapsed: false
         label_singular: "Photo"
         summary: "{{fields.image}}"
         hint: >
