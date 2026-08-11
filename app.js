@@ -605,11 +605,11 @@ const _placeholder = [
 // ──────────────────────────────────────
 const categories = [
   { id: "all",           name_en: "All Products",    name_am: "ሁሉም ምርቶች" },
-  { id: "bins",          name_en: "Garbage Cans",    name_am: "የቆሻሻ መጣያ",    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=400" },
-  { id: "umbrellas",     name_en: "Shade Umbrellas", name_am: "የፀሐይ ጥላዎች",   image: "https://images.unsplash.com/photo-1572085312048-a006c9a92892?auto=format&fit=crop&q=80&w=400" },
-  { id: "chairs-tables", name_en: "Chairs & Tables", name_am: "ወንበርና ጠረጴዛ",  image: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&q=80&w=400" },
-  { id: "tents",         name_en: "Tents & Gazebos", name_am: "ድንኳኖች",        image: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&q=80&w=400" },
-  { id: "plastics",      name_en: "Plastic Goods",   name_am: "የፕላስቲክ ዕቃዎች", image: "https://images.unsplash.com/photo-1610557892470-76d74cd120a2?auto=format&fit=crop&q=80&w=400" }
+  { id: "bins",          name_en: "Garbage Cans",    name_am: "የቆሻሻ መጣያ",    image: "assets/products/stainless-dustbin-thumb.webp" },
+  { id: "umbrellas",     name_en: "Shade Umbrellas", name_am: "የፀሐይ ጥላዎች",   image: "assets/products/double-layer-shade-thumb.webp" },
+  { id: "chairs-tables", name_en: "Chairs & Tables", name_am: "ወንበርና ጠረጴዛ",  image: "assets/products/table-set-glass-thumb.webp" },
+  { id: "tents",         name_en: "Tents & Gazebos", name_am: "ድንኳኖች",        image: "assets/products/folding-tent-thumb.webp" },
+  { id: "plastics",      name_en: "Plastic Goods",   name_am: "የፕላስቲክ ዕቃዎች", image: "assets/products/plastic-duka-small-thumb.webp" }
 ];
 
 // ──────────────────────────────────────
@@ -618,9 +618,9 @@ const categories = [
 const dictionary = {
   en: {
     "hero-badge":         "TRUSTED SUPPLIER",
-    "hero-title-main":    "Quality Outdoor & Plastic Gear",
-    "hero-title-sub":     "For Your Business & Home",
-    "hero-subtitle":      "Premium shade umbrellas, tents, plastic chairs, and garbage cans in Addis Ababa.",
+    "hero-title-main":    "ATLANTIC TRADING",
+    "hero-title-sub":     "Quality Outdoor & Plastic Gear",
+    "hero-subtitle":      "For your business & home. Premium shade umbrellas, tents, plastic chairs, and garbage cans in Addis Ababa.",
     "hero-cta":           "Browse Catalog",
     "hero-tg-cta":        "Order on Telegram",
     "call-now":           "Call to Order",
@@ -645,9 +645,9 @@ const dictionary = {
   },
   am: {
     "hero-badge":         "ታማኝ አቅራቢ",
-    "hero-title-main":    "ጥራት ያላቸው የውጪና ፕላስቲክ ዕቃዎች",
-    "hero-title-sub":     "ለቤትዎ እና ለንግድዎ",
-    "hero-subtitle":      "ምርጥ የፀሐይ ጥላዎች፣ ድንኳኖች፣ የፕላስቲክ ወንበሮች እና የቆሻሻ መጣያ ባልዲዎች በአዲስ አበባ።",
+    "hero-title-main":    "አትላንቲክ ትሬዲንግ",
+    "hero-title-sub":     "ጥራት ያላቸው የውጪና ፕላስቲክ ዕቃዎች",
+    "hero-subtitle":      "ለቤትዎ እና ለንግድዎ። ምርጥ የፀሐይ ጥላዎች፣ ድንኳኖች፣ የፕላስቲክ ወንበሮች እና የቆሻሻ መጣያ ባልዲዎች በአዲስ አበባ።",
     "hero-cta":           "ካታሎግ ይመልከቱ",
     "hero-tg-cta":        "በቴሌግራም እዘዝ",
     "call-now":           "ደውለው ይዘዙ",
@@ -762,7 +762,6 @@ function renderCategories() {
       <img src="${cat.image}" alt="${cat.name_en}" class="category-card-bg" loading="lazy">
       <div class="category-card-overlay">
         <h3 class="category-card-title">${currentLang === "en" ? cat.name_en : cat.name_am}</h3>
-        <span class="category-card-amharic">${currentLang === "en" ? cat.name_am : cat.name_en}</span>
       </div>
     `;
     container.appendChild(card);
