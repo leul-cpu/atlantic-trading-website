@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
   
   <!-- Core Design CSS -->
-  <link rel="stylesheet" href="index.css?v=4">
+  <link rel="stylesheet" href="index.css?v=5">
 </head>
 <body>
 
@@ -114,8 +114,12 @@
       <button class="pdp-close-btn" onclick="closePDP()">×</button>
       
       <div class="pdp-content">
-        <div class="pdp-gallery" id="pdpGallery">
-          <!-- Swipeable image strip injected by JS -->
+        <div class="pdp-gallery-wrapper">
+          <button class="gallery-btn prev-btn" id="pdpGalleryPrev">❮</button>
+          <div class="pdp-gallery" id="pdpGallery">
+            <!-- Swipeable image strip injected by JS -->
+          </div>
+          <button class="gallery-btn next-btn" id="pdpGalleryNext">❯</button>
         </div>
         <div class="pdp-gallery-dots" id="pdpGalleryDots"></div>
         

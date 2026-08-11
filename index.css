@@ -731,6 +731,38 @@ a {
   color: var(--accent-color);
 }
 
+.pdp-gallery-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.gallery-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(17, 30, 60, 0.6);
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 10;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s;
+}
+
+.gallery-btn:hover {
+  background: rgba(17, 30, 60, 0.9);
+}
+
+.prev-btn { left: 8px; }
+.next-btn { right: 8px; }
+
 .pdp-gallery {
   width: 100%;
   margin-bottom: 0.5rem;
@@ -743,6 +775,7 @@ a {
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 .pdp-gallery::-webkit-scrollbar {

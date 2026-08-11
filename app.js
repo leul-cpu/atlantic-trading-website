@@ -896,6 +896,30 @@ function openPDP(productId) {
 
   const altText = currentLang === "en" ? prod.name_en : prod.name_am;
 
+  // Configure navigation buttons
+  const prevBtn = document.getElementById("pdpGalleryPrev");
+  const nextBtn = document.getElementById("pdpGalleryNext");
+  
+  if (imgSrcs.length > 1) {
+    prevBtn.style.display = "flex";
+    nextBtn.style.display = "flex";
+    
+    prevBtn.onclick = () => {
+      const idx = Math.round(gallery.scrollLeft / gallery.offsetWidth);
+      const newIdx = Math.max(0, idx - 1);
+      gallery.scrollTo({ left: gallery.offsetWidth * newIdx, behavior: "smooth" });
+    };
+    
+    nextBtn.onclick = () => {
+      const idx = Math.round(gallery.scrollLeft / gallery.offsetWidth);
+      const newIdx = Math.min(imgSrcs.length - 1, idx + 1);
+      gallery.scrollTo({ left: gallery.offsetWidth * newIdx, behavior: "smooth" });
+    };
+  } else {
+    prevBtn.style.display = "none";
+    nextBtn.style.display = "none";
+  }
+
   imgSrcs.forEach((src, i) => {
     const img = document.createElement("img");
     img.src       = src;
