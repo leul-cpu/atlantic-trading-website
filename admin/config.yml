@@ -2,11 +2,9 @@ backend:
   name: github
   repo: leul-cpu/atlantic-trading-website
   branch: main
-  # PKCE auth — no proxy server or Netlify account needed.
-  # Decap CMS v3 handles the GitHub login flow directly in the browser.
-  # Replace YOUR_GITHUB_OAUTH_CLIENT_ID below with the Client ID from your GitHub OAuth App.
-  auth_type: pkce
-  app_id: Ov23liLjrurtl6sRwa2H
+  # Netlify's free hosted OAuth proxy — no separate backend needed.
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 # Where the CMS stores uploaded images
 media_folder: "assets/products"
