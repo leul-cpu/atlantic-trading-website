@@ -5,7 +5,7 @@ backend:
   # Netlify's free hosted OAuth proxy — no separate backend needed.
   base_url: https://api.netlify.com
   auth_endpoint: auth
-  site_domain: "https://chimerical-swan-9d4302.netlify.app/"
+  site_domain: "chimerical-swan-9d4302.netlify.app"
 # Where the CMS stores uploaded images
 media_folder: "assets/products"
 public_folder: "assets/products"
