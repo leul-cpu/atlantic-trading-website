@@ -733,19 +733,52 @@ a {
 
 .pdp-gallery {
   width: 100%;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
   border-radius: 8px;
   overflow: hidden;
   background-color: var(--white);
   border: 1px solid var(--border-color);
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.pdp-gallery::-webkit-scrollbar {
+  display: none;
 }
 
 .pdp-main-img {
+  flex: 0 0 100%;
   width: 100%;
   height: 35vh;
   object-fit: cover;
   object-position: center;
   display: block;
+  scroll-snap-align: start;
+}
+
+/* Dot indicators below gallery */
+.pdp-gallery-dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 1rem;
+}
+
+.pdp-gallery-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--border-color);
+  transition: background-color 0.25s ease, transform 0.25s ease;
+  cursor: pointer;
+}
+
+.pdp-gallery-dot.active {
+  background-color: var(--accent-color);
+  transform: scale(1.3);
 }
 
 .pdp-tag-container {

@@ -881,9 +881,45 @@ function openPDP(productId) {
   const prod = products.find(p => p.id === productId);
   if (!prod) return;
 
-  const prodImageSrc = prod.image_full || prod.image || "";
-  document.getElementById("pdpMainImage").src = prodImageSrc;
-  document.getElementById("pdpMainImage").alt = currentLang === "en" ? prod.name_en : prod.name_am;
+  // ── Build swipeable image gallery ──────────────────────────
+  // Collect all available images for this product.
+  // Priority: prod.images array → fallback to image_full + image_thumb
+  const gallery = document.getElementById("pdpGallery");
+  const dotsEl  = document.getElementById("pdpGalleryDots");
+  gallery.innerHTML = "";
+  dotsEl.innerHTML  = "";
+
+  const imgSrcs = prod.images && prod.images.length
+    ? prod.images
+    : [prod.image_full || prod.image, prod.image_thumb || prod.image].filter((v, i, a) => v && a.indexOf(v) === i);
+
+  const altText = currentLang === "en" ? prod.name_en : prod.name_am;
+
+  imgSrcs.forEach((src, i) => {
+    const img = document.createElement("img");
+    img.src       = src;
+    img.alt       = altText;
+    img.className = "pdp-main-img";
+    img.loading   = "lazy";
+    gallery.appendChild(img);
+
+    if (imgSrcs.length > 1) {
+      const dot = document.createElement("span");
+      dot.className = "pdp-gallery-dot" + (i === 0 ? " active" : "");
+      dot.onclick = () => {
+        gallery.scrollTo({ left: gallery.offsetWidth * i, behavior: "smooth" });
+      };
+      dotsEl.appendChild(dot);
+    }
+  });
+
+  // Update dots on scroll
+  gallery.onscroll = () => {
+    const idx = Math.round(gallery.scrollLeft / gallery.offsetWidth);
+    dotsEl.querySelectorAll(".pdp-gallery-dot").forEach((d, i) => {
+      d.classList.toggle("active", i === idx);
+    });
+  };
   document.getElementById("pdpTagContainer").innerHTML = prod.tag_en
     ? `<span class="hero-badge-ribbon">${currentLang === "en" ? prod.tag_en : prod.tag_am}</span>` : "";
   document.getElementById("pdpTitle").textContent       = currentLang === "en" ? prod.name_en        : prod.name_am;
