@@ -1,30 +1,36 @@
 {
-  "id": "hollyday-chair",
-  "name_en": "Holiday Flexible Plastic Chair",
   "name_am": "ሆሊደይ ተለጣጣቂ የፕላስቲክ ወንበር",
-  "category": "chairs-tables",
-  "tag_en": "New",
-  "tag_am": "አዲስ",
-  "image": "https://cdn4.telesco.pe/file/IINJG6IrviCvY9pyV43bBbJb6eyWZijz1z4iLKhRmDhy_xS9KADskKQsjzVGWY5RtzeN16FhX4yU_Ilqb9qsos8O8yyugspdd_dPReNpkKiMDKEmfFXj0kbLcf5e0kI3-7Vt2Bk6PuMs8Fe2EQfNvssRpapiCIX-jZZnhINv8sMuVou_V_yfHKCv6TkArXiJ6gbScy1vMnV6t6DOfEcTYy-FMsLL1u2kQ0Yyj9aCPqsj_PpnKwtHkrgtIg7fbGUv-Y8NjW5W2XQBw-9lhn8DiA6vtuSwVE9i9vUo7bsnDUeofflZ3vv_DnczYWLr6jXY_qtz_jAIMGee4N5X8IjAng.jpg",
-  "description_en": "Lightweight, flexible plastic chair for iddir gatherings, programs, cafés, and restaurants.",
-  "description_am": "ቀላል፣ ተጣጣፊ የፕላስቲክ ወንበር ለእድር፣ ለፕሮግራም፣ ለካፌዎችና ለምግብ ቤቶች ተስማሚ።",
+  "source_post": "https://t.me/atlantictradingtent/125",
+  "price": 1150,
   "features_en": [
     "Lightweight and flexible",
     "Durable everyday use",
     "Great for iddir gatherings and programs",
     "Stackable for storage"
   ],
+  "description_en": "Lightweight, flexible plastic chair for iddir gatherings, programs, cafés, and restaurants.",
   "features_am": [
     "ቀላልና ተጣጣፊ",
     "ለዕለት ተዕለት አገልግሎት ጠንካራ",
     "ለእድርና ለፕሮግራም ተስማሚ",
     "ለማስቀመጥ ምቹ ተደራራቢ"
   ],
+  "tag_en": "New",
+  "description_am": "ቀላል፣ ተጣጣፊ የፕላስቲክ ወንበር ለእድር፣ ለፕሮግራም፣ ለካፌዎችና ለምግብ ቤቶች ተስማሚ።",
   "price_type": "flat",
-  "price": 1150,
-  "price_display_en": "1,150 ETB",
-  "price_display_am": "1,150 ብር",
-  "source_post": "https://t.me/atlantictradingtent/125",
+  "tag_am": "አዲስ",
   "image_thumb": "assets/products/hollyday-chair-thumb.webp",
-  "image_full": "assets/products/hollyday-chair-full.webp"
+  "image_full": "assets/products/hollyday-chair-full.webp",
+  "images": [
+    {
+      "image": "assets/products/photo_2026-08-11_21-28-48.jpg"
+    }
+  ],
+  "id": "hollyday-chair",
+  "image": "assets/products/photo_2026-08-11_21-28-37.jpg",
+  "price_display_en": "1,150 ETB",
+  "date_published": "2026-08-11",
+  "name_en": "Holiday Flexible Plastic Chair",
+  "category": "chairs-tables",
+  "price_display_am": "1,150 ብር"
 }
