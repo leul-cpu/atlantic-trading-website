@@ -1,0 +1,30 @@
+{
+  "id": "mop-bucket-wringer",
+  "name_en": "Dual Mop Bucket & Wringer",
+  "name_am": "ድርብ የመወልወያ መጭመቅያ",
+  "category": "plastics",
+  "tag_en": "New",
+  "tag_am": "አዲስ",
+  "image": "https://cdn4.telesco.pe/file/MocB-BfQWmHpRjVi_QGfH3WxdjIlf7O6SVxy0S6jqoiQHhketZORe2wcdXHkf1keLXToyYHl1-X1xweHbNJ5MKyJ7IGtqjXfyowWEIb8K1XHDG48BIp8OwF7E9DWhcWw7xWiRTAW9g-1qsnbFoWVyvienyn2nK_mHvbtxxTvmlK0Z05bujAGuxdscF_SWFmv0k8AZg174nSjdfj5WLwEp2_lDfcOTrdB-pgQ7KL6IivO5YPeLmt9ERdSmTfvPhuSfo9mh4wHLVULuUfpp2Wx5LDQfWpZN9zAo6IqMlsUUiwaVYV7lawBH8rrwK-EQj0v8WEO52S2Nto9DLRXrzDDnA.jpg",
+  "description_en": "Heavy-duty dual mop bucket with wringer, built for hotels, hospitals, schools, and offices.",
+  "description_am": "ጠንካራ ድርብ የመወልወያ መጭመቅያ ለሆቴሎች፣ ሆስፒታሎች፣ ትምህርት ቤቶች እና ቢሮዎች።",
+  "features_en": [
+    "Dual-bucket wringer system",
+    "Heavy-duty commercial build",
+    "Ideal for hotels, hospitals, schools",
+    "Easy to maneuver"
+  ],
+  "features_am": [
+    "ድርብ የመወልወያ ሲስተም",
+    "ጠንካራ የንግድ ደረጃ ግንባታ",
+    "ለሆቴል፣ ሆስፒታልና ትምህርት ቤት ተስማሚ",
+    "በቀላሉ የሚንቀሳቀስ"
+  ],
+  "price_type": "flat",
+  "price": 18000,
+  "price_display_en": "18,000 ETB",
+  "price_display_am": "18,000 ብር",
+  "source_post": "https://t.me/atlantictradingtent/70",
+  "image_thumb": "assets/products/mop-bucket-wringer-thumb.webp",
+  "image_full": "assets/products/mop-bucket-wringer-full.webp"
+}

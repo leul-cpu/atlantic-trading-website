@@ -1,0 +1,165 @@
+backend:
+  name: github
+  repo: leul-cpu/atlantic-trading-website
+  branch: main
+  # PKCE auth — no proxy server or Netlify account needed.
+  # Decap CMS v3 handles the GitHub login flow directly in the browser.
+  # Replace YOUR_GITHUB_OAUTH_CLIENT_ID below with the Client ID from your GitHub OAuth App.
+  auth_type: pkce
+  app_id: YOUR_GITHUB_OAUTH_CLIENT_ID
+
+# Where the CMS stores uploaded images
+media_folder: "assets/products"
+public_folder: "assets/products"
+
+# Tell Decap to write products as individual JSON files
+collections:
+  - name: "products"
+    label: "Products"
+    label_singular: "Product"
+    folder: "content/products"
+    create: true
+    delete: true
+    slug: "{{id}}"        # filename = product id (e.g. folding-tent.json)
+    extension: "json"
+    format: "json"
+    identifier_field: "id"
+    summary: "{{name_en}} — {{category}} — {{price_display_en}}"
+    sortable_fields: ["name_en", "category", "price"]
+
+    fields:
+      # ── Core identity ──────────────────────────────────────────────
+      - label: "Product ID (slug)"
+        name: "id"
+        widget: "string"
+        hint: "Lowercase, hyphens only. e.g. folding-tent  (used as the filename — do NOT change after creation)"
+        pattern: ['^[a-z0-9-]+$', "Only lowercase letters, numbers, and hyphens"]
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Garbage Cans / Bins",  value: "bins" }
+          - { label: "Shade Umbrellas",       value: "umbrellas" }
+          - { label: "Chairs & Tables",       value: "chairs-tables" }
+          - { label: "Tents & Gazebos",       value: "tents" }
+          - { label: "Plastic Goods",         value: "plastics" }
+
+      # ── Product names ──────────────────────────────────────────────
+      - label: "Name (English)"
+        name: "name_en"
+        widget: "string"
+
+      - label: "ስም (አማርኛ)"
+        name: "name_am"
+        widget: "string"
+
+      # ── Tag / Badge ────────────────────────────────────────────────
+      - label: "Tag (English)"
+        name: "tag_en"
+        widget: "string"
+        required: false
+        hint: "e.g. New, Bestseller, Premium, Bundle Discount"
+
+      - label: "መለያ (አማርኛ)"
+        name: "tag_am"
+        widget: "string"
+        required: false
+        hint: "e.g. አዲስ, ተፈላጊ, ልዩ ምርት, የቅናሽ ስብስብ"
+
+      # ── Description ────────────────────────────────────────────────
+      - label: "Description (English)"
+        name: "description_en"
+        widget: "text"
+
+      - label: "መግለጫ (አማርኛ)"
+        name: "description_am"
+        widget: "text"
+
+      # ── Features / Key specs ────────────────────────────────────────
+      - label: "Key Features (English)"
+        name: "features_en"
+        widget: "list"
+        field:
+          label: "Feature"
+          name: "item"
+          widget: "string"
+        hint: "Add 3–5 bullet points describing the product"
+
+      - label: "ዋና መለያዎች (አማርኛ)"
+        name: "features_am"
+        widget: "list"
+        field:
+          label: "Feature"
+          name: "item"
+          widget: "string"
+
+      # ── Pricing ────────────────────────────────────────────────────
+      - label: "Price Type"
+        name: "price_type"
+        widget: "select"
+        options:
+          - { label: "Flat (single price)", value: "flat" }
+          - { label: "Tiered (multiple sizes & prices)", value: "tiered" }
+
+      - label: "Flat Price (ETB)"
+        name: "price"
+        widget: "number"
+        value_type: "int"
+        required: false
+        hint: "Only needed when Price Type = Flat"
+
+      - label: "Price Display (English)"
+        name: "price_display_en"
+        widget: "string"
+        hint: "Shown on the card. e.g. '49,000 ETB' or 'From 7,500 ETB (+1,500 stand)'"
+
+      - label: "ዋጋ (አማርኛ)"
+        name: "price_display_am"
+        widget: "string"
+        hint: "e.g. '49,000 ብር' or 'ከ 7,500 ብር ጀምሮ (+1,500 መቆምያ)'"
+
+      - label: "Price Tiers"
+        name: "price_tiers"
+        widget: "list"
+        required: false
+        hint: "Only needed when Price Type = Tiered"
+        fields:
+          - label: "Size / Option"
+            name: "size"
+            widget: "string"
+            hint: "e.g. '5L', '3×3m', 'With round umbrella'"
+          - label: "Price (ETB)"
+            name: "price"
+            widget: "number"
+            value_type: "int"
+
+      # ── Product image ──────────────────────────────────────────────
+      - label: "Product Photo"
+        name: "image"
+        widget: "image"
+        required: false
+        hint: >
+          Upload any JPG or PNG. The GitHub Action will automatically generate
+          a thumbnail (-thumb.webp) and full-size (-full.webp) version within
+          a few minutes of saving. Until then, the original upload will display.
+        media_library:
+          config:
+            multiple: false
+
+      - label: "Thumbnail image path"
+        name: "image_thumb"
+        widget: "hidden"
+        required: false
+
+      - label: "Full image path"
+        name: "image_full"
+        widget: "hidden"
+        required: false
+
+      # ── Telegram source post ────────────────────────────────────────
+      - label: "Source Post (Telegram URL)"
+        name: "source_post"
+        widget: "string"
+        required: false
+        hint: "e.g. https://t.me/atlantictradingtent/161 — for your reference only"

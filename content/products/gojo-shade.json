@@ -1,0 +1,39 @@
+{
+  "id": "gojo-shade",
+  "name_en": "Gojo-Style Hut Shade",
+  "name_am": "ጐጆ ጥላ",
+  "category": "umbrellas",
+  "tag_en": "New",
+  "tag_am": "አዲስ",
+  "image": "https://cdn4.telesco.pe/file/D7TALxP_ZShWhpjblowZ52WLSB0t_HgqZ8gMJ12qQEimaPc7mmD9SNB594_FSpe_ONl8bu9lWtpE55CODQLrgxmBkg9iN8tcASHvs1MBYl4AfVB5H7z4qQoWk7XW8fyYR6Je41bv0zueSu0KRzgeVPOZqr_nK-6btzcv05ak61D36g0braqlyWB5kLj64diReTVnwnAJf38G1cziuZNnZT27mLEsa7KG1MQF9aQ-Q_hnQaSK09t_rDdYptDM0FSDnkNZDOfG3d7YL41oUsTl66GTbop2OQwlooxyci27ceqRZXQEhYn4LEskjQ_Y2rf59IzymDiQ7d12pjqhn2L0Mw.jpg",
+  "description_en": "Hut-shaped outdoor shade with a wind vent opening — for cafés, restaurants, gardens, and sun cover. Stand sold separately (+1,500 ETB).",
+  "description_am": "ንፋስ ማስገቢያ ያለው ጐጆ ቅርፅ ጥላ — ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ። መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)።",
+  "features_en": [
+    "Hut-style canopy with wind vent",
+    "Sun and weather cover",
+    "Great for cafés, restaurants, gardens",
+    "Stand sold separately (+1,500 ETB)"
+  ],
+  "features_am": [
+    "ንፋስ ማስገቢያ ያለው የጐጆ ቅርፅ",
+    "ፀሐይና የአየር ፀባይ መከላከያ",
+    "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
+    "መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)"
+  ],
+  "price_type": "tiered",
+  "price_display_en": "From 7,500 ETB (+1,500 stand)",
+  "price_display_am": "ከ 7,500 ብር ጀምሮ (+1,500 መቆምያ)",
+  "price_tiers": [
+    {
+      "size": "2.5×2.5m",
+      "price": 7500
+    },
+    {
+      "size": "3×3m",
+      "price": 9500
+    }
+  ],
+  "source_post": "https://t.me/atlantictradingtent/84",
+  "image_thumb": "assets/products/gojo-shade-thumb.webp",
+  "image_full": "assets/products/gojo-shade-full.webp"
+}

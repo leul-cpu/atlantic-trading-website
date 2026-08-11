@@ -1,0 +1,30 @@
+{
+  "id": "arm-chair",
+  "name_en": "Arm Chair",
+  "name_am": "የክንድ ወንበር",
+  "category": "chairs-tables",
+  "tag_en": "Bestseller",
+  "tag_am": "ተፈላጊ",
+  "image": "https://cdn4.telesco.pe/file/PV4IvEHSnkjqPGMu6UzeINN0vRE-EXhfAxk2aN0AKbMbxLFzU_ksDhqMgj-mIMHKqCY_wXedVosNUQYX8MptBFEUYOT5UUx6O7WPIWjZiXL4dibg9HMjivnPt9I02Np3rNPr-6m-2BjWgFEAPeuUiV18lhzDnl2XS71HCg1x8ekFvhz7WSUJ7bD7lHZ1uftSjo9X2SHDGu0SiCSe82K0m9t_CmTiP1X4snrj5LqNxWGct6NOjyDNjnow0x_vBPjSx3qHOvVuMfi4o6aOYodB2oFIywT5vHV33HJ54KUBGfJV4IbR-BEa0oX2vaSvdlgV7kt9A8qYbbptG12NY10xcw.jpg",
+  "description_en": "Comfortable, neat plastic arm chair for cafés, restaurants, gardens, and homes.",
+  "description_am": "ምቹና ንፁህ የክንድ ወንበር ለካፌዎች፣ ምግብ ቤቶች፣ የአትክልት ስፍራ እና ለቤት ተስማሚ።",
+  "features_en": [
+    "Comfortable armrest design",
+    "Neat, quality finish",
+    "Great for cafés and gardens",
+    "Durable everyday use"
+  ],
+  "features_am": [
+    "ምቹ የክንድ ንድፍ",
+    "ንፁህና ጥራት ያለው",
+    "ለካፌና ለአትክልት ስፍራ ተስማሚ",
+    "ለዕለት ተዕለት አገልግሎት ጠንካራ"
+  ],
+  "price_type": "flat",
+  "price": 5700,
+  "price_display_en": "5,700 ETB",
+  "price_display_am": "5,700 ብር",
+  "source_post": "https://t.me/atlantictradingtent/88",
+  "image_thumb": "assets/products/arm-chair-thumb.webp",
+  "image_full": "assets/products/arm-chair-full.webp"
+}

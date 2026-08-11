@@ -1,0 +1,30 @@
+{
+  "id": "unique-duka",
+  "name_en": "Unique ዱካ (Premium)",
+  "name_am": "ልዩ ዱካ",
+  "category": "chairs-tables",
+  "tag_en": "Premium",
+  "tag_am": "ልዩ ምርት",
+  "image": "https://cdn4.telesco.pe/file/i1HrsUpwUFHyRBxF48fdqMJQm6GXmSpORL3qp8rP5LZJQ4BwoagVNkCKNWww6_vCY9u9zefdMTxuTg6s4a7YrskelJFekwYsDzI_fntRSKVb3rTgmJL1Pf4lRQ5XtaLMEOf5_XFEMefyA7tXRMK3xKWU4IxbhYZdu1gMZVGKlE-AkHm1UrSW9pIX-hwbQAhnmQGc2trIztGh_u1MQ_6zAIbROFlj88WFiPglt3MQbv1nfI1Mbbyb1EeUjnnmiyu7_sphzxHAMXNjVT6GpyETxFO0Xn_A9r9EHq_QfdRXDj0VmgBckczN1e9wStKDKSTmddljyojkpPoIzn0uHM8Viw.jpg",
+  "description_en": "A sturdier, premium version of our plastic ዱካ — popular with coffee shops.",
+  "description_am": "ከመደበኛው የበለጠ ጠንካራ የሆነ ልዩ ዱካ፣ ለካፌዎች ተወዳጅ።",
+  "features_en": [
+    "Premium build quality",
+    "Popular with coffee shops",
+    "Durable, stackable",
+    "Comfortable, stable seat"
+  ],
+  "features_am": [
+    "ልዩ ጥራት ያለው ግንባታ",
+    "በካፌዎች ተወዳጅ",
+    "ጠንካራና ተደራራቢ",
+    "ምቹና የተረጋጋ መቀመጫ"
+  ],
+  "price_type": "flat",
+  "price": 3900,
+  "price_display_en": "3,900 ETB",
+  "price_display_am": "3,900 ብር",
+  "source_post": "https://t.me/atlantictradingtent/96",
+  "image_thumb": "assets/products/unique-duka-thumb.webp",
+  "image_full": "assets/products/unique-duka-full.webp"
+}

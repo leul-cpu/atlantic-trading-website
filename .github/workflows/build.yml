@@ -1,0 +1,106 @@
+name: Build products.json & Optimize Images
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write      # needed to commit products.json back to the repo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout ─────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Set up Python (for optimize_images.py) ───────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install pillow requests
+
+      # ── 3. Optimize any new/un-optimized images ──────────────────────
+      #    We scan assets/products/ for any jpg/jpeg/png that does NOT yet
+      #    have a corresponding -thumb.webp and -full.webp, and process them.
+      - name: Optimize new images
+        run: |
+          python - << 'EOF'
+          import os, re, sys
+          from io import BytesIO
+
+          try:
+              import requests
+              from PIL import Image
+          except ImportError:
+              print("pillow/requests not installed — skipping image optimization")
+              sys.exit(0)
+
+          IMG_DIR      = "assets/products"
+          THUMB_WIDTH  = 480
+          FULL_WIDTH   = 960
+          THUMB_QUALITY = 72
+          FULL_QUALITY  = 80
+
+          if not os.path.isdir(IMG_DIR):
+              print(f"{IMG_DIR} not found — nothing to optimize")
+              sys.exit(0)
+
+          files = os.listdir(IMG_DIR)
+          # Find raw uploads (jpg/jpeg/png) that don't already have webp siblings
+          raw = [f for f in files if re.search(r'\.(jpe?g|png)$', f, re.I)]
+
+          count = 0
+          for fname in raw:
+              stem = re.sub(r'\.(jpe?g|png)$', '', fname, flags=re.I)
+              # Skip if -thumb.webp already exists
+              if f"{stem}-thumb.webp" in files:
+                  continue
+
+              src = os.path.join(IMG_DIR, fname)
+              try:
+                  img = Image.open(src).convert("RGB")
+              except Exception as e:
+                  print(f"  WARN: could not open {fname}: {e}")
+                  continue
+
+              def resized(i, w):
+                  if i.width <= w:
+                      return i
+                  return i.resize((w, round(i.height * w / i.width)), Image.LANCZOS)
+
+              thumb_path = os.path.join(IMG_DIR, f"{stem}-thumb.webp")
+              full_path  = os.path.join(IMG_DIR, f"{stem}-full.webp")
+              resized(img, THUMB_WIDTH).save(thumb_path, "WEBP", quality=THUMB_QUALITY, method=6)
+              resized(img, FULL_WIDTH ).save(full_path,  "WEBP", quality=FULL_QUALITY,  method=6)
+              print(f"  optimized: {stem}")
+              count += 1
+
+          print(f"Image optimization done. {count} new images processed.")
+          EOF
+
+      # ── 4. Set up Node.js (for build.js) ────────────────────────────
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # ── 5. Build products.json ───────────────────────────────────────
+      - name: Build products.json
+        run: node build.js
+
+      # ── 6. Commit changes back ───────────────────────────────────────
+      - name: Commit updated files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add products.json assets/products/
+          # Only commit if something changed
+          git diff --cached --quiet || git commit -m "ci: rebuild products.json & optimize images [skip ci]"
+          git push

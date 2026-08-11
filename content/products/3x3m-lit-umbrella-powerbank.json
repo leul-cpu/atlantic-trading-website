@@ -1,0 +1,30 @@
+{
+  "id": "3x3m-lit-umbrella-powerbank",
+  "name_en": "3×3m Lit Shade Umbrella with Power Bank",
+  "name_am": "3x3 ባለ ማብራት ጥላ ከኃይል ባንክ ጋር",
+  "category": "umbrellas",
+  "tag_en": "Premium",
+  "tag_am": "ልዩ ምርት",
+  "image": "https://cdn4.telesco.pe/file/tOWG1rho9zYX5tU0mNquEWEmAN6xIogF9pMahqisE_mNJre4YdJuu1D1nnMgp9OfmUZ2Ev1G6WmHN0q-sSTON-qobp4vgNETrsxc0Z264v0_-H6-h4GNC1dwgXDcVnSlBxmIdcYcS8IK45Gze8N6tr3ZrhPoCu3Y-UDmiEnWlAbLYbhYS8UKUTf79YLlNyHIThFco-kICfh073k56P_ellIt-QgZD_SCZc71332B5_U-lWnfOkL2_i5wXSAoTyZrUxp2SKWDyQAhve2JOP3EFE1lSL1WMAfIrKcr3W-U61m3Kk-mPXRRGNO76ZMgYMWp1HBgjcxouc47SSu8IR0pvw.jpg",
+  "description_en": "360° rotating shade umbrella with a built-in light and power bank to keep it running after dark. Water-fillable base for wind resistance.",
+  "description_am": "360 ዲግሪ የሚዞር፣ ማብራት እና ኃይል ባንክ ያለው ጥላ። ነፋስ እንዲቋቋም በውሃ የሚሞላ ቤዝ ያለው።",
+  "features_en": [
+    "360° rotating cantilever system",
+    "Built-in light + power bank for evening use",
+    "Water-fillable base for wind resistance",
+    "Great for cafés, restaurants, and cars"
+  ],
+  "features_am": [
+    "360 ዲግሪ የሚዞር",
+    "ማብራትና ኃይል ባንክ ላመሻት አገልግሎት",
+    "ነፋስ እንዲቋቋም የውሃ ቤዝ",
+    "ለካፌ፣ ምግብ ቤትና መኪና ተስማሚ"
+  ],
+  "price_type": "flat",
+  "price": 110000,
+  "price_display_en": "110,000 ETB",
+  "price_display_am": "110,000 ብር",
+  "source_post": "https://t.me/atlantictradingtent/164",
+  "image_thumb": "assets/products/3x3m-lit-umbrella-powerbank-thumb.webp",
+  "image_full": "assets/products/3x3m-lit-umbrella-powerbank-full.webp"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "folding-tent",
+  "name_en": "Foldable Storage Tent",
+  "name_am": "የሚታጠፋ ድንኩዋን",
+  "category": "tents",
+  "tag_en": "New",
+  "tag_am": "አዲስ",
+  "image": "https://cdn4.telesco.pe/file/K4g4gDXDhArcGxZ-SgyJJl-01ak1rQ0atyU47YYQbJQtsri0hLHYrOcabodRxU9n5HFDA_O9OMSsl-JZs9lowZwPKK3HuhJZvReFY8Csg7rnKGIQlbwNmSOGZc_e7YXoIlnh-nmLMSYjQo23j-zCLW0-eeq9wE8IAo4Js1EPbq9VvWP9feGQ6WsfQsKRmfUp4JlPIaj3K8aZyZGNrl8-ooDJWh9EXuwlxdceqzCImr9t6CKYdBqa4s9WMu9CbPHXYAS2Qm9yYWu9OJyf0AjYzoN4Gt7st5pmMFjiFMoYYc6ne4ZCzCZGe_c_ZOQOme-315UJCpgC4lcA7k6jC9ADqQ.jpg",
+  "description_en": "A lightweight tent that folds flat when not in use — sturdy and easy to store between events.",
+  "description_am": "ቀላል የሆነ፣ በማይፈለግበት ጊዜ አጥፍቶ ማስቀመት የሚቻል ድንኳን። ጠንካራና ለማከማቸት ምቹ።",
+  "features_en": [
+    "Folds flat for easy storage",
+    "Durable, weather-resistant build",
+    "Great for iddir gatherings, events, restaurants, and coffee shops",
+    "Quick to set up and pack away"
+  ],
+  "features_am": [
+    "ለማከማቸት ምቹ እንዲሆን ተጣጣፊ",
+    "ጠንካራና የአየር ፀባይ የሚቋቋም",
+    "ለእድር፣ ዝግጅቶች፣ ምግብ ቤቶች እና ካፌዎች ተስማሚ",
+    "በፍጥነት የሚተከልና የሚነሳ"
+  ],
+  "price_type": "flat",
+  "price": 49000,
+  "price_display_en": "49,000 ETB",
+  "price_display_am": "49,000 ብር",
+  "source_post": "https://t.me/atlantictradingtent/161",
+  "image_thumb": "assets/products/folding-tent-thumb.webp",
+  "image_full": "assets/products/folding-tent-full.webp"
+}
