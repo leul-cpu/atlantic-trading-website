@@ -22,7 +22,7 @@ collections:
     format: "json"
     identifier_field: "id"
     summary: "{{name_en}} — {{category}} — {{price_display_en}}"
-    sortable_fields: ["name_en", "category", "price"]
+    sortable_fields: ["name_en", "category", "price", "date_published"]
 
     fields:
       # ── Core identity ──────────────────────────────────────────────
@@ -31,6 +31,14 @@ collections:
         widget: "string"
         hint: "Lowercase, hyphens only. e.g. folding-tent  (used as the filename — do NOT change after creation)"
         pattern: ['^[a-z0-9-]+$', "Only lowercase letters, numbers, and hyphens"]
+
+      - label: "Date Published"
+        name: "date_published"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        default: ""
+        hint: "Set to today. Newest products are shown first on the website."
 
       - label: "Category"
         name: "category"
@@ -131,18 +139,29 @@ collections:
             widget: "number"
             value_type: "int"
 
-      # ── Product image ──────────────────────────────────────────────
-      - label: "Product Photo"
+      # ── Product images (multiple) ─────────────────────────────────────
+      - label: "Product Photos"
+        name: "images"
+        widget: "list"
+        required: false
+        label_singular: "Photo"
+        summary: "{{fields.image}}"
+        hint: >
+          Click "Add Photo" to upload each image. The first photo is the main
+          card image. Drag rows to reorder.
+        fields:
+          - label: "Photo"
+            name: "image"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
+
+      - label: "Main Product Photo (legacy fallback)"
         name: "image"
         widget: "image"
         required: false
-        hint: >
-          Upload any JPG or PNG. The GitHub Action will automatically generate
-          a thumbnail (-thumb.webp) and full-size (-full.webp) version within
-          a few minutes of saving. Until then, the original upload will display.
-        media_library:
-          config:
-            multiple: false
+        hint: "Used only if no images list above. For new products, use the Photos list instead."
 
       - label: "Thumbnail image path"
         name: "image_thumb"

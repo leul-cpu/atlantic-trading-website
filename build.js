@@ -40,8 +40,11 @@ const products = files.map(file => {
   }
 });
 
-// Sort by category then by id for stable output
+// Sort: newest date_published first; ties fall back to category then id
 products.sort((a, b) => {
+  const da = a.date_published ? new Date(a.date_published) : new Date(0);
+  const db = b.date_published ? new Date(b.date_published) : new Date(0);
+  if (db - da !== 0) return db - da;            // newest first
   if (a.category < b.category) return -1;
   if (a.category > b.category) return  1;
   if (a.id < b.id) return -1;
