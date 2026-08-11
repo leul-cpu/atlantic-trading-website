@@ -6,7 +6,7 @@ backend:
   # Decap CMS v3 handles the GitHub login flow directly in the browser.
   # Replace YOUR_GITHUB_OAUTH_CLIENT_ID below with the Client ID from your GitHub OAuth App.
   auth_type: pkce
-  app_id: YOUR_GITHUB_OAUTH_CLIENT_ID
+  app_id: Ov23liLjrurtl6sRwa2H
 
 # Where the CMS stores uploaded images
 media_folder: "assets/products"
