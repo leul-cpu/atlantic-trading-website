@@ -2,10 +2,100 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <title>Atlantic Trading — Admin</title>
     <!-- Prevent search engines indexing the admin panel -->
     <meta name="robots" content="noindex, nofollow" />
+    <style>
+      /* ── Mobile overrides for Decap CMS ── */
+      @media (max-width: 768px) {
+
+        /* Make the app fill the screen properly */
+        #nc-root, [class*="App__"] {
+          height: 100dvh !important;
+        }
+
+        /* Hide the left sidebar collection list on mobile –
+           users navigate back with the browser back button */
+        [class*="SidebarContainer__"],
+        [class*="CollectionContainer__"] {
+          display: none !important;
+        }
+
+        /* When on collection list page, show the sidebar */
+        [class*="CollectionView__"] [class*="SidebarContainer__"] {
+          display: block !important;
+          width: 100% !important;
+        }
+
+        /* Make editor panels full-width */
+        [class*="EditorContainer__"],
+        [class*="Editor__"],
+        [class*="EditorContent__"],
+        [class*="EditorToolbar__"] {
+          width: 100% !important;
+          max-width: 100% !important;
+          padding: 0.5rem !important;
+        }
+
+        /* Stack preview pane below editor or hide it */
+        [class*="PreviewPane__"],
+        [class*="PreviewContainer__"] {
+          display: none !important;
+        }
+
+        /* Full-width form fields */
+        [class*="ControlContainer__"],
+        [class*="WidgetContainer__"] {
+          width: 100% !important;
+          padding: 0.5rem 0 !important;
+        }
+
+        /* Bigger font size for labels */
+        [class*="ControlLabel__"] {
+          font-size: 0.9rem !important;
+        }
+
+        /* Larger, easier-to-tap inputs */
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        select,
+        textarea {
+          font-size: 16px !important; /* prevents iOS zoom on focus */
+          padding: 0.6rem 0.75rem !important;
+          width: 100% !important;
+          box-sizing: border-box !important;
+        }
+
+        /* Make buttons full-width and tappable */
+        [class*="ToolbarButton__"],
+        [class*="AppHeaderButton__"] {
+          min-height: 44px !important;
+          font-size: 0.85rem !important;
+        }
+
+        /* Top toolbar readable on small screens */
+        [class*="AppHeaderContent__"],
+        [class*="Toolbar__"] {
+          flex-wrap: wrap !important;
+          gap: 0.4rem !important;
+          padding: 0.5rem !important;
+        }
+
+        /* List widget Add button — make it obvious */
+        [class*="ListItemTopBar__"],
+        [class*="ObjectWidgetTopBar__"] {
+          flex-wrap: wrap !important;
+        }
+
+        /* Image previews in the list widget */
+        [class*="ImageCard__"] img {
+          max-width: 100% !important;
+          height: auto !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Decap CMS (maintained open-source fork of Netlify CMS) -->
