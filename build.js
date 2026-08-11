@@ -42,9 +42,12 @@ const products = files.map(file => {
 
 // Sort: newest date_published first; ties fall back to category then id
 products.sort((a, b) => {
-  const da = a.date_published ? new Date(a.date_published) : new Date(0);
-  const db = b.date_published ? new Date(b.date_published) : new Date(0);
-  if (db - da !== 0) return db - da;            // newest first
+  const da = (a.date_published && a.date_published.trim() !== "") ? new Date(a.date_published).getTime() : 0;
+  const db = (b.date_published && b.date_published.trim() !== "") ? new Date(b.date_published).getTime() : 0;
+  
+  const timeDiff = (db || 0) - (da || 0);
+  if (!isNaN(timeDiff) && timeDiff !== 0) return timeDiff;
+  
   if (a.category < b.category) return -1;
   if (a.category > b.category) return  1;
   if (a.id < b.id) return -1;
