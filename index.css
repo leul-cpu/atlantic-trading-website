@@ -62,17 +62,22 @@ a {
   text-decoration: none;
 }
 
-/* Navigation Bar */
+/* Navigation Bar - Transparent and overlaying the hero section */
 .nav-bar {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(247, 245, 239, 0.95);
-  backdrop-filter: blur(8px);
   z-index: 100;
+  background-color: transparent;
+  border-bottom: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-bar.scrolled {
+  background-color: var(--bg-color);
   border-bottom: 1px solid var(--border-color);
-  transition: var(--transition-smooth);
+  box-shadow: var(--shadow-sm);
 }
 
 .nav-container {
@@ -89,7 +94,12 @@ a {
   height: 48px;
   width: auto;
   display: block;
-  /* Transparent PNG - renders naturally on cream nav background */
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+}
+
+.nav-bar.scrolled .nav-logo {
+  filter: none;
 }
 
 .nav-actions {
@@ -102,7 +112,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  background-color: var(--accent-color);
+  background-color: var(--white);
   color: var(--primary-color);
   padding: 0.35rem 0.65rem;
   border-radius: 20px;
@@ -111,6 +121,10 @@ a {
   font-size: 0.75rem;
   box-shadow: var(--shadow-sm);
   transition: var(--transition-smooth);
+}
+
+.nav-bar.scrolled .nav-tg-channel-btn {
+  background-color: var(--accent-color);
 }
 
 .nav-tg-channel-btn:hover {
@@ -128,9 +142,9 @@ a {
 }
 
 .lang-toggle-btn {
-  background-color: var(--white);
-  border: 1px solid var(--border-color);
-  color: var(--primary-color);
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: var(--white);
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   font-family: var(--font-sans);
@@ -144,19 +158,38 @@ a {
   transition: var(--transition-smooth);
 }
 
+.nav-bar.scrolled .lang-toggle-btn {
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  color: var(--primary-color);
+}
+
 .lang-toggle-btn:hover {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-bar.scrolled .lang-toggle-btn:hover {
   border-color: var(--accent-color);
   background-color: var(--bg-color);
 }
 
 .lang-toggle-btn .divider {
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 300;
 }
 
-.lang-toggle-btn .inactive-lang {
+.nav-bar.scrolled .lang-toggle-btn .divider {
   color: var(--text-muted);
+}
+
+.lang-toggle-btn .inactive-lang {
+  color: rgba(255, 255, 255, 0.7);
   font-weight: 400;
+}
+
+.nav-bar.scrolled .lang-toggle-btn .inactive-lang {
+  color: var(--text-muted);
 }
 
 /* Hero Section */

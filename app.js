@@ -358,7 +358,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Start sticky bar hidden
   const bar = document.querySelector(".sticky-cta-bar");
   if (bar) bar.style.transform = "translateY(100%)";
-  window.addEventListener("scroll", handleScrollCTA);
+  window.addEventListener("scroll", handleScroll);
 });
 
 // ──────────────────────────────────────
@@ -556,9 +556,21 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") closePDP(); 
 // ──────────────────────────────────────
 // Sticky CTA Bar
 // ──────────────────────────────────────
-function handleScrollCTA() {
+function handleScroll() {
   const bar  = document.querySelector(".sticky-cta-bar");
   const hero = document.querySelector(".hero-section");
+  const navBar = document.querySelector(".nav-bar");
+
+  // Nav bar scroll effect
+  if (navBar) {
+    if (window.scrollY > 50) {
+      navBar.classList.add("scrolled");
+    } else {
+      navBar.classList.remove("scrolled");
+    }
+  }
+
+  // Sticky CTA bar
   if (!bar || !hero) return;
   const heroBottom = hero.offsetTop + hero.offsetHeight;
   bar.style.transform = window.scrollY > heroBottom - 60 ? "translateY(0)" : "translateY(100%)";
