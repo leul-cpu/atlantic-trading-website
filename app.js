@@ -857,7 +857,7 @@ function renderProducts() {
     card.innerHTML = `
       <div class="product-card-image-wrap">
         ${prod.tag_en ? `<div class="product-ribbon">${tag}</div>` : ""}
-        <img src="${prod.image_thumb || prod.image}" alt="${name}" class="product-card-img" loading="lazy">
+        <img src="${(prod.images && prod.images.length > 0) ? (typeof prod.images[0] === 'object' ? prod.images[0].image : prod.images[0]) : (prod.image_thumb || prod.image)}" alt="${name}" class="product-card-img" loading="lazy">
         <div class="product-card-overlay">
           <div class="product-card-details">
             <h3 class="product-card-title">${name}</h3>
@@ -889,8 +889,9 @@ function openPDP(productId) {
   gallery.innerHTML = "";
   dotsEl.innerHTML  = "";
 
-  const imgSrcs = prod.images && prod.images.length
-    ? prod.images
+  const rawImages = prod.images && prod.images.length ? prod.images : [];
+  const imgSrcs = rawImages.length
+    ? rawImages.map(img => typeof img === 'object' ? img.image : img).filter(Boolean)
     : [prod.image_full || prod.image, prod.image_thumb || prod.image].filter((v, i, a) => v && a.indexOf(v) === i);
 
   const altText = currentLang === "en" ? prod.name_en : prod.name_am;
@@ -953,7 +954,7 @@ function openPDP(productId) {
   // Use document.baseURI to get the correct base path whether on GitHub Pages
   // subdirectory (/atlantic-trading-website/) or a future custom domain root.
   const baseUrl    = document.baseURI.replace(/\/[^/]*$/, ""); // strip filename if any
-  const imagePath  = prod.image_full || prod.image || "";
+  const imagePath  = imgSrcs.length > 0 ? imgSrcs[0] : "";
   const prodUrl    = imagePath.startsWith("http") ? imagePath : `${baseUrl}/${imagePath}`;
   const msg = [
     `Hello Atlantic Trading! I'd like to order:`,

@@ -752,7 +752,8 @@ a {
 .pdp-main-img {
   flex: 0 0 100%;
   width: 100%;
-  height: 35vh;
+  height: 280px;
+  max-height: 40vh; /* fallback safety cap */
   object-fit: cover;
   object-position: center;
   display: block;
