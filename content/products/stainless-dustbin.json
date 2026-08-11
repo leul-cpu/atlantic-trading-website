@@ -1,28 +1,25 @@
 {
-  "id": "stainless-dustbin",
-  "name_en": "Stainless Steel Dustbin",
   "name_am": "ስቴይንለስ ስቲል የቆሻሻ መጣያ",
-  "category": "bins",
-  "tag_en": "New",
-  "tag_am": "አዲስ",
-  "image": "https://cdn4.telesco.pe/file/WFqVwAc7asv8cewbfAkybECTAcrYNj6HBof61pKUS23EmiNtPUoBZy9ps1ldx37-08FGB1mz_SUExkebtXiCzJZzKYp33gDetVhnh2IyjUhfGhPyc5x1LG7SAxPmL-Qv0yAL7IC7Wu6nspKgjNN4Awmajt74nLOo5gCVmLl_ACOMCL5YiDJYJKgClJklIfGf0gBDTZ553YMu99iZrluOvXS2NWg8wGOU-pcRUKMB45S2HO9sWlI2qvIMgDq7lEUxgY7jYdK7s-XWW7lzkyaQ3H5TNHLqTIIYbfzWYc5trf2ogpX3lU1p9NwNFoC62p2RhHwapDI8QlCCuuU_SKwZhw.jpg",
-  "description_en": "Sleek stainless steel dustbins for hotels, offices, and upscale spaces — including an ashtray-bin option.",
-  "description_am": "ውብ የስቴይንለስ ስቲል የቆሻሻ መጣያዎች ለሆቴሎችና ለቢሮዎች፣ የሲጋራ አመድ ማስቀመጫም ይገኛል።",
+  "source_post": "https://t.me/atlantictradingtent/55",
   "features_en": [
     "Sleek stainless steel finish",
     "Multiple sizes including ashtray bin",
     "Ideal for hotels and offices",
     "Easy to clean"
   ],
+  "description_en": "Sleek stainless steel dustbins for hotels, offices, and upscale spaces — including an ashtray-bin option.",
   "features_am": [
     "ውብ የስቴይንለስ ስቲል ገጽታ",
     "የተለያዩ መጠኖች የሲጋራ ማስቀመጫንም ጨምሮ",
     "ለሆቴሎችና ለቢሮዎች ተስማሚ",
     "ለማጽዳት ቀላል"
   ],
+  "tag_en": "New",
+  "description_am": "ውብ የስቴይንለስ ስቲል የቆሻሻ መጣያዎች ለሆቴሎችና ለቢሮዎች፣ የሲጋራ አመድ ማስቀመጫም ይገኛል።",
   "price_type": "tiered",
-  "price_display_en": "From 2,600 ETB",
-  "price_display_am": "ከ 2,600 ብር ጀምሮ",
+  "tag_am": "አዲስ",
+  "image_thumb": "assets/products/stainless-dustbin-thumb.webp",
+  "image_full": "assets/products/stainless-dustbin-full.webp",
   "price_tiers": [
     {
       "size": "5L",
@@ -41,7 +38,11 @@
       "price": 7900
     }
   ],
-  "source_post": "https://t.me/atlantictradingtent/55",
-  "image_thumb": "assets/products/stainless-dustbin-thumb.webp",
-  "image_full": "assets/products/stainless-dustbin-full.webp"
+  "id": "stainless-dustbin",
+  "image": "assets/products/stainless-dustbin-thumb.webp",
+  "price_display_en": "From 2,600 ETB",
+  "date_published": "2026-08-11",
+  "name_en": "Stainless Steel Dustbin",
+  "category": "bins",
+  "price_display_am": "ከ 2,600 ብር ጀምሮ"
 }
