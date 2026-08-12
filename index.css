@@ -1239,14 +1239,31 @@ a {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  
-  .category-card {
-    flex: 1; /* Grid-like display instead of scroll on big screens */
-    height: 220px;
+
+  .categories-scroll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: visible;
+    scroll-snap-type: none;
+    gap: 1rem;
+    padding: 0;
   }
-  
+
+  .category-card {
+    flex: 1 1 0;
+    min-width: 160px;
+    width: auto;
+    height: 240px;
+    scroll-snap-align: unset;
+  }
+
   .category-card-title {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
+  }
+
+  .category-card-amharic {
+    font-size: 0.85rem;
   }
   
   .products-section {
