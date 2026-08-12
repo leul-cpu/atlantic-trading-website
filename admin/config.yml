@@ -183,3 +183,10 @@ collections:
         widget: "string"
         required: false
         hint: "e.g. https://t.me/atlantictradingtent/161 — for your reference only"
+
+      # ── TikTok Review Link ──────────────────────────────────────────
+      - label: "TikTok Review URL"
+        name: "tiktok_review"
+        widget: "string"
+        required: false
+        hint: "e.g. https://www.tiktok.com/@atlantictradingplc/video/... — link to the TikTok product review video"

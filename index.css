@@ -972,6 +972,31 @@ a {
   color: var(--white);
 }
 
+.btn-pdp-tiktok {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  background-color: #010101;
+  color: var(--white);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.85rem;
+  transition: var(--transition-smooth);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-pdp-tiktok:hover {
+  background-color: #fe2c55;
+  box-shadow: 0 4px 12px rgba(254, 44, 85, 0.35);
+  transform: translateY(-1px);
+}
+
 .btn-icon {
   margin-right: 8px;
 }

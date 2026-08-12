@@ -953,6 +953,16 @@ function openPDP(productId) {
   document.getElementById("pdpPrice").textContent       = currentLang === "en" ? prod.price_display_en : prod.price_display_am;
   document.getElementById("pdpDescription").textContent = currentLang === "en" ? prod.description_en : prod.description_am;
 
+  const tiktokContainer = document.getElementById("pdpTiktokContainer");
+  const tiktokBtn       = document.getElementById("pdpTiktokBtn");
+  if (prod.tiktok_review && prod.tiktok_review.trim() !== "") {
+    tiktokContainer.style.display = "block";
+    tiktokBtn.href = prod.tiktok_review;
+  } else {
+    tiktokContainer.style.display = "none";
+    tiktokBtn.href = "#";
+  }
+
   const featuresList = document.getElementById("pdpFeaturesList");
   featuresList.innerHTML = "";
   (currentLang === "en" ? prod.features_en : prod.features_am).forEach(feat => {
