@@ -154,6 +154,8 @@ collections:
           - label: "Photo"
             name: "image"
             widget: "image"
+            choose_url: true
+            hint: "Upload a file or click 'Insert from URL' to paste a direct image link (e.g. from Google or Telegram)"
             media_library:
               config:
                 multiple: false
@@ -161,8 +163,9 @@ collections:
       - label: "Main Product Photo (legacy fallback)"
         name: "image"
         widget: "image"
+        choose_url: true
         required: false
-        hint: "Used only if no images list above. For new products, use the Photos list instead."
+        hint: "Used only if no images list above. You can upload or paste an external image URL here."
 
       - label: "Thumbnail image path"
         name: "image_thumb"
