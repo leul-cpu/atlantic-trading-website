@@ -1,5 +1,47 @@
 [
   {
+    "name_am": "3x3 ባለ ማብራት ጥላ ከኃይል ባንክ ጋር",
+    "source_post": "https://t.me/atlantictradingtent/164",
+    "price": 110000,
+    "features_en": [
+      "360° rotating cantilever system",
+      "Built-in light + power bank for evening use",
+      "Water-fillable base for wind resistance",
+      "Great for cafés, restaurants, and cars"
+    ],
+    "description_en": "360° rotating shade umbrella with a built-in light and power bank to keep it running after dark. Water-fillable base for wind resistance.",
+    "features_am": [
+      "360 ዲግሪ የሚዞር",
+      "ማብራትና ኃይል ባንክ ላመሻት አገልግሎት",
+      "ነፋስ እንዲቋቋም የውሃ ቤዝ",
+      "ለካፌ፣ ምግብ ቤትና መኪና ተስማሚ"
+    ],
+    "tag_en": "Premium",
+    "description_am": "360 ዲግሪ የሚዞር፣ ማብራት እና ኃይል ባንክ ያለው ጥላ። ነፋስ እንዲቋቋም በውሃ የሚሞላ ቤዝ ያለው።",
+    "price_type": "flat",
+    "tag_am": "ልዩ ምርት",
+    "image_thumb": "assets/products/3x3m-lit-umbrella-powerbank-thumb.webp",
+    "image_full": "assets/products/3x3m-lit-umbrella-powerbank-full.webp",
+    "images": [
+      {
+        "image": "data:image/jpeg;base64,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"
+      },
+      {
+        "image": "assets/products/3x3m-lit-umbrella-powerbank-thumb.webp"
+      },
+      {
+        "image": "assets/products/photo_2026-08-13_11-54-06.jpg"
+      }
+    ],
+    "id": "3x3m-lit-umbrella-powerbank",
+    "image": "",
+    "price_display_en": "110,000 ETB",
+    "date_published": "2026-08-13",
+    "name_en": "3×3m Lit Shade Umbrella with Power Bank",
+    "category": "umbrellas",
+    "price_display_am": "110,000 ብር"
+  },
+  {
     "name_am": "ስቴይንለስ ስቲል የቆሻሻ መጣያ",
     "source_post": "https://t.me/atlantictradingtent/55",
     "features_en": [
@@ -555,36 +597,6 @@
     "source_post": "https://t.me/atlantictradingtent/70",
     "image_thumb": "assets/products/mop-bucket-wringer-thumb.webp",
     "image_full": "assets/products/mop-bucket-wringer-full.webp"
-  },
-  {
-    "id": "3x3m-lit-umbrella-powerbank",
-    "name_en": "3×3m Lit Shade Umbrella with Power Bank",
-    "name_am": "3x3 ባለ ማብራት ጥላ ከኃይል ባንክ ጋር",
-    "category": "umbrellas",
-    "tag_en": "Premium",
-    "tag_am": "ልዩ ምርት",
-    "image": "https://cdn4.telesco.pe/file/tOWG1rho9zYX5tU0mNquEWEmAN6xIogF9pMahqisE_mNJre4YdJuu1D1nnMgp9OfmUZ2Ev1G6WmHN0q-sSTON-qobp4vgNETrsxc0Z264v0_-H6-h4GNC1dwgXDcVnSlBxmIdcYcS8IK45Gze8N6tr3ZrhPoCu3Y-UDmiEnWlAbLYbhYS8UKUTf79YLlNyHIThFco-kICfh073k56P_ellIt-QgZD_SCZc71332B5_U-lWnfOkL2_i5wXSAoTyZrUxp2SKWDyQAhve2JOP3EFE1lSL1WMAfIrKcr3W-U61m3Kk-mPXRRGNO76ZMgYMWp1HBgjcxouc47SSu8IR0pvw.jpg",
-    "description_en": "360° rotating shade umbrella with a built-in light and power bank to keep it running after dark. Water-fillable base for wind resistance.",
-    "description_am": "360 ዲግሪ የሚዞር፣ ማብራት እና ኃይል ባንክ ያለው ጥላ። ነፋስ እንዲቋቋም በውሃ የሚሞላ ቤዝ ያለው።",
-    "features_en": [
-      "360° rotating cantilever system",
-      "Built-in light + power bank for evening use",
-      "Water-fillable base for wind resistance",
-      "Great for cafés, restaurants, and cars"
-    ],
-    "features_am": [
-      "360 ዲግሪ የሚዞር",
-      "ማብራትና ኃይል ባንክ ላመሻት አገልግሎት",
-      "ነፋስ እንዲቋቋም የውሃ ቤዝ",
-      "ለካፌ፣ ምግብ ቤትና መኪና ተስማሚ"
-    ],
-    "price_type": "flat",
-    "price": 110000,
-    "price_display_en": "110,000 ETB",
-    "price_display_am": "110,000 ብር",
-    "source_post": "https://t.me/atlantictradingtent/164",
-    "image_thumb": "assets/products/3x3m-lit-umbrella-powerbank-thumb.webp",
-    "image_full": "assets/products/3x3m-lit-umbrella-powerbank-full.webp"
   },
   {
     "id": "double-layer-shade",
