@@ -675,7 +675,7 @@ const dictionary = {
 // ──────────────────────────────────────
 // App State
 // ──────────────────────────────────────
-let currentLang = "en";
+let currentLang = "am";
 let currentCategory = "all";
 let searchQuery = "";
 
@@ -1000,33 +1000,46 @@ function openPDP(productId) {
     }
   }
   
+  let photoLabel = currentLang === "en" ? `Photo:` : `ፎቶ፡`;
   let photoLine = "";
   if (imagePath) {
     if (imagePath.startsWith("http")) {
-      photoLine = `Photo: ${imagePath}`;
+      photoLine = `${photoLabel} ${imagePath}`;
     } else {
-      photoLine = `Photo: ${baseUrl}/${imagePath}`;
+      photoLine = `${photoLabel} ${baseUrl}/${imagePath}`;
     }
   }
 
   // Strip emojis from the product name to prevent buggy in-app browsers 
   // from mangling URL-encoded emojis and causing 400 Bad Request errors.
-  const cleanName = prod.name_en.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '').trim();
+  const rawNameEn = prod.name_en || prod.name_am || "";
+  const rawNameAm = prod.name_am || prod.name_en || "";
+  const cleanNameEn = rawNameEn.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '').trim();
+  const cleanNameAm = rawNameAm.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '').trim();
   
+  const cleanName = currentLang === "en" ? cleanNameEn : cleanNameAm;
+  const priceDisplay = currentLang === "en" ? (prod.price_display_en || "") : (prod.price_display_am || prod.price_display_en || "");
+
+  const greeting = currentLang === "en" ? `Hello Atlantic Trading! I'd like to order:` : `ሰላም አትላንቲክ ትሬዲንግ! ይህንን ማዘዝ እፈልጋለሁ፡`;
+  const prodLabel = currentLang === "en" ? `Product:` : `ምርት፡`;
+  const priceLabel = currentLang === "en" ? `Price:` : `ዋጋ፡`;
+  const confirmSize = currentLang === "en" ? `(please confirm size)` : `(እባክዎ መጠኑን ያሳውቁ)`;
+  const footerText = currentLang === "en" ? `Please let me know the next steps. Thank you!` : `እባክዎ ቀጣይ እርምጃዎችን ያሳውቁኝ። እናመሰግናለን!`;
+
   const msgArr = [
-    `Hello Atlantic Trading! I'd like to order:`,
+    greeting,
     ``,
-    `Product: ${cleanName}`,
+    `${prodLabel} ${cleanName}`,
     prod.price_type === "flat"
-      ? `Price: ${prod.price_display_en}`
-      : `Price: ${prod.price_display_en} (please confirm size)`
+      ? `${priceLabel} ${priceDisplay}`
+      : `${priceLabel} ${priceDisplay} ${confirmSize}`
   ];
   
   if (photoLine) {
     msgArr.push(``, photoLine);
   }
   
-  msgArr.push(``, `Please let me know the next steps. Thank you!`);
+  msgArr.push(``, footerText);
   const msg = msgArr.join("\n");
   document.getElementById("pdpTelegramCta").href = `https://t.me/Atlantictradingplc1?text=${encodeURIComponent(msg)}`;
 
