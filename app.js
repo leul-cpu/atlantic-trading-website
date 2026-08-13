@@ -991,24 +991,33 @@ function openPDP(productId) {
   // subdirectory (/atlantic-trading-website/) or a future custom domain root.
   const baseUrl    = document.baseURI.replace(/\/[^/]*$/, ""); // strip filename if any
   const imagePath  = imgSrcs.length > 0 ? imgSrcs[0] : "";
-  const prodUrl    = imagePath.startsWith("http") ? imagePath : `${baseUrl}/${imagePath}`;
+  
+  let photoLine = "";
+  if (imagePath.startsWith("http")) {
+    photoLine = `Photo: ${imagePath}`;
+  } else if (imagePath && !imagePath.startsWith("data:")) {
+    photoLine = `Photo: ${baseUrl}/${imagePath}`;
+  }
 
   // Strip emojis from the product name to prevent buggy in-app browsers 
   // from mangling URL-encoded emojis and causing 400 Bad Request errors.
   const cleanName = prod.name_en.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '').trim();
   
-  const msg = [
+  const msgArr = [
     `Hello Atlantic Trading! I'd like to order:`,
     ``,
     `Product: ${cleanName}`,
     prod.price_type === "flat"
       ? `Price: ${prod.price_display_en}`
-      : `Price: ${prod.price_display_en} (please confirm size)`,
-    ``,
-    `Photo: ${prodUrl}`,
-    ``,
-    `Please let me know the next steps. Thank you!`
-  ].join("\n");
+      : `Price: ${prod.price_display_en} (please confirm size)`
+  ];
+  
+  if (photoLine) {
+    msgArr.push(``, photoLine);
+  }
+  
+  msgArr.push(``, `Please let me know the next steps. Thank you!`);
+  const msg = msgArr.join("\n");
   document.getElementById("pdpTelegramCta").href = `https://t.me/Atlantictradingplc1?text=${encodeURIComponent(msg)}`;
 
   document.getElementById("pdpModal").classList.add("active");

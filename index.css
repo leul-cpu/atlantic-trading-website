@@ -1315,7 +1315,7 @@ a {
   
   .pdp-container {
     width: 90%;
-    max-width: 768px;
+    max-width: 900px;
     border-radius: 12px;
     max-height: 90vh;
     padding: 3rem;
@@ -1331,6 +1331,7 @@ a {
   .pdp-gallery-wrapper {
     grid-column: 1;
     grid-row: 1;
+    min-width: 0;
   }
 
   .pdp-gallery-dots {
@@ -1343,6 +1344,7 @@ a {
     grid-column: 2;
     grid-row: 1 / 3;
     overflow-y: auto;
+    min-width: 0;
   }
 
   .pdp-gallery {
