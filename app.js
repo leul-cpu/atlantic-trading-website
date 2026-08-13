@@ -701,7 +701,37 @@ function tryEscapeInAppBrowser() {
     // Escape Android WebView: intent:// scheme targets Chrome with a fallback URL
     const cleanUrl = currentUrl.replace(/^https?:\/\//, '');
     const intentUrl = `intent://${cleanUrl}#Intent;scheme=https;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(currentUrl)};end`;
+    
+    // Attempt auto-redirect first
     window.location.replace(intentUrl);
+
+    // If auto-redirect is blocked, show a clean user-triggerable button (TikTok allows intent triggers on user tap)
+    setTimeout(() => {
+      if (!document.getElementById('iab-overlay')) {
+        const overlay = document.createElement('div');
+        overlay.id = 'iab-overlay';
+        overlay.style.cssText = `
+          position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+          background-color: #ffffff; z-index: 100000; display: flex;
+          flex-direction: column; align-items: center; justify-content: center;
+          padding: 2rem; box-sizing: border-box; font-family: sans-serif; color: #111e3c;
+        `;
+        overlay.innerHTML = `
+          <div style="max-width: 400px; width: 100%; text-align: center; background: #f8fafc; padding: 2.5rem 2rem; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0;">
+            <h2 style="font-size: 1.4rem; margin-bottom: 0.5rem; font-weight: 700; color: #1e293b;">በመደበኛ ማሰሻ ይክፈቱ</h2>
+            <h3 style="font-size: 1.1rem; margin-bottom: 1.5rem; font-weight: 700; color: #475569; font-style: italic;">Open in external browser</h3>
+            <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 2rem; line-height: 1.5;">
+              ይህ ገጽ ሙሉ በሙሉ እንዲሰራ እባክዎ ከታች ያለውን ሰማያዊ ቁልፍ በመጫን በ Chrome ይክፈቱት።<br>
+              <span style="font-style: italic; font-size: 0.8rem;">Please tap the button below to open this page in Chrome.</span>
+            </p>
+            <a href="${intentUrl}" style="display: block; text-decoration: none; width: 100%; padding: 14px; background-color: #1a73e8; color: white; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-align: center; box-shadow: 0 4px 12px rgba(26,115,232,0.25);">
+              በማሰሻ ክፈት (Open Browser)
+            </a>
+          </div>
+        `;
+        document.body.appendChild(overlay);
+      }
+    }, 800);
   } else {
     // iOS (Safari): Apple enforces in-app WebKit, so code cannot force launch Safari.
     // Instead, display a premium full-screen walkthrough modal to guide the user.
