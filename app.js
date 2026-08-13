@@ -989,14 +989,24 @@ function openPDP(productId) {
   // the product image so the seller can immediately see what's being ordered.
   // Use document.baseURI to get the correct base path whether on GitHub Pages
   // subdirectory (/atlantic-trading-website/) or a future custom domain root.
-  const baseUrl    = document.baseURI.replace(/\/[^/]*$/, ""); // strip filename if any
-  const imagePath  = imgSrcs.length > 0 ? imgSrcs[0] : "";
+  const baseUrl = document.baseURI.replace(/\/[^/]*$/, ""); // strip filename if any
+  
+  // Find the first image that is NOT a massive base64 data URL
+  let imagePath = "";
+  for (const src of imgSrcs) {
+    if (src && !src.startsWith("data:")) {
+      imagePath = src;
+      break;
+    }
+  }
   
   let photoLine = "";
-  if (imagePath.startsWith("http")) {
-    photoLine = `Photo: ${imagePath}`;
-  } else if (imagePath && !imagePath.startsWith("data:")) {
-    photoLine = `Photo: ${baseUrl}/${imagePath}`;
+  if (imagePath) {
+    if (imagePath.startsWith("http")) {
+      photoLine = `Photo: ${imagePath}`;
+    } else {
+      photoLine = `Photo: ${baseUrl}/${imagePath}`;
+    }
   }
 
   // Strip emojis from the product name to prevent buggy in-app browsers 
