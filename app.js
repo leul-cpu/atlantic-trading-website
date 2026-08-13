@@ -683,30 +683,46 @@ let searchQuery = "";
 // Init
 // ──────────────────────────────────────
 // ──────────────────────────────────────
-// In-App Browser Detection & Banner
+// In-App Browser Detection & Browser Escape
 // ──────────────────────────────────────
 function isInAppBrowser() {
   const ua = navigator.userAgent || '';
   return /FBAN|FBAV|Instagram|musical_ly|BytedanceWebview|TikTok|LinkedInApp|Snapchat/i.test(ua);
 }
 
-function showInAppBrowserBanner() {
+function tryEscapeInAppBrowser() {
   if (!isInAppBrowser()) return;
-  const banner = document.createElement('div');
-  banner.id = 'iab-banner';
-  banner.innerHTML = `
-    <span>📱 ለተሻለ ተሞክሮ፣ ↗ Share → <strong>Open in Browser</strong> ይጫኑ</span>
-    <button onclick="this.parentElement.remove()" style="margin-left:12px;background:none;border:1px solid rgba(255,255,255,0.5);color:#fff;padding:2px 8px;border-radius:4px;cursor:pointer;font-size:0.75rem;">✕</button>
-  `;
-  banner.style.cssText = `
-    position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
-    background: linear-gradient(135deg, #1a73e8, #0d47a1);
-    color: white; font-size: 0.8rem; font-weight: 600;
-    padding: 10px 16px; text-align: center;
-    display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
-  `;
-  document.body.prepend(banner);
+
+  const ua = navigator.userAgent || '';
+  const isAndroid = /Android/i.test(ua);
+  const currentUrl = window.location.href;
+
+  if (isAndroid) {
+    // Android escape trick: Force open in the default system browser (usually Chrome) via intent:// scheme
+    // This immediately escapes the TikTok webview on Android.
+    const cleanUrl = currentUrl.replace(/^https?:\/\//, '');
+    const intentUrl = `intent://${cleanUrl}#Intent;scheme=https;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.android.chrome;end`;
+    window.location.replace(intentUrl);
+  } else {
+    // iOS (Safari): Apple enforces in-app WebKit, so code cannot force launch Safari.
+    // Instead, display a highly-visible sticky banner explaining how to open it in Safari.
+    const banner = document.createElement('div');
+    banner.id = 'iab-banner';
+    banner.innerHTML = `
+      <div style="flex-grow:1; text-align:center;">
+        📱 <strong>ለተሻለ ተሞክሮ፡</strong> ከታች ያለውን <strong>↗ (Share)</strong> ምልክት ነክተው <strong>Open in Safari</strong> ይምረጡ።
+      </div>
+      <button onclick="this.parentElement.remove()" style="margin-left:12px;background:none;border:1px solid rgba(255,255,255,0.5);color:#fff;padding:2px 8px;border-radius:4px;cursor:pointer;font-size:0.75rem;">✕</button>
+    `;
+    banner.style.cssText = `
+      position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
+      background: linear-gradient(135deg, #FF9900, #FF5500);
+      color: white; font-size: 0.85rem; font-weight: 600;
+      padding: 12px 16px; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4); font-family: sans-serif;
+    `;
+    document.body.prepend(banner);
+  }
 }
 
 // Helper: open Telegram link, bypassing in-app browser via tg:// scheme
@@ -722,7 +738,7 @@ function openTelegramLink(tgSchemeUrl, httpsFallbackUrl) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  showInAppBrowserBanner();
+  tryEscapeInAppBrowser();
   initScrollAnimations();
   const bar = document.querySelector(".sticky-cta-bar");
   if (bar) bar.style.transform = "translateY(100%)";
