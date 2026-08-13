@@ -992,15 +992,20 @@ function openPDP(productId) {
   const baseUrl    = document.baseURI.replace(/\/[^/]*$/, ""); // strip filename if any
   const imagePath  = imgSrcs.length > 0 ? imgSrcs[0] : "";
   const prodUrl    = imagePath.startsWith("http") ? imagePath : `${baseUrl}/${imagePath}`;
+
+  // Strip emojis from the product name to prevent buggy in-app browsers 
+  // from mangling URL-encoded emojis and causing 400 Bad Request errors.
+  const cleanName = prod.name_en.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '').trim();
+  
   const msg = [
     `Hello Atlantic Trading! I'd like to order:`,
     ``,
-    `📦 Product: ${prod.name_en}`,
+    `Product: ${cleanName}`,
     prod.price_type === "flat"
-      ? `💰 Price: ${prod.price_display_en}`
-      : `💰 Price: ${prod.price_display_en} (please confirm size)`,
+      ? `Price: ${prod.price_display_en}`
+      : `Price: ${prod.price_display_en} (please confirm size)`,
     ``,
-    `🖼 Photo: ${prodUrl}`,
+    `Photo: ${prodUrl}`,
     ``,
     `Please let me know the next steps. Thank you!`
   ].join("\n");
