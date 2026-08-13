@@ -682,7 +682,47 @@ let searchQuery = "";
 // ──────────────────────────────────────
 // Init
 // ──────────────────────────────────────
+// ──────────────────────────────────────
+// In-App Browser Detection & Banner
+// ──────────────────────────────────────
+function isInAppBrowser() {
+  const ua = navigator.userAgent || '';
+  return /FBAN|FBAV|Instagram|musical_ly|BytedanceWebview|TikTok|LinkedInApp|Snapchat/i.test(ua);
+}
+
+function showInAppBrowserBanner() {
+  if (!isInAppBrowser()) return;
+  const banner = document.createElement('div');
+  banner.id = 'iab-banner';
+  banner.innerHTML = `
+    <span>📱 ለተሻለ ተሞክሮ፣ ↗ Share → <strong>Open in Browser</strong> ይጫኑ</span>
+    <button onclick="this.parentElement.remove()" style="margin-left:12px;background:none;border:1px solid rgba(255,255,255,0.5);color:#fff;padding:2px 8px;border-radius:4px;cursor:pointer;font-size:0.75rem;">✕</button>
+  `;
+  banner.style.cssText = `
+    position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
+    background: linear-gradient(135deg, #1a73e8, #0d47a1);
+    color: white; font-size: 0.8rem; font-weight: 600;
+    padding: 10px 16px; text-align: center;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  `;
+  document.body.prepend(banner);
+}
+
+// Helper: open Telegram link, bypassing in-app browser via tg:// scheme
+function openTelegramLink(tgSchemeUrl, httpsFallbackUrl) {
+  // Try tg:// deep link first (opens Telegram app directly, bypasses TikTok)
+  window.location.href = tgSchemeUrl;
+  // If tg:// didn't navigate away (e.g. Telegram not installed), fall back to https://
+  setTimeout(() => {
+    if (!document.hidden) {
+      window.open(httpsFallbackUrl, '_blank');
+    }
+  }, 600);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  showInAppBrowserBanner();
   initScrollAnimations();
   const bar = document.querySelector(".sticky-cta-bar");
   if (bar) bar.style.transform = "translateY(100%)";
@@ -1041,7 +1081,15 @@ function openPDP(productId) {
   
   msgArr.push(``, footerText);
   const msg = msgArr.join("\n");
-  document.getElementById("pdpTelegramCta").href = `https://t.me/Atlantictradingplc1?text=${encodeURIComponent(msg)}`;
+  const tgScheme = `tg://resolve?domain=Atlantictradingplc1&text=${encodeURIComponent(msg)}`;
+  const tgHttps  = `https://t.me/Atlantictradingplc1?text=${encodeURIComponent(msg)}`;
+  const ctaBtn = document.getElementById("pdpTelegramCta");
+  // Set href as tg:// for direct Telegram app opening (bypasses in-app browser warning)
+  ctaBtn.href = tgScheme;
+  ctaBtn.onclick = function(e) {
+    e.preventDefault();
+    openTelegramLink(tgScheme, tgHttps);
+  };
 
   document.getElementById("pdpModal").classList.add("active");
   document.body.style.overflow = "hidden";
