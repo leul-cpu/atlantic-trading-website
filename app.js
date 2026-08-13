@@ -705,23 +705,68 @@ function tryEscapeInAppBrowser() {
     window.location.replace(intentUrl);
   } else {
     // iOS (Safari): Apple enforces in-app WebKit, so code cannot force launch Safari.
-    // Instead, display a highly-visible sticky banner explaining how to open it in Safari.
-    const banner = document.createElement('div');
-    banner.id = 'iab-banner';
-    banner.innerHTML = `
-      <div style="flex-grow:1; text-align:center;">
-        📱 <strong>ለተሻለ ተሞክሮ፡</strong> ከታች ያለውን <strong>↗ (Share)</strong> ምልክት ነክተው <strong>Open in Safari</strong> ይምረጡ።
+    // Instead, display a premium full-screen walkthrough modal to guide the user.
+    const overlay = document.createElement('div');
+    overlay.id = 'iab-overlay';
+    overlay.style.cssText = `
+      position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+      background-color: #ffffff; z-index: 100000; display: flex;
+      flex-direction: column; align-items: center; justify-content: center;
+      padding: 2rem; box-sizing: border-box; font-family: sans-serif; color: #111e3c;
+    `;
+
+    // Arrow indicator pointing to top-right corner where TikTok's menu (three dots ...) is located
+    overlay.innerHTML = `
+      <div style="position: absolute; top: 10px; right: 20px; font-size: 2.5rem; color: #1a73e8; animation: bounce 1.5s infinite;">↗</div>
+      
+      <div style="max-width: 400px; width: 100%; text-align: center; background: #f8fafc; padding: 2rem; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0;">
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700; color: #1e293b;">ሊንኩን ለመክፈት እነዚህን ደረጃዎች ይከተሉ</h2>
+        <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 2rem; line-height: 1.5;">ይህ ገጽ ሙሉ በሙሉ እንዲሰራ በስልክዎ መደበኛ ማሰሻ (Browser) መከፈት አለበት።</p>
+        
+        <div style="text-align: left; margin-bottom: 2rem; font-size: 0.95rem;">
+          <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+            <span style="background: #1a73e8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 12px; font-weight: bold; font-size: 0.8rem;">1</span>
+            <span>በላይኛው ቀኝ በኩል ያለውን <strong>•••</strong> ይጫኑ።</span>
+          </div>
+          <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+            <span style="background: #1a73e8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 12px; font-weight: bold; font-size: 0.8rem;">2</span>
+            <span>በመቀጠል <strong>"Open in Browser"</strong> ወይም <strong>"Open in Safari"</strong> ይምረጡ።</span>
+          </div>
+        </div>
+
+        <button id="iab-copy-btn" style="width: 100%; padding: 12px; background-color: #111e3c; color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background 0.2s;">
+          ሊንኩን ኮፒ ያድርጉ (Copy link)
+        </button>
+        
+        <button onclick="this.closest('#iab-overlay').remove()" style="margin-top: 1.5rem; background: none; border: none; color: #ef4444; font-size: 0.9rem; font-weight: 600; cursor: pointer;">
+          በዚህ ይቆዩ (Stay here)
+        </button>
       </div>
-      <button onclick="this.parentElement.remove()" style="margin-left:12px;background:none;border:1px solid rgba(255,255,255,0.5);color:#fff;padding:2px 8px;border-radius:4px;cursor:pointer;font-size:0.75rem;">✕</button>
+
+      <style>
+        @keyframes bounce {
+          0%, 100% { transform: translateY(0) translateX(0); }
+          50% { transform: translateY(-8px) translateX(8px); }
+        }
+      </style>
     `;
-    banner.style.cssText = `
-      position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
-      background: linear-gradient(135deg, #FF9900, #FF5500);
-      color: white; font-size: 0.85rem; font-weight: 600;
-      padding: 12px 16px; display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.4); font-family: sans-serif;
-    `;
-    document.body.prepend(banner);
+
+    document.body.appendChild(overlay);
+
+    // Setup Copy Link functionality
+    const copyBtn = overlay.querySelector('#iab-copy-btn');
+    copyBtn.onclick = () => {
+      navigator.clipboard.writeText(currentUrl).then(() => {
+        copyBtn.textContent = 'ኮፒ ተደርጓል! (Copied!)';
+        copyBtn.style.backgroundColor = '#10b981';
+        setTimeout(() => {
+          copyBtn.textContent = 'ሊንኩን ኮፒ ያድርጉ (Copy link)';
+          copyBtn.style.backgroundColor = '#111e3c';
+        }, 2000);
+      }).catch(err => {
+        console.error('Failed to copy link: ', err);
+      });
+    };
   }
 }
 
