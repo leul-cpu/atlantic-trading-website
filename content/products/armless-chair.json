@@ -1,30 +1,39 @@
 {
-  "id": "armless-chair",
-  "name_en": "Armless Chair",
   "name_am": "ያለ ክንድ ወንበር",
-  "category": "chairs-tables",
-  "tag_en": "New",
-  "tag_am": "አዲስ",
-  "image": "https://cdn4.telesco.pe/file/PV4IvEHSnkjqPGMu6UzeINN0vRE-EXhfAxk2aN0AKbMbxLFzU_ksDhqMgj-mIMHKqCY_wXedVosNUQYX8MptBFEUYOT5UUx6O7WPIWjZiXL4dibg9HMjivnPt9I02Np3rNPr-6m-2BjWgFEAPeuUiV18lhzDnl2XS71HCg1x8ekFvhz7WSUJ7bD7lHZ1uftSjo9X2SHDGu0SiCSe82K0m9t_CmTiP1X4snrj5LqNxWGct6NOjyDNjnow0x_vBPjSx3qHOvVuMfi4o6aOYodB2oFIywT5vHV33HJ54KUBGfJV4IbR-BEa0oX2vaSvdlgV7kt9A8qYbbptG12NY10xcw.jpg",
-  "description_en": "Same quality and comfort as our arm chair, without armrests — a more affordable option.",
-  "description_am": "ከክንድ ወንበሩ ጋር ተመሳሳይ ጥራትና ምቾት ያለው፣ ያለ ክንድ በተመጣጣኝ ዋጋ።",
+  "source_post": "https://t.me/atlantictradingtent/88",
+  "price": 5200,
   "features_en": [
     "Comfortable, neat design",
     "More affordable option",
     "Great for cafés and restaurants",
     "Durable everyday use"
   ],
+  "description_en": "Same quality and comfort as our arm chair, without armrests — a more affordable option.",
   "features_am": [
     "ምቹና ንፁህ ንድፍ",
     "ተመጣጣኝ ዋጋ",
     "ለካፌና ለምግብ ቤት ተስማሚ",
     "ጠንካራ"
   ],
+  "tag_en": "New",
+  "description_am": "ከክንድ ወንበሩ ጋር ተመሳሳይ ጥራትና ምቾት ያለው፣ ያለ ክንድ በተመጣጣኝ ዋጋ።",
   "price_type": "flat",
-  "price": 5200,
-  "price_display_en": "5,200 ETB",
-  "price_display_am": "5,200 ብር",
-  "source_post": "https://t.me/atlantictradingtent/88",
+  "tag_am": "አዲስ",
   "image_thumb": "assets/products/armless-chair-thumb.webp",
-  "image_full": "assets/products/armless-chair-full.webp"
+  "image_full": "assets/products/armless-chair-full.webp",
+  "images": [
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiPL-lCCOa9M1xXioa7CqqIunCXNPEHcpRiqWuNeZvtMS7_HHv"
+    },
+    {
+      "image": "assets/products/armless-chair-thumb.webp"
+    }
+  ],
+  "id": "armless-chair",
+  "image": "",
+  "price_display_en": "5,200 ETB",
+  "date_published": "2026-08-14",
+  "name_en": "Armless Chair",
+  "category": "chairs-tables",
+  "price_display_am": "5,200 ብር"
 }
