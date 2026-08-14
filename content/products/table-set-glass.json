@@ -1,30 +1,39 @@
 {
-  "id": "table-set-glass",
-  "name_en": "4-Chair Set with Glass Table",
   "name_am": "4 ወንበር ከመስታወት ጠረጴዛ ጋር",
-  "category": "chairs-tables",
-  "tag_en": "Bestseller",
-  "tag_am": "ተፈላጊ",
-  "image": "https://cdn4.telesco.pe/file/KgqfsCn95qvXspGtnxdDcLytUGWF4Io_FA7ohwf50dM6t4rfdJOvysnuWsGjy4uvv-WmrkpVNhHXNRF4d2qaYEVr7rhk4eUsXVlgsitp3bu2iGyBydvUgVDtIS_y4_dMFcdXAM6jlGPOEv3_H3jKsiOth7XA01u-5CydudBq1MP_YF62WUXRwk8PBVvasFcwn0K9ujvQdwlpvKzl5Vnr9mknrxCLKRhxtUJD6HtNT3C9xZjPVmQKnic2YD5GB-cPLBsOZW4MGBzafXbsHZvMSl6trs1JzCFZDJv_qgNwCWcOITmCkp2A779tv99cX0oPnvSA0HRgL0PpDS9oNVJ8KQ.jpg",
-  "description_en": "Complete outdoor seating set — 4 chairs with a glass-top table. Ideal for cafés, restaurants, and gardens.",
-  "description_am": "ሙሉ የውጪ መቀመጫ ስብስብ — 4 ወንበር ከመስታወት ጠረጴዛ ጋር። ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ።",
+  "source_post": "https://t.me/atlantictradingtent/159",
+  "price": 60000,
   "features_en": [
     "Set of 4 matching chairs",
     "Glass-top table included",
     "Great for cafés, restaurants, gardens",
     "Weatherproof, easy to clean"
   ],
+  "description_en": "Complete outdoor seating set — 4 chairs with a glass-top table. Ideal for cafés, restaurants, and gardens.",
   "features_am": [
     "4 ተመሳሳይ ወንበሮች",
     "የመስታወት ጠረጴዛ ያካትታል",
     "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
     "የአየር ፀባይ የሚቋቋምና ለማጽዳት ቀላል"
   ],
+  "tag_en": "Bestseller",
+  "description_am": "ሙሉ የውጪ መቀመጫ ስብስብ — 4 ወንበር ከመስታወት ጠረጴዛ ጋር። ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ።",
   "price_type": "flat",
-  "price": 60000,
-  "price_display_en": "60,000 ETB",
-  "price_display_am": "60,000 ብር",
-  "source_post": "https://t.me/atlantictradingtent/159",
+  "tag_am": "ተፈላጊ",
   "image_thumb": "assets/products/table-set-glass-thumb.webp",
-  "image_full": "assets/products/table-set-glass-full.webp"
+  "image_full": "assets/products/table-set-glass-full.webp",
+  "images": [
+    {
+      "image": "https://m.media-amazon.com/images/I/41AaCnvwNRL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "image": "assets/products/table-set-glass-thumb.webp"
+    }
+  ],
+  "id": "table-set-glass",
+  "image": "",
+  "price_display_en": "60,000 ETB",
+  "date_published": "2026-08-14",
+  "name_en": "4-Chair Set with Glass Table",
+  "category": "chairs-tables",
+  "price_display_am": "60,000 ብር"
 }

@@ -1,28 +1,31 @@
 {
-  "id": "zufan-bundle",
-  "name_en": "Zufan Set — Chairs, Table & Umbrella Bundle",
   "name_am": "ዙፋን ስብስብ — ወንበር፣ ጠረጴዛና ጥላ",
-  "category": "chairs-tables",
-  "tag_en": "Bundle Discount",
-  "tag_am": "የቅናሽ ስብስብ",
-  "image": "https://cdn4.telesco.pe/file/QVTTVvXZ_kpGStwNGrNcS4WNN0Istye8vdCO9MldvteBTky5q5hOEevNMPPdWYnfhlnAt8-Xk6K1zZ3tYwR0sMHFbg7LVWgH7DAz-MjtIGGhaEVxnHzEIoj2G35FJL4vRLiy9RQ-QsZFS4GeAhZFjkZFK7S85xmX14_szLksvGBvUo7GZB_hPgxJEzIu98UjV_KX9jdow1N5Tahar_ioy2x5kYflC8eGZZnkYV_WgLlwGIyDcNahSvGxDtTm0q_kuFcQlWRXm2e0OIuFdEzG8TBtGjsIynpNqn10zp6JXAoGFSHAefMQemcdZ4QvrsuVFQtD3czzw6q3BPBu0Fstfw.jpg",
-  "description_en": "Full outdoor set: 4 chairs, a glass table, and your choice of umbrella. Discount available when you take the full bundle.",
-  "description_am": "ሙሉ የውጪ ስብስብ፦ 4 ወንበር፣ የመስታወት ጠረጴዛ እና የመረጡት ጥላ። ሙሉ ስብስቡን ለሚወስዱ ቅናሽ አለ።",
+  "source_post": "https://t.me/atlantictradingtent/149",
   "features_en": [
     "4 chairs + glass table + 1 umbrella",
     "Choice of lit or unlit umbrella, square or round",
     "Discount when purchasing the full bundle",
     "Great for cafés, restaurants, gardens"
   ],
+  "description_en": "Full outdoor set: 4 chairs, a glass table, and your choice of umbrella. Discount available when you take the full bundle.",
   "features_am": [
     "4 ወንበር + መስታወት ጠረጴዛ + 1 ጥላ",
     "ማብራት ያለው ወይም የሌለው፣ ካሬ ወይም ክብ ጥላ መምረጥ ይቻላል",
     "ሙሉ ስብስቡን ለሚወስዱ ቅናሽ",
     "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ"
   ],
+  "tag_en": "Bundle Discount",
+  "description_am": "ሙሉ የውጪ ስብስብ፦ 4 ወንበር፣ የመስታወት ጠረጴዛ እና የመረጡት ጥላ። ሙሉ ስብስቡን ለሚወስዱ ቅናሽ አለ።",
   "price_type": "tiered",
-  "price_display_en": "From 65,000 ETB",
-  "price_display_am": "ከ 65,000 ብር ጀምሮ",
+  "tag_am": "የቅናሽ ስብስብ",
+  "image_thumb": "assets/products/zufan-bundle-thumb.webp",
+  "note": "Source post lists these four numbers together without saying whether they stack or replace each other — listed as separate options rather than guessed bundle math. Confirm with whoever quotes this in person before it goes live.",
+  "image_full": "assets/products/zufan-bundle-full.webp",
+  "images": [
+    {
+      "image": "assets/products/chatgpt-image-aug-14-2026-03_11_21-pm.png"
+    }
+  ],
   "price_tiers": [
     {
       "size": "Chairs + table only",
@@ -41,8 +44,11 @@
       "price": 90000
     }
   ],
-  "note": "Source post lists these four numbers together without saying whether they stack or replace each other — listed as separate options rather than guessed bundle math. Confirm with whoever quotes this in person before it goes live.",
-  "source_post": "https://t.me/atlantictradingtent/149",
-  "image_thumb": "assets/products/zufan-bundle-thumb.webp",
-  "image_full": "assets/products/zufan-bundle-full.webp"
+  "id": "zufan-bundle",
+  "image": "",
+  "price_display_en": "From 65,000 ETB",
+  "date_published": "2026-08-14",
+  "name_en": "Zufan Set — Chairs, Table & Umbrella Bundle",
+  "category": "chairs-tables",
+  "price_display_am": "ከ 65,000 ብር ጀምሮ"
 }

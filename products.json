@@ -1,5 +1,564 @@
 [
   {
+    "name_am": "የክንድ ወንበር",
+    "source_post": "https://t.me/atlantictradingtent/88",
+    "price": 5700,
+    "features_en": [
+      "Comfortable armrest design",
+      "Neat, quality finish",
+      "Great for cafés and gardens",
+      "Durable everyday use"
+    ],
+    "description_en": "Comfortable, neat plastic arm chair for cafés, restaurants, gardens, and homes.",
+    "features_am": [
+      "ምቹ የክንድ ንድፍ",
+      "ንፁህና ጥራት ያለው",
+      "ለካፌና ለአትክልት ስፍራ ተስማሚ",
+      "ለዕለት ተዕለት አገልግሎት ጠንካራ"
+    ],
+    "tag_en": "Bestseller",
+    "description_am": "ምቹና ንፁህ የክንድ ወንበር ለካፌዎች፣ ምግብ ቤቶች፣ የአትክልት ስፍራ እና ለቤት ተስማሚ።",
+    "price_type": "flat",
+    "tag_am": "ተፈላጊ",
+    "image_thumb": "assets/products/arm-chair-thumb.webp",
+    "image_full": "assets/products/arm-chair-full.webp",
+    "images": [
+      {
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTj4caEP-Z8BPJtPJEUKhB2uunidpQcxjcQf0TvpCDSsSZVvjYP"
+      },
+      {
+        "image": "assets/products/photo_2026-08-14_10-59-49.jpg"
+      }
+    ],
+    "id": "arm-chair",
+    "image": "",
+    "price_display_en": "5,700 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "Arm Chair",
+    "category": "chairs-tables",
+    "price_display_am": "5,700 ብር"
+  },
+  {
+    "name_am": "ያለ ክንድ ወንበር",
+    "source_post": "https://t.me/atlantictradingtent/88",
+    "price": 5200,
+    "features_en": [
+      "Comfortable, neat design",
+      "More affordable option",
+      "Great for cafés and restaurants",
+      "Durable everyday use"
+    ],
+    "description_en": "Same quality and comfort as our arm chair, without armrests — a more affordable option.",
+    "features_am": [
+      "ምቹና ንፁህ ንድፍ",
+      "ተመጣጣኝ ዋጋ",
+      "ለካፌና ለምግብ ቤት ተስማሚ",
+      "ጠንካራ"
+    ],
+    "tag_en": "New",
+    "description_am": "ከክንድ ወንበሩ ጋር ተመሳሳይ ጥራትና ምቾት ያለው፣ ያለ ክንድ በተመጣጣኝ ዋጋ።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/armless-chair-thumb.webp",
+    "image_full": "assets/products/armless-chair-full.webp",
+    "images": [
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiPL-lCCOa9M1xXioa7CqqIunCXNPEHcpRiqWuNeZvtMS7_HHv"
+      },
+      {
+        "image": "assets/products/armless-chair-thumb.webp"
+      }
+    ],
+    "id": "armless-chair",
+    "image": "",
+    "price_display_en": "5,200 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "Armless Chair",
+    "category": "chairs-tables",
+    "price_display_am": "5,200 ብር"
+  },
+  {
+    "name_am": "ትንሽ የፕላስቲክ ዱካ",
+    "source_post": "https://t.me/atlantictradingtent/119",
+    "price": 450,
+    "features_en": [
+      "Compact and lightweight",
+      "Budget-friendly",
+      "Durable plastic build",
+      "Great for cafés and coffee shops"
+    ],
+    "description_en": "A compact, budget-friendly plastic stool for cafés and coffee shops.",
+    "features_am": [
+      "ትንሽና ቀላል",
+      "ተመጣጣኝ ዋጋ",
+      "ጠንካራ ፕላስቲክ",
+      "ለካፌና ለቡና ቤት ተስማሚ"
+    ],
+    "tag_en": "New",
+    "description_am": "ትንሽ፣ ተመጣጣኝ ዋጋ ያለው የፕላስቲክ ዱካ ለካፌዎችና ለምግብ ቤቶች ተስማሚ።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/plastic-duka-small-thumb.webp",
+    "image_full": "assets/products/plastic-duka-small-full.webp",
+    "images": [
+      {
+        "image": "assets/products/plastic-duka-small-full.webp"
+      }
+    ],
+    "id": "plastic-duka-small",
+    "image": "",
+    "price_display_en": "450 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "Small Plastic Stool (ዱካ)",
+    "category": "chairs-tables",
+    "price_display_am": "450 ብር"
+  },
+  {
+    "name_am": "የመስታወት ጠረጴዛ",
+    "source_post": "https://t.me/atlantictradingtent/50",
+    "price": 15000,
+    "features_en": [
+      "Clean glass-top finish",
+      "Sold separately from chairs",
+      "Sturdy frame",
+      "Easy to wipe clean"
+    ],
+    "description_en": "Clean-finish table with a glass top, sold separately from chair sets.",
+    "features_am": [
+      "ንፁህ የመስታወት ገጽታ",
+      "ለብቻው የሚሸጥ",
+      "ጠንካራ ፍሬም",
+      "በቀላሉ የሚጸዳ"
+    ],
+    "tag_en": "New",
+    "description_am": "የመስታወት ላይ ገጽታ ያለው ንፁህ ጠረጴዛ፣ ለብቻው ይሸጣል።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/standalone-glass-table-thumb.webp",
+    "image_full": "assets/products/standalone-glass-table-full.webp",
+    "images": [
+      {
+        "image": "https://images.auctionet.com/thumbs/large_item_4520783_87ed7ba9de.jpg"
+      }
+    ],
+    "id": "standalone-glass-table",
+    "image": "",
+    "price_display_en": "15,000 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "Glass-Top Table",
+    "category": "chairs-tables",
+    "price_display_am": "15,000 ብር"
+  },
+  {
+    "name_am": "4 ወንበር ከ70x70 ጥቁር መስታወት ጠረጴዛ ጋር",
+    "source_post": "https://t.me/atlantictradingtent/112",
+    "price": 25900,
+    "features_en": [
+      "Set of 4 chairs",
+      "70×70cm black glass table",
+      "Compact footprint",
+      "Weatherproof, easy to clean"
+    ],
+    "description_en": "4-chair seating set with a 70×70cm black glass table — a compact option for cafés and restaurants.",
+    "features_am": [
+      "4 ወንበሮች",
+      "70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ",
+      "አነስተኛ ቦታ የሚይዝ",
+      "የአየር ፀባይ የሚቋቋምና ለማጽዳት ቀላል"
+    ],
+    "tag_en": "Bestseller",
+    "description_am": "4 ወንበር ከ70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ ጋር — ለካፌና ለምግብ ቤት ምቹ የሆነ አነስተኛ ስብስብ።",
+    "price_type": "flat",
+    "tag_am": "ተፈላጊ",
+    "image_thumb": "assets/products/table-set-70x70-glass-thumb.webp",
+    "image_full": "assets/products/table-set-70x70-glass-full.webp",
+    "images": [
+      {
+        "image": "https://m.media-amazon.com/images/I/41ddq2QsQ5L.jpg"
+      }
+    ],
+    "id": "table-set-70x70-glass",
+    "image": "",
+    "price_display_en": "25,900 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "4-Chair Set with 70×70 Black Glass Table",
+    "category": "chairs-tables",
+    "price_display_am": "25,900 ብር"
+  },
+  {
+    "name_am": "4 ወንበር ከመስታወት ጠረጴዛ ጋር",
+    "source_post": "https://t.me/atlantictradingtent/159",
+    "price": 60000,
+    "features_en": [
+      "Set of 4 matching chairs",
+      "Glass-top table included",
+      "Great for cafés, restaurants, gardens",
+      "Weatherproof, easy to clean"
+    ],
+    "description_en": "Complete outdoor seating set — 4 chairs with a glass-top table. Ideal for cafés, restaurants, and gardens.",
+    "features_am": [
+      "4 ተመሳሳይ ወንበሮች",
+      "የመስታወት ጠረጴዛ ያካትታል",
+      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
+      "የአየር ፀባይ የሚቋቋምና ለማጽዳት ቀላል"
+    ],
+    "tag_en": "Bestseller",
+    "description_am": "ሙሉ የውጪ መቀመጫ ስብስብ — 4 ወንበር ከመስታወት ጠረጴዛ ጋር። ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ።",
+    "price_type": "flat",
+    "tag_am": "ተፈላጊ",
+    "image_thumb": "assets/products/table-set-glass-thumb.webp",
+    "image_full": "assets/products/table-set-glass-full.webp",
+    "images": [
+      {
+        "image": "https://m.media-amazon.com/images/I/41AaCnvwNRL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "image": "assets/products/table-set-glass-thumb.webp"
+      }
+    ],
+    "id": "table-set-glass",
+    "image": "",
+    "price_display_en": "60,000 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "4-Chair Set with Glass Table",
+    "category": "chairs-tables",
+    "price_display_am": "60,000 ብር"
+  },
+  {
+    "name_am": "4 ወንበር ከMDF ጠረጴዛ ጋር",
+    "source_post": "https://t.me/atlantictradingtent/28",
+    "price": 17500,
+    "features_en": [
+      "Set of 4 chairs",
+      "Solid MDF wood table",
+      "Sturdy build",
+      "Suitable indoors or outdoors"
+    ],
+    "description_en": "4-chair set with a solid MDF wood table — a sturdier, indoor-friendly alternative.",
+    "features_am": [
+      "4 ወንበሮች",
+      "ጠንካራ MDF እንጨት ጠረጴዛ",
+      "ጠንካራ ግንባታ",
+      "ለቤት ውስጥም ለውጪም ተስማሚ"
+    ],
+    "tag_en": "New",
+    "description_am": "4 ወንበር ከጠንካራ MDF እንጨት ጠረጴዛ ጋር — ለቤት ውስጥም ተስማሚ ጠንካራ አማራጭ።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/table-set-mdf-thumb.webp",
+    "note": "Only post mentioning the MDF table (Jun 4) — worth double-checking this is still in stock at this price.",
+    "image_full": "assets/products/table-set-mdf-full.webp",
+    "images": [
+      {
+        "image": "https://file.hstatic.net/1000181810/file/bo-ban-ghe-nhua-duc-ngoai-troi-hv3018_8ba013c1cfae4ec1a798de00d3ec697e_grande.jpg"
+      }
+    ],
+    "id": "table-set-mdf",
+    "image": "",
+    "price_display_en": "17,500 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "4-Chair Set with MDF Table",
+    "category": "chairs-tables",
+    "price_display_am": "17,500 ብር"
+  },
+  {
+    "name_am": "4 ወንበር ከፕላስቲክ ጠረጴዛ ጋር",
+    "source_post": "https://t.me/atlantictradingtent/112",
+    "price": 15800,
+    "features_en": [
+      "Set of 4 chairs",
+      "Durable plastic table",
+      "Budget-friendly",
+      "Weatherproof"
+    ],
+    "description_en": "Budget-friendly 4-chair set with a durable plastic table — great value for cafés and gardens.",
+    "features_am": [
+      "4 ወንበሮች",
+      "ጠንካራ ፕላስቲክ ጠረጴዛ",
+      "ተመጣጣኝ ዋጋ",
+      "የአየር ፀባይ የሚቋቋም"
+    ],
+    "tag_en": "New",
+    "description_am": "ተመጣጣኝ ዋጋ ያለው 4 ወንበር ከጠንካራ ፕላስቲክ ጠረጴዛ ጋር — ለካፌና ለአትክልት ስፍራ ምርጥ።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/table-set-plastic-thumb.webp",
+    "image_full": "assets/products/table-set-plastic-full.webp",
+    "images": [
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7gpe5eJOKMo5UxlPqoyUgfnBOMTkJYrYx9Shm1tWAQN9Jm5iE"
+      }
+    ],
+    "id": "table-set-plastic",
+    "image": "",
+    "price_display_en": "15,800 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "4-Chair Set with Plastic Table",
+    "category": "chairs-tables",
+    "price_display_am": "15,800 ብር"
+  },
+  {
+    "name_am": "ልዩ ዱካ",
+    "source_post": "https://t.me/atlantictradingtent/96",
+    "price": 3900,
+    "features_en": [
+      "Premium build quality",
+      "Popular with coffee shops",
+      "Durable, stackable",
+      "Comfortable, stable seat"
+    ],
+    "description_en": "A sturdier, premium version of our plastic ዱካ — popular with coffee shops.",
+    "features_am": [
+      "ልዩ ጥራት ያለው ግንባታ",
+      "በካፌዎች ተወዳጅ",
+      "ጠንካራና ተደራራቢ",
+      "ምቹና የተረጋጋ መቀመጫ"
+    ],
+    "tag_en": "Premium",
+    "description_am": "ከመደበኛው የበለጠ ጠንካራ የሆነ ልዩ ዱካ፣ ለካፌዎች ተወዳጅ።",
+    "price_type": "flat",
+    "tag_am": "ልዩ ምርት",
+    "image_thumb": "assets/products/unique-duka-thumb.webp",
+    "image_full": "assets/products/unique-duka-full.webp",
+    "images": [
+      {
+        "image": "https://tradewarehouse.co.uk/cdn/shop/files/tdOdaa18184b04aa7_1024x.jpg?v=1719423043"
+      }
+    ],
+    "id": "unique-duka",
+    "image": "",
+    "price_display_en": "3,900 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "Unique ዱካ (Premium)",
+    "category": "chairs-tables",
+    "price_display_am": "3,900 ብር"
+  },
+  {
+    "name_am": "ዙፋን ስብስብ — ወንበር፣ ጠረጴዛና ጥላ",
+    "source_post": "https://t.me/atlantictradingtent/149",
+    "features_en": [
+      "4 chairs + glass table + 1 umbrella",
+      "Choice of lit or unlit umbrella, square or round",
+      "Discount when purchasing the full bundle",
+      "Great for cafés, restaurants, gardens"
+    ],
+    "description_en": "Full outdoor set: 4 chairs, a glass table, and your choice of umbrella. Discount available when you take the full bundle.",
+    "features_am": [
+      "4 ወንበር + መስታወት ጠረጴዛ + 1 ጥላ",
+      "ማብራት ያለው ወይም የሌለው፣ ካሬ ወይም ክብ ጥላ መምረጥ ይቻላል",
+      "ሙሉ ስብስቡን ለሚወስዱ ቅናሽ",
+      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ"
+    ],
+    "tag_en": "Bundle Discount",
+    "description_am": "ሙሉ የውጪ ስብስብ፦ 4 ወንበር፣ የመስታወት ጠረጴዛ እና የመረጡት ጥላ። ሙሉ ስብስቡን ለሚወስዱ ቅናሽ አለ።",
+    "price_type": "tiered",
+    "tag_am": "የቅናሽ ስብስብ",
+    "image_thumb": "assets/products/zufan-bundle-thumb.webp",
+    "note": "Source post lists these four numbers together without saying whether they stack or replace each other — listed as separate options rather than guessed bundle math. Confirm with whoever quotes this in person before it goes live.",
+    "image_full": "assets/products/zufan-bundle-full.webp",
+    "images": [
+      {
+        "image": "assets/products/chatgpt-image-aug-14-2026-03_11_21-pm.png"
+      }
+    ],
+    "price_tiers": [
+      {
+        "size": "Chairs + table only",
+        "price": 79000
+      },
+      {
+        "size": "+ Round umbrella (no light)",
+        "price": 65000
+      },
+      {
+        "size": "+ Square umbrella (no light)",
+        "price": 75000
+      },
+      {
+        "size": "+ Lit umbrella",
+        "price": 90000
+      }
+    ],
+    "id": "zufan-bundle",
+    "image": "",
+    "price_display_en": "From 65,000 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "Zufan Set — Chairs, Table & Umbrella Bundle",
+    "category": "chairs-tables",
+    "price_display_am": "ከ 65,000 ብር ጀምሮ"
+  },
+  {
+    "name_am": "ድርብ የመወልወያ መጭመቅያ",
+    "source_post": "https://t.me/atlantictradingtent/70",
+    "price": 18000,
+    "features_en": [
+      "Dual-bucket wringer system",
+      "Heavy-duty commercial build",
+      "Ideal for hotels, hospitals, schools",
+      "Easy to maneuver"
+    ],
+    "description_en": "Heavy-duty dual mop bucket with wringer, built for hotels, hospitals, schools, and offices.",
+    "features_am": [
+      "ድርብ የመወልወያ ሲስተም",
+      "ጠንካራ የንግድ ደረጃ ግንባታ",
+      "ለሆቴል፣ ሆስፒታልና ትምህርት ቤት ተስማሚ",
+      "በቀላሉ የሚንቀሳቀስ"
+    ],
+    "tag_en": "New",
+    "description_am": "ጠንካራ ድርብ የመወልወያ መጭመቅያ ለሆቴሎች፣ ሆስፒታሎች፣ ትምህርት ቤቶች እና ቢሮዎች።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/mop-bucket-wringer-thumb.webp",
+    "image_full": "assets/products/mop-bucket-wringer-full.webp",
+    "images": [
+      {
+        "image": "data:image/jpeg;base64,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"
+      },
+      {
+        "image": "assets/products/mop-bucket-wringer-full.webp"
+      }
+    ],
+    "id": "mop-bucket-wringer",
+    "image": "",
+    "price_display_en": "18,000 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "Dual Mop Bucket & Wringer",
+    "category": "plastics",
+    "price_display_am": "18,000 ብር"
+  },
+  {
+    "name_am": "ድርብ ጥላ",
+    "source_post": "https://t.me/atlantictradingtent/73",
+    "features_en": [
+      "Double-layer canopy",
+      "Table-mountable design",
+      "Great for cafés, restaurants, gardens",
+      "Stand sold separately (+1,500 ETB)"
+    ],
+    "description_en": "Double-layer, table-mountable outdoor shade — for cafés, restaurants, gardens, and sun cover. Stand sold separately (+1,500 ETB).",
+    "features_am": [
+      "ድርብ ሽፋን ያለው",
+      "ጠረጴዛ ላይ የሚተከል ንድፍ",
+      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
+      "መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)"
+    ],
+    "tag_en": "New",
+    "description_am": "ጠረጴዛ ላይ የሚተከል ድርብ ጥላ — ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ። መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)።",
+    "price_type": "tiered",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/double-layer-shade-thumb.webp",
+    "image_full": "assets/products/double-layer-shade-full.webp",
+    "images": [
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTblReIZw_yzORBIl1XZ_UwE4b-uq8_ClPnB1cPYZihBg&s=10"
+      }
+    ],
+    "price_tiers": [
+      {
+        "size": "2.6×2.6m",
+        "price": 7000
+      },
+      {
+        "size": "3×3m",
+        "price": 8000
+      }
+    ],
+    "id": "double-layer-shade",
+    "image": "",
+    "price_display_en": "From 7,000 ETB (+1,500 stand)",
+    "date_published": "2026-08-14",
+    "name_en": "Double-Layer Shade",
+    "category": "umbrellas",
+    "price_display_am": "ከ 7,000 ብር ጀምሮ (+1,500 መቆምያ)"
+  },
+  {
+    "name_am": "ጐጆ ጥላ",
+    "source_post": "https://t.me/atlantictradingtent/84",
+    "features_en": [
+      "Hut-style canopy with wind vent",
+      "Sun and weather cover",
+      "Great for cafés, restaurants, gardens",
+      "Stand sold separately (+1,500 ETB)"
+    ],
+    "description_en": "Hut-shaped outdoor shade with a wind vent opening — for cafés, restaurants, gardens, and sun cover. Stand sold separately (+1,500 ETB).",
+    "features_am": [
+      "ንፋስ ማስገቢያ ያለው የጐጆ ቅርፅ",
+      "ፀሐይና የአየር ፀባይ መከላከያ",
+      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
+      "መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)"
+    ],
+    "tag_en": "New",
+    "description_am": "ንፋስ ማስገቢያ ያለው ጐጆ ቅርፅ ጥላ — ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ። መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)።",
+    "price_type": "tiered",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/gojo-shade-thumb.webp",
+    "image_full": "assets/products/gojo-shade-full.webp",
+    "images": [
+      {
+        "image": "https://5.imimg.com/data5/TR/EK/MY-3122059/garden-umbrella-8-27-wine-red-500x500.jpg"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv5VunN7p9AYBMxfOoq93vkB4VKY7sPnk035xHYkcFtJLyTRNw"
+      }
+    ],
+    "price_tiers": [
+      {
+        "size": "2.5×2.5m",
+        "price": 7500
+      },
+      {
+        "size": "3×3m",
+        "price": 9500
+      }
+    ],
+    "id": "gojo-shade",
+    "image": "",
+    "price_display_en": "From 7,500 ETB (+1,500 stand)",
+    "date_published": "2026-08-14",
+    "name_en": "Gojo-Style Hut Shade",
+    "category": "umbrellas",
+    "price_display_am": "ከ 7,500 ብር ጀምሮ (+1,500 መቆምያ)"
+  },
+  {
+    "name_am": "የእጅ ጥላ (ማብራት ያለው)",
+    "source_post": "https://t.me/atlantictradingtent/153",
+    "price": 1900,
+    "features_en": [
+      "Built-in light for visibility at night",
+      "Compact, easy to carry",
+      "Available in multiple colors",
+      "Great for kids"
+    ],
+    "description_en": "Compact handheld umbrella with a built-in light — perfect for rainy-season evenings. Available in multiple colors, for boys and girls.",
+    "features_am": [
+      "በሌሊት ለመታየት የሚረዳ ማብራት አለው",
+      "ለመያዝ ቀላል መጠን",
+      "በተለያዩ ቀለማት ይገኛል",
+      "ለልጆች ተስማሚ"
+    ],
+    "tag_en": "New",
+    "description_am": "ማብራት ያለው ትንሽ የእጅ ጥላ፣ ለክረምት ምሽት ተስማሚ። በተለያዩ ቀለማት ለወንድ እና ለሴት ልጆች ይገኛል።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/handheld-light-umbrella-thumb.webp",
+    "image_full": "assets/products/handheld-light-umbrella-full.webp",
+    "images": [
+      {
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHmLbDmwoTX4f2PprCfdVPbzc8-ftZLDNlyIhZY0DhpoF3UCxG"
+      },
+      {
+        "image": "assets/products/handheld-light-umbrella-full.webp"
+      }
+    ],
+    "id": "handheld-light-umbrella",
+    "image": "",
+    "price_display_en": "1,900 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "Handheld Umbrella with Light",
+    "category": "umbrellas",
+    "price_display_am": "1,900 ብር"
+  },
+  {
     "name_am": "3x3 ባለ ማብራት ጥላ ከኃይል ባንክ ጋር",
     "source_post": "https://t.me/atlantictradingtent/164",
     "price": 110000,
@@ -248,462 +807,5 @@
     "name_en": "Strong New Chair ",
     "category": "chairs-tables",
     "price_display_am": "1900 ብር"
-  },
-  {
-    "id": "arm-chair",
-    "name_en": "Arm Chair",
-    "name_am": "የክንድ ወንበር",
-    "category": "chairs-tables",
-    "tag_en": "Bestseller",
-    "tag_am": "ተፈላጊ",
-    "image": "https://cdn4.telesco.pe/file/PV4IvEHSnkjqPGMu6UzeINN0vRE-EXhfAxk2aN0AKbMbxLFzU_ksDhqMgj-mIMHKqCY_wXedVosNUQYX8MptBFEUYOT5UUx6O7WPIWjZiXL4dibg9HMjivnPt9I02Np3rNPr-6m-2BjWgFEAPeuUiV18lhzDnl2XS71HCg1x8ekFvhz7WSUJ7bD7lHZ1uftSjo9X2SHDGu0SiCSe82K0m9t_CmTiP1X4snrj5LqNxWGct6NOjyDNjnow0x_vBPjSx3qHOvVuMfi4o6aOYodB2oFIywT5vHV33HJ54KUBGfJV4IbR-BEa0oX2vaSvdlgV7kt9A8qYbbptG12NY10xcw.jpg",
-    "description_en": "Comfortable, neat plastic arm chair for cafés, restaurants, gardens, and homes.",
-    "description_am": "ምቹና ንፁህ የክንድ ወንበር ለካፌዎች፣ ምግብ ቤቶች፣ የአትክልት ስፍራ እና ለቤት ተስማሚ።",
-    "features_en": [
-      "Comfortable armrest design",
-      "Neat, quality finish",
-      "Great for cafés and gardens",
-      "Durable everyday use"
-    ],
-    "features_am": [
-      "ምቹ የክንድ ንድፍ",
-      "ንፁህና ጥራት ያለው",
-      "ለካፌና ለአትክልት ስፍራ ተስማሚ",
-      "ለዕለት ተዕለት አገልግሎት ጠንካራ"
-    ],
-    "price_type": "flat",
-    "price": 5700,
-    "price_display_en": "5,700 ETB",
-    "price_display_am": "5,700 ብር",
-    "source_post": "https://t.me/atlantictradingtent/88",
-    "image_thumb": "assets/products/arm-chair-thumb.webp",
-    "image_full": "assets/products/arm-chair-full.webp"
-  },
-  {
-    "id": "armless-chair",
-    "name_en": "Armless Chair",
-    "name_am": "ያለ ክንድ ወንበር",
-    "category": "chairs-tables",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/PV4IvEHSnkjqPGMu6UzeINN0vRE-EXhfAxk2aN0AKbMbxLFzU_ksDhqMgj-mIMHKqCY_wXedVosNUQYX8MptBFEUYOT5UUx6O7WPIWjZiXL4dibg9HMjivnPt9I02Np3rNPr-6m-2BjWgFEAPeuUiV18lhzDnl2XS71HCg1x8ekFvhz7WSUJ7bD7lHZ1uftSjo9X2SHDGu0SiCSe82K0m9t_CmTiP1X4snrj5LqNxWGct6NOjyDNjnow0x_vBPjSx3qHOvVuMfi4o6aOYodB2oFIywT5vHV33HJ54KUBGfJV4IbR-BEa0oX2vaSvdlgV7kt9A8qYbbptG12NY10xcw.jpg",
-    "description_en": "Same quality and comfort as our arm chair, without armrests — a more affordable option.",
-    "description_am": "ከክንድ ወንበሩ ጋር ተመሳሳይ ጥራትና ምቾት ያለው፣ ያለ ክንድ በተመጣጣኝ ዋጋ።",
-    "features_en": [
-      "Comfortable, neat design",
-      "More affordable option",
-      "Great for cafés and restaurants",
-      "Durable everyday use"
-    ],
-    "features_am": [
-      "ምቹና ንፁህ ንድፍ",
-      "ተመጣጣኝ ዋጋ",
-      "ለካፌና ለምግብ ቤት ተስማሚ",
-      "ጠንካራ"
-    ],
-    "price_type": "flat",
-    "price": 5200,
-    "price_display_en": "5,200 ETB",
-    "price_display_am": "5,200 ብር",
-    "source_post": "https://t.me/atlantictradingtent/88",
-    "image_thumb": "assets/products/armless-chair-thumb.webp",
-    "image_full": "assets/products/armless-chair-full.webp"
-  },
-  {
-    "id": "plastic-duka-small",
-    "name_en": "Small Plastic Stool (ዱካ)",
-    "name_am": "ትንሽ የፕላስቲክ ዱካ",
-    "category": "chairs-tables",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/PTbvSXjHvOHuAA0Lmw7oLATL8PLlclX9MoiSeJBqgs7Ycr8iN2jgocIak6pWRJu-B202SkPc9WSqtyDkf1yEASeVkd-Rane86vPk_lDMUAC5wq8IjGivWWVyZhAD6KHizWuykqJn-ZB315jw_nMkyJVBiN_i3P0hZNXV9Onb3yCkcqoUbI9sv5VYe3Ez1CWkxHIP3wSF9AndgE4PbWplWuUsdTdAIRWCRgsXPAUuuNc95L1SS4fxQrMdIuNbyvEIjvQObIB955Ezv9FjrU1V1ISEf2riiaxhw0wcUOAkBoPGpZzZdFmMn6ea3ToSKGhzHbOSlnsp41vVi4zJcCNZQQ.jpg",
-    "description_en": "A compact, budget-friendly plastic stool for cafés and coffee shops.",
-    "description_am": "ትንሽ፣ ተመጣጣኝ ዋጋ ያለው የፕላስቲክ ዱካ ለካፌዎችና ለምግብ ቤቶች ተስማሚ።",
-    "features_en": [
-      "Compact and lightweight",
-      "Budget-friendly",
-      "Durable plastic build",
-      "Great for cafés and coffee shops"
-    ],
-    "features_am": [
-      "ትንሽና ቀላል",
-      "ተመጣጣኝ ዋጋ",
-      "ጠንካራ ፕላስቲክ",
-      "ለካፌና ለቡና ቤት ተስማሚ"
-    ],
-    "price_type": "flat",
-    "price": 450,
-    "price_display_en": "450 ETB",
-    "price_display_am": "450 ብር",
-    "source_post": "https://t.me/atlantictradingtent/119",
-    "image_thumb": "assets/products/plastic-duka-small-thumb.webp",
-    "image_full": "assets/products/plastic-duka-small-full.webp"
-  },
-  {
-    "id": "standalone-glass-table",
-    "name_en": "Glass-Top Table",
-    "name_am": "የመስታወት ጠረጴዛ",
-    "category": "chairs-tables",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/CEnF73TkPberFLG88KmFWGROwO55--bOhtMFkGbn8Po7MkOf1MI5axa-XLUhdHvtB-y0dgJUCKHc2Ba6JtID-6rxmoacjh8syXC8KzVjxbvjmf5cN6GeYu0GwACoLXGkawPnxO0keGM5OZoW0ZyjKMFKpysq5KiuWtBr64qXGCzt1pNpC8zmp28BW6uUJPg1KKyeDDN0evPAP_OGtne-Cu-HSicFrtncvkbAlzmN0TlegjVKwAQRzsB14NlRORan5wu5V5qvNArRH21xon6qDwaF0UzEpsCxn0uqmebRyyda1MqOcjEDf5XozkBk8LJM5T1XoUl2WJ5NKLwwb4zKeA.jpg",
-    "description_en": "Clean-finish table with a glass top, sold separately from chair sets.",
-    "description_am": "የመስታወት ላይ ገጽታ ያለው ንፁህ ጠረጴዛ፣ ለብቻው ይሸጣል።",
-    "features_en": [
-      "Clean glass-top finish",
-      "Sold separately from chairs",
-      "Sturdy frame",
-      "Easy to wipe clean"
-    ],
-    "features_am": [
-      "ንፁህ የመስታወት ገጽታ",
-      "ለብቻው የሚሸጥ",
-      "ጠንካራ ፍሬም",
-      "በቀላሉ የሚጸዳ"
-    ],
-    "price_type": "flat",
-    "price": 15000,
-    "price_display_en": "15,000 ETB",
-    "price_display_am": "15,000 ብር",
-    "source_post": "https://t.me/atlantictradingtent/50",
-    "image_thumb": "assets/products/standalone-glass-table-thumb.webp",
-    "image_full": "assets/products/standalone-glass-table-full.webp"
-  },
-  {
-    "id": "table-set-70x70-glass",
-    "name_en": "4-Chair Set with 70×70 Black Glass Table",
-    "name_am": "4 ወንበር ከ70x70 ጥቁር መስታወት ጠረጴዛ ጋር",
-    "category": "chairs-tables",
-    "tag_en": "Bestseller",
-    "tag_am": "ተፈላጊ",
-    "image": "https://cdn4.telesco.pe/file/cT_okCWW5f7kPeMwXhIqxB9TOpZ7oK1Qo0nEBrPW23O87FA_3Nhj9HQUyJAoj7oQO1De0jclaw-ZC63n3Xq-W_qO_kvyaQuDyO5nURvddy94PBOmP4jvfq_p6DzRs3C0bdcq7fcv5MoEboDvO2YZVEwJC6TWcw5RYUFffJr8IH0rPmi0911EZYX-9jvapozleL8UeMaHvDjI-ovbDIMOxfYo2aAEUinWISm7_Q92cwMzqUgN--_H57qsACq8nLGlbk5aPer68hpGEQ7iuQl8xR84ODRo2TZDtnTkQV4ZMDekgsR9krQGEC7KyY6QVHMz7EEJa5qMK6nZtl9E6huZ3w.jpg",
-    "description_en": "4-chair seating set with a 70×70cm black glass table — a compact option for cafés and restaurants.",
-    "description_am": "4 ወንበር ከ70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ ጋር — ለካፌና ለምግብ ቤት ምቹ የሆነ አነስተኛ ስብስብ።",
-    "features_en": [
-      "Set of 4 chairs",
-      "70×70cm black glass table",
-      "Compact footprint",
-      "Weatherproof, easy to clean"
-    ],
-    "features_am": [
-      "4 ወንበሮች",
-      "70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ",
-      "አነስተኛ ቦታ የሚይዝ",
-      "የአየር ፀባይ የሚቋቋምና ለማጽዳት ቀላል"
-    ],
-    "price_type": "flat",
-    "price": 25900,
-    "price_display_en": "25,900 ETB",
-    "price_display_am": "25,900 ብር",
-    "source_post": "https://t.me/atlantictradingtent/112",
-    "image_thumb": "assets/products/table-set-70x70-glass-thumb.webp",
-    "image_full": "assets/products/table-set-70x70-glass-full.webp"
-  },
-  {
-    "id": "table-set-glass",
-    "name_en": "4-Chair Set with Glass Table",
-    "name_am": "4 ወንበር ከመስታወት ጠረጴዛ ጋር",
-    "category": "chairs-tables",
-    "tag_en": "Bestseller",
-    "tag_am": "ተፈላጊ",
-    "image": "https://cdn4.telesco.pe/file/KgqfsCn95qvXspGtnxdDcLytUGWF4Io_FA7ohwf50dM6t4rfdJOvysnuWsGjy4uvv-WmrkpVNhHXNRF4d2qaYEVr7rhk4eUsXVlgsitp3bu2iGyBydvUgVDtIS_y4_dMFcdXAM6jlGPOEv3_H3jKsiOth7XA01u-5CydudBq1MP_YF62WUXRwk8PBVvasFcwn0K9ujvQdwlpvKzl5Vnr9mknrxCLKRhxtUJD6HtNT3C9xZjPVmQKnic2YD5GB-cPLBsOZW4MGBzafXbsHZvMSl6trs1JzCFZDJv_qgNwCWcOITmCkp2A779tv99cX0oPnvSA0HRgL0PpDS9oNVJ8KQ.jpg",
-    "description_en": "Complete outdoor seating set — 4 chairs with a glass-top table. Ideal for cafés, restaurants, and gardens.",
-    "description_am": "ሙሉ የውጪ መቀመጫ ስብስብ — 4 ወንበር ከመስታወት ጠረጴዛ ጋር። ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ።",
-    "features_en": [
-      "Set of 4 matching chairs",
-      "Glass-top table included",
-      "Great for cafés, restaurants, gardens",
-      "Weatherproof, easy to clean"
-    ],
-    "features_am": [
-      "4 ተመሳሳይ ወንበሮች",
-      "የመስታወት ጠረጴዛ ያካትታል",
-      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
-      "የአየር ፀባይ የሚቋቋምና ለማጽዳት ቀላል"
-    ],
-    "price_type": "flat",
-    "price": 60000,
-    "price_display_en": "60,000 ETB",
-    "price_display_am": "60,000 ብር",
-    "source_post": "https://t.me/atlantictradingtent/159",
-    "image_thumb": "assets/products/table-set-glass-thumb.webp",
-    "image_full": "assets/products/table-set-glass-full.webp"
-  },
-  {
-    "id": "table-set-mdf",
-    "name_en": "4-Chair Set with MDF Table",
-    "name_am": "4 ወንበር ከMDF ጠረጴዛ ጋር",
-    "category": "chairs-tables",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/VJYhWKoz26LeBzj2pclm--gfDn7vdX8-0dnhjvgK6iFjdqP6oB2gRJhJCdtV8JnL67biG3_706SsLFQsp2r0bQ_f36rlk8OoGyCkDVXTa0vbq3ABVEehGuU6dIMxgrfp4fAD9GQkXoC1QTGzWPCbAXCNO02mMvLlibcGPJNdcbiA66Odq-8g8dhpLkc8eSp19KytJvOWFwTJFc-WK8zlEWZsGrsLwbbQpveJH-EVt3u6SSQSTl4zvc-YjWGbAwiOg4iJ_YOl0Q31to9vVH5WPdds3IonvgePh5TDVLSGvoyLKWMq9fPehst9cf3BFjU4FwCSdaHGBLzrvm9_FUC-mA.jpg",
-    "description_en": "4-chair set with a solid MDF wood table — a sturdier, indoor-friendly alternative.",
-    "description_am": "4 ወንበር ከጠንካራ MDF እንጨት ጠረጴዛ ጋር — ለቤት ውስጥም ተስማሚ ጠንካራ አማራጭ።",
-    "features_en": [
-      "Set of 4 chairs",
-      "Solid MDF wood table",
-      "Sturdy build",
-      "Suitable indoors or outdoors"
-    ],
-    "features_am": [
-      "4 ወንበሮች",
-      "ጠንካራ MDF እንጨት ጠረጴዛ",
-      "ጠንካራ ግንባታ",
-      "ለቤት ውስጥም ለውጪም ተስማሚ"
-    ],
-    "price_type": "flat",
-    "price": 17500,
-    "price_display_en": "17,500 ETB",
-    "price_display_am": "17,500 ብር",
-    "note": "Only post mentioning the MDF table (Jun 4) — worth double-checking this is still in stock at this price.",
-    "source_post": "https://t.me/atlantictradingtent/28",
-    "image_thumb": "assets/products/table-set-mdf-thumb.webp",
-    "image_full": "assets/products/table-set-mdf-full.webp"
-  },
-  {
-    "id": "table-set-plastic",
-    "name_en": "4-Chair Set with Plastic Table",
-    "name_am": "4 ወንበር ከፕላስቲክ ጠረጴዛ ጋር",
-    "category": "chairs-tables",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/cT_okCWW5f7kPeMwXhIqxB9TOpZ7oK1Qo0nEBrPW23O87FA_3Nhj9HQUyJAoj7oQO1De0jclaw-ZC63n3Xq-W_qO_kvyaQuDyO5nURvddy94PBOmP4jvfq_p6DzRs3C0bdcq7fcv5MoEboDvO2YZVEwJC6TWcw5RYUFffJr8IH0rPmi0911EZYX-9jvapozleL8UeMaHvDjI-ovbDIMOxfYo2aAEUinWISm7_Q92cwMzqUgN--_H57qsACq8nLGlbk5aPer68hpGEQ7iuQl8xR84ODRo2TZDtnTkQV4ZMDekgsR9krQGEC7KyY6QVHMz7EEJa5qMK6nZtl9E6huZ3w.jpg",
-    "description_en": "Budget-friendly 4-chair set with a durable plastic table — great value for cafés and gardens.",
-    "description_am": "ተመጣጣኝ ዋጋ ያለው 4 ወንበር ከጠንካራ ፕላስቲክ ጠረጴዛ ጋር — ለካፌና ለአትክልት ስፍራ ምርጥ።",
-    "features_en": [
-      "Set of 4 chairs",
-      "Durable plastic table",
-      "Budget-friendly",
-      "Weatherproof"
-    ],
-    "features_am": [
-      "4 ወንበሮች",
-      "ጠንካራ ፕላስቲክ ጠረጴዛ",
-      "ተመጣጣኝ ዋጋ",
-      "የአየር ፀባይ የሚቋቋም"
-    ],
-    "price_type": "flat",
-    "price": 15800,
-    "price_display_en": "15,800 ETB",
-    "price_display_am": "15,800 ብር",
-    "source_post": "https://t.me/atlantictradingtent/112",
-    "image_thumb": "assets/products/table-set-plastic-thumb.webp",
-    "image_full": "assets/products/table-set-plastic-full.webp"
-  },
-  {
-    "id": "unique-duka",
-    "name_en": "Unique ዱካ (Premium)",
-    "name_am": "ልዩ ዱካ",
-    "category": "chairs-tables",
-    "tag_en": "Premium",
-    "tag_am": "ልዩ ምርት",
-    "image": "https://cdn4.telesco.pe/file/i1HrsUpwUFHyRBxF48fdqMJQm6GXmSpORL3qp8rP5LZJQ4BwoagVNkCKNWww6_vCY9u9zefdMTxuTg6s4a7YrskelJFekwYsDzI_fntRSKVb3rTgmJL1Pf4lRQ5XtaLMEOf5_XFEMefyA7tXRMK3xKWU4IxbhYZdu1gMZVGKlE-AkHm1UrSW9pIX-hwbQAhnmQGc2trIztGh_u1MQ_6zAIbROFlj88WFiPglt3MQbv1nfI1Mbbyb1EeUjnnmiyu7_sphzxHAMXNjVT6GpyETxFO0Xn_A9r9EHq_QfdRXDj0VmgBckczN1e9wStKDKSTmddljyojkpPoIzn0uHM8Viw.jpg",
-    "description_en": "A sturdier, premium version of our plastic ዱካ — popular with coffee shops.",
-    "description_am": "ከመደበኛው የበለጠ ጠንካራ የሆነ ልዩ ዱካ፣ ለካፌዎች ተወዳጅ።",
-    "features_en": [
-      "Premium build quality",
-      "Popular with coffee shops",
-      "Durable, stackable",
-      "Comfortable, stable seat"
-    ],
-    "features_am": [
-      "ልዩ ጥራት ያለው ግንባታ",
-      "በካፌዎች ተወዳጅ",
-      "ጠንካራና ተደራራቢ",
-      "ምቹና የተረጋጋ መቀመጫ"
-    ],
-    "price_type": "flat",
-    "price": 3900,
-    "price_display_en": "3,900 ETB",
-    "price_display_am": "3,900 ብር",
-    "source_post": "https://t.me/atlantictradingtent/96",
-    "image_thumb": "assets/products/unique-duka-thumb.webp",
-    "image_full": "assets/products/unique-duka-full.webp"
-  },
-  {
-    "id": "zufan-bundle",
-    "name_en": "Zufan Set — Chairs, Table & Umbrella Bundle",
-    "name_am": "ዙፋን ስብስብ — ወንበር፣ ጠረጴዛና ጥላ",
-    "category": "chairs-tables",
-    "tag_en": "Bundle Discount",
-    "tag_am": "የቅናሽ ስብስብ",
-    "image": "https://cdn4.telesco.pe/file/QVTTVvXZ_kpGStwNGrNcS4WNN0Istye8vdCO9MldvteBTky5q5hOEevNMPPdWYnfhlnAt8-Xk6K1zZ3tYwR0sMHFbg7LVWgH7DAz-MjtIGGhaEVxnHzEIoj2G35FJL4vRLiy9RQ-QsZFS4GeAhZFjkZFK7S85xmX14_szLksvGBvUo7GZB_hPgxJEzIu98UjV_KX9jdow1N5Tahar_ioy2x5kYflC8eGZZnkYV_WgLlwGIyDcNahSvGxDtTm0q_kuFcQlWRXm2e0OIuFdEzG8TBtGjsIynpNqn10zp6JXAoGFSHAefMQemcdZ4QvrsuVFQtD3czzw6q3BPBu0Fstfw.jpg",
-    "description_en": "Full outdoor set: 4 chairs, a glass table, and your choice of umbrella. Discount available when you take the full bundle.",
-    "description_am": "ሙሉ የውጪ ስብስብ፦ 4 ወንበር፣ የመስታወት ጠረጴዛ እና የመረጡት ጥላ። ሙሉ ስብስቡን ለሚወስዱ ቅናሽ አለ።",
-    "features_en": [
-      "4 chairs + glass table + 1 umbrella",
-      "Choice of lit or unlit umbrella, square or round",
-      "Discount when purchasing the full bundle",
-      "Great for cafés, restaurants, gardens"
-    ],
-    "features_am": [
-      "4 ወንበር + መስታወት ጠረጴዛ + 1 ጥላ",
-      "ማብራት ያለው ወይም የሌለው፣ ካሬ ወይም ክብ ጥላ መምረጥ ይቻላል",
-      "ሙሉ ስብስቡን ለሚወስዱ ቅናሽ",
-      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ"
-    ],
-    "price_type": "tiered",
-    "price_display_en": "From 65,000 ETB",
-    "price_display_am": "ከ 65,000 ብር ጀምሮ",
-    "price_tiers": [
-      {
-        "size": "Chairs + table only",
-        "price": 79000
-      },
-      {
-        "size": "+ Round umbrella (no light)",
-        "price": 65000
-      },
-      {
-        "size": "+ Square umbrella (no light)",
-        "price": 75000
-      },
-      {
-        "size": "+ Lit umbrella",
-        "price": 90000
-      }
-    ],
-    "note": "Source post lists these four numbers together without saying whether they stack or replace each other — listed as separate options rather than guessed bundle math. Confirm with whoever quotes this in person before it goes live.",
-    "source_post": "https://t.me/atlantictradingtent/149",
-    "image_thumb": "assets/products/zufan-bundle-thumb.webp",
-    "image_full": "assets/products/zufan-bundle-full.webp"
-  },
-  {
-    "id": "mop-bucket-wringer",
-    "name_en": "Dual Mop Bucket & Wringer",
-    "name_am": "ድርብ የመወልወያ መጭመቅያ",
-    "category": "plastics",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/MocB-BfQWmHpRjVi_QGfH3WxdjIlf7O6SVxy0S6jqoiQHhketZORe2wcdXHkf1keLXToyYHl1-X1xweHbNJ5MKyJ7IGtqjXfyowWEIb8K1XHDG48BIp8OwF7E9DWhcWw7xWiRTAW9g-1qsnbFoWVyvienyn2nK_mHvbtxxTvmlK0Z05bujAGuxdscF_SWFmv0k8AZg174nSjdfj5WLwEp2_lDfcOTrdB-pgQ7KL6IivO5YPeLmt9ERdSmTfvPhuSfo9mh4wHLVULuUfpp2Wx5LDQfWpZN9zAo6IqMlsUUiwaVYV7lawBH8rrwK-EQj0v8WEO52S2Nto9DLRXrzDDnA.jpg",
-    "description_en": "Heavy-duty dual mop bucket with wringer, built for hotels, hospitals, schools, and offices.",
-    "description_am": "ጠንካራ ድርብ የመወልወያ መጭመቅያ ለሆቴሎች፣ ሆስፒታሎች፣ ትምህርት ቤቶች እና ቢሮዎች።",
-    "features_en": [
-      "Dual-bucket wringer system",
-      "Heavy-duty commercial build",
-      "Ideal for hotels, hospitals, schools",
-      "Easy to maneuver"
-    ],
-    "features_am": [
-      "ድርብ የመወልወያ ሲስተም",
-      "ጠንካራ የንግድ ደረጃ ግንባታ",
-      "ለሆቴል፣ ሆስፒታልና ትምህርት ቤት ተስማሚ",
-      "በቀላሉ የሚንቀሳቀስ"
-    ],
-    "price_type": "flat",
-    "price": 18000,
-    "price_display_en": "18,000 ETB",
-    "price_display_am": "18,000 ብር",
-    "source_post": "https://t.me/atlantictradingtent/70",
-    "image_thumb": "assets/products/mop-bucket-wringer-thumb.webp",
-    "image_full": "assets/products/mop-bucket-wringer-full.webp"
-  },
-  {
-    "id": "double-layer-shade",
-    "name_en": "Double-Layer Shade",
-    "name_am": "ድርብ ጥላ",
-    "category": "umbrellas",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/PXCSyKy-qkkDRLxXy8hG1gjI4fzo6MWBoM3EO5YPYgJT5ZzlqP9MhdIyjkRbWRct_69o9oqJORqeyyRzrpze4UCBzYhaXXzqQRrKp3u_IK7McAJMBtKFn6YzO99oN4Q2z1yMVDP0MsCkYfRc8IyHIb5aCVDKZeEQmLO0SGOW9bJWYYYSS3xvXcXpgi_SErmkCMgAq2MDy9J6o9qxNTTWQT7_aHa3Y2psNrozXxZLS3LpoUDWYtQgOSEm0tGzAb5x_VyYh1eXebq-2GYoFz0Ocx7JB-JuwejzEO66h-CPux-igJLcnlCx6tOoD_kofcIXGvEQOYuzXuWC3khcNKnc2g.jpg",
-    "description_en": "Double-layer, table-mountable outdoor shade — for cafés, restaurants, gardens, and sun cover. Stand sold separately (+1,500 ETB).",
-    "description_am": "ጠረጴዛ ላይ የሚተከል ድርብ ጥላ — ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ። መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)።",
-    "features_en": [
-      "Double-layer canopy",
-      "Table-mountable design",
-      "Great for cafés, restaurants, gardens",
-      "Stand sold separately (+1,500 ETB)"
-    ],
-    "features_am": [
-      "ድርብ ሽፋን ያለው",
-      "ጠረጴዛ ላይ የሚተከል ንድፍ",
-      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
-      "መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)"
-    ],
-    "price_type": "tiered",
-    "price_display_en": "From 7,000 ETB (+1,500 stand)",
-    "price_display_am": "ከ 7,000 ብር ጀምሮ (+1,500 መቆምያ)",
-    "price_tiers": [
-      {
-        "size": "2.6×2.6m",
-        "price": 7000
-      },
-      {
-        "size": "3×3m",
-        "price": 8000
-      }
-    ],
-    "source_post": "https://t.me/atlantictradingtent/73",
-    "image_thumb": "assets/products/double-layer-shade-thumb.webp",
-    "image_full": "assets/products/double-layer-shade-full.webp"
-  },
-  {
-    "id": "gojo-shade",
-    "name_en": "Gojo-Style Hut Shade",
-    "name_am": "ጐጆ ጥላ",
-    "category": "umbrellas",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/D7TALxP_ZShWhpjblowZ52WLSB0t_HgqZ8gMJ12qQEimaPc7mmD9SNB594_FSpe_ONl8bu9lWtpE55CODQLrgxmBkg9iN8tcASHvs1MBYl4AfVB5H7z4qQoWk7XW8fyYR6Je41bv0zueSu0KRzgeVPOZqr_nK-6btzcv05ak61D36g0braqlyWB5kLj64diReTVnwnAJf38G1cziuZNnZT27mLEsa7KG1MQF9aQ-Q_hnQaSK09t_rDdYptDM0FSDnkNZDOfG3d7YL41oUsTl66GTbop2OQwlooxyci27ceqRZXQEhYn4LEskjQ_Y2rf59IzymDiQ7d12pjqhn2L0Mw.jpg",
-    "description_en": "Hut-shaped outdoor shade with a wind vent opening — for cafés, restaurants, gardens, and sun cover. Stand sold separately (+1,500 ETB).",
-    "description_am": "ንፋስ ማስገቢያ ያለው ጐጆ ቅርፅ ጥላ — ለካፌ፣ ምግብ ቤትና የአትክልት ስፍራ ተስማሚ። መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)።",
-    "features_en": [
-      "Hut-style canopy with wind vent",
-      "Sun and weather cover",
-      "Great for cafés, restaurants, gardens",
-      "Stand sold separately (+1,500 ETB)"
-    ],
-    "features_am": [
-      "ንፋስ ማስገቢያ ያለው የጐጆ ቅርፅ",
-      "ፀሐይና የአየር ፀባይ መከላከያ",
-      "ለካፌ፣ ምግብ ቤትና አትክልት ስፍራ ተስማሚ",
-      "መቆሚያ ለብቻ ይሸጣል (+1,500 ብር)"
-    ],
-    "price_type": "tiered",
-    "price_display_en": "From 7,500 ETB (+1,500 stand)",
-    "price_display_am": "ከ 7,500 ብር ጀምሮ (+1,500 መቆምያ)",
-    "price_tiers": [
-      {
-        "size": "2.5×2.5m",
-        "price": 7500
-      },
-      {
-        "size": "3×3m",
-        "price": 9500
-      }
-    ],
-    "source_post": "https://t.me/atlantictradingtent/84",
-    "image_thumb": "assets/products/gojo-shade-thumb.webp",
-    "image_full": "assets/products/gojo-shade-full.webp"
-  },
-  {
-    "id": "handheld-light-umbrella",
-    "name_en": "Handheld Umbrella with Light",
-    "name_am": "የእጅ ጥላ (ማብራት ያለው)",
-    "category": "umbrellas",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/W8lH_49FOq2dxI98PaRpmPt-fXWolxcXgDOpEfenLx82XTzEc_e6rC3NYxcjq7IlLc7FmSzFQRbZOE98RD6o87RJ9Pm9RDI8AoY0nzdxjE7fmlvGrq02CCM-4sUPju51NwzURSmwOiFKwd2FBK5MNSP7cNZbyDYBy6WKOgUB5hqsXYT-t9epOXGymCs64iGqaa1tP9Gz0KQH1UWp2XU1g-ajFaSPWhRetFpxzLSU3OzPnvkrrtCvLWia9aZDwGHmRqRRIalHXLdyxsCC912U0uPR8lj9qA6Isu0vL9mr74MAZGC1OTXQVO2KWWpXJgoS_uKjAfizNe6UoET21oykjA.jpg",
-    "description_en": "Compact handheld umbrella with a built-in light — perfect for rainy-season evenings. Available in multiple colors, for boys and girls.",
-    "description_am": "ማብራት ያለው ትንሽ የእጅ ጥላ፣ ለክረምት ምሽት ተስማሚ። በተለያዩ ቀለማት ለወንድ እና ለሴት ልጆች ይገኛል።",
-    "features_en": [
-      "Built-in light for visibility at night",
-      "Compact, easy to carry",
-      "Available in multiple colors",
-      "Great for kids"
-    ],
-    "features_am": [
-      "በሌሊት ለመታየት የሚረዳ ማብራት አለው",
-      "ለመያዝ ቀላል መጠን",
-      "በተለያዩ ቀለማት ይገኛል",
-      "ለልጆች ተስማሚ"
-    ],
-    "price_type": "flat",
-    "price": 1900,
-    "price_display_en": "1,900 ETB",
-    "price_display_am": "1,900 ብር",
-    "source_post": "https://t.me/atlantictradingtent/153",
-    "image_thumb": "assets/products/handheld-light-umbrella-thumb.webp",
-    "image_full": "assets/products/handheld-light-umbrella-full.webp"
   }
 ]
