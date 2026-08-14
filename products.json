@@ -150,6 +150,42 @@
     "price_display_am": "15,000 ብር"
   },
   {
+    "name_am": "4 ወንበር ከ70x70 ጥቁር መስታወት ጠረጴዛ ጋር",
+    "source_post": "https://t.me/atlantictradingtent/112",
+    "price": 25900,
+    "features_en": [
+      "Set of 4 chairs",
+      "70×70cm black glass table",
+      "Compact footprint",
+      "Weatherproof, easy to clean"
+    ],
+    "description_en": "4-chair seating set with a 70×70cm black glass table — a compact option for cafés and restaurants.",
+    "features_am": [
+      "4 ወንበሮች",
+      "70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ",
+      "አነስተኛ ቦታ የሚይዝ",
+      "የአየር ፀባይ የሚቋቋምና ለማጽዳት ቀላል"
+    ],
+    "tag_en": "Bestseller",
+    "description_am": "4 ወንበር ከ70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ ጋር — ለካፌና ለምግብ ቤት ምቹ የሆነ አነስተኛ ስብስብ።",
+    "price_type": "flat",
+    "tag_am": "ተፈላጊ",
+    "image_thumb": "assets/products/table-set-70x70-glass-thumb.webp",
+    "image_full": "assets/products/table-set-70x70-glass-full.webp",
+    "images": [
+      {
+        "image": "https://m.media-amazon.com/images/I/41ddq2QsQ5L.jpg"
+      }
+    ],
+    "id": "table-set-70x70-glass",
+    "image": "",
+    "price_display_en": "25,900 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "4-Chair Set with 70×70 Black Glass Table",
+    "category": "chairs-tables",
+    "price_display_am": "25,900 ብር"
+  },
+  {
     "name_am": "ድርብ የመወልወያ መጭመቅያ",
     "source_post": "https://t.me/atlantictradingtent/70",
     "price": 18000,
@@ -569,36 +605,6 @@
     "name_en": "Strong New Chair ",
     "category": "chairs-tables",
     "price_display_am": "1900 ብር"
-  },
-  {
-    "id": "table-set-70x70-glass",
-    "name_en": "4-Chair Set with 70×70 Black Glass Table",
-    "name_am": "4 ወንበር ከ70x70 ጥቁር መስታወት ጠረጴዛ ጋር",
-    "category": "chairs-tables",
-    "tag_en": "Bestseller",
-    "tag_am": "ተፈላጊ",
-    "image": "https://cdn4.telesco.pe/file/cT_okCWW5f7kPeMwXhIqxB9TOpZ7oK1Qo0nEBrPW23O87FA_3Nhj9HQUyJAoj7oQO1De0jclaw-ZC63n3Xq-W_qO_kvyaQuDyO5nURvddy94PBOmP4jvfq_p6DzRs3C0bdcq7fcv5MoEboDvO2YZVEwJC6TWcw5RYUFffJr8IH0rPmi0911EZYX-9jvapozleL8UeMaHvDjI-ovbDIMOxfYo2aAEUinWISm7_Q92cwMzqUgN--_H57qsACq8nLGlbk5aPer68hpGEQ7iuQl8xR84ODRo2TZDtnTkQV4ZMDekgsR9krQGEC7KyY6QVHMz7EEJa5qMK6nZtl9E6huZ3w.jpg",
-    "description_en": "4-chair seating set with a 70×70cm black glass table — a compact option for cafés and restaurants.",
-    "description_am": "4 ወንበር ከ70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ ጋር — ለካፌና ለምግብ ቤት ምቹ የሆነ አነስተኛ ስብስብ።",
-    "features_en": [
-      "Set of 4 chairs",
-      "70×70cm black glass table",
-      "Compact footprint",
-      "Weatherproof, easy to clean"
-    ],
-    "features_am": [
-      "4 ወንበሮች",
-      "70x70 ሴ.ሜ ጥቁር መስታወት ጠረጴዛ",
-      "አነስተኛ ቦታ የሚይዝ",
-      "የአየር ፀባይ የሚቋቋምና ለማጽዳት ቀላል"
-    ],
-    "price_type": "flat",
-    "price": 25900,
-    "price_display_en": "25,900 ETB",
-    "price_display_am": "25,900 ብር",
-    "source_post": "https://t.me/atlantictradingtent/112",
-    "image_thumb": "assets/products/table-set-70x70-glass-thumb.webp",
-    "image_full": "assets/products/table-set-70x70-glass-full.webp"
   },
   {
     "id": "table-set-glass",
