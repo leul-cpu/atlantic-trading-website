@@ -697,24 +697,8 @@ function tryEscapeInAppBrowser() {
   const isAndroid = /Android/i.test(ua);
   const currentUrl = window.location.href;
 
-  if (isAndroid) {
-    // Construct the destination URL without the protocol
-    const cleanUrl = currentUrl.replace(/^https?:\/\//, '');
-    
-    // Construct the Android intent link targeting Chrome
-    const intentUrl = `intent://${cleanUrl}#Intent;scheme=https;package=com.android.chrome;end`;
-    
-    // Attempt to redirect to the intent URL
-    window.location.href = intentUrl;
-    
-    // If the intent redirect fails (e.g., Chrome not installed or intent blocked),
-    // fallback to a normal https:// redirect after a short timeout.
-    setTimeout(() => {
-      window.location.href = currentUrl;
-    }, 1000);
-  } else {
-    // iOS (Safari): Apple enforces in-app WebKit, so code cannot force launch Safari.
-    // Instead, display a premium full-screen walkthrough modal to guide the user.
+  function showManualEscapeOverlay(url) {
+    if (document.getElementById('iab-overlay')) return;
     const overlay = document.createElement('div');
     overlay.id = 'iab-overlay';
     overlay.style.cssText = `
@@ -775,23 +759,47 @@ function tryEscapeInAppBrowser() {
         }
       </style>
     `;
-
     document.body.appendChild(overlay);
 
     // Setup Copy Link functionality
     const copyBtn = overlay.querySelector('#iab-copy-btn');
-    copyBtn.onclick = () => {
-      navigator.clipboard.writeText(currentUrl).then(() => {
-        copyBtn.textContent = 'ኮፒ ተደርጓል! (Copied!)';
-        copyBtn.style.backgroundColor = '#10b981';
-        setTimeout(() => {
-          copyBtn.textContent = 'ሊንኩን ኮፒ ያድርጉ (Copy link)';
-          copyBtn.style.backgroundColor = '#111e3c';
-        }, 2000);
-      }).catch(err => {
-        console.error('Failed to copy link: ', err);
-      });
-    };
+    if (copyBtn) {
+      copyBtn.onclick = () => {
+        navigator.clipboard.writeText(url).then(() => {
+          copyBtn.textContent = 'ኮፒ ተደርጓል! (Copied!)';
+          copyBtn.style.backgroundColor = '#10b981';
+          setTimeout(() => {
+            copyBtn.textContent = 'ሊንኩን ኮፒ ያድርጉ (Copy link)';
+            copyBtn.style.backgroundColor = '#111e3c';
+          }, 2000);
+        }).catch(err => {
+          console.error('Failed to copy link: ', err);
+        });
+      };
+    }
+  }
+
+  if (isAndroid) {
+    // Construct the destination URL without the protocol
+    const cleanUrl = currentUrl.replace(/^https?:\/\//, '');
+    
+    // Construct the Android intent link targeting Chrome
+    const intentUrl = `intent://${cleanUrl}#Intent;scheme=https;package=com.android.chrome;end`;
+    
+    // Attempt to redirect to the intent URL
+    window.location.href = intentUrl;
+    
+    // If the intent redirect fails (e.g., Chrome not installed or intent blocked),
+    // fallback to showing the manual instructions overlay.
+    setTimeout(() => {
+      if (!document.hidden) {
+        showManualEscapeOverlay(currentUrl);
+      }
+    }, 1000);
+  } else {
+    // iOS (Safari): Apple enforces in-app WebKit, so code cannot force launch Safari.
+    // Instead, display a premium full-screen walkthrough modal to guide the user.
+    showManualEscapeOverlay(currentUrl);
   }
 }
 
