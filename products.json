@@ -225,6 +225,43 @@
     "price_display_am": "60,000 ብር"
   },
   {
+    "name_am": "4 ወንበር ከMDF ጠረጴዛ ጋር",
+    "source_post": "https://t.me/atlantictradingtent/28",
+    "price": 17500,
+    "features_en": [
+      "Set of 4 chairs",
+      "Solid MDF wood table",
+      "Sturdy build",
+      "Suitable indoors or outdoors"
+    ],
+    "description_en": "4-chair set with a solid MDF wood table — a sturdier, indoor-friendly alternative.",
+    "features_am": [
+      "4 ወንበሮች",
+      "ጠንካራ MDF እንጨት ጠረጴዛ",
+      "ጠንካራ ግንባታ",
+      "ለቤት ውስጥም ለውጪም ተስማሚ"
+    ],
+    "tag_en": "New",
+    "description_am": "4 ወንበር ከጠንካራ MDF እንጨት ጠረጴዛ ጋር — ለቤት ውስጥም ተስማሚ ጠንካራ አማራጭ።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "image_thumb": "assets/products/table-set-mdf-thumb.webp",
+    "note": "Only post mentioning the MDF table (Jun 4) — worth double-checking this is still in stock at this price.",
+    "image_full": "assets/products/table-set-mdf-full.webp",
+    "images": [
+      {
+        "image": "https://file.hstatic.net/1000181810/file/bo-ban-ghe-nhua-duc-ngoai-troi-hv3018_8ba013c1cfae4ec1a798de00d3ec697e_grande.jpg"
+      }
+    ],
+    "id": "table-set-mdf",
+    "image": "https://cdn4.telesco.pe/file/VJYhWKoz26LeBzj2pclm--gfDn7vdX8-0dnhjvgK6iFjdqP6oB2gRJhJCdtV8JnL67biG3_706SsLFQsp2r0bQ_f36rlk8OoGyCkDVXTa0vbq3ABVEehGuU6dIMxgrfp4fAD9GQkXoC1QTGzWPCbAXCNO02mMvLlibcGPJNdcbiA66Odq-8g8dhpLkc8eSp19KytJvOWFwTJFc-WK8zlEWZsGrsLwbbQpveJH-EVt3u6SSQSTl4zvc-YjWGbAwiOg4iJ_YOl0Q31to9vVH5WPdds3IonvgePh5TDVLSGvoyLKWMq9fPehst9cf3BFjU4FwCSdaHGBLzrvm9_FUC-mA.jpg",
+    "price_display_en": "17,500 ETB",
+    "date_published": "2026-08-14",
+    "name_en": "4-Chair Set with MDF Table",
+    "category": "chairs-tables",
+    "price_display_am": "17,500 ብር"
+  },
+  {
     "name_am": "ድርብ የመወልወያ መጭመቅያ",
     "source_post": "https://t.me/atlantictradingtent/70",
     "price": 18000,
@@ -644,37 +681,6 @@
     "name_en": "Strong New Chair ",
     "category": "chairs-tables",
     "price_display_am": "1900 ብር"
-  },
-  {
-    "id": "table-set-mdf",
-    "name_en": "4-Chair Set with MDF Table",
-    "name_am": "4 ወንበር ከMDF ጠረጴዛ ጋር",
-    "category": "chairs-tables",
-    "tag_en": "New",
-    "tag_am": "አዲስ",
-    "image": "https://cdn4.telesco.pe/file/VJYhWKoz26LeBzj2pclm--gfDn7vdX8-0dnhjvgK6iFjdqP6oB2gRJhJCdtV8JnL67biG3_706SsLFQsp2r0bQ_f36rlk8OoGyCkDVXTa0vbq3ABVEehGuU6dIMxgrfp4fAD9GQkXoC1QTGzWPCbAXCNO02mMvLlibcGPJNdcbiA66Odq-8g8dhpLkc8eSp19KytJvOWFwTJFc-WK8zlEWZsGrsLwbbQpveJH-EVt3u6SSQSTl4zvc-YjWGbAwiOg4iJ_YOl0Q31to9vVH5WPdds3IonvgePh5TDVLSGvoyLKWMq9fPehst9cf3BFjU4FwCSdaHGBLzrvm9_FUC-mA.jpg",
-    "description_en": "4-chair set with a solid MDF wood table — a sturdier, indoor-friendly alternative.",
-    "description_am": "4 ወንበር ከጠንካራ MDF እንጨት ጠረጴዛ ጋር — ለቤት ውስጥም ተስማሚ ጠንካራ አማራጭ።",
-    "features_en": [
-      "Set of 4 chairs",
-      "Solid MDF wood table",
-      "Sturdy build",
-      "Suitable indoors or outdoors"
-    ],
-    "features_am": [
-      "4 ወንበሮች",
-      "ጠንካራ MDF እንጨት ጠረጴዛ",
-      "ጠንካራ ግንባታ",
-      "ለቤት ውስጥም ለውጪም ተስማሚ"
-    ],
-    "price_type": "flat",
-    "price": 17500,
-    "price_display_en": "17,500 ETB",
-    "price_display_am": "17,500 ብር",
-    "note": "Only post mentioning the MDF table (Jun 4) — worth double-checking this is still in stock at this price.",
-    "source_post": "https://t.me/atlantictradingtent/28",
-    "image_thumb": "assets/products/table-set-mdf-thumb.webp",
-    "image_full": "assets/products/table-set-mdf-full.webp"
   },
   {
     "id": "table-set-plastic",
