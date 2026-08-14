@@ -1,30 +1,39 @@
 {
-  "id": "handheld-light-umbrella",
-  "name_en": "Handheld Umbrella with Light",
   "name_am": "የእጅ ጥላ (ማብራት ያለው)",
-  "category": "umbrellas",
-  "tag_en": "New",
-  "tag_am": "አዲስ",
-  "image": "https://cdn4.telesco.pe/file/W8lH_49FOq2dxI98PaRpmPt-fXWolxcXgDOpEfenLx82XTzEc_e6rC3NYxcjq7IlLc7FmSzFQRbZOE98RD6o87RJ9Pm9RDI8AoY0nzdxjE7fmlvGrq02CCM-4sUPju51NwzURSmwOiFKwd2FBK5MNSP7cNZbyDYBy6WKOgUB5hqsXYT-t9epOXGymCs64iGqaa1tP9Gz0KQH1UWp2XU1g-ajFaSPWhRetFpxzLSU3OzPnvkrrtCvLWia9aZDwGHmRqRRIalHXLdyxsCC912U0uPR8lj9qA6Isu0vL9mr74MAZGC1OTXQVO2KWWpXJgoS_uKjAfizNe6UoET21oykjA.jpg",
-  "description_en": "Compact handheld umbrella with a built-in light — perfect for rainy-season evenings. Available in multiple colors, for boys and girls.",
-  "description_am": "ማብራት ያለው ትንሽ የእጅ ጥላ፣ ለክረምት ምሽት ተስማሚ። በተለያዩ ቀለማት ለወንድ እና ለሴት ልጆች ይገኛል።",
+  "source_post": "https://t.me/atlantictradingtent/153",
+  "price": 1900,
   "features_en": [
     "Built-in light for visibility at night",
     "Compact, easy to carry",
     "Available in multiple colors",
     "Great for kids"
   ],
+  "description_en": "Compact handheld umbrella with a built-in light — perfect for rainy-season evenings. Available in multiple colors, for boys and girls.",
   "features_am": [
     "በሌሊት ለመታየት የሚረዳ ማብራት አለው",
     "ለመያዝ ቀላል መጠን",
     "በተለያዩ ቀለማት ይገኛል",
     "ለልጆች ተስማሚ"
   ],
+  "tag_en": "New",
+  "description_am": "ማብራት ያለው ትንሽ የእጅ ጥላ፣ ለክረምት ምሽት ተስማሚ። በተለያዩ ቀለማት ለወንድ እና ለሴት ልጆች ይገኛል።",
   "price_type": "flat",
-  "price": 1900,
-  "price_display_en": "1,900 ETB",
-  "price_display_am": "1,900 ብር",
-  "source_post": "https://t.me/atlantictradingtent/153",
+  "tag_am": "አዲስ",
   "image_thumb": "assets/products/handheld-light-umbrella-thumb.webp",
-  "image_full": "assets/products/handheld-light-umbrella-full.webp"
+  "image_full": "assets/products/handheld-light-umbrella-full.webp",
+  "images": [
+    {
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHmLbDmwoTX4f2PprCfdVPbzc8-ftZLDNlyIhZY0DhpoF3UCxG"
+    },
+    {
+      "image": "assets/products/handheld-light-umbrella-full.webp"
+    }
+  ],
+  "id": "handheld-light-umbrella",
+  "image": "",
+  "price_display_en": "1,900 ETB",
+  "date_published": "2026-08-14",
+  "name_en": "Handheld Umbrella with Light",
+  "category": "umbrellas",
+  "price_display_am": "1,900 ብር"
 }
