@@ -702,10 +702,20 @@ function tryEscapeInAppBrowser() {
     const cleanUrl = currentUrl.replace(/^https?:\/\//, '');
     const intentUrl = `intent://${cleanUrl}#Intent;scheme=https;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(currentUrl)};end`;
     
-    // Attempt auto-redirect first
-    window.location.replace(intentUrl);
+    // Attempt auto-redirect first using a click on an anchor tag to bypass strict intent blocks
+    const link = document.createElement('a');
+    link.href = intentUrl;
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    setTimeout(() => document.body.removeChild(link), 100);
 
-    // If auto-redirect is blocked, show a clean user-triggerable button (TikTok allows intent triggers on user tap)
+    // If auto-redirect fails or is blocked, fallback to location.href
+    setTimeout(() => {
+      window.location.href = intentUrl;
+    }, 200);
+
+    // If auto-redirect is completely blocked, show a clean user-triggerable button
     setTimeout(() => {
       if (!document.getElementById('iab-overlay')) {
         const overlay = document.createElement('div');
@@ -717,19 +727,75 @@ function tryEscapeInAppBrowser() {
           padding: 2rem; box-sizing: border-box; font-family: sans-serif; color: #111e3c;
         `;
         overlay.innerHTML = `
-          <div style="max-width: 400px; width: 100%; text-align: center; background: #f8fafc; padding: 2.5rem 2rem; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0;">
-            <h2 style="font-size: 1.4rem; margin-bottom: 0.5rem; font-weight: 700; color: #1e293b;">በመደበኛ ማሰሻ ይክፈቱ</h2>
-            <h3 style="font-size: 1.1rem; margin-bottom: 1.5rem; font-weight: 700; color: #475569; font-style: italic;">Open in external browser</h3>
-            <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 2rem; line-height: 1.5;">
-              ይህ ገጽ ሙሉ በሙሉ እንዲሰራ እባክዎ ከታች ያለውን ሰማያዊ ቁልፍ በመጫን በ Chrome ይክፈቱት።<br>
-              <span style="font-style: italic; font-size: 0.8rem;">Please tap the button below to open this page in Chrome.</span>
+          <div style="position: absolute; top: 10px; right: 20px; font-size: 2.5rem; color: #1a73e8; animation: bounce 1.5s infinite;">↗</div>
+          
+          <div style="max-width: 420px; width: 100%; text-align: center; background: #f8fafc; padding: 2rem; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; max-height: 90vh; overflow-y: auto;">
+            <h2 style="font-size: 1.3rem; margin-bottom: 0.5rem; font-weight: 700; color: #1e293b;">ሊንኩን ለመክፈት መደበኛ ማሰሻ ይጠቀሙ</h2>
+            <h3 style="font-size: 1.15rem; margin-bottom: 1rem; font-weight: 700; color: #475569; font-style: italic;">Open in external browser</h3>
+            
+            <p style="font-size: 0.85rem; color: #64748b; margin-bottom: 1.5rem; line-height: 1.4;">
+              ይህ ገጽ ሙሉ በሙሉ እንዲሰራ በስልክዎ መደበኛ ማሰሻ መከፈት አለበት።<br>
+              <span style="font-style: italic;">This link must be opened in your native browser to work correctly.</span>
             </p>
-            <a href="${intentUrl}" style="display: block; text-decoration: none; width: 100%; padding: 14px; background-color: #1a73e8; color: white; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-align: center; box-shadow: 0 4px 12px rgba(26,115,232,0.25);">
+            
+            <a href="${intentUrl}" style="display: block; text-decoration: none; width: 100%; margin-bottom: 1.5rem; padding: 14px; background-color: #1a73e8; color: white; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-align: center; box-shadow: 0 4px 12px rgba(26,115,232,0.25);">
               በማሰሻ ክፈት (Open Browser)
             </a>
+
+            <div style="text-align: left; margin-bottom: 1.5rem; font-size: 0.9rem; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; padding: 1.2rem 0;">
+              <div style="font-weight: 600; color: #ef4444; margin-bottom: 10px; font-size: 0.8rem;">ቁልፉ ካልሰራ (If button fails):</div>
+              <div style="display: flex; align-items: flex-start; margin-bottom: 1.2rem;">
+                <span style="background: #1a73e8; color: white; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 12px; font-weight: bold; font-size: 0.75rem; flex-shrink: 0; margin-top: 2px;">1</span>
+                <div>
+                  <div style="font-weight: 600; color: #1e293b;">በላይኛው ቀኝ በኩል ያለውን <strong>•••</strong> ይጫኑ።</div>
+                  <div style="font-size: 0.8rem; color: #64748b; font-style: italic; margin-top: 2px;">Tap the <strong>•••</strong> icon at the top right.</div>
+                </div>
+              </div>
+              
+              <div style="display: flex; align-items: flex-start;">
+                <span style="background: #1a73e8; color: white; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 12px; font-weight: bold; font-size: 0.75rem; flex-shrink: 0; margin-top: 2px;">2</span>
+                <div>
+                  <div style="font-weight: 600; color: #1e293b;">በመቀጠል <strong>"Open in Browser"</strong> ይምረጡ።</div>
+                  <div style="font-size: 0.8rem; color: #64748b; font-style: italic; margin-top: 2px;">Choose <strong>"Open in Browser"</strong>.</div>
+                </div>
+              </div>
+            </div>
+
+            <button id="iab-copy-btn-android" style="width: 100%; padding: 12px; background-color: #111e3c; color: white; border: none; border-radius: 8px; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;">
+              <span>ሊንኩን ኮፒ ያድርጉ</span>
+              <span style="font-size: 0.75rem; font-weight: normal; opacity: 0.85;">Copy link</span>
+            </button>
+            
+            <button onclick="this.closest('#iab-overlay').remove()" style="margin-top: 1.2rem; background: none; border: none; color: #ef4444; font-size: 0.85rem; font-weight: 600; cursor: pointer; display: flex; flex-direction: column; align-items: center;">
+              <span>በዚህ ይቆዩ</span>
+              <span style="font-size: 0.75rem; font-weight: normal; opacity: 0.85; margin-top: 1px;">Stay here</span>
+            </button>
           </div>
+
+          <style>
+            @keyframes bounce {
+              0%, 100% { transform: translateY(0) translateX(0); }
+              50% { transform: translateY(-8px) translateX(8px); }
+            }
+          </style>
         `;
         document.body.appendChild(overlay);
+
+        const copyBtn = overlay.querySelector('#iab-copy-btn-android');
+        if (copyBtn) {
+          copyBtn.onclick = () => {
+            navigator.clipboard.writeText(currentUrl).then(() => {
+              copyBtn.querySelector('span:first-child').textContent = 'ኮፒ ተደርጓል!';
+              copyBtn.querySelector('span:last-child').textContent = 'Copied!';
+              copyBtn.style.backgroundColor = '#10b981';
+              setTimeout(() => {
+                copyBtn.querySelector('span:first-child').textContent = 'ሊንኩን ኮፒ ያድርጉ';
+                copyBtn.querySelector('span:last-child').textContent = 'Copy link';
+                copyBtn.style.backgroundColor = '#111e3c';
+              }, 2000);
+            }).catch(err => console.error('Failed to copy', err));
+          };
+        }
       }
     }, 800);
   } else {
@@ -817,10 +883,17 @@ function tryEscapeInAppBrowser() {
 
 // Helper: open Telegram link, bypassing in-app browser via tg:// scheme
 function openTelegramLink(tgSchemeUrl, httpsFallbackUrl) {
-  // Try tg:// deep link first (opens Telegram app directly, bypasses TikTok)
-  window.location.href = tgSchemeUrl;
+  // Use a hidden iframe to attempt the custom scheme.
+  // This prevents Android webviews from showing an "Action can't be completed" toast
+  // or ERR_UNKNOWN_URL_SCHEME page if the scheme isn't supported or app isn't installed.
+  const iframe = document.createElement('iframe');
+  iframe.style.display = 'none';
+  document.body.appendChild(iframe);
+  iframe.src = tgSchemeUrl;
+
   // If tg:// didn't navigate away (e.g. Telegram not installed), fall back to https://
   setTimeout(() => {
+    document.body.removeChild(iframe);
     if (!document.hidden) {
       window.open(httpsFallbackUrl, '_blank');
     }
