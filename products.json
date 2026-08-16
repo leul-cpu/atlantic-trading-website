@@ -1,5 +1,47 @@
 [
   {
+    "name_am": "የቆሻሻ መጣያ",
+    "source_post": "https://t.me/atlantictradingtent/189",
+    "features_en": [
+      "👉🏻 For hospitals",
+      "👉For restaurants",
+      "👉For factorys",
+      "👉For laboratories"
+    ],
+    "description_en": "Quality, & durable",
+    "features_am": [
+      "👉 ለላብራቶሪዎች",
+      "👉 ለሬሰቶራንቶች",
+      "👉 ለፋብሪካዎች",
+      "👉 ለሆስፒታል"
+    ],
+    "tag_en": "New",
+    "description_am": "ጥራት እና ዘላቂነት ያለው",
+    "price_type": "tiered",
+    "tag_am": "አዲስ",
+    "images": [
+      {
+        "image": "assets/products/garbage-can.jpeg"
+      }
+    ],
+    "price_tiers": [
+      {
+        "size": "600L",
+        "price": 70000
+      },
+      {
+        "size": "1100L",
+        "price": 90000
+      }
+    ],
+    "id": "garbage-can",
+    "price_display_en": "from 70,000 Birr",
+    "date_published": "2026-08-16",
+    "name_en": "Garbage Can",
+    "category": "bins",
+    "price_display_am": "ከ 70,000 ብር ጀምሮ"
+  },
+  {
     "name_am": "የክንድ ወንበር",
     "source_post": "https://t.me/atlantictradingtent/88",
     "price": 5700,
