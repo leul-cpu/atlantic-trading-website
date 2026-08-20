@@ -13,7 +13,9 @@ const fs   = require("fs");
 const path = require("path");
 
 const CONTENT_DIR = path.join(__dirname, "content", "products");
+const CATEGORIES_DIR = path.join(__dirname, "content", "categories");
 const OUTPUT_FILE = path.join(__dirname, "products.json");
+const CATEGORIES_OUTPUT_FILE = path.join(__dirname, "categories.json");
 
 if (!fs.existsSync(CONTENT_DIR)) {
   console.error(`ERROR: content/products/ directory not found.`);
@@ -57,3 +59,28 @@ products.sort((a, b) => {
 
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(products, null, 2), "utf8");
 console.log(`Built products.json — ${products.length} products from ${files.length} files.`);
+
+// ─────────────────────────────────────────────────────────────────────
+// Build categories.json
+// ─────────────────────────────────────────────────────────────────────
+if (fs.existsSync(CATEGORIES_DIR)) {
+  const catFiles = fs.readdirSync(CATEGORIES_DIR).filter(f => f.endsWith(".json"));
+  const categories = catFiles.map(file => {
+    const filePath = path.join(CATEGORIES_DIR, file);
+    try {
+      const raw = fs.readFileSync(filePath, "utf8");
+      return JSON.parse(raw);
+    } catch (err) {
+      console.error(`ERROR parsing ${file}: ${err.message}`);
+      process.exit(1);
+    }
+  });
+
+  // Sort categories by id (optional) or leave as is
+  categories.sort((a, b) => a.id.localeCompare(b.id));
+
+  fs.writeFileSync(CATEGORIES_OUTPUT_FILE, JSON.stringify(categories, null, 2), "utf8");
+  console.log(`Built categories.json — ${categories.length} categories from ${catFiles.length} files.`);
+} else {
+  console.warn("Warning: no content/categories/ directory found. categories.json not generated.");
+}

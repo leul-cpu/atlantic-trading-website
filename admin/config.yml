@@ -11,6 +11,40 @@ public_folder: "assets/products"
 
 # Tell Decap to write products as individual JSON files
 collections:
+  - name: "categories"
+    label: "Categories"
+    label_singular: "Category"
+    folder: "content/categories"
+    create: true
+    delete: true
+    slug: "{{id}}"        # filename = category id (e.g. umbrellas.json)
+    extension: "json"
+    format: "json"
+    identifier_field: "id"
+    summary: "{{name_en}} — {{name_am}}"
+    sortable_fields: ["name_en", "id"]
+
+    fields:
+      - label: "Category ID (slug)"
+        name: "id"
+        widget: "string"
+        hint: "Lowercase, hyphens only. e.g. tents  (used as the filename — do NOT change after creation)"
+        pattern: ['^[a-z0-9-]+$', "Only lowercase letters, numbers, and hyphens"]
+
+      - label: "Name (English)"
+        name: "name_en"
+        widget: "string"
+
+      - label: "ስም (አማርኛ)"
+        name: "name_am"
+        widget: "string"
+
+      - label: "Category Photo"
+        name: "image"
+        widget: "image"
+        choose_url: true
+        hint: "Upload a file or click 'Insert from URL' to paste a direct image link"
+
   - name: "products"
     label: "Products"
     label_singular: "Product"
@@ -42,13 +76,11 @@ collections:
 
       - label: "Category"
         name: "category"
-        widget: "select"
-        options:
-          - { label: "Garbage Cans / Bins",  value: "bins" }
-          - { label: "Shade Umbrellas",       value: "umbrellas" }
-          - { label: "Chairs & Tables",       value: "chairs-tables" }
-          - { label: "Tents & Gazebos",       value: "tents" }
-          - { label: "Plastic Goods",         value: "plastics" }
+        widget: "relation"
+        collection: "categories"
+        search_fields: ["name_en", "name_am", "id"]
+        value_field: "id"
+        display_fields: ["name_en", "name_am"]
 
       # ── Product names ──────────────────────────────────────────────
       - label: "Name (English)"

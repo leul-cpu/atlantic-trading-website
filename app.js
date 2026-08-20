@@ -603,13 +603,8 @@ const _placeholder = [
 // ──────────────────────────────────────
 // Categories
 // ──────────────────────────────────────
-const categories = [
-  { id: "all",           name_en: "All Products",    name_am: "ሁሉም ምርቶች" },
-  { id: "bins",          name_en: "Garbage Cans",    name_am: "የቆሻሻ መጣያ",    image: "assets/products/stainless-dustbin-thumb.webp" },
-  { id: "umbrellas",     name_en: "Shade Umbrellas", name_am: "የፀሐይ ጥላዎች",   image: "assets/products/double-layer-shade-thumb.webp" },
-  { id: "chairs-tables", name_en: "Chairs & Tables", name_am: "ወንበርና ጠረጴዛ",  image: "assets/products/table-set-glass-thumb.webp" },
-  { id: "tents",         name_en: "Tents & Gazebos", name_am: "ድንኳኖች",        image: "assets/products/folding-tent-thumb.webp" },
-  { id: "plastics",      name_en: "Plastic Goods",   name_am: "የፕላስቲክ ዕቃዎች", image: "assets/products/plastic-duka-small-thumb.webp" }
+let categories = [
+  { id: "all",           name_en: "All Products",    name_am: "ሁሉም ምርቶች" }
 ];
 
 // ──────────────────────────────────────
@@ -852,6 +847,26 @@ async function initApp() {
     console.warn("Could not fetch products.json, falling back to built-in data:", err);
     // Fallback to the _placeholder array seeded from the last known good data
     products = _placeholder;
+  }
+
+  try {
+    const resCats = await fetch("categories.json?v=" + new Date().getTime());
+    if (!resCats.ok) throw new Error(`HTTP ${resCats.status}`);
+    const fetchedCats = await resCats.json();
+    categories = [
+      { id: "all", name_en: "All Products", name_am: "ሁሉም ምርቶች" },
+      ...fetchedCats
+    ];
+  } catch (err) {
+    console.warn("Could not fetch categories.json, falling back to built-in data:", err);
+    categories = [
+      { id: "all",           name_en: "All Products",    name_am: "ሁሉም ምርቶች" },
+      { id: "bins",          name_en: "Garbage Cans",    name_am: "የቆሻሻ መጣያ",    image: "assets/products/stainless-dustbin-thumb.webp" },
+      { id: "umbrellas",     name_en: "Shade Umbrellas", name_am: "የፀሐይ ጥላዎች",   image: "assets/products/double-layer-shade-thumb.webp" },
+      { id: "chairs-tables", name_en: "Chairs & Tables", name_am: "ወንበርና ጠረጴዛ",  image: "assets/products/table-set-glass-thumb.webp" },
+      { id: "tents",         name_en: "Tents & Gazebos", name_am: "ድንኳኖች",        image: "assets/products/folding-tent-thumb.webp" },
+      { id: "plastics",      name_en: "Plastic Goods",   name_am: "የፕላስቲክ ዕቃዎች", image: "assets/products/plastic-duka-small-thumb.webp" }
+    ];
   }
 
   renderCategories();
