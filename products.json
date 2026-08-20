@@ -235,6 +235,35 @@
     "category": "plastics"
   },
   {
+    "name_am": "ተንቀሳቃሽ የፀሐይ ጥላ",
+    "features_en": [
+      "👉 Weather-Resistant Canopy: Durable polyester canopy with edge trim that blocks harsh UV rays and light rain.",
+      "👉 Adjustable Height: Telescoping central pole allows custom height adjustments for optimal coverage.",
+      "👉 Stable Tripod Stand: Comes with a foldable four-leg metal base for easy setup and stability.",
+      "👉 Portable & Compact: Lightweight design that folds quickly for hassle-free transport and storage."
+    ],
+    "description_en": "A versatile, lightweight outdoor umbrella designed to provide dependable sun shade and rain protection. Built with a sturdy, height-adjustable metal pole and a four-legged foldable tripod stand, this umbrella sets up easily on any flat surface. Ideal for outdoor vendors, street markets, garden patios, beaches, and outdoor events.",
+    "features_am": [
+      "👉 የአየር ሁኔታን የሚቋቋም ጨርቅ: የፀሐይ ጨረርን እና ቀላል ዝናብን የሚከላከል ዘላቂ የፖሊስተር ሽፋን።",
+      "👉 ቁመቱ የሚስተካከል: እንደ ፍላጎትዎ ጥላውን ከፍ ወይም ዝቅ ለማድረግ የሚያስችል የሚሳብ መካከለኛ ብረት።",
+      "👉 አራት እግር ማቆሚያ: በቀላሉ የሚታጠፍ እና ጠንካራ አራት እግር ያለው የብረት መሠረት አለው።",
+      "👉 ለማጓጓዝ ቀላል: ቀለል ያለ ክብደት ያለውና ቦታ እንዳይይዝ በቀላሉ ታጥፎ የሚታሰር።"
+    ],
+    "tag_en": "New",
+    "description_am": "ከፀሐይና ከዝናብ አስተማማኝ ጥላ የሚሰጥ፣ በቀላሉ የሚጓጓዝ ሁለገብ ጥላ። ቁመቱ የሚስተካከል ጠንካራ የብረት ማቆሚያ እና አራት እግር ያለው ታጣፊ መሠረት (Tripod Stand) ስላለው በማንኛውም ጠፍጣፋ ቦታ ላይ በቀላሉ ይቆማል። ለቤት ውጭ ነጋዴዎች፣ ለገበያ ቦታዎች፣ ለጅብሪት/ካፌዎች፣ ለበረንዳ እና ለተለያዩ የቤት ውጭ ኩነቶች በጣም ተስማሚ ነው።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_1uxeqp1uxeqp1uxe.jpeg"
+      }
+    ],
+    "id": "portable-umbrella",
+    "date_published": "2026-08-20",
+    "name_en": "Portable Outdoor Umbrella ",
+    "category": "umbrellas"
+  },
+  {
     "name_am": "ትልቅ ካንቲሊቨር ጥላ",
     "features_en": [
       "👉 Size: 3.5m Octagon / Folds compactly for storage",
