@@ -117,11 +117,13 @@ collections:
       - label: "Price Display (English)"
         name: "price_display_en"
         widget: "string"
+        required: false
         hint: "Shown on the card. e.g. '49,000 ETB' or 'From 7,500 ETB (+1,500 stand)'"
 
       - label: "ዋጋ (አማርኛ)"
         name: "price_display_am"
         widget: "string"
+        required: false
         hint: "e.g. '49,000 ብር' or 'ከ 7,500 ብር ጀምሮ (+1,500 መቆምያ)'"
 
       - label: "Price Tiers"

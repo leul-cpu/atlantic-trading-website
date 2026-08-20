@@ -991,9 +991,12 @@ function renderProducts() {
 
     const name       = currentLang === "en" ? prod.name_en        : prod.name_am;
     const desc       = currentLang === "en" ? prod.description_en : prod.description_am;
-    const priceText  = currentLang === "en" ? prod.price_display_en : prod.price_display_am;
+    const fallbackPriceEn = "Contact for price";
+    const fallbackPriceAm = "ያግኙን";
+    const priceTextRaw = currentLang === "en" ? prod.price_display_en : (prod.price_display_am || prod.price_display_en);
+    const priceText  = priceTextRaw || (currentLang === "en" ? fallbackPriceEn : fallbackPriceAm);
+    const priceLabel = (prod.price_type === "tiered" && priceTextRaw) ? (currentLang === "en" ? "From" : "ከ") : "";
     const tag        = currentLang === "en" ? prod.tag_en         : prod.tag_am;
-    const priceLabel = prod.price_type === "tiered" ? (currentLang === "en" ? "From" : "ከ") : "";
 
     card.innerHTML = `
       <div class="product-card-image-wrap">
@@ -1004,7 +1007,7 @@ function renderProducts() {
             <h3 class="product-card-title">${name}</h3>
             <p class="product-card-desc">${desc}</p>
             <div class="product-card-footer">
-              <span class="product-card-price">${priceLabel} ${priceText}</span>
+              <span class="product-card-price">${priceLabel ? priceLabel + ' ' : ''}${priceText}</span>
               <span class="product-card-action">View details</span>
             </div>
           </div>
@@ -1091,7 +1094,14 @@ function openPDP(productId) {
   document.getElementById("pdpTagContainer").innerHTML = prod.tag_en
     ? `<span class="hero-badge-ribbon">${currentLang === "en" ? prod.tag_en : prod.tag_am}</span>` : "";
   document.getElementById("pdpTitle").textContent       = currentLang === "en" ? prod.name_en        : prod.name_am;
-  document.getElementById("pdpPrice").textContent       = currentLang === "en" ? prod.price_display_en : prod.price_display_am;
+  
+  const fallbackPriceEn = "Contact for price";
+  const fallbackPriceAm = "ያግኙን";
+  const pdpPriceTextRaw = currentLang === "en" ? prod.price_display_en : (prod.price_display_am || prod.price_display_en);
+  const pdpPriceText = pdpPriceTextRaw || (currentLang === "en" ? fallbackPriceEn : fallbackPriceAm);
+  const pdpPriceLabel = (prod.price_type === "tiered" && pdpPriceTextRaw) ? (currentLang === "en" ? "From " : "ከ ") : "";
+  document.getElementById("pdpPrice").textContent       = pdpPriceLabel + pdpPriceText;
+  
   document.getElementById("pdpDescription").textContent = currentLang === "en" ? prod.description_en : prod.description_am;
 
   const tiktokContainer = document.getElementById("pdpTiktokContainer");
