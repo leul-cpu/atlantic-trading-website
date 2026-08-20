@@ -27,6 +27,35 @@
     "category": "chairs-tables"
   },
   {
+    "name_am": "የህፃናት ቀለማት ያሸበረቁ ወንበሮች እና ጠረጴዛዎች",
+    "features_en": [
+      "👉 Vibrant Multicolor Set: Includes a sturdy blue central table surrounded by bright, colorful armchairs (blue, green, orange, pink, yellow, and red).",
+      "👉 Child-Safe & Durable Construction: Made from non-toxic, impact-resistant plastic with rounded edges for safety.",
+      "👉 Ergonomic & Comfortable: Supportive armrests and heart-patterned ventilated backrests for added comfort during long play or study sessions.",
+      "👉 Easy to Clean & Maintain: Waterproof and stain-resistant surface that wipes down effortlessly."
+    ],
+    "description_en": "A vibrant, child-friendly plastic furniture set designed for group learning, arts and crafts, mealtime, and play. Built with smooth edges, sturdy support, and heart-embossed backrests, this set is lightweight yet durable enough for everyday indoor and outdoor use. Ideal for kindergartens, preschools, daycares, and home playrooms.",
+    "features_am": [
+      "👉 ማራኪ ቀለማት: አንድ ሰማያዊ ጠረጴዛ እና ልዩ ልዩ ቀለማት ያላቸው ወንበሮችን (ሰማያዊ፣ አረንጓዴ፣ ብርቱካናማ፣ ሮዝ፣ ቢጫ እና ቀይ) ያካተተ።",
+      "👉 ለህፃናት ደህንነቱ የተጠበቀ: ከጠንካራ እና ጉዳት የማያደርስ ፕላስቲክ የተሰራ ሆኖ፣ የተጠጋጉ ጠርዞች ያሉት።",
+      "👉 ለስላሳ እና ምቹ ዲዛይን: የእጅ መደገፊያ እና አየር የሚያሳልፍ የልብ ቅርፅ ያለው ጀርባ መደገፊያ ያለው።",
+      "👉 ለማፅዳት ቀላል: ውሃ እና እድፍ የማይይዝ በመሆኑ በቀላሉ በጨርቅ የሚጠረግ።"
+    ],
+    "tag_en": " Premium",
+    "description_am": "ለህፃናት ትምህርት፣ ለጨዋታ፣ ለስዕል እና ለምግብ ሰዓት የሚሆን ደስ የሚል ቀለማት ያሸበረቀ የጠረጴዛ እና ወንበሮች ስብስብ። ለህፃናት ደህንነት ሲባል ለስላሳ ጠርዞች ያሉት፣ ጠንካራ እና የልብ ቅርፅ ያለው መደገፊያ የተሰራለት ነው። ቀለል ያለ ክብደት ያለው በመሆኑ በቀላሉ ለማንቀሳቀስ የሚመች ሲሆን፣ ለመዋዕለ ህፃናት (Kindergarten)፣ ለቅድመ-መደበኛ ትምህርት ቤቶች እና ለቤት ውስጥ ጨዋታ ቦታዎች በጣም ተስማሚ ነው።",
+    "price_type": "flat",
+    "tag_am": " ልዩ ምርት",
+    "images": [
+      {
+        "image": "assets/products/photo_2026-08-20_22-54-50.jpg"
+      }
+    ],
+    "id": "children-chairs",
+    "date_published": "2026-08-20",
+    "name_en": "Colorful Kids Table & Chair Set ",
+    "category": "chairs-tables"
+  },
+  {
     "name_am": "የራትያን የውጪ መመገቢያ ወንበር",
     "features_en": [
       "👉 For cafe and restaurant patios",
