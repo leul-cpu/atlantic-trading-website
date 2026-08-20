@@ -882,6 +882,7 @@ async function initApp() {
 // ──────────────────────────────────────
 function applyLanguage(lang) {
   currentLang = lang;
+  document.documentElement.lang = lang;
   const btn = document.getElementById("langToggleBtn");
   if (btn) {
     btn.innerHTML = lang === "en"
