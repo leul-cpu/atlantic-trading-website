@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bins",
+    "name_en": "Garbage Cans",
+    "name_am": "የቆሻሻ መጣያ",
+    "image": "assets/products/stainless-dustbin-thumb.webp"
+  },
+  {
+    "id": "chairs-tables",
+    "name_en": "Chairs & Tables",
+    "name_am": "ወንበርና ጠረጴዛ",
+    "image": "assets/products/table-set-glass-thumb.webp"
+  },
+  {
+    "id": "plastics",
+    "name_en": "Plastic Goods",
+    "name_am": "የፕላስቲክ ዕቃዎች",
+    "image": "assets/products/plastic-duka-small-thumb.webp"
+  },
+  {
+    "id": "tents",
+    "name_en": "Tents & Gazebos",
+    "name_am": "ድንኳኖች",
+    "image": "assets/products/folding-tent-thumb.webp"
+  },
+  {
+    "id": "umbrellas",
+    "name_en": "Shade Umbrellas",
+    "name_am": "የፀሐይ ጥላዎች",
+    "image": "assets/products/double-layer-shade-thumb.webp"
+  }
+]
