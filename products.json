@@ -32,6 +32,38 @@
     "price_display_am": "10,500 ብር"
   },
   {
+    "name_am": "ክብ የራትያን ወንበር ስብስብ",
+    "price": 65000,
+    "features_en": [
+      "👉 For coffee shops & cafes",
+      "👉 For hotel lobbies & lounges",
+      "👉 For balcony ",
+      "👉 For waiting area seating"
+    ],
+    "description_en": "Compact, stylish & weather-durable",
+    "features_am": [
+      "👉 ለካፌ እና ቡና ቤቶች",
+      "👉 ለሆቴል ላውንጅ እና ላውንጅ",
+      "👉 ለባልኮኒ ",
+      "👉 ለእንግዳ ማረፊያ ቦታዎች"
+    ],
+    "tag_en": "Bestseller",
+    "description_am": "ቦታ የማይይዝ፣ ዘመናዊ እና ዘላቂ design",
+    "price_type": "flat",
+    "tag_am": "ተፈላጊ",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_nzj0d7nzj0d7nzj0.jpeg"
+      }
+    ],
+    "id": "outdoor-chairs",
+    "price_display_en": "65,000 ETB",
+    "date_published": "2026-08-20",
+    "name_en": "Curved Rattan Lounge Set",
+    "category": "chairs-tables",
+    "price_display_am": "65,000 ብር"
+  },
+  {
     "name_am": "የፕላስቲክ ራትያን የውጪ ሶፋ እና ጠረጴዛ",
     "price": 75000,
     "features_en": [
