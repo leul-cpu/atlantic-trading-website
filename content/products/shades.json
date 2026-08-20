@@ -1,0 +1,27 @@
+{
+  "name_am": "ትልቅ ካንቲሊቨር ጥላ",
+  "features_en": [
+    "👉 Size: 3.5m Octagon / Folds compactly for storage",
+    "👉 Base: Granite Cross Base included",
+    "👉 Color: Tan Canopy / Black Frame"
+  ],
+  "description_en": "Provides grand-scale shade with an open cantilever design. Features a high-grade tan fabric canopy and a durable black frame with an included granite cross base. Easy to open and adjust.",
+  "features_am": [
+    "👉 መጠን: 3.5 ሜትር ኦክታጎን (8 ማዕዘን) / ሲታጠፍ ቦታ አይይዝም",
+    "👉 መሠረት (Base): የግራናይት መስቀለኛ መሠረት አለው",
+    "👉 ቀለም (Color): ቡናማ ጨርቅ / ጥቁር ማቆሚያ ብረት"
+  ],
+  "tag_en": "Bestseller",
+  "description_am": "ሰፊ የጥላ ሽፋን የሚሰጥ ዘመናዊና ክፍት የካንቲሊቨር ዲዛይን ያለው ጥላ ነው። በጥራት የተሰራ የቡናማ (Tan) ጨርቅ ሽፋን፣ ጠንካራ የጥቁር ብረት ማቆሚያ እና የግራናይት መስቀለኛ መሠረት (Granite Cross Base) አለው። በቀላሉ የሚከፈትና የሚስተካከል ነው።",
+  "price_type": "flat",
+  "tag_am": "ተፈላጊ",
+  "images": [
+    {
+      "image": "assets/products/screenshot-2026-08-20-220612.png"
+    }
+  ],
+  "id": "shades",
+  "date_published": "2026-08-20",
+  "name_en": " Alpine Large Cantilever Umbrella",
+  "category": "umbrellas"
+}
