@@ -206,6 +206,35 @@
     "price_display_am": "75,000 ብር"
   },
   {
+    "name_am": "የፕላስቲክ ማከማቻ እና የፍራፍሬ/አትክልት ሳጥን",
+    "features_en": [
+      "👉 Durable Build: Made from high-grade plastic resistant to wear, impacts, and heavy loads.",
+      "👉 Ventilated Design: Perforated walls and floor allow max ventilation, keeping fruits, vegetables, or fresh goods dry and fresh.",
+      "👉 Stackable & Space-Saving: Engineered with interlocking corners for secure vertical stacking during storage and transit.",
+      "👉 Ergonomic Handles: Integrated side handles make lifting and loading effortless."
+    ],
+    "description_en": "A heavy-duty, stackable plastic crate designed for efficient storage, transport, and organization. Made from high-density, impact-resistant plastic, this crate features a ventilated mesh design on the sides and bottom to ensure optimal airflow—ideal for agricultural produce, industrial materials, or retail inventory. Built-in side handles provide an easy, comfortable grip for manual carrying and stacking.",
+    "features_am": [
+      "👉 ጠንካራ እና ዘላቂ: ከባድ ሸክምንና ግጭትን የሚቋቋም ጥራት ያለው ፕላስቲክ።",
+      "👉 አየር የሚያሳልፍ: ፍራፍሬዎችና አትክልቶች አየር አግኝተው ትኩስነታቸው እንዲጠበቅ የሚያደርግ ክፍተት ያለው ዲዛይን።",
+      "👉 ቦታ ቆጣቢና ተደራራቢ: በላዩ ላይ ሌላ ሳጥን በጥንካሬ ደራርቦ ለማስቀመጥ የሚያስችል ቅርፅ።",
+      "👉 ለመያዝ ምቹ: በቀላሉ ለመሸከምና ለማንሳት የሚያስችሉ አብረው የተሰሩ የጎን መያዣዎች ያሉት።"
+    ],
+    "tag_en": "New ",
+    "description_am": "ለእቃ ማከማቸት፣ ለማጓጓዝ እና ለማደራጀት የሚያገለግል ጠንካራ እና ተደራራቢ የፕላስቲክ ሳጥን (ካሬት)። ዘላቂ ከሆነ ከባድ ፕላስቲክ የተሰራ ሲሆን፣ አየር እንዲዘዋወርበት ተደርጎ በጎኖቹና በታችኛው ክፍሉ ክፍተቶች (Ventilations) ተበጅተውለታል። ይህ አየር ማለፊያው በተለይ ፍራፍሬዎችን፣ አትክልቶችን እና ትኩስ ምርቶችን ትኩስነታቸው ሳይበላሽ ለማቆየትና ለማጓጓዝ በጣም ተስማሚ ያደርገዋል።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_fo9pylfo9pylfo9p.jpeg"
+      }
+    ],
+    "id": "plastic-storage",
+    "date_published": "2026-08-20",
+    "name_en": "Plastic Storage & Produce Crate",
+    "category": "plastics"
+  },
+  {
     "name_am": "ትልቅ ካንቲሊቨር ጥላ",
     "features_en": [
       "👉 Size: 3.5m Octagon / Folds compactly for storage",
