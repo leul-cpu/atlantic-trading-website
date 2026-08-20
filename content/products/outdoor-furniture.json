@@ -1,0 +1,32 @@
+{
+  "name_am": "የፕላስቲክ ራትያን የውጪ ሶፋ እና ጠረጴዛ",
+  "price": 75000,
+  "features_en": [
+    "👉 For cafe & restaurant patios",
+    "👉 For hotel outdoor lounges",
+    "👉 For home gardens & balconies",
+    "👉 For resort sitting areas"
+  ],
+  "description_en": "Durable, weather-resistant & elegant",
+  "features_am": [
+    "👉 ለካፌ እና ሬስቶራንት ውጪ ቦታዎች",
+    "👉 ለሆቴል መዝናኛ ስፍራዎች",
+    "👉 ለቤት ጓሮ እና ባልኮኒ",
+    "👉 ለሪዞርቶች እና መናፈሻዎች"
+  ],
+  "tag_en": "New ",
+  "description_am": "ጥራት እና ዘላቂነት ያለው፣ ለቤት ውጭ የተሰራ",
+  "price_type": "flat",
+  "tag_am": "አዲስ",
+  "images": [
+    {
+      "image": "assets/products/gemini_generated_image_3qbm403qbm403qbm.jpeg"
+    }
+  ],
+  "id": "outdoor-furniture",
+  "price_display_en": "75,000 ETB",
+  "date_published": "2026-08-20",
+  "name_en": "Rattan Outdoor Furniture Set (4 Chairs + Glass Table)",
+  "category": "chairs-tables",
+  "price_display_am": "75,000 ብር"
+}
