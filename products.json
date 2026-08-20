@@ -235,6 +235,64 @@
     "category": "plastics"
   },
   {
+    "name_am": "የፓቲዮ ድንኳን ከወንፊት መጋረጃ ጋር",
+    "features_en": [
+      "👉 Double-Tier Roof: Enhances air circulation and increases wind resistance for added stability.",
+      "👉 Mosquito Mesh Netting: Full perimeter mesh walls keep bugs out while letting cool breezes through.",
+      "👉 Corner Curtains: Decorative fabric ties allow for flexible privacy and weather protection options.",
+      "👉 Color & Design: Soft beige canopy with a sturdy metal frame structure."
+    ],
+    "description_en": "A spacious, elegant outdoor gazebo tent designed to create a comfortable, shaded haven in gardens, patios, or outdoor venues. Featuring a durable steel frame and a two-tiered ventilated canopy for improved stability and airflow. Equipped with sheer mesh side netting to keep insects out while maintaining visibility and ventilation, as well as corner privacy curtains that can be tied back or pulled closed.",
+    "features_am": [
+      "👉 ሁለት ደረጃ ያለው ጣራ: አየር እንዲዘዋወር የሚያደርግ እና ድንኳኑ በንፋስ እንዳይናወጥ የሚረዳ ዲዛይን።",
+      "👉 የተባይ መከላከያ መጋረጃ: ትንኝ እና ተባዮችን የሚከለክል ነገር ግን አየርና ብርሃን የሚያሳልፍ መጋረጃ።",
+      "👉 የጎን መጋረጃዎች: ለውበት የሚታሰሩ ወይም ለግላዊነት (Privacy) የሚዘጉ የጎን ጨርቆች ያሉት።",
+      "👉 ቀለም: ማራኪ የቤጅ (Beige) ቀለም ከጠንካራ የብረት ማቆሚያ ጋር።"
+    ],
+    "tag_en": "Premium",
+    "description_am": "ለቤት ውጭ መዝናኛ፣ ለግቢ፣ ለበረንዳ ወይም ለተለያዩ ፕሮግራሞች ተስማሚ የሆነ ውብ እና ሰፊ የፓቲዮ ድንኳን። በጠንካራ ብረት ላይ የተገነባና ሁለት ደረጃ ያለው ጣራ (Double-Tiered Roof) ያለው ሲሆን፣ ይህም ንፋስ በቀላሉ እንዲያልፍ በማድረግ ጥንካሬውን ይጨምራል። ከትንኝ እና ከተለያዩ ተባዮች የሚከላከል የመረብ መጋረጃ (Mesh Netting) ያለው ሲሆን፣ የጎን መጋረጃዎቹን እንደ አስፈላጊነቱ ከፍቶ ማሰር ወይም ዘግቶ መጠቀም ይቻላል።",
+    "price_type": "flat",
+    "tag_am": "ልዩ ምርት",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_cg02dtcg02dtcg02.jpeg"
+      }
+    ],
+    "id": "tent",
+    "date_published": "2026-08-20",
+    "name_en": "Outdoor Patio Gazebo Tent with Mesh Netting ",
+    "category": "tents"
+  },
+  {
+    "name_am": "ተንቀሳቃሽ የፀሐይ ጥላ",
+    "features_en": [
+      "👉 Weather-Resistant Canopy: Durable polyester canopy with edge trim that blocks harsh UV rays and light rain.",
+      "👉 Adjustable Height: Telescoping central pole allows custom height adjustments for optimal coverage.",
+      "👉 Stable Tripod Stand: Comes with a foldable four-leg metal base for easy setup and stability.",
+      "👉 Portable & Compact: Lightweight design that folds quickly for hassle-free transport and storage."
+    ],
+    "description_en": "A versatile, lightweight outdoor umbrella designed to provide dependable sun shade and rain protection. Built with a sturdy, height-adjustable metal pole and a four-legged foldable tripod stand, this umbrella sets up easily on any flat surface. Ideal for outdoor vendors, street markets, garden patios, beaches, and outdoor events.",
+    "features_am": [
+      "👉 የአየር ሁኔታን የሚቋቋም ጨርቅ: የፀሐይ ጨረርን እና ቀላል ዝናብን የሚከላከል ዘላቂ የፖሊስተር ሽፋን።",
+      "👉 ቁመቱ የሚስተካከል: እንደ ፍላጎትዎ ጥላውን ከፍ ወይም ዝቅ ለማድረግ የሚያስችል የሚሳብ መካከለኛ ብረት።",
+      "👉 አራት እግር ማቆሚያ: በቀላሉ የሚታጠፍ እና ጠንካራ አራት እግር ያለው የብረት መሠረት አለው።",
+      "👉 ለማጓጓዝ ቀላል: ቀለል ያለ ክብደት ያለውና ቦታ እንዳይይዝ በቀላሉ ታጥፎ የሚታሰር።"
+    ],
+    "tag_en": "New",
+    "description_am": "ከፀሐይና ከዝናብ አስተማማኝ ጥላ የሚሰጥ፣ በቀላሉ የሚጓጓዝ ሁለገብ ጥላ። ቁመቱ የሚስተካከል ጠንካራ የብረት ማቆሚያ እና አራት እግር ያለው ታጣፊ መሠረት (Tripod Stand) ስላለው በማንኛውም ጠፍጣፋ ቦታ ላይ በቀላሉ ይቆማል። ለቤት ውጭ ነጋዴዎች፣ ለገበያ ቦታዎች፣ ለጅብሪት/ካፌዎች፣ ለበረንዳ እና ለተለያዩ የቤት ውጭ ኩነቶች በጣም ተስማሚ ነው።",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_1uxeqp1uxeqp1uxe.jpeg"
+      }
+    ],
+    "id": "portable-umbrella",
+    "date_published": "2026-08-20",
+    "name_en": "Portable Outdoor Umbrella ",
+    "category": "umbrellas"
+  },
+  {
     "name_am": "ትልቅ ካንቲሊቨር ጥላ",
     "features_en": [
       "👉 Size: 3.5m Octagon / Folds compactly for storage",
