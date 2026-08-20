@@ -235,6 +235,35 @@
     "category": "plastics"
   },
   {
+    "name_am": "የፓቲዮ ድንኳን ከወንፊት መጋረጃ ጋር",
+    "features_en": [
+      "👉 Double-Tier Roof: Enhances air circulation and increases wind resistance for added stability.",
+      "👉 Mosquito Mesh Netting: Full perimeter mesh walls keep bugs out while letting cool breezes through.",
+      "👉 Corner Curtains: Decorative fabric ties allow for flexible privacy and weather protection options.",
+      "👉 Color & Design: Soft beige canopy with a sturdy metal frame structure."
+    ],
+    "description_en": "A spacious, elegant outdoor gazebo tent designed to create a comfortable, shaded haven in gardens, patios, or outdoor venues. Featuring a durable steel frame and a two-tiered ventilated canopy for improved stability and airflow. Equipped with sheer mesh side netting to keep insects out while maintaining visibility and ventilation, as well as corner privacy curtains that can be tied back or pulled closed.",
+    "features_am": [
+      "👉 ሁለት ደረጃ ያለው ጣራ: አየር እንዲዘዋወር የሚያደርግ እና ድንኳኑ በንፋስ እንዳይናወጥ የሚረዳ ዲዛይን።",
+      "👉 የተባይ መከላከያ መጋረጃ: ትንኝ እና ተባዮችን የሚከለክል ነገር ግን አየርና ብርሃን የሚያሳልፍ መጋረጃ።",
+      "👉 የጎን መጋረጃዎች: ለውበት የሚታሰሩ ወይም ለግላዊነት (Privacy) የሚዘጉ የጎን ጨርቆች ያሉት።",
+      "👉 ቀለም: ማራኪ የቤጅ (Beige) ቀለም ከጠንካራ የብረት ማቆሚያ ጋር።"
+    ],
+    "tag_en": "Premium",
+    "description_am": "ለቤት ውጭ መዝናኛ፣ ለግቢ፣ ለበረንዳ ወይም ለተለያዩ ፕሮግራሞች ተስማሚ የሆነ ውብ እና ሰፊ የፓቲዮ ድንኳን። በጠንካራ ብረት ላይ የተገነባና ሁለት ደረጃ ያለው ጣራ (Double-Tiered Roof) ያለው ሲሆን፣ ይህም ንፋስ በቀላሉ እንዲያልፍ በማድረግ ጥንካሬውን ይጨምራል። ከትንኝ እና ከተለያዩ ተባዮች የሚከላከል የመረብ መጋረጃ (Mesh Netting) ያለው ሲሆን፣ የጎን መጋረጃዎቹን እንደ አስፈላጊነቱ ከፍቶ ማሰር ወይም ዘግቶ መጠቀም ይቻላል።",
+    "price_type": "flat",
+    "tag_am": "ልዩ ምርት",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_cg02dtcg02dtcg02.jpeg"
+      }
+    ],
+    "id": "tent",
+    "date_published": "2026-08-20",
+    "name_en": "Outdoor Patio Gazebo Tent with Mesh Netting ",
+    "category": "tents"
+  },
+  {
     "name_am": "ተንቀሳቃሽ የፀሐይ ጥላ",
     "features_en": [
       "👉 Weather-Resistant Canopy: Durable polyester canopy with edge trim that blocks harsh UV rays and light rain.",
