@@ -1,0 +1,32 @@
+{
+  "name_am": "የመመገቢያ ወንበር",
+  "price": 10500,
+  "features_en": [
+    "👉 For home dining rooms",
+    "👉 For modern cafes & restaurants",
+    "👉 For office reception areas",
+    "👉 For hotel rooms & lounges"
+  ],
+  "description_en": "Quality, comfortable & stylish design",
+  "features_am": [
+    "👉 ለቤት መመገቢያ ክፍሎች",
+    "👉 ለዘመናዊ ካፌዎች እና ሬስቶራንቶች",
+    "👉 ለቢሮ እንግዳ መቀበያ",
+    "👉 ለሆቴል ክፍሎች እና ላውንጆች"
+  ],
+  "tag_en": "Bundle Discount",
+  "description_am": "ጥራት፣ ምቾት እና ውበት ያለው",
+  "price_type": "flat",
+  "tag_am": "ቅናሽ",
+  "images": [
+    {
+      "image": "assets/products/gemini_generated_image_jg95qbjg95qbjg95.jpeg"
+    }
+  ],
+  "id": "modern-dining-chair",
+  "price_display_en": "10,500 ETB",
+  "date_published": "2026-08-20",
+  "name_en": "Modern Dining Chair",
+  "category": "chairs-tables",
+  "price_display_am": "10,500 ብር"
+}
