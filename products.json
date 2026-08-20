@@ -1,5 +1,32 @@
 [
   {
+    "name_am": "የሕፃናት የድብ ቅርፅ ያላቸው ወንበሮች ከጠረጴዛ ጋር",
+    "features_en": [
+      "👉 Configuration: Available per chair or as a set of four",
+      "👉 Features: Attached front tray with cup holder slot, cute bear-shaped backrest, cartoon seat padding",
+      "👉 Colors: Available in bright blue, pink, and purple"
+    ],
+    "description_en": "A colorful set of durable child-sized chairs with attachable trays. Each chair features a cute bear face and a cartoon cushion. Easy to clean and perfect for mealtime or playtime. Recommended for ages 2–5.",
+    "features_am": [
+      "👉 አማራጭ (Configuration): በነጠላ ወንበር ወይም የአራት ስብስብ ሆኖ ይገኛል",
+      "👉 ባህሪያት: የኩባያ ማስቀመጫ ያለው የሚገጠም ጠረጴዛ፣ የድብ ቅርፅ ያለው መደገፊያ፣ የካርቱን ስዕል ያለው ለስላሳ መቀመጫ",
+      "👉 ቀለም (Colors): በሰማያዊ፣ ሮዝ (Pink) እና ወይንጠጅ (Purple) ይገኛል"
+    ],
+    "tag_en": "New",
+    "description_am": "የሚገጠም ጠረጴዛና የኩባያ ማስቀመጫ ያላቸው ውብ እና ዘላቂ የሕፃናት ወንበሮች። እያንዳንዱ ወንበር ደስ የሚል የድብ ፊት ቅርፅ እና የካርቱን መቀመጫ ትራስ አለው። ለማፅዳት በጣም ቀላል ሲሆን ለምግብ ሰዓት ወይም ለጨዋታ ጊዜ ተስማሚ ነው። ከ2 እስከ 5 ዓመት ለሆኑ ሕፃናት ይመከራል።",
+    "price_type": "flat",
+    "tag_am": " አዲስ",
+    "images": [
+      {
+        "image": "assets/products/screenshot-2026-08-20-220421.png"
+      }
+    ],
+    "id": "chair-set",
+    "date_published": "2026-08-20",
+    "name_en": " Kids Bear Tray-Chair Set",
+    "category": "chairs-tables"
+  },
+  {
     "name_am": "የራትያን የውጪ መመገቢያ ወንበር",
     "features_en": [
       "👉 For cafe and restaurant patios",
