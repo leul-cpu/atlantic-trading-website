@@ -1,0 +1,29 @@
+{
+  "name_am": "የራትያን የውጪ መመገቢያ ወንበር",
+  "features_en": [
+    "👉 For cafe and restaurant patios",
+    "👉 For hotel outdoor lounges",
+    "👉 For home gardens and balconies",
+    "👉 Includes glass-top table"
+  ],
+  "description_en": "Stylish, weather-resistant, and comfortable seating\n\n",
+  "features_am": [
+    "👉 ለካፌ እና ሬስቶራንት ውጪ ቦታዎች",
+    "👉 ለሆቴል መዝናኛ ስፍራዎች",
+    "👉 ለቤት ጓሮ እና ባልኮኒ",
+    "👉 ከመስታወት ጠረጴዛ ጋር"
+  ],
+  "tag_en": "New",
+  "description_am": "ዘመናዊ፣ ለቤት ውጭ የተሰራ እና ምቹ ወንበሮች",
+  "price_type": "flat",
+  "tag_am": "አዲስ",
+  "images": [
+    {
+      "image": "assets/products/gemini_generated_image_3co5x73co5x73co5.jpeg"
+    }
+  ],
+  "id": "dinning-set",
+  "date_published": "2026-08-20",
+  "name_en": "Rattan Patio Dining Set",
+  "category": "chairs-tables"
+}
