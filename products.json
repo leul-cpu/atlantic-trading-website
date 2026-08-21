@@ -1,5 +1,34 @@
 [
   {
+    "name_am": "አውቶማቲክ ታጣፊ የካምፒንግ ድንኳን",
+    "features_en": [
+      "👉 Instant Automatic Setup: Features a pre-attached hydraulic mechanism that pops open and folds down effortlessly.",
+      "👉 Weatherproof & Durable: Made of durable water-repellent polyester fabric with orange trim detailing for high visibility.",
+      "👉 Spacious & Comfortable: Large D-shaped zippered entrance offers easy entry and optimal cross-ventilation.",
+      "👉 Lightweight & Portable: Folds into a compact carry size, making it ideal for camping, hiking, and beach excursions."
+    ],
+    "description_en": "An easy-to-assemble automatic pop-up camping tent engineered for outdoor adventures, hiking, and family trips. Designed with a hydraulic pop-up system, this tent sets up in seconds without manual pole assembly. Crafted from weather-resistant, UV-blocking polyester fabric with a heavy-duty waterproof floor, it provides reliable protection and comfort in various outdoor settings.",
+    "features_am": [
+      "👉 በሰከንዶች ውስጥ የሚተከል: በራሱ ጊዜ ተነስተው የሚዘረጉ የሃይድሮሊክ ዘንጎች ያሉት በመሆኑ በቀላሉ ይተከላል።",
+      "👉 ውሃ እና የፀሐይ ጨረር የሚከላከል: ዘላቂ ከሆነ የፖሊስተር ጨርቅ የተሰራና ማራኪ የብርቱካናማ መስመር ዲዛይን ያለው።",
+      "👉 ሰፊ እና አየር የሚያስገባ: ትልቅ የዚፕ በር ያለው በመሆኑ ለመግባትና ለመውጣት እንዲሁም አየር እንዲዘዋወር ምቹ ነው።",
+      "👉 ለማንቀሳቀስ ቀላል: ታጥፎ በትንሽ ቦርሳ ውስጥ የሚያዝ በመሆኑ ለጉዞ እና ለካምፒንግ በጣም አመቺ ነው።"
+    ],
+    "tag_en": "New",
+    "description_am": "ለካምፒንግ፣ ለጉዞ እና ለተለያዩ የቤት ውጭ መዝናኛዎች የሚሆን በቀላሉ የሚተከል አውቶማቲክ ድንኳን። በሃይድሮሊክ አውቶማቲክ ዘዴ የተሰራ በመሆኑ ያለ ምንም ድካም በሰከንዶች ውስጥ ይተከላል። ዝናብ እና የፀሐይ ጨረር የሚከላከል ጠንካራ የፖሊስተር ጨርቅ ያለው ሲሆን፣ ከስሩ ውሃ የማያሳልፍ ወፍራም ወለል ተገጥሞለታል።\n\n",
+    "price_type": "flat",
+    "tag_am": "  አዲስ",
+    "images": [
+      {
+        "image": "assets/products/photo_2026-08-21_21-29-56.jpg"
+      }
+    ],
+    "id": "tents",
+    "date_published": "2026-08-21",
+    "name_en": "Automatic Pop-Up Camping Tent",
+    "category": "tents"
+  },
+  {
     "name_am": "የተንቀሳቃሽ ጥላ ማቆሚያ/እግር)",
     "price": 1500,
     "features_en": [
