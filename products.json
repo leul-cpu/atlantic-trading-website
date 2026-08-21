@@ -1,5 +1,37 @@
 [
   {
+    "name_am": "የተንቀሳቃሽ ጥላ ማቆሚያ/እግር)",
+    "price": 1500,
+    "features_en": [
+      "👉 Universal Compatibility: Securely holds standard umbrella poles using a top locking screw knob.",
+      "👉 Foldable & Space-Saving: Folds down into a tight, compact shape for easy carrying and storage.",
+      "👉 Stable Tripod Design: Wide three-leg spreading system keeps your umbrella balanced and upright during outdoor use.",
+      "👉 Durable Build: Finished with a corrosion-resistant white coating for long-lasting outdoor performance."
+    ],
+    "description_en": "A sturdy, heavy-duty folding tripod base designed specifically for portable outdoor sun and market umbrellas. Made from high-grade, weather-resistant metal, this base offers exceptional stability on flat surfaces. Its quick-fold mechanism makes it compact for effortless transport and quick setup anywhere.",
+    "features_am": [
+      "👉 ለተለያዩ ጥላዎች የሚሆን: ጥላውን አጥብቆ የሚይዝ የማሰሪያ ቁልፍ (Screw Knob) ያለው።",
+      "👉 በቀላሉ የሚታጠፍ: ቦታ እንዳይይዝ እና ለማጓጓዝ እንዲመች አጥፎ ማሰር የሚያስችል ዲዛይን።",
+      "👉 ጽኑ እና አስተማማኝ: ሦስት ሰፋፊ የብረት እግሮች ስላሉት ጥላው በንፋስ እንዳይወድቅ ይከላከላል።",
+      " 👉 ዘላቂ የብረት ግንባታ: እንዳይዝግ በነጭ ቀለም የተሸፈነ ጠንካራ የብረት አካል።"
+    ],
+    "tag_en": "Bundle Discount",
+    "description_am": "ለተንቀሳቃሽ የፀሐይ እና የገበያ ጥላዎች የተሰራ ጠንካራ እና ታጣፊ የብረት ማቆሚያ እግር (Tripod Base)። ጥላው በማንኛውም ጠፍጣፋ ቦታ ላይ በጽናት እንዲቆም የሚያደርግ ሲሆን፣ በቀላሉ የሚታጠፍ በመሆኑ ለማንቀሳቀስ እና ቦታ ሳይይዙ ለማስቀመጥ በጣም አመቺ ነው።",
+    "price_type": "flat",
+    "tag_am": "ቅናሽ",
+    "images": [
+      {
+        "image": "assets/products/screenshot-2026-08-21-153536.png"
+      }
+    ],
+    "id": "stand",
+    "price_display_en": "1,500 ETB",
+    "date_published": "2026-08-21",
+    "name_en": "Portable Umbrella Tripod Stand Base ",
+    "category": "umbrellas",
+    "price_display_am": " 1,500 ብር"
+  },
+  {
     "name_am": "የሕፃናት የድብ ቅርፅ ያላቸው ወንበሮች ከጠረጴዛ ጋር",
     "features_en": [
       "👉 Configuration: Available per chair or as a set of four",
