@@ -1,5 +1,6 @@
 {
   "name_am": "ማሊቡ የውጭ ግቢ የዊከር ሶፋ ስብስብ",
+  "price": 55000,
   "features_en": [
     "👉 Set Includes: Loveseat sofa, 2 armchairs, and a glass-top coffee table",
     "👉 Material: Woven Poly-rattan, Aluminum Frame",
@@ -21,7 +22,9 @@
     }
   ],
   "id": "outdoor-dinning-set",
+  "price_display_en": "55,000 ETB",
   "date_published": "2026-08-20",
   "name_en": " Malibu Outdoor Woven Dining Set",
-  "category": "chairs-tables"
+  "category": "chairs-tables",
+  "price_display_am": "55,000 ብር"
 }
