@@ -350,17 +350,33 @@
     ],
     "tag_en": "Premium",
     "description_am": "ለቤት ውጭ መዝናኛ፣ ለግቢ፣ ለበረንዳ ወይም ለተለያዩ ፕሮግራሞች ተስማሚ የሆነ ውብ እና ሰፊ የፓቲዮ ድንኳን። በጠንካራ ብረት ላይ የተገነባና ሁለት ደረጃ ያለው ጣራ (Double-Tiered Roof) ያለው ሲሆን፣ ይህም ንፋስ በቀላሉ እንዲያልፍ በማድረግ ጥንካሬውን ይጨምራል። ከትንኝ እና ከተለያዩ ተባዮች የሚከላከል የመረብ መጋረጃ (Mesh Netting) ያለው ሲሆን፣ የጎን መጋረጃዎቹን እንደ አስፈላጊነቱ ከፍቶ ማሰር ወይም ዘግቶ መጠቀም ይቻላል።",
-    "price_type": "flat",
+    "price_type": "tiered",
     "tag_am": "ልዩ ምርት",
     "images": [
       {
         "image": "assets/products/gemini_generated_image_cg02dtcg02dtcg02.jpeg"
       }
     ],
+    "price_tiers": [
+      {
+        "size": "3 x 3",
+        "price": 89972
+      },
+      {
+        "size": "3 x 4",
+        "price": 110000
+      },
+      {
+        "size": "4 x 4",
+        "price": 120000
+      }
+    ],
     "id": "tent",
+    "price_display_en": "90,000 - 120,000 ETB",
     "date_published": "2026-08-20",
     "name_en": "Outdoor Patio Gazebo Tent with Mesh Netting ",
-    "category": "tents"
+    "category": "tents",
+    "price_display_am": "90,000 - 120,000 ብር"
   },
   {
     "name_am": "ተንቀሳቃሽ የፀሐይ ጥላ",
