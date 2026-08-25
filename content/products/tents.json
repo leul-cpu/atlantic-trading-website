@@ -1,5 +1,6 @@
 {
   "name_am": "አውቶማቲክ ታጣፊ የካምፒንግ ድንኳን",
+  "price": 10000,
   "features_en": [
     "👉 Instant Automatic Setup: Features a pre-attached hydraulic mechanism that pops open and folds down effortlessly.",
     "👉 Weatherproof & Durable: Made of durable water-repellent polyester fabric with orange trim detailing for high visibility.",
@@ -23,7 +24,9 @@
     }
   ],
   "id": "tents",
+  "price_display_en": "10,000 ETB",
   "date_published": "2026-08-21",
   "name_en": "Automatic Pop-Up Camping Tent",
-  "category": "tents"
+  "category": "tents",
+  "price_display_am": "10,000 ብር"
 }
