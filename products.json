@@ -303,6 +303,7 @@
   },
   {
     "name_am": "የፕላስቲክ ማከማቻ እና የፍራፍሬ/አትክልት ሳጥን",
+    "price": 1000,
     "features_en": [
       "👉 Durable Build: Made from high-grade plastic resistant to wear, impacts, and heavy loads.",
       "👉 Ventilated Design: Perforated walls and floor allow max ventilation, keeping fruits, vegetables, or fresh goods dry and fresh.",
@@ -326,9 +327,11 @@
       }
     ],
     "id": "plastic-storage",
+    "price_display_en": "1,000 ETB",
     "date_published": "2026-08-20",
     "name_en": "Plastic Storage & Produce Crate",
-    "category": "plastics"
+    "category": "plastics",
+    "price_display_am": "1,000 ብር"
   },
   {
     "name_am": "የፓቲዮ ድንኳን ከወንፊት መጋረጃ ጋር",
