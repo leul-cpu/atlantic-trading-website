@@ -1,5 +1,6 @@
 {
   "name_am": "ታጣፊ የፕላስቲክ ወንበር / በርቼታ",
+  "price": 1500,
   "features_en": [
     "👉 Weight: 1.2kg",
     "👉 Dimensions: 31cm x 22cm x 39cm",
@@ -21,7 +22,9 @@
     }
   ],
   "id": "folding-chair",
+  "price_display_en": "1,500 ETB",
   "date_published": "2026-08-20",
   "name_en": "Compact Folding Stool",
-  "category": "chairs-tables"
+  "category": "chairs-tables",
+  "price_display_am": "1,500 ብር"
 }
