@@ -420,17 +420,29 @@
     ],
     "tag_en": "New",
     "description_am": "ከፀሐይና ከዝናብ አስተማማኝ ጥላ የሚሰጥ፣ በቀላሉ የሚጓጓዝ ሁለገብ ጥላ። ቁመቱ የሚስተካከል ጠንካራ የብረት ማቆሚያ እና አራት እግር ያለው ታጣፊ መሠረት (Tripod Stand) ስላለው በማንኛውም ጠፍጣፋ ቦታ ላይ በቀላሉ ይቆማል። ለቤት ውጭ ነጋዴዎች፣ ለገበያ ቦታዎች፣ ለጅብሪት/ካፌዎች፣ ለበረንዳ እና ለተለያዩ የቤት ውጭ ኩነቶች በጣም ተስማሚ ነው።",
-    "price_type": "flat",
+    "price_type": "tiered",
     "tag_am": "አዲስ",
     "images": [
       {
         "image": "assets/products/gemini_generated_image_1uxeqp1uxeqp1uxe.jpeg"
       }
     ],
+    "price_tiers": [
+      {
+        "size": "ያለ መቆሚያ(without stand)",
+        "price": 6900
+      },
+      {
+        "size": "በመቆሚያ(with stand)",
+        "price": 8400
+      }
+    ],
     "id": "portable-umbrella",
+    "price_display_en": "1,500 - 6,900 ETB",
     "date_published": "2026-08-20",
     "name_en": "Portable Outdoor Umbrella ",
-    "category": "umbrellas"
+    "category": "umbrellas",
+    "price_display_am": "1,500 - 6,900 ብር"
   },
   {
     "name_am": "ትልቅ ካንቲሊቨር ጥላ",
