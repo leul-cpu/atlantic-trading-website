@@ -1,5 +1,6 @@
 {
   "name_am": "የራትያን የውጪ መመገቢያ ወንበር",
+  "price": 68000,
   "features_en": [
     "👉 For cafe and restaurant patios",
     "👉 For hotel outdoor lounges",
@@ -23,7 +24,9 @@
     }
   ],
   "id": "dinning-set",
+  "price_display_en": "68,000 ETB",
   "date_published": "2026-08-20",
   "name_en": "Rattan Patio Dining Set",
-  "category": "chairs-tables"
+  "category": "chairs-tables",
+  "price_display_am": "68,000 ብር"
 }
