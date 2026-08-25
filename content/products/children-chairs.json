@@ -1,5 +1,6 @@
 {
   "name_am": "የህፃናት ቀለማት ያሸበረቁ ወንበሮች እና ጠረጴዛዎች",
+  "price": "",
   "features_en": [
     "👉 Vibrant Multicolor Set: Includes a sturdy blue central table surrounded by bright, colorful armchairs (blue, green, orange, pink, yellow, and red).",
     "👉 Child-Safe & Durable Construction: Made from non-toxic, impact-resistant plastic with rounded edges for safety.",
@@ -15,15 +16,27 @@
   ],
   "tag_en": " Premium",
   "description_am": "ለህፃናት ትምህርት፣ ለጨዋታ፣ ለስዕል እና ለምግብ ሰዓት የሚሆን ደስ የሚል ቀለማት ያሸበረቀ የጠረጴዛ እና ወንበሮች ስብስብ። ለህፃናት ደህንነት ሲባል ለስላሳ ጠርዞች ያሉት፣ ጠንካራ እና የልብ ቅርፅ ያለው መደገፊያ የተሰራለት ነው። ቀለል ያለ ክብደት ያለው በመሆኑ በቀላሉ ለማንቀሳቀስ የሚመች ሲሆን፣ ለመዋዕለ ህፃናት (Kindergarten)፣ ለቅድመ-መደበኛ ትምህርት ቤቶች እና ለቤት ውስጥ ጨዋታ ቦታዎች በጣም ተስማሚ ነው።",
-  "price_type": "flat",
+  "price_type": "tiered",
   "tag_am": " ልዩ ምርት",
   "images": [
     {
       "image": "assets/products/photo_2026-08-20_22-54-50.jpg"
     }
   ],
+  "price_tiers": [
+    {
+      "size": " ወንበር(chair)",
+      "price": 650
+    },
+    {
+      "size": "ጠረቤዛ(table)",
+      "price": 1050
+    }
+  ],
   "id": "children-chairs",
+  "price_display_en": "650 - 1,050 ETB",
   "date_published": "2026-08-20",
   "name_en": "Colorful Kids Table & Chair Set ",
-  "category": "chairs-tables"
+  "category": "chairs-tables",
+  "price_display_am": "650 - 1,050 ብር"
 }
