@@ -68,6 +68,7 @@
   },
   {
     "name_am": "የሕፃናት የድብ ቅርፅ ያላቸው ወንበሮች ከጠረጴዛ ጋር",
+    "price": 300,
     "features_en": [
       "👉 Configuration: Available per chair or as a set of four",
       "👉 Features: Attached front tray with cup holder slot, cute bear-shaped backrest, cartoon seat padding",
@@ -89,9 +90,11 @@
       }
     ],
     "id": "chair-set",
+    "price_display_en": "300 ETB",
     "date_published": "2026-08-20",
     "name_en": " Kids Bear Tray-Chair Set",
-    "category": "chairs-tables"
+    "category": "chairs-tables",
+    "price_display_am": "300 ብር"
   },
   {
     "name_am": "የህፃናት ቀለማት ያሸበረቁ ወንበሮች እና ጠረጴዛዎች",
