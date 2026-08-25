@@ -393,6 +393,7 @@
   },
   {
     "name_am": "ትልቅ ካንቲሊቨር ጥላ",
+    "price": 45000,
     "features_en": [
       "👉 Size: 3.5m Octagon / Folds compactly for storage",
       "👉 Base: Granite Cross Base included",
@@ -414,9 +415,11 @@
       }
     ],
     "id": "shades",
+    "price_display_en": "45,000 ETB",
     "date_published": "2026-08-20",
     "name_en": " Alpine Large Cantilever Umbrella",
-    "category": "umbrellas"
+    "category": "umbrellas",
+    "price_display_am": "45,000 ብር"
   },
   {
     "name_am": "የቆሻሻ መጣያ",
