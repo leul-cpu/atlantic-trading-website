@@ -144,6 +144,35 @@
     "category": "chairs-tables"
   },
   {
+    "name_am": "ዘመናዊ የውጪ ግቢና በረንዳ የራትዝ/ራታን ሶፋ ሴት",
+    "features_en": [
+      "Set Includes: 3-seater sofa, matching armchair, padded ottoman, and glass-top coffee table.",
+      "Durability: All-weather woven rattan frame designed to withstand outdoor conditions.",
+      "Comfort: Thick, high-density foam cushions with removable, easy-to-clean covers.",
+      "Versatility: Modular layout allows flexible arrangements for gardens, patios, or poolside lounges."
+    ],
+    "description_en": "Transform your patio, garden, or balcony with this elegant 5-piece rattan lounge set. Designed for comfort and durability, it features all-weather woven rattan, thick plush cushions, and a glass-top coffee table perfect for outdoor entertaining.",
+    "features_am": [
+      "የሴቱ ይዘት፦ ባለ 3 መቀመጫ ሶፋ፣ ባለ 1 መቀመጫ ወንበር፣ የእግር ማረፊያ (Ottoman) እና የመስታወት ላዩ ያለው ጠረጴዛ።",
+      "ጥንካሬ፦ ለማንኛውም የአየር ንብረት (ፀሐይና ዝናብ) የሚቋቋም የራትዝ ሽመና።",
+      "ምቾት፦ ወፍራም እና ለስላሳ ስፖንጅ ያላቸው፣ በቀላሉ ወልቀው የሚታጠቡ የትራስ አልባሳት",
+      "ባለብዙ አገልግሎት፦ ለግቢ፣ ለበረንዳ፣ ለካፌ ወይም ለዋና ቦታ መዝናኛ በጣም ተስማሚ።"
+    ],
+    "tag_en": "Bestseller",
+    "description_am": "የግቢዎን፣ የባረንዳዎን ወይም የጓሮዎን ውበት የሚያደምቅ የ5-ቁራጭ ዘመናዊ የራትዝ (Rattan) ሶፋ ሴት! ለረጅም ጊዜ የሚያገለግል፣ ለአየር ንብረት ለውጥ የማይበላሽ እና ለፅዳት ምቹ የሆነ የውጪ እቃ።",
+    "price_type": "flat",
+    "tag_am": "ተፈላጊ",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_vcfxmjvcfxmjvcfx.jpeg"
+      }
+    ],
+    "id": "sofa",
+    "date_published": "2026-08-26",
+    "name_en": "Luxury Outdoor Rattan Sofa Set",
+    "category": "chairs-tables"
+  },
+  {
     "name_am": "ዘመናዊ የ4-ቁራጭ የራትዝ (Rattan) የሶፋ ሴት ከቀይ ትራስ ጋር",
     "features_en": [
       "Set Includes: 1 double-seater sofa, 2 matching single armchairs, and 1 rectangular glass-top coffee table with lower shelf storage.",
@@ -170,35 +199,6 @@
     "id": "sofa-set",
     "date_published": "2026-08-26",
     "name_en": "4-Piece Modern Rattan Sofa Set with Red Cushions",
-    "category": "chairs-tables"
-  },
-  {
-    "name_am": "ዘመናዊ የውጪ ግቢና በረንዳ የራትዝ/ራታን ሶፋ ሴት",
-    "features_en": [
-      "Set Includes: 3-seater sofa, matching armchair, padded ottoman, and glass-top coffee table.",
-      "Durability: All-weather woven rattan frame designed to withstand outdoor conditions.",
-      "Comfort: Thick, high-density foam cushions with removable, easy-to-clean covers.",
-      "Versatility: Modular layout allows flexible arrangements for gardens, patios, or poolside lounges."
-    ],
-    "description_en": "Transform your patio, garden, or balcony with this elegant 5-piece rattan lounge set. Designed for comfort and durability, it features all-weather woven rattan, thick plush cushions, and a glass-top coffee table perfect for outdoor entertaining.",
-    "features_am": [
-      "የሴቱ ይዘት፦ ባለ 3 መቀመጫ ሶፋ፣ ባለ 1 መቀመጫ ወንበር፣ የእግር ማረፊያ (Ottoman) እና የመስታወት ላዩ ያለው ጠረጴዛ።",
-      "ጥንካሬ፦ ለማንኛውም የአየር ንብረት (ፀሐይና ዝናብ) የሚቋቋም የራትዝ ሽመና።",
-      "ምቾት፦ ወፍራም እና ለስላሳ ስፖንጅ ያላቸው፣ በቀላሉ ወልቀው የሚታጠቡ የትራስ አልባሳት",
-      "ባለብዙ አገልግሎት፦ ለግቢ፣ ለበረንዳ፣ ለካፌ ወይም ለዋና ቦታ መዝናኛ በጣም ተስማሚ።"
-    ],
-    "tag_en": "Bestseller",
-    "description_am": "የግቢዎን፣ የባረንዳዎን ወይም የጓሮዎን ውበት የሚያደምቅ የ5-ቁራጭ ዘመናዊ የራትዝ (Rattan) ሶፋ ሴት! ለረጅም ጊዜ የሚያገለግል፣ ለአየር ንብረት ለውጥ የማይበላሽ እና ለፅዳት ምቹ የሆነ የውጪ እቃ።",
-    "price_type": "flat",
-    "tag_am": "ተፈላጊ",
-    "images": [
-      {
-        "image": "assets/products/gemini_generated_image_vcfxmjvcfxmjvcfx.jpeg"
-      }
-    ],
-    "id": "sofa-set",
-    "date_published": "2026-08-26",
-    "name_en": "Luxury Outdoor Rattan Sofa Set",
     "category": "chairs-tables"
   },
   {
