@@ -604,7 +604,7 @@ const _placeholder = [
 // Categories
 // ──────────────────────────────────────
 let categories = [
-  { id: "all",           name_en: "All Products",    name_am: "ሁሉም ምርቶች" }
+  { id: "all", name_en: "All Products", name_am: "ሁሉም ምርቶች" }
 ];
 
 // ──────────────────────────────────────
@@ -612,62 +612,64 @@ let categories = [
 // ──────────────────────────────────────
 const dictionary = {
   en: {
-    "hero-badge":         "TRUSTED SUPPLIER",
-    "hero-title-main":    "ATLANTIC TRADING",
-    "hero-title-sub":     "Quality Outdoor & Plastic Gear",
-    "hero-subtitle":      "For your business & home. Premium shade umbrellas, tents, plastic chairs, and garbage cans in Addis Ababa.",
-    "hero-cta":           "Browse Catalog",
-    "hero-tg-cta":        "Order on Telegram",
-    "call-now":           "Call to Order",
+    "hero-badge": "TRUSTED SUPPLIER",
+    "hero-title-main": "ATLANTIC TRADING",
+    "hero-title-sub": "Quality Outdoor & Plastic Gear",
+    "hero-subtitle": "For your business & home. Premium shade umbrellas, tents, plastic chairs, and garbage cans in Addis Ababa.",
+    "hero-cta": "Browse Catalog",
+    "hero-tg-cta": "Order on Telegram",
+    "call-now": "Call to Order",
     "section-categories": "Browse Categories",
-    "section-catalog":    "Our Product Catalog",
+    "section-catalog": "Our Product Catalog",
     "search-placeholder": "Search products...",
-    "pdp-key-features":   "Key Specifications",
-    "pdp-pricing-table":  "Size & Price Tiers",
-    "th-size":            "Capacity / Size",
-    "th-price":           "Price (ETB)",
-    "order-telegram":     "Order via Telegram",
-    "order-call":         "Call to Order",
-    "footer-contact-us":  "Get in Touch",
-    "footer-loc-1":       "Mercato, Anwar Mosque front, Wajidi Market Ctr, 1st floor shop no. 123 & 124",
-    "footer-loc-2":       "Nigat Birhan Market Center, Shop No. G015",
-    "footer-follow-us":   "Follow Us",
-    "footer-rights":      "All Rights Reserved.",
-    "sticky-tg":          "Order on Telegram",
-    "sticky-call":        "Call",
-    "price-from":         "From",
-    "nav-join-tg":        "Join Channel",
-    "no-results":         "No products found. Try a different search.",
-    "pdp-negotiable":     "Negotiable"
+    "pdp-key-features": "Key Specifications",
+    "pdp-pricing-table": "Size & Price Tiers",
+    "th-size": "Capacity / Size",
+    "th-price": "Price (ETB)",
+    "order-telegram": "Order via Telegram",
+    "order-call": "Call to Order",
+    "footer-contact-us": "Get in Touch",
+    "footer-loc-1": "Mercato, Anwar Mosque front, Wajidi Market Ctr, 1st floor shop no. 123 & 124",
+    "footer-loc-2": "Nigat Birhan Market Center, Shop No. G015",
+    "footer-follow-us": "Follow Us",
+    "footer-rights": "All Rights Reserved.",
+    "sticky-tg": "Order on Telegram",
+    "sticky-call": "Call",
+    "price-from": "From",
+    "nav-join-tg": "Join Channel",
+    "no-results": "No products found. Try a different search.",
+    "pdp-negotiable": "Negotiable",
+    "pdp-fixed": "Fixed Price"
   },
   am: {
-    "hero-badge":         "ታማኝ አቅራቢ",
-    "hero-title-main":    "አትላንቲክ ትሬዲንግ",
-    "hero-title-sub":     "ጥራት ያላቸው የውጪና ፕላስቲክ ዕቃዎች",
-    "hero-subtitle":      "ለቤትዎ እና ለንግድዎ። ምርጥ የፀሐይ ጥላዎች፣ ድንኳኖች፣ የፕላስቲክ ወንበሮች እና የቆሻሻ መጣያ ባልዲዎች በአዲስ አበባ።",
-    "hero-cta":           "ካታሎግ ይመልከቱ",
-    "hero-tg-cta":        "በቴሌግራም እዘዝ",
-    "call-now":           "ደውለው ይዘዙ",
+    "hero-badge": "ታማኝ አቅራቢ",
+    "hero-title-main": "አትላንቲክ ትሬዲንግ",
+    "hero-title-sub": "ጥራት ያላቸው የውጪና ፕላስቲክ ዕቃዎች",
+    "hero-subtitle": "ለቤትዎ እና ለንግድዎ። ምርጥ የፀሐይ ጥላዎች፣ ድንኳኖች፣ የፕላስቲክ ወንበሮች እና የቆሻሻ መጣያ ባልዲዎች በአዲስ አበባ።",
+    "hero-cta": "ካታሎግ ይመልከቱ",
+    "hero-tg-cta": "በቴሌግራም እዘዝ",
+    "call-now": "ደውለው ይዘዙ",
     "section-categories": "ምድቦች",
-    "section-catalog":    "የምርት ዝርዝር",
+    "section-catalog": "የምርት ዝርዝር",
     "search-placeholder": "ዕቃዎችን ይፈልጉ...",
-    "pdp-key-features":   "ዋና መለያዎች",
-    "pdp-pricing-table":  "የመጠን እና የዋጋ ዝርዝር",
-    "th-size":            "መጠን / ሊትር",
-    "th-price":           "ዋጋ (ብር)",
-    "order-telegram":     "በቴሌግራም እዘዝ",
-    "order-call":         "ደውለው ለማዘዝ",
-    "footer-contact-us":  "ያግኙን",
-    "footer-loc-1":       "መርካቶ አንዋር መስጂድ ፊለፊት ዋጂዲ የገበያ መዐከል 1ኛ floor shop no. 123 & 124",
-    "footer-loc-2":       "ንጋት ብርሀን የገበያ መዐከል G015 ቁጥር",
-    "footer-follow-us":   "ይከተሉን",
-    "footer-rights":      "መብቱ በህግ የተጠበቀ ነው።",
-    "sticky-tg":          "በቴሌግራም እዘዝ",
-    "sticky-call":        "ደውል",
-    "price-from":         "ከ",
-    "nav-join-tg":        "ቴሌግራም ቻናል",
-    "no-results":         "ምንም ምርት አልተገኘም። ሌላ ቃል ይሞክሩ።",
-    "pdp-negotiable":     "ድርድር አለው"
+    "pdp-key-features": "ዋና መለያዎች",
+    "pdp-pricing-table": "የመጠን እና የዋጋ ዝርዝር",
+    "th-size": "መጠን / ሊትር",
+    "th-price": "ዋጋ (ብር)",
+    "order-telegram": "በቴሌግራም እዘዝ",
+    "order-call": "ደውለው ለማዘዝ",
+    "footer-contact-us": "ያግኙን",
+    "footer-loc-1": "መርካቶ አንዋር መስጂድ ፊለፊት ዋጂዲ የገበያ መዐከል 1ኛ floor shop no. 123 & 124",
+    "footer-loc-2": "ንጋት ብርሀን የገበያ መዐከል G015 ቁጥር",
+    "footer-follow-us": "ይከተሉን",
+    "footer-rights": "መብቱ በህግ የተጠበቀ ነው።",
+    "sticky-tg": "በቴሌግራም እዘዝ",
+    "sticky-call": "ደውል",
+    "price-from": "ከ",
+    "nav-join-tg": "ቴሌግራም ቻናል",
+    "no-results": "ምንም ምርት አልተገኘም። ሌላ ቃል ይሞክሩ።",
+    "pdp-negotiable": "ድርድር አለው",
+    "pdp-fixed": "የማይቀየር ዋጋ"
   }
 };
 
@@ -781,13 +783,13 @@ function tryEscapeInAppBrowser() {
   if (isAndroid) {
     // Construct the destination URL without the protocol
     const cleanUrl = currentUrl.replace(/^https?:\/\//, '');
-    
+
     // Construct the Android intent link targeting Chrome
     const intentUrl = `intent://${cleanUrl}#Intent;scheme=https;package=com.android.chrome;end`;
-    
+
     // Attempt to redirect to the intent URL
     window.location.href = intentUrl;
-    
+
     // If the intent redirect fails (e.g., Chrome not installed or intent blocked),
     // fallback to showing the manual instructions overlay.
     setTimeout(() => {
@@ -864,12 +866,12 @@ async function initApp() {
   } catch (err) {
     console.warn("Could not fetch categories.json, falling back to built-in data:", err);
     categories = [
-      { id: "all",           name_en: "All Products",    name_am: "ሁሉም ምርቶች" },
-      { id: "bins",          name_en: "Garbage Cans",    name_am: "የቆሻሻ መጣያ",    image: "assets/products/stainless-dustbin-thumb.webp" },
-      { id: "umbrellas",     name_en: "Shade Umbrellas", name_am: "የፀሐይ ጥላዎች",   image: "assets/products/double-layer-shade-thumb.webp" },
-      { id: "chairs-tables", name_en: "Chairs & Tables", name_am: "ወንበርና ጠረጴዛ",  image: "assets/products/table-set-glass-thumb.webp" },
-      { id: "tents",         name_en: "Tents & Gazebos", name_am: "ድንኳኖች",        image: "assets/products/folding-tent-thumb.webp" },
-      { id: "plastics",      name_en: "Plastic Goods",   name_am: "የፕላስቲክ ዕቃዎች", image: "assets/products/plastic-duka-small-thumb.webp" }
+      { id: "all", name_en: "All Products", name_am: "ሁሉም ምርቶች" },
+      { id: "bins", name_en: "Garbage Cans", name_am: "የቆሻሻ መጣያ", image: "assets/products/stainless-dustbin-thumb.webp" },
+      { id: "umbrellas", name_en: "Shade Umbrellas", name_am: "የፀሐይ ጥላዎች", image: "assets/products/double-layer-shade-thumb.webp" },
+      { id: "chairs-tables", name_en: "Chairs & Tables", name_am: "ወንበርና ጠረጴዛ", image: "assets/products/table-set-glass-thumb.webp" },
+      { id: "tents", name_en: "Tents & Gazebos", name_am: "ድንኳኖች", image: "assets/products/folding-tent-thumb.webp" },
+      { id: "plastics", name_en: "Plastic Goods", name_am: "የፕላስቲክ ዕቃዎች", image: "assets/products/plastic-duka-small-thumb.webp" }
     ];
   }
 
@@ -973,10 +975,10 @@ function renderProducts() {
   grid.innerHTML = "";
 
   const filtered = products.filter(prod => {
-    const matchCat    = currentCategory === "all" || prod.category === currentCategory;
+    const matchCat = currentCategory === "all" || prod.category === currentCategory;
     const matchSearch = prod.name_en.toLowerCase().includes(searchQuery)
-                     || prod.name_am.includes(searchQuery)
-                     || prod.description_en.toLowerCase().includes(searchQuery);
+      || prod.name_am.includes(searchQuery)
+      || prod.description_en.toLowerCase().includes(searchQuery);
     return matchCat && matchSearch;
   });
 
@@ -1000,7 +1002,7 @@ function renderProducts() {
     card.tabIndex = 0;
     card.setAttribute("role", "button");
     card.style.animationDelay = `${idx * 0.05}s`;
-    
+
     card.onclick = () => openPDP(prod.id);
     card.onkeydown = (e) => {
       if (e.key === "Enter" || e.key === " ") {
@@ -1009,14 +1011,17 @@ function renderProducts() {
       }
     };
 
-    const name       = currentLang === "en" ? prod.name_en        : prod.name_am;
-    const desc       = currentLang === "en" ? prod.description_en : prod.description_am;
+    const name = currentLang === "en" ? prod.name_en : prod.name_am;
+    const desc = currentLang === "en" ? prod.description_en : prod.description_am;
     const fallbackPriceEn = "Contact for price";
     const fallbackPriceAm = "ያግኙን";
     const priceTextRaw = currentLang === "en" ? prod.price_display_en : (prod.price_display_am || prod.price_display_en);
-    const priceText  = priceTextRaw || (currentLang === "en" ? fallbackPriceEn : fallbackPriceAm);
+    const priceText = priceTextRaw || (currentLang === "en" ? fallbackPriceEn : fallbackPriceAm);
     const priceLabel = (prod.price_type === "tiered" && priceTextRaw) ? (currentLang === "en" ? "From" : "ከ") : "";
-    const tag        = currentLang === "en" ? prod.tag_en         : prod.tag_am;
+    const tag = currentLang === "en" ? prod.tag_en : prod.tag_am;
+    const isNegotiable = prod.negotiable !== false; // defaults to true unless explicitly false
+    const negStatusLabel = isNegotiable ? dictionary[currentLang]['pdp-negotiable'] : dictionary[currentLang]['pdp-fixed'];
+    const negStatusColor = isNegotiable ? '#10b981' : '#94a3b8';
 
     card.innerHTML = `
       <div class="product-card-image-wrap">
@@ -1025,13 +1030,9 @@ function renderProducts() {
         <div class="product-card-overlay">
           <div class="product-card-details">
             <h3 class="product-card-title">${name}</h3>
-            <p class="product-card-desc">${desc}</p>
             <div class="product-card-footer">
-              <div style="display:flex; flex-direction:column; gap:2px;">
-                <span class="product-card-price">${priceLabel ? priceLabel + ' ' : ''}${priceText}</span>
-                ${prod.negotiable ? `<span style="font-size: 0.8rem; color: #10b981; font-weight: 600;">${dictionary[currentLang]['pdp-negotiable']}</span>` : ""}
-              </div>
-              <span class="product-card-action">View details</span>
+              <span class="product-card-price">${priceLabel ? priceLabel + ' ' : ''}${priceText}</span>
+              <span class="product-card-neg" style="color: ${negStatusColor};">${negStatusLabel}</span>
             </div>
           </div>
         </div>
@@ -1052,9 +1053,9 @@ function openPDP(productId) {
   // Collect all available images for this product.
   // Priority: prod.images array → fallback to image_full + image_thumb
   const gallery = document.getElementById("pdpGallery");
-  const dotsEl  = document.getElementById("pdpGalleryDots");
+  const dotsEl = document.getElementById("pdpGalleryDots");
   gallery.innerHTML = "";
-  dotsEl.innerHTML  = "";
+  dotsEl.innerHTML = "";
 
   const rawImages = prod.images && prod.images.length ? prod.images : [];
   const imgSrcs = rawImages.length
@@ -1066,18 +1067,18 @@ function openPDP(productId) {
   // Configure navigation buttons
   const prevBtn = document.getElementById("pdpGalleryPrev");
   const nextBtn = document.getElementById("pdpGalleryNext");
-  
+
   if (prevBtn && nextBtn) {
     if (imgSrcs.length > 1) {
       prevBtn.style.display = "flex";
       nextBtn.style.display = "flex";
-      
+
       prevBtn.onclick = () => {
         const idx = Math.round(gallery.scrollLeft / gallery.offsetWidth);
         const newIdx = Math.max(0, idx - 1);
         gallery.scrollTo({ left: gallery.offsetWidth * newIdx, behavior: "smooth" });
       };
-      
+
       nextBtn.onclick = () => {
         const idx = Math.round(gallery.scrollLeft / gallery.offsetWidth);
         const newIdx = Math.min(imgSrcs.length - 1, idx + 1);
@@ -1091,10 +1092,10 @@ function openPDP(productId) {
 
   imgSrcs.forEach((src, i) => {
     const img = document.createElement("img");
-    img.src       = src;
-    img.alt       = altText;
+    img.src = src;
+    img.alt = altText;
     img.className = "pdp-main-img";
-    img.loading   = "lazy";
+    img.loading = "lazy";
     gallery.appendChild(img);
 
     if (imgSrcs.length > 1) {
@@ -1116,25 +1117,25 @@ function openPDP(productId) {
   };
   document.getElementById("pdpTagContainer").innerHTML = prod.tag_en
     ? `<span class="hero-badge-ribbon">${currentLang === "en" ? prod.tag_en : prod.tag_am}</span>` : "";
-  document.getElementById("pdpTitle").textContent       = currentLang === "en" ? prod.name_en        : prod.name_am;
-  
+  document.getElementById("pdpTitle").textContent = currentLang === "en" ? prod.name_en : prod.name_am;
+
   const fallbackPriceEn = "Contact for price";
   const fallbackPriceAm = "ያግኙን";
   const pdpPriceTextRaw = currentLang === "en" ? prod.price_display_en : (prod.price_display_am || prod.price_display_en);
   const pdpPriceText = pdpPriceTextRaw || (currentLang === "en" ? fallbackPriceEn : fallbackPriceAm);
   const pdpPriceLabel = (prod.price_type === "tiered" && pdpPriceTextRaw) ? (currentLang === "en" ? "From " : "ከ ") : "";
-  document.getElementById("pdpPrice").textContent       = pdpPriceLabel + pdpPriceText;
-  
+  document.getElementById("pdpPrice").textContent = pdpPriceLabel + pdpPriceText;
+
   const negEl = document.getElementById("pdpNegotiable");
   if (negEl) {
     negEl.textContent = prod.negotiable ? dictionary[currentLang]["pdp-negotiable"] : "";
     negEl.style.display = prod.negotiable ? "block" : "none";
   }
-  
+
   document.getElementById("pdpDescription").textContent = currentLang === "en" ? prod.description_en : prod.description_am;
 
   const tiktokContainer = document.getElementById("pdpTiktokContainer");
-  const tiktokBtn       = document.getElementById("pdpTiktokBtn");
+  const tiktokBtn = document.getElementById("pdpTiktokBtn");
   if (prod.tiktok_review && prod.tiktok_review.trim() !== "") {
     tiktokContainer.style.display = "block";
     tiktokBtn.href = prod.tiktok_review;
@@ -1152,7 +1153,7 @@ function openPDP(productId) {
   });
 
   const tiersContainer = document.getElementById("pdpTiersContainer");
-  const tiersBody      = document.getElementById("pdpTiersBody");
+  const tiersBody = document.getElementById("pdpTiersBody");
   if (prod.price_type === "tiered" && prod.price_tiers) {
     tiersContainer.style.display = "block";
     tiersBody.innerHTML = "";
@@ -1170,7 +1171,7 @@ function openPDP(productId) {
   // Use document.baseURI to get the correct base path whether on GitHub Pages
   // subdirectory (/atlantic-trading-website/) or a future custom domain root.
   const baseUrl = document.baseURI.replace(/\/[^/]*$/, ""); // strip filename if any
-  
+
   // Find the first image that is NOT a massive base64 data URL
   let imagePath = "";
   for (const src of imgSrcs) {
@@ -1179,7 +1180,7 @@ function openPDP(productId) {
       break;
     }
   }
-  
+
   let photoLabel = currentLang === "en" ? `Photo:` : `ፎቶ፡`;
   let photoLine = "";
   if (imagePath) {
@@ -1196,7 +1197,7 @@ function openPDP(productId) {
   const rawNameAm = prod.name_am || prod.name_en || "";
   const cleanNameEn = rawNameEn.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '').trim();
   const cleanNameAm = rawNameAm.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '').trim();
-  
+
   const cleanName = currentLang === "en" ? cleanNameEn : cleanNameAm;
   const priceDisplay = currentLang === "en" ? (prod.price_display_en || "") : (prod.price_display_am || prod.price_display_en || "");
 
@@ -1214,19 +1215,19 @@ function openPDP(productId) {
       ? `${priceLabel} ${priceDisplay}`
       : `${priceLabel} ${priceDisplay} ${confirmSize}`
   ];
-  
+
   if (photoLine) {
     msgArr.push(``, photoLine);
   }
-  
+
   msgArr.push(``, footerText);
   const msg = msgArr.join("\n");
   const tgScheme = `tg://resolve?domain=Atlantictradingplc1&text=${encodeURIComponent(msg)}`;
-  const tgHttps  = `https://t.me/Atlantictradingplc1?text=${encodeURIComponent(msg)}`;
+  const tgHttps = `https://t.me/Atlantictradingplc1?text=${encodeURIComponent(msg)}`;
   const ctaBtn = document.getElementById("pdpTelegramCta");
   // Set href as tg:// for direct Telegram app opening (bypasses in-app browser warning)
   ctaBtn.href = tgScheme;
-  ctaBtn.onclick = function(e) {
+  ctaBtn.onclick = function (e) {
     e.preventDefault();
     openTelegramLink(tgScheme, tgHttps);
   };
@@ -1247,7 +1248,7 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") closePDP(); 
 // Sticky CTA Bar
 // ──────────────────────────────────────
 function handleScroll() {
-  const bar  = document.querySelector(".sticky-cta-bar");
+  const bar = document.querySelector(".sticky-cta-bar");
   const hero = document.querySelector(".hero-section");
   const navBar = document.querySelector(".nav-bar");
 
