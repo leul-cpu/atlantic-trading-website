@@ -553,7 +553,7 @@ a {
 .product-card-image-wrap {
   position: relative;
   width: 100%;
-  padding-top: 130%; /* 4:5 Portrait Aspect Ratio */
+  padding-top: 145%; /* Taller, larger image presentation */
   background-color: var(--primary-color);
   overflow: hidden;
 }
