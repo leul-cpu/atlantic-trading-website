@@ -53,5 +53,6 @@
   "date_published": "2026-08-12",
   "name_en": "Stainless Steel Dustbin",
   "category": "bins",
-  "price_display_am": "2,600 ብር ጀምሮ"
+  "price_display_am": "2,600 ብር ጀምሮ",
+  "negotiable": true
 }

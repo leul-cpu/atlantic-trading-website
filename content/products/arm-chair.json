@@ -35,5 +35,6 @@
   "date_published": "2026-08-14",
   "name_en": "Arm Chair",
   "category": "chairs-tables",
-  "price_display_am": "5,700 ብር"
+  "price_display_am": "5,700 ብር",
+  "negotiable": true
 }

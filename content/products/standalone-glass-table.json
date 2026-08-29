@@ -32,5 +32,6 @@
   "date_published": "2026-08-14",
   "name_en": "Glass-Top Table",
   "category": "chairs-tables",
-  "price_display_am": "15,000 ብር"
+  "price_display_am": "15,000 ብር",
+  "negotiable": true
 }

@@ -38,5 +38,6 @@
   "date_published": "2026-08-16",
   "name_en": "Garbage Can",
   "category": "bins",
-  "price_display_am": "ከ 70,000 ብር ጀምሮ"
+  "price_display_am": "ከ 70,000 ብር ጀምሮ",
+  "negotiable": true
 }

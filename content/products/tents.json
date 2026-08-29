@@ -28,5 +28,6 @@
   "date_published": "2026-08-21",
   "name_en": "Automatic Pop-Up Camping Tent",
   "category": "tents",
-  "price_display_am": "10,000 ብር"
+  "price_display_am": "10,000 ብር",
+  "negotiable": true
 }

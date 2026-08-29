@@ -23,5 +23,6 @@
   "id": "square-table",
   "date_published": "2026-08-26",
   "name_en": "Modern Marble-Top Square Table",
-  "category": "chairs-tables"
+  "category": "chairs-tables",
+  "negotiable": true
 }

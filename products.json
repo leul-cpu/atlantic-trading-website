@@ -1,5 +1,6 @@
 [
   {
+    "negotiable": true,
     "name_am": "4.50 በ 2.60 ሜትር ጥላ",
     "source_post": "https://t.me/atlantictradingtent",
     "price": 59000,
@@ -40,6 +41,7 @@
     "price_display_am": "59,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የ7-ቁራጭ የራትዝ (Rattan) የባርና የፓቲዮ ረጅም ጠረጴዛና ወንበሮች ሴት",
     "features_en": [
       "Set Includes: 1 rectangular glass-top high bar table and 6 matching backless woven rattan bar stools.",
@@ -69,6 +71,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የ3-ቁራጭ ጥቁር ግራጫ የራትዝ (Rattan) የቡናና የሻይ ማረፊያ ሴት",
     "features_en": [
       "Set Includes: 2 comfortable barrel-style armchairs and 1 matching round drum coffee table with a glass top.",
@@ -99,6 +102,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የ5-ቁራጭ የክሬም/ቤዥ የራትዝ (Rattan) የጠረጴዛና ወንበሮች ሴት",
     "features_en": [
       "Set Includes: 4 ergonomic woven armchairs and 1 square dining table with a tinted glass top.",
@@ -128,6 +132,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ ረጅም ደጋፊ ያለው የራትዝ (Rattan) የካፌና የሬስቶራንት ሶፋ/ቤንች",
     "features_en": [
       "Design: High straight backrest with a seamless, space-saving bench silhouette.",
@@ -155,6 +160,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የ5-ቁራጭ የራትዝ (Rattan) የምግብና የካፌ ጠረጴዛና ወንበሮች ሴት",
     "features_en": [
       "Set Includes: 4 comfortable high-back armchairs and 1 square tempered glass-top table.",
@@ -184,6 +190,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የውጪ ግቢና በረንዳ የራትዝ/ራታን ሶፋ ሴት",
     "features_en": [
       "Set Includes: 3-seater sofa, matching armchair, padded ottoman, and glass-top coffee table.",
@@ -213,6 +220,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የ4-ቁራጭ የራትዝ (Rattan) የሶፋ ሴት ከቀይ ትራስ ጋር",
     "features_en": [
       "Set Includes: 1 double-seater sofa, 2 matching single armchairs, and 1 rectangular glass-top coffee table with lower shelf storage.",
@@ -242,6 +250,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የማርብል ዲዛይን ያለው ካሬ ጠረጴዛ",
     "features_en": [
       "Design: Elegant marble-pattern tabletop with minimalist slim legs.",
@@ -269,6 +278,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የውጪና የዋና ቦታ ማረፊያ አልጋ/ወንበር (Sun Lounger)",
     "features_en": [
       "Design: Ergonomic curved body for maximum comfort and relaxation.",
@@ -298,6 +308,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የቡና እና የሻይ መረፊያ የራትዝ (Rattan) የጠረጴዛ እና ወንበር ሴት",
     "features_en": [
       "Set Includes: 2 comfortable armchair seats with soft cushions and 1 round glass-top coffee table.",
@@ -327,6 +338,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ የ3-ቁራጭ የግሬይ/ግራጫ የራትዝ (Rattan) የቡናና የሻይ ማረፊያ ሴት",
     "features_en": [
       "Set Includes: 2 comfortable barrel-style armchairs and 1 matching round coffee table with a glass top.",
@@ -356,6 +368,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "ዘመናዊ ረጅም ደጋፊ ያለው የራትዝ (Rattan) የካፌና የሬስቶራንት ሶፋ/ቤንች",
     "features_en": [
       "Design: Space-saving back-to-back double bench with a shared high central backrest.",
@@ -383,6 +396,7 @@
     "category": "chairs-tables"
   },
   {
+    "negotiable": true,
     "name_am": "አውቶማቲክ ታጣፊ የካምፒንግ ድንኳን",
     "price": 10000,
     "features_en": [
@@ -415,6 +429,7 @@
     "price_display_am": "10,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የተንቀሳቃሽ ጥላ ማቆሚያ/እግር)",
     "price": 1500,
     "features_en": [
@@ -450,6 +465,7 @@
     "price_display_am": " 1,500 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የሕፃናት የድብ ቅርፅ ያላቸው ወንበሮች ከጠረጴዛ ጋር",
     "price": 300,
     "features_en": [
@@ -480,6 +496,7 @@
     "price_display_am": "300 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የህፃናት ቀለማት ያሸበረቁ ወንበሮች እና ጠረጴዛዎች",
     "price": "",
     "features_en": [
@@ -522,6 +539,7 @@
     "price_display_am": "650 - 1,050 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የራትያን የውጪ መመገቢያ ወንበር",
     "price": 68000,
     "features_en": [
@@ -554,6 +572,7 @@
     "price_display_am": "68,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ታጣፊ የፕላስቲክ ወንበር / በርቼታ",
     "price": 1500,
     "features_en": [
@@ -584,6 +603,7 @@
     "price_display_am": "1,500 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የመመገቢያ ወንበር",
     "price": 10500,
     "features_en": [
@@ -616,6 +636,7 @@
     "price_display_am": "10,500 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ክብ የራትያን ወንበር ስብስብ",
     "price": 65000,
     "features_en": [
@@ -648,6 +669,7 @@
     "price_display_am": "65,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ማሊቡ የውጭ ግቢ የዊከር ሶፋ ስብስብ",
     "price": 55000,
     "features_en": [
@@ -678,6 +700,7 @@
     "price_display_am": "55,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የፕላስቲክ ራትያን የውጪ ሶፋ እና ጠረጴዛ",
     "price": 75000,
     "features_en": [
@@ -710,6 +733,7 @@
     "price_display_am": "75,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የፕላስቲክ ማከማቻ እና የፍራፍሬ/አትክልት ሳጥን",
     "price": 1000,
     "features_en": [
@@ -742,6 +766,7 @@
     "price_display_am": "1,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የፓቲዮ ድንኳን ከወንፊት መጋረጃ ጋር",
     "features_en": [
       "👉 Double-Tier Roof: Enhances air circulation and increases wind resistance for added stability.",
@@ -787,6 +812,7 @@
     "price_display_am": "90,000 - 120,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ተንቀሳቃሽ የፀሐይ ጥላ",
     "features_en": [
       "👉 Weather-Resistant Canopy: Durable polyester canopy with edge trim that blocks harsh UV rays and light rain.",
@@ -828,6 +854,7 @@
     "price_display_am": "1,500 - 8,400 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ትልቅ ካንቲሊቨር ጥላ",
     "price": 45000,
     "features_en": [
@@ -858,6 +885,7 @@
     "price_display_am": "45,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የቆሻሻ መጣያ",
     "source_post": "https://t.me/atlantictradingtent/189",
     "features_en": [
@@ -900,6 +928,7 @@
     "price_display_am": "ከ 70,000 ብር ጀምሮ"
   },
   {
+    "negotiable": true,
     "name_am": "የክንድ ወንበር",
     "source_post": "https://t.me/atlantictradingtent/88",
     "price": 5700,
@@ -939,6 +968,7 @@
     "price_display_am": "5,700 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ያለ ክንድ ወንበር",
     "source_post": "https://t.me/atlantictradingtent/88",
     "price": 5200,
@@ -978,6 +1008,7 @@
     "price_display_am": "5,200 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ትንሽ የፕላስቲክ ዱካ",
     "source_post": "https://t.me/atlantictradingtent/119",
     "price": 450,
@@ -1014,6 +1045,7 @@
     "price_display_am": "450 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "የመስታወት ጠረጴዛ",
     "source_post": "https://t.me/atlantictradingtent/50",
     "price": 15000,
@@ -1050,6 +1082,7 @@
     "price_display_am": "15,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "4 ወንበር ከ70x70 ጥቁር መስታወት ጠረጴዛ ጋር",
     "source_post": "https://t.me/atlantictradingtent/112",
     "price": 25900,
@@ -1086,6 +1119,7 @@
     "price_display_am": "25,900 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "4 ወንበር ከመስታወት ጠረጴዛ ጋር",
     "source_post": "https://t.me/atlantictradingtent/159",
     "price": 60000,
@@ -1125,6 +1159,7 @@
     "price_display_am": "60,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "4 ወንበር ከMDF ጠረጴዛ ጋር",
     "source_post": "https://t.me/atlantictradingtent/28",
     "price": 17500,
@@ -1162,6 +1197,7 @@
     "price_display_am": "17,500 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "4 ወንበር ከፕላስቲክ ጠረጴዛ ጋር",
     "source_post": "https://t.me/atlantictradingtent/112",
     "price": 15800,
@@ -1198,6 +1234,7 @@
     "price_display_am": "15,800 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ልዩ ዱካ",
     "source_post": "https://t.me/atlantictradingtent/96",
     "price": 3900,
@@ -1234,6 +1271,7 @@
     "price_display_am": "3,900 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ዙፋን ስብስብ — ወንበር፣ ጠረጴዛና ጥላ",
     "source_post": "https://t.me/atlantictradingtent/149",
     "features_en": [
@@ -1288,6 +1326,7 @@
     "price_display_am": "ከ 65,000 ብር ጀምሮ"
   },
   {
+    "negotiable": true,
     "name_am": "ድርብ የመወልወያ መጭመቅያ",
     "source_post": "https://t.me/atlantictradingtent/70",
     "price": 18000,
@@ -1327,6 +1366,7 @@
     "price_display_am": "18,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ድርብ ጥላ",
     "source_post": "https://t.me/atlantictradingtent/73",
     "features_en": [
@@ -1372,6 +1412,7 @@
     "price_display_am": "ከ 7,000 ብር ጀምሮ (+1,500 መቆምያ)"
   },
   {
+    "negotiable": true,
     "name_am": "ጐጆ ጥላ",
     "source_post": "https://t.me/atlantictradingtent/84",
     "features_en": [
@@ -1420,6 +1461,7 @@
     "price_display_am": "ከ 7,500 ብር ጀምሮ (+1,500 መቆምያ)"
   },
   {
+    "negotiable": true,
     "name_am": "የእጅ ጥላ (ማብራት ያለው)",
     "source_post": "https://t.me/atlantictradingtent/153",
     "price": 1900,
@@ -1459,6 +1501,7 @@
     "price_display_am": "1,900 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "3x3 ባለ ማብራት ጥላ ከኃይል ባንክ ጋር",
     "source_post": "https://t.me/atlantictradingtent/164",
     "price": 110000,
@@ -1501,6 +1544,7 @@
     "price_display_am": "110,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ስቴይንለስ ስቲል የቆሻሻ መጣያ",
     "source_post": "https://t.me/atlantictradingtent/55",
     "features_en": [
@@ -1558,6 +1602,7 @@
     "price_display_am": "2,600 ብር ጀምሮ"
   },
   {
+    "negotiable": true,
     "name_am": "የሚታጠፋ ድንኩዋን",
     "source_post": "https://t.me/atlantictradingtent/161",
     "price": 49000,
@@ -1595,6 +1640,7 @@
     "price_display_am": "49,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "3x3 ማብራት የሌለው ጥላ",
     "source_post": "https://t.me/atlantictradingtent/178",
     "price": 98997,
@@ -1636,6 +1682,7 @@
     "price_display_am": "99,000 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ሆሊደይ ተለጣጣቂ የፕላስቲክ ወንበር",
     "source_post": "https://t.me/atlantictradingtent/125",
     "price": 1150,
@@ -1675,6 +1722,7 @@
     "price_display_am": "1,150 ብር"
   },
   {
+    "negotiable": true,
     "name_am": "ጠንካራ ወንበር",
     "source_post": "https://t.me/atlantictradingtent/186",
     "price": 1900,

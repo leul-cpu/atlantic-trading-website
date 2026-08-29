@@ -173,6 +173,13 @@ collections:
             widget: "number"
             value_type: "int"
 
+      - label: "Negotiable (ዋጋ ይደራደራል?)"
+        name: "negotiable"
+        widget: "boolean"
+        default: true
+        required: false
+        hint: "Turn on if the price is negotiable (ድርድር አለው). Defaults to enabled."
+
       # ── Product images (multiple) ─────────────────────────────────────
       - label: "Product Photos"
         name: "images"

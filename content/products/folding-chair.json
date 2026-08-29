@@ -26,5 +26,6 @@
   "date_published": "2026-08-20",
   "name_en": "Compact Folding Stool",
   "category": "chairs-tables",
-  "price_display_am": "1,500 ብር"
+  "price_display_am": "1,500 ብር",
+  "negotiable": true
 }

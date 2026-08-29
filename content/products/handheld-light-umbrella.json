@@ -35,5 +35,6 @@
   "date_published": "2026-08-14",
   "name_en": "Handheld Umbrella with Light",
   "category": "umbrellas",
-  "price_display_am": "1,900 ብር"
+  "price_display_am": "1,900 ብር",
+  "negotiable": true
 }

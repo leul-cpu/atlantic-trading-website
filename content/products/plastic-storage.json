@@ -28,5 +28,6 @@
   "date_published": "2026-08-20",
   "name_en": "Plastic Storage & Produce Crate",
   "category": "plastics",
-  "price_display_am": "1,000 ብር"
+  "price_display_am": "1,000 ብር",
+  "negotiable": true
 }

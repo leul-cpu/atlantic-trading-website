@@ -637,7 +637,8 @@ const dictionary = {
     "sticky-call":        "Call",
     "price-from":         "From",
     "nav-join-tg":        "Join Channel",
-    "no-results":         "No products found. Try a different search."
+    "no-results":         "No products found. Try a different search.",
+    "pdp-negotiable":     "Negotiable"
   },
   am: {
     "hero-badge":         "ታማኝ አቅራቢ",
@@ -665,7 +666,8 @@ const dictionary = {
     "sticky-call":        "ደውል",
     "price-from":         "ከ",
     "nav-join-tg":        "ቴሌግራም ቻናል",
-    "no-results":         "ምንም ምርት አልተገኘም። ሌላ ቃል ይሞክሩ።"
+    "no-results":         "ምንም ምርት አልተገኘም። ሌላ ቃል ይሞክሩ።",
+    "pdp-negotiable":     "ድርድር አለው"
   }
 };
 
@@ -1025,7 +1027,10 @@ function renderProducts() {
             <h3 class="product-card-title">${name}</h3>
             <p class="product-card-desc">${desc}</p>
             <div class="product-card-footer">
-              <span class="product-card-price">${priceLabel ? priceLabel + ' ' : ''}${priceText}</span>
+              <div style="display:flex; flex-direction:column; gap:2px;">
+                <span class="product-card-price">${priceLabel ? priceLabel + ' ' : ''}${priceText}</span>
+                ${prod.negotiable ? `<span style="font-size: 0.8rem; color: #10b981; font-weight: 600;">${dictionary[currentLang]['pdp-negotiable']}</span>` : ""}
+              </div>
               <span class="product-card-action">View details</span>
             </div>
           </div>
@@ -1119,6 +1124,12 @@ function openPDP(productId) {
   const pdpPriceText = pdpPriceTextRaw || (currentLang === "en" ? fallbackPriceEn : fallbackPriceAm);
   const pdpPriceLabel = (prod.price_type === "tiered" && pdpPriceTextRaw) ? (currentLang === "en" ? "From " : "ከ ") : "";
   document.getElementById("pdpPrice").textContent       = pdpPriceLabel + pdpPriceText;
+  
+  const negEl = document.getElementById("pdpNegotiable");
+  if (negEl) {
+    negEl.textContent = prod.negotiable ? dictionary[currentLang]["pdp-negotiable"] : "";
+    negEl.style.display = prod.negotiable ? "block" : "none";
+  }
   
   document.getElementById("pdpDescription").textContent = currentLang === "en" ? prod.description_en : prod.description_am;
 

@@ -33,5 +33,6 @@
   "date_published": "2026-08-12",
   "name_en": "Foldable Storage Tent",
   "category": "tents",
-  "price_display_am": "49,000 ብር"
+  "price_display_am": "49,000 ብር",
+  "negotiable": true
 }

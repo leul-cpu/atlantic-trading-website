@@ -28,5 +28,6 @@
   "date_published": "2026-08-20",
   "name_en": "Modern Dining Chair",
   "category": "chairs-tables",
-  "price_display_am": "10,500 ብር"
+  "price_display_am": "10,500 ብር",
+  "negotiable": true
 }

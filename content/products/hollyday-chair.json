@@ -35,5 +35,6 @@
   "date_published": "2026-08-11",
   "name_en": "Holiday Flexible Plastic Chair",
   "category": "chairs-tables",
-  "price_display_am": "1,150 ብር"
+  "price_display_am": "1,150 ብር",
+  "negotiable": true
 }

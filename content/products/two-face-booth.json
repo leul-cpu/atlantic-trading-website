@@ -23,5 +23,6 @@
   "id": "two-face-booth",
   "date_published": "2026-08-26",
   "name_en": "Modern High-Back Rattan Bench / Restaurant Booth",
-  "category": "chairs-tables"
+  "category": "chairs-tables",
+  "negotiable": true
 }

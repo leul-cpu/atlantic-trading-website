@@ -41,5 +41,6 @@
   "date_published": "2026-08-14",
   "name_en": "Double-Layer Shade",
   "category": "umbrellas",
-  "price_display_am": "ከ 7,000 ብር ጀምሮ (+1,500 መቆምያ)"
+  "price_display_am": "ከ 7,000 ብር ጀምሮ (+1,500 መቆምያ)",
+  "negotiable": true
 }
