@@ -2,7 +2,7 @@
   {
     "name_am": "4.50 በ 2.60 ሜትር ጥላ",
     "source_post": "https://t.me/atlantictradingtent",
-    "price": 59000,
+    "price": 75000,
     "features_en": [
       "👉 Cafes",
       "👉 Restaurants",
@@ -10,6 +10,7 @@
       "👉 Cars/Parking"
     ],
     "description_en": "👉 Umbrella with a water-refillable base stand\n\n⏩ 3 umbrellas on 1 stand ⏩ Covers space for 2 chair sets\n\n“Quality, durable, wind-resistant”",
+    "negotiable": true,
     "features_am": [
       "👉 ለካፌዎች",
       "👉 ለሬስቶራንቶች",
@@ -32,13 +33,12 @@
       }
     ],
     "id": "bale3-tila",
-    "price_display_en": "59,000 ETB",
+    "price_display_en": "75,000 ETB",
     "tiktok_review": "https://vt.tiktok.com/ZSVGGSdAY/",
     "date_published": "2026-08-28",
     "name_en": "4.50 x 2.60 Meter Umbrella",
     "category": "tents",
-    "price_display_am": "59,000 ብር",
-    "negotiable": true
+    "price_display_am": "75,000 ብር"
   },
   {
     "name_am": "ዘመናዊ የ7-ቁራጭ የራትዝ (Rattan) የባርና የፓቲዮ ረጅም ጠረጴዛና ወንበሮች ሴት",
