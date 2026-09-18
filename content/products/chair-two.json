@@ -1,0 +1,43 @@
+{
+  "name_am": "የህፃናት ወንበር (First & Second Quality)",
+  "source_post": "https://t.me/atlantictradingtent/252",
+  "features_en": [
+    "✅ 👉 Perfect for kids",
+    "✅ 👉 Vibrant colors ",
+    "✅ 👉 Ideal for homes & schools ",
+    "✅ 👉 Strong & durable"
+  ],
+  "description_en": "👉 High-quality and child-friendly chair ⏩ Ideal for homes and schools ⏩ Brightly colored, strong, and durable\n\"Durable, safe, and built for kids\"  ",
+  "negotiable": true,
+  "features_am": [
+    " ✅ 👉 ለህፃናት ተስማሚ",
+    "✅ 👉 በደማቅ നിറሞች የተዘጋጀ",
+    "✅ 👉 ለቤት እና ለትምህርት ቤት",
+    "✅ 👉 ጠንካራ እና ዘላቂ"
+  ],
+  "tag_en": "New",
+  "description_am": "👉 ከፍተኛ ጥራት ያለው እና ለህፃናት ምቹ የሆነ ወንበር ⏩ ለቤት እና ለትምህርት ቤት አገልግሎት የሚሆን ⏩ በቀለማት ያሸበረቀ፣ ጠንካራ እና ዘላቂ\n\"ጥራት ያለው፣ ዘላቂ እና ለህፃናት ተስማሚ\"",
+  "price_type": "tiered",
+  "tag_am": "አዲስ",
+  "images": [
+    {
+      "image": "assets/products/photo_2026-09-18_22-09-37.jpg"
+    }
+  ],
+  "price_tiers": [
+    {
+      "size": "First quality",
+      "price": 680
+    },
+    {
+      "size": "Second quality",
+      "price": 580
+    }
+  ],
+  "id": "chair-two",
+  "price_display_en": "from 580",
+  "date_published": "2026-09-18",
+  "name_en": "Kids Chair (First & Second Quality)",
+  "category": "chairs-tables",
+  "price_display_am": "ክ 580"
+}
