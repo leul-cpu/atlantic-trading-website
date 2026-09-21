@@ -1,5 +1,38 @@
 [
   {
+    "name_am": "3 በ 3 ሜትር ጎን ሰቀል (Offset) ጥ ጥላ",
+    "price": 69000,
+    "features_en": [
+      "✅ 👉 Ideal for Cafes & Restaurants",
+      "✅ 👉 Perfect for Gardens & Patios",
+      "✅ 👉 Strong & Durable",
+      "✅ 👉 Weather & UV Resistant"
+    ],
+    "description_en": "👉 Modern and stylish offset cantilever umbrella ⏩ Perfect for cafes, restaurants, gardens, and outdoor spaces ⏩ Provides full protection from sun and rain\n\"Durable, versatile, and elegant outdoor shade\"",
+    "negotiable": true,
+    "features_am": [
+      "✅ 👉 ለካፌዎችና ሬስቶራንቶች",
+      "✅ 👉 ለግቢና ለውጭ ቦታዎች",
+      "✅ 👉 ጠንካራ እና ዘላቂ",
+      "✅ 👉 ከፀሐይ እና ከዝናብ የሚከላከል"
+    ],
+    "tag_en": "Bestseller",
+    "description_am": "👉 ዘመናዊ እና ውብ ዲዛይን ያለው ጎን ሰቀል ጥ ጥላ ⏩ ለካፌዎች፣ ለሬስቶራንቶች፣ ለግቢ እና ለተለያዩ ቦታዎች የሚሆን ⏩ ከፀሐይ እና ከዝናብ አስተማማኝ ከለላ የሚሰጥ\n\"ጥራት ያለው፣ ዘላቂ እና ለተለያዩ አገልግሎቶች የሚሆን\"",
+    "price_type": "flat",
+    "tag_am": "ተፈላጊ",
+    "images": [
+      {
+        "image": "assets/products/chatgpt-image-sep-21-2026-01_52_43-pm.png"
+      }
+    ],
+    "id": "shade-one",
+    "price_display_en": "69,000 ETB",
+    "date_published": "2026-09-21",
+    "name_en": "3x3m Offset Hanging Umbrella",
+    "category": "umbrellas",
+    "price_display_am": "69,000 ብር"
+  },
+  {
     "name_am": "የህፃናት ወንበር (First & Second Quality)",
     "source_post": "https://t.me/atlantictradingtent/252",
     "features_en": [
