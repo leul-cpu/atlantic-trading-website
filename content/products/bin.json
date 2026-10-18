@@ -1,0 +1,30 @@
+{
+  "name_am": "ጠንካራ የፕላስቲክ የቆሻሻ መጣያ ቢኖች",
+  "price": 6000,
+  "features_en": [
+    "⏩ Available in multiple colors (Green, Yellow, Red, Blue, Grey) for easy waste sorting ",
+    "⏩ Ideal for homes, offices, outdoor spaces, and commercial use "
+  ],
+  "description_en": "👉 Durable, high-capacity plastic trash bins with wheels and foot pedals ",
+  "negotiable": true,
+  "features_am": [
+    "⏩ ለቆሻሻ ለይቶ ማስወገድ የሚረዱ በተለያዩ रंगों (አረንጓዴ፣ ብጫ፣ ቀይ፣ ሰማያዊ፣ ግራጫ) የሚገኙ",
+    "⏩ ለቤት፣ ቢሮ፣ ለውጪ ቦታዎች እና ለንግድ ድርጅቶች ተስማሚ   "
+  ],
+  "tag_en": "New",
+  "description_am": "👉 እግር መጫኛ (pedal) እና እግር እግር መንኮራኩር ያላቸው ከፍተኛ መጠን የሚይዙ የቆሻሻ ቢኖች   ",
+  "price_type": "flat",
+  "tag_am": "ተፈላጊ",
+  "images": [
+    {
+      "image": "assets/products/bin.jpg"
+    }
+  ],
+  "id": "bin",
+  "price_display_en": "6,000 Birr",
+  "tiktok_review": "https://vt.tiktok.com/ZSgMtnaFq/",
+  "date_published": "2026-10-18",
+  "name_en": "Heavy-Duty Outdoor Plastic Dustbins",
+  "category": "bins",
+  "price_display_am": "6,000 ብር"
+}
