@@ -1,3 +1,5 @@
+@import url('assets/fonts/fonts.css');
+
 /* CSS variables and Design tokens */
 :root {
   --primary-color: #111E3C;
@@ -10,8 +12,8 @@
   --card-bg: #FFFFFF;
   --border-color: #E8E5DC;
   
-  --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, "Nyala", "Abyssinica SIL", serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Nyala", "Abyssinica SIL", "Noto Sans Ethiopic", sans-serif;
   
   --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   --shadow-sm: 0 2px 4px rgba(17, 30, 60, 0.04);
@@ -201,7 +203,7 @@ a {
 /* Hero Section */
 .hero-section {
   position: relative;
-  background-image: linear-gradient(rgba(17, 30, 60, 0.75), rgba(17, 30, 60, 0.85)), url('assets/atlantic.png');
+  background-image: linear-gradient(rgba(17, 30, 60, 0.75), rgba(17, 30, 60, 0.85)), url('assets/atlantic.webp');
   background-size: cover;
   background-position: center;
   color: var(--bg-color);
@@ -544,6 +546,9 @@ a {
   position: relative;
   border: 1px solid var(--border-color);
   width: 100%;
+  contain: layout paint style;
+  content-visibility: auto;
+  contain-intrinsic-size: 180px 260px;
 }
 
 .product-card:hover {
@@ -1400,3 +1405,13 @@ a {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

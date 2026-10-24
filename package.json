@@ -1,0 +1,12 @@
+{
+  "name": "atlantic-trading-website",
+  "version": "1.0.0",
+  "description": "Fast product catalog site for Atlantic Trading PLC in Addis Ababa, Ethiopia",
+  "scripts": {
+    "build": "node build.js",
+    "optimize-images": "python optimize_images.py"
+  },
+  "keywords": ["catalog", "ethiopia", "ecommerce"],
+  "author": "Atlantic Trading PLC",
+  "license": "ISC"
+}

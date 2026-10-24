@@ -3,7 +3,7 @@
     "id": "bins",
     "name_en": "Garbage Cans",
     "name_am": "የቆሻሻ መጣያ",
-    "image": "assets/products/garbage-can.jpeg"
+    "image": "assets/products/garbage-can-thumb.webp"
   },
   {
     "id": "chairs-tables",
@@ -15,18 +15,18 @@
     "id": "plastics",
     "name_en": "Plastic Goods",
     "name_am": "የፕላስቲክ ዕቃዎች",
-    "image": "assets/products/gemini_generated_image_fo9pylfo9pylfo9p-full.webp"
+    "image": "assets/products/gemini_generated_image_fo9pylfo9pylfo9p-thumb.webp"
   },
   {
     "id": "tents",
     "name_en": "Tents & Gazebos",
     "name_am": "ድንኳኖች",
-    "image": "assets/products/gemini_generated_image_cg02dtcg02dtcg02-full.webp"
+    "image": "assets/products/gemini_generated_image_cg02dtcg02dtcg02-thumb.webp"
   },
   {
     "id": "umbrellas",
     "name_en": "Shade Umbrellas",
     "name_am": "የፀሐይ ጥላዎች",
-    "image": "assets/products/gemini_generated_image_1uxeqp1uxeqp1uxe.jpeg"
+    "image": "assets/products/gemini_generated_image_1uxeqp1uxeqp1uxe-thumb.webp"
   }
 ]
