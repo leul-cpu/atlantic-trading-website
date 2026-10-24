@@ -976,9 +976,15 @@ function renderProducts() {
 
   const filtered = products.filter(prod => {
     const matchCat = currentCategory === "all" || prod.category === currentCategory;
-    const matchSearch = prod.name_en.toLowerCase().includes(searchQuery)
-      || prod.name_am.includes(searchQuery)
-      || prod.description_en.toLowerCase().includes(searchQuery);
+    const nameEn = (prod.name_en || "").toLowerCase();
+    const nameAm = prod.name_am || "";
+    const descEn = (prod.description_en || "").toLowerCase();
+    const descAm = prod.description_am || "";
+    const matchSearch = !searchQuery
+      || nameEn.includes(searchQuery)
+      || nameAm.includes(searchQuery)
+      || descEn.includes(searchQuery)
+      || descAm.includes(searchQuery);
     return matchCat && matchSearch;
   });
 
@@ -1279,9 +1285,10 @@ function initScrollAnimations() {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.1 });
+  }, { threshold: 0.02 });
 
-  document.querySelectorAll(".section-header, .categories-section, .products-section").forEach(el => {
+  // Only animate category section and individual section headers, NEVER the entire products catalog container
+  document.querySelectorAll(".section-header, .categories-section").forEach(el => {
     el.classList.add("fade-in-up");
     observer.observe(el);
   });

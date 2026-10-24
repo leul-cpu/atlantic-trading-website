@@ -449,6 +449,8 @@ a {
   margin: 0 auto;
   overflow-x: hidden;
   box-sizing: border-box;
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 .filter-controls {
