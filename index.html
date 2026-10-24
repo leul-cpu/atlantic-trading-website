@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="am">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atlantic Trading PLC | Premium Outdoor & Plastic Products in Ethiopia</title>
 
   <!-- SEO Meta Tags -->
@@ -12,32 +12,29 @@
   <meta property="og:title" content="Atlantic Trading PLC | Premium Outdoor & Plastic Goods">
   <meta property="og:description"
     content="Your trusted supplier for quality outdoor & plastic products in Ethiopia. Fast link-in-bio ordering via Telegram.">
-  <meta property="og:image" content="./assets/logo.png">
+  <meta property="og:image" content="https://atlantic-trading.vercel.app/assets/logo.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:type" content="website">
+  <meta name="theme-color" content="#111E3C">
+  <link rel="manifest" href="manifest.json">
 
-  <!-- Google Fonts: Playfair Display (Serif/Banner style) & Inter (Sans-serif UI) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap"
-    rel="stylesheet">
+  <!-- Critical Asset Preloading for Slow 3G / 4G Networks -->
+  <link rel="preload" href="assets/fonts/inter-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/playfair-display-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/atlantic.webp" as="image" type="image/webp">
+  <link rel="preload" href="assets/logo.webp" as="image" type="image/webp" fetchpriority="high">
 
   <!-- Core Design CSS -->
-  <link rel="stylesheet" href="index.css?v=9">
-  <!-- Google tag (gtag.js) -->
+  <link rel="stylesheet" href="index.css?v=11">
 
+  <!-- Google tag (gtag.js) - loaded asynchronously -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-444L7J5J4L"></script>
-
   <script>
-
     window.dataLayer = window.dataLayer || [];
-
     function gtag() { dataLayer.push(arguments); }
-
     gtag('js', new Date());
-
     gtag('config', 'G-444L7J5J4L');
-
   </script>
 </head>
 
@@ -46,27 +43,27 @@
   <!-- Sticky Top Navigation Bar -->
   <nav class="nav-bar">
     <div class="nav-container">
-      <a href="#" class="nav-logo-link">
-        <img src="assets/logo.png" alt="Atlantic Trading PLC Crest" class="nav-logo">
+      <a href="#" class="nav-logo-link" aria-label="Atlantic Trading PLC Home">
+        <img src="assets/logo.webp" alt="Atlantic Trading PLC Crest" class="nav-logo" width="180" height="48" fetchpriority="high">
       </a>
 
       <!-- Nav Actions -->
       <div class="nav-actions">
         <a href="tg://resolve?domain=atlantictradingtent"
           onclick="event.preventDefault();openTelegramLink('tg://resolve?domain=atlantictradingtent','https://t.me/atlantictradingtent')"
-          class="nav-tg-channel-btn">
+          class="nav-tg-channel-btn" aria-label="Join Telegram Channel">
           <svg class="tg-svg-icon" viewBox="0 0 24 24">
             <path fill="currentColor"
               d="M9.78 18.65l.28-4.28 7.76-7.01c.34-.3-.07-.47-.52-.18L7.79 12.06l-4.14-1.3c-.9-.28-.92-.9.19-1.33L20 3.7c.83-.3 1.54.19 1.27 1.27l-2.85 13.43c-.2 1-.8 1.24-1.64.77l-4.34-3.2-2.09 2.01c-.24.24-.44.44-.9.44z" />
           </svg>
-          <span class="tg-text" data-key="nav-join-tg">Join Channel</span>
+          <span class="tg-text" data-key="nav-join-tg">ቴሌግራም ቻናል</span>
         </a>
 
         <!-- Bilingual Toggle Button -->
-        <button class="lang-toggle-btn" id="langToggleBtn" onclick="toggleLanguage()">
-          <span class="active-lang">EN</span>
+        <button class="lang-toggle-btn" id="langToggleBtn" onclick="toggleLanguage()" aria-label="Toggle language between English and Amharic">
+          <span class="inactive-lang">EN</span>
           <span class="divider">/</span>
-          <span class="inactive-lang">አማ</span>
+          <span class="active-lang">አማ</span>
         </button>
       </div>
     </div>
@@ -74,18 +71,16 @@
 
   <!-- Hero Section -->
   <section class="hero-section">
-    <!-- Faint Sunburst Vector Overlay background -->
     <div class="hero-sunburst"></div>
     <div class="hero-content">
       <div class="hero-badge">
-        <span class="hero-badge-ribbon" data-key="hero-badge">TRUSTED SUPPLIER</span>
+        <span class="hero-badge-ribbon" data-key="hero-badge">ታማኝ አቅራቢ</span>
       </div>
       <h1 class="hero-title">
-        <span class="primary-highlight" data-key="hero-title-main">Quality Outdoor & Plastic Gear</span>
-        <span class="secondary-highlight" data-key="hero-title-sub">For Your Business & Home</span>
+        <span class="primary-highlight" data-key="hero-title-main">አትላንቲክ ትሬዲንግ</span>
+        <span class="secondary-highlight" data-key="hero-title-sub">ጥራት ያላቸው የውጪና ፕላስቲክ ዕቃዎች</span>
       </h1>
-      <p class="hero-subtitle" data-key="hero-subtitle">Premium shade umbrellas, tents, plastic chairs, and garbage cans
-        in Addis Ababa.</p>
+      <p class="hero-subtitle" data-key="hero-subtitle">ለቤትዎ እና ለንግድዎ። ምርጥ የፀሐይ ጥላዎች፣ ድንኳኖች፣ የፕላስቲክ ወንበሮች እና የቆሻሻ መጣያ ባልዲዎች በአዲስ አበባ።</p>
 
       <div class="hero-actions">
         <a href="tg://resolve?domain=atlantictradingtent"
@@ -95,29 +90,93 @@
             <path fill="currentColor"
               d="M9.78 18.65l.28-4.28 7.76-7.01c.34-.3-.07-.47-.52-.18L7.79 12.06l-4.14-1.3c-.9-.28-.92-.9.19-1.33L20 3.7c.83-.3 1.54.19 1.27 1.27l-2.85 13.43c-.2 1-.8 1.24-1.64.77l-4.34-3.2-2.09 2.01c-.24.24-.44.44-.9.44z" />
           </svg>
-          <span data-key="hero-tg-cta">Order on Telegram</span>
+          <span data-key="hero-tg-cta">በቴሌግራም እዘዝ</span>
         </a>
-        <a href="#products" class="btn-secondary" data-key="hero-cta">Browse Catalog</a>
+        <a href="#products" class="btn-secondary" data-key="hero-cta">ካታሎግ ይመልከቱ</a>
       </div>
     </div>
   </section>
 
-  <!-- Category Grid / Horizontal Scroll (Gymshark inspired tile system) -->
+  <!-- Category Grid / Horizontal Scroll -->
   <section class="categories-section">
     <div class="section-header">
-      <h2 data-key="section-categories">Browse Categories</h2>
+      <h2 data-key="section-categories">ምድቦች</h2>
       <div class="laurel-divider"></div>
     </div>
 
-    <div class="categories-scroll" id="categoriesScroll">
-      <!-- Generated by JS -->
+    <div class="categories-scroll" id="categoriesScroll"><!-- SSR_CATEGORIES -->
+
+      <div class="category-card" role="button" tabindex="0" onclick="selectCategory('bins')">
+        <img src="assets/products/garbage-can-thumb.webp" alt="Garbage Cans" class="category-card-bg" loading="lazy" width="160" height="200" decoding="async">
+        <div class="category-card-overlay">
+          <h3 class="category-card-title" data-en="Garbage Cans" data-am="የቆሻሻ መጣያ">የቆሻሻ መጣያ</h3>
+        </div>
+      </div>
+
+      <div class="category-card" role="button" tabindex="0" onclick="selectCategory('chairs-tables')">
+        <img src="assets/products/gemini_generated_image_nzj0d7nzj0d7nzj0-thumb.webp" alt="Chairs & Tables" class="category-card-bg" loading="lazy" width="160" height="200" decoding="async">
+        <div class="category-card-overlay">
+          <h3 class="category-card-title" data-en="Chairs & Tables" data-am="ወንበርና ጠረጴዛ">ወንበርና ጠረጴዛ</h3>
+        </div>
+      </div>
+
+      <div class="category-card" role="button" tabindex="0" onclick="selectCategory('plastics')">
+        <img src="assets/products/gemini_generated_image_fo9pylfo9pylfo9p-thumb.webp" alt="Plastic Goods" class="category-card-bg" loading="lazy" width="160" height="200" decoding="async">
+        <div class="category-card-overlay">
+          <h3 class="category-card-title" data-en="Plastic Goods" data-am="የፕላስቲክ ዕቃዎች">የፕላስቲክ ዕቃዎች</h3>
+        </div>
+      </div>
+
+      <div class="category-card" role="button" tabindex="0" onclick="selectCategory('tents')">
+        <img src="assets/products/gemini_generated_image_cg02dtcg02dtcg02-thumb.webp" alt="Tents & Gazebos" class="category-card-bg" loading="lazy" width="160" height="200" decoding="async">
+        <div class="category-card-overlay">
+          <h3 class="category-card-title" data-en="Tents & Gazebos" data-am="ድንኳኖች">ድንኳኖች</h3>
+        </div>
+      </div>
+
+      <div class="category-card" role="button" tabindex="0" onclick="selectCategory('umbrellas')">
+        <img src="assets/products/gemini_generated_image_1uxeqp1uxeqp1uxe-thumb.webp" alt="Shade Umbrellas" class="category-card-bg" loading="lazy" width="160" height="200" decoding="async">
+        <div class="category-card-overlay">
+          <h3 class="category-card-title" data-en="Shade Umbrellas" data-am="የፀሐይ ጥላዎች">የፀሐይ ጥላዎች</h3>
+        </div>
+      </div>
+    </div>
+      </div>
+
+      <div class="category-card" role="button" tabindex="0" onclick="selectCategory('chairs-tables')">
+        <img src="assets/products/gemini_generated_image_nzj0d7nzj0d7nzj0-thumb.webp" alt="Chairs & Tables" class="category-card-bg" loading="lazy" width="160" height="200" decoding="async">
+        <div class="category-card-overlay">
+          <h3 class="category-card-title" data-en="Chairs & Tables" data-am="ወንበርና ጠረጴዛ">ወንበርና ጠረጴዛ</h3>
+        </div>
+      </div>
+
+      <div class="category-card" role="button" tabindex="0" onclick="selectCategory('plastics')">
+        <img src="assets/products/gemini_generated_image_fo9pylfo9pylfo9p-thumb.webp" alt="Plastic Goods" class="category-card-bg" loading="lazy" width="160" height="200" decoding="async">
+        <div class="category-card-overlay">
+          <h3 class="category-card-title" data-en="Plastic Goods" data-am="የፕላስቲክ ዕቃዎች">የፕላስቲክ ዕቃዎች</h3>
+        </div>
+      </div>
+
+      <div class="category-card" role="button" tabindex="0" onclick="selectCategory('tents')">
+        <img src="assets/products/gemini_generated_image_cg02dtcg02dtcg02-thumb.webp" alt="Tents & Gazebos" class="category-card-bg" loading="lazy" width="160" height="200" decoding="async">
+        <div class="category-card-overlay">
+          <h3 class="category-card-title" data-en="Tents & Gazebos" data-am="ድንኳኖች">ድንኳኖች</h3>
+        </div>
+      </div>
+
+      <div class="category-card" role="button" tabindex="0" onclick="selectCategory('umbrellas')">
+        <img src="assets/products/gemini_generated_image_1uxeqp1uxeqp1uxe-thumb.webp" alt="Shade Umbrellas" class="category-card-bg" loading="lazy" width="160" height="200" decoding="async">
+        <div class="category-card-overlay">
+          <h3 class="category-card-title" data-en="Shade Umbrellas" data-am="የፀሐይ ጥላዎች">የፀሐይ ጥላዎች</h3>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Product Listing Page (PLP) -->
   <section class="products-section" id="products">
     <div class="section-header">
-      <h2 data-key="section-catalog">Our Product Catalog</h2>
+      <h2 data-key="section-catalog">የምርት ዝርዝር</h2>
       <div class="laurel-divider"></div>
     </div>
 
@@ -125,18 +184,194 @@
     <div class="filter-controls">
       <div class="search-box">
         <span class="search-icon">🔍</span>
-        <input type="text" id="searchInput" placeholder="Search products..." data-key-placeholder="search-placeholder"
-          oninput="handleSearch()">
+        <input type="text" id="searchInput" placeholder="ዕቃዎችን ይፈልጉ..." data-key-placeholder="search-placeholder"
+          oninput="handleSearch()" autocomplete="off">
       </div>
 
-      <div class="filter-tabs" id="filterTabs">
-        <!-- Generated by JS -->
+      <div class="filter-tabs" id="filterTabs"><!-- SSR_TABS -->
+
+        <button class="filter-tab active" onclick="selectCategory('all')" data-cat="all" data-en="All Products" data-am="ሁሉም ምርቶች">ሁሉም ምርቶች</button>
+
+        <button class="filter-tab " onclick="selectCategory('bins')" data-cat="bins" data-en="Garbage Cans" data-am="የቆሻሻ መጣያ">የቆሻሻ መጣያ</button>
+
+        <button class="filter-tab " onclick="selectCategory('chairs-tables')" data-cat="chairs-tables" data-en="Chairs & Tables" data-am="ወንበርና ጠረጴዛ">ወንበርና ጠረጴዛ</button>
+
+        <button class="filter-tab " onclick="selectCategory('plastics')" data-cat="plastics" data-en="Plastic Goods" data-am="የፕላስቲክ ዕቃዎች">የፕላስቲክ ዕቃዎች</button>
+
+        <button class="filter-tab " onclick="selectCategory('tents')" data-cat="tents" data-en="Tents & Gazebos" data-am="ድንኳኖች">ድንኳኖች</button>
+
+        <button class="filter-tab " onclick="selectCategory('umbrellas')" data-cat="umbrellas" data-en="Shade Umbrellas" data-am="የፀሐይ ጥላዎች">የፀሐይ ጥላዎች</button>
       </div>
     </div>
 
     <!-- 2-Column Product Grid -->
-    <div class="product-grid" id="productGrid">
-      <!-- Dynamic Products Cards Generated by JS -->
+    <div class="product-grid" id="productGrid"><!-- SSR_PRODUCTS -->
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('injoy-chair')" data-id="injoy-chair" data-category="chairs-tables">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="Bestseller" data-am="ተፈላጊ">ተፈላጊ</div>
+          <img src="assets/products/gemini_generated_image_u9t603u9t603u9t6-thumb.webp" alt="ዘመናዊ የውጪ ፕላስቲክ ወንበሮች" class="product-card-img" fetchpriority="high" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="Modern Slatted Outdoor Plastic Chairs" data-am="ዘመናዊ የውጪ ፕላስቲክ ወንበሮች">ዘመናዊ የውጪ ፕላስቲክ ወንበሮች</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="2600 birr" data-am="2600 ብር">2600 ብር</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('bin')" data-id="bin" data-category="bins">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="New" data-am="ተፈላጊ">ተፈላጊ</div>
+          <img src="assets/products/bin-thumb.webp" alt="ጠንካራ የፕላስቲክ የቆሻሻ መጣያ ቢኖች" class="product-card-img" fetchpriority="high" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="Heavy-Duty Outdoor Plastic Dustbins" data-am="ጠንካራ የፕላስቲክ የቆሻሻ መጣያ ቢኖች">ጠንካራ የፕላስቲክ የቆሻሻ መጣያ ቢኖች</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="6,500 Birr" data-am="6,500 ብር">6,500 ብር</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('white-chair')" data-id="white-chair" data-category="chairs-tables">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="New" data-am="አዲስ">አዲስ</div>
+          <img src="assets/products/img_3657-thumb.webp" alt="ዘመናዊ የውጪ ወንበሮች እና ጠረጴዛ" class="product-card-img" loading="lazy" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="Modern Outdoor Chairs & Table Set" data-am="ዘመናዊ የውጪ ወንበሮች እና ጠረጴዛ">ዘመናዊ የውጪ ወንበሮች እና ጠረጴዛ</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="2,600 Birr" data-am="2,600 ብር">2,600 ብር</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('shade-one')" data-id="shade-one" data-category="umbrellas">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="Bestseller" data-am="ተፈላጊ">ተፈላጊ</div>
+          <img src="assets/products/chatgpt-image-sep-21-2026-01_52_43-pm-thumb.webp" alt="3 በ 3 ሜትር ጎን ሰቀል (Offset) ጥ ጥላ" class="product-card-img" loading="lazy" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="3x3m Offset Hanging Umbrella" data-am="3 በ 3 ሜትር ጎን ሰቀል (Offset) ጥ ጥላ">3 በ 3 ሜትር ጎን ሰቀል (Offset) ጥ ጥላ</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="69,000 ETB" data-am="69,000 ብር">69,000 ብር</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('chair-two')" data-id="chair-two" data-category="chairs-tables">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="New" data-am="አዲስ">አዲስ</div>
+          <img src="assets/products/photo_2026-09-18_22-09-37-thumb.webp" alt="የህፃናት ወንበር (First & Second Quality)" class="product-card-img" loading="lazy" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="Kids Chair (First & Second Quality)" data-am="የህፃናት ወንበር (First & Second Quality)">የህፃናት ወንበር (First & Second Quality)</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="From 580" data-am="ከ 580 ጀምሮ">ከ 580 ጀምሮ</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('bale3-tila')" data-id="bale3-tila" data-category="tents">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="New" data-am="አዲስ">አዲስ</div>
+          <img src="assets/products/img_2562-thumb.webp" alt="4.50 በ 2.60 ሜትር ጥላ" class="product-card-img" loading="lazy" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="4.50 x 2.60 Meter Umbrella" data-am="4.50 በ 2.60 ሜትር ጥላ">4.50 በ 2.60 ሜትር ጥላ</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="79,000 ETB" data-am="79,000 ብር">79,000 ብር</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('table-set')" data-id="table-set" data-category="chairs-tables">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="New" data-am="አዲስ">አዲስ</div>
+          <img src="assets/products/gemini_generated_image_n10a2mn10a2mn10a-thumb.webp" alt="ዘመናዊ የ7-ቁራጭ የራትዝ (Rattan) የባርና የፓቲዮ ረጅም ጠረጴዛና ወንበሮች ሴት" class="product-card-img" loading="lazy" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="7-Piece Rattan Bar Height Dining Set / Outdoor Pub Table Set" data-am="ዘመናዊ የ7-ቁራጭ የራትዝ (Rattan) የባርና የፓቲዮ ረጅም ጠረጴዛና ወንበሮች ሴት">ዘመናዊ የ7-ቁራጭ የራትዝ (Rattan) የባርና የፓቲዮ ረጅም ጠረጴዛና ወንበሮች ሴት</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="Contact for price" data-am="ያግኙን">ያግኙን</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('bistro-set')" data-id="bistro-set" data-category="chairs-tables">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="New" data-am="አዲስ">አዲስ</div>
+          <img src="assets/products/gemini_generated_image_726djp726djp726d-thumb.webp" alt="ዘመናዊ የ3-ቁራጭ ጥቁር ግራጫ የራትዝ (Rattan) የቡናና የሻይ ማረፊያ ሴት" class="product-card-img" loading="lazy" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="3-Piece Dark Grey Round Rattan Bistro Set" data-am="ዘመናዊ የ3-ቁራጭ ጥቁር ግራጫ የራትዝ (Rattan) የቡናና የሻይ ማረፊያ ሴት">ዘመናዊ የ3-ቁራጭ ጥቁር ግራጫ የራትዝ (Rattan) የቡናና የሻይ ማረፊያ ሴት</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="Contact for price" data-am="ያግኙን">ያግኙን</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('bistro-set-two')" data-id="bistro-set-two" data-category="chairs-tables">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="Bundle Discount" data-am="ቅናሽ">ቅናሽ</div>
+          <img src="assets/products/gemini_generated_image_l2qdrsl2qdrsl2qd-thumb.webp" alt="ዘመናዊ የ5-ቁራጭ የክሬም/ቤዥ የራትዝ (Rattan) የጠረጴዛና ወንበሮች ሴት" class="product-card-img" loading="lazy" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="5-Piece Beige Rattan Dining & Outdoor Bistro Set" data-am="ዘመናዊ የ5-ቁራጭ የክሬም/ቤዥ የራትዝ (Rattan) የጠረጴዛና ወንበሮች ሴት">ዘመናዊ የ5-ቁራጭ የክሬም/ቤዥ የራትዝ (Rattan) የጠረጴዛና ወንበሮች ሴት</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="Contact for price" data-am="ያግኙን">ያግኙን</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" tabindex="0" role="button" onclick="openPDP('booth')" data-id="booth" data-category="chairs-tables">
+        <div class="product-card-image-wrap">
+          <div class="product-ribbon" data-en="New" data-am="አዲስ">አዲስ</div>
+          <img src="assets/products/gemini_generated_image_qwfwsqqwfwsqqwfw-thumb.webp" alt="ዘመናዊ ረጅም ደጋፊ ያለው የራትዝ (Rattan) የካፌና የሬስቶራንት ሶፋ/ቤንች" class="product-card-img" loading="lazy" decoding="async" width="280" height="280">
+          <div class="product-card-overlay">
+            <div class="product-card-details">
+              <h3 class="product-card-title" data-en="Modern High-Back Rattan Bench / Restaurant Booth" data-am="ዘመናዊ ረጅም ደጋፊ ያለው የራትዝ (Rattan) የካፌና የሬስቶራንት ሶፋ/ቤንች">ዘመናዊ ረጅም ደጋፊ ያለው የራትዝ (Rattan) የካፌና የሬስቶራንት ሶፋ/ቤንች</h3>
+              <div class="product-card-footer">
+                <span class="product-card-price" data-en="Contact for price" data-am="ያግኙን">ያግኙን</span>
+                <span class="product-card-neg" style="color: #10b981;" data-en="Negotiable" data-am="ድርድር አለው">ድርድር አለው</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="load-more-container" id="loadMoreContainer" style="grid-column: 1 / -1; text-align: center; margin-top: 1.5rem;">
+        <button class="btn-secondary load-more-btn" id="loadMoreBtn" onclick="loadMoreProducts()" style="padding: 0.8rem 2rem; cursor: pointer;">
+          <span class="load-more-text" data-en="Load more products" data-am="ተጨማሪ ምርቶችን አሳይ">ተጨማሪ ምርቶችን አሳይ</span>
+        </button>
+      </div>
     </div>
   </section>
 
@@ -144,15 +379,15 @@
   <div class="pdp-modal" id="pdpModal">
     <div class="pdp-overlay" onclick="closePDP()"></div>
     <div class="pdp-container">
-      <button class="pdp-close-btn" onclick="closePDP()">×</button>
+      <button class="pdp-close-btn" onclick="closePDP()" aria-label="Close dialog">×</button>
 
       <div class="pdp-content">
         <div class="pdp-gallery-wrapper">
-          <button class="gallery-btn prev-btn" id="pdpGalleryPrev">❮</button>
+          <button class="gallery-btn prev-btn" id="pdpGalleryPrev" aria-label="Previous photo">❮</button>
           <div class="pdp-gallery" id="pdpGallery">
             <!-- Swipeable image strip injected by JS -->
           </div>
-          <button class="gallery-btn next-btn" id="pdpGalleryNext">❯</button>
+          <button class="gallery-btn next-btn" id="pdpGalleryNext" aria-label="Next photo">❯</button>
         </div>
         <div class="pdp-gallery-dots" id="pdpGalleryDots"></div>
 
@@ -168,7 +403,7 @@
 
           <!-- TikTok Review Button -->
           <div id="pdpTiktokContainer" style="display: none; margin-bottom: 1.5rem;">
-            <a id="pdpTiktokBtn" href="#" target="_blank" class="btn-pdp-tiktok">
+            <a id="pdpTiktokBtn" href="#" target="_blank" class="btn-pdp-tiktok" rel="noopener">
               <svg class="tiktok-svg-icon" viewBox="0 0 24 24"
                 style="width: 1.2em; height: 1.2em; fill: currentColor; margin-right: 8px; vertical-align: middle;">
                 <path
@@ -180,20 +415,20 @@
 
           <!-- Key features checklist -->
           <div class="pdp-features">
-            <h4 data-key="pdp-key-features">Key Specifications</h4>
+            <h4 data-key="pdp-key-features">ዋና መለያዎች</h4>
             <ul id="pdpFeaturesList">
-              <!-- JS injected list items with premium checkmarks -->
+              <!-- JS injected list items -->
             </ul>
           </div>
 
-          <!-- Size/Tier Pricing Table (Shown only for tiered products like dustbins) -->
+          <!-- Size/Tier Pricing Table -->
           <div class="pdp-tiers" id="pdpTiersContainer">
-            <h4 data-key="pdp-pricing-table">Size & Price Tiers</h4>
+            <h4 data-key="pdp-pricing-table">የመጠን እና የዋጋ ዝርዝር</h4>
             <table class="pdp-tiers-table">
               <thead>
                 <tr>
-                  <th data-key="th-size">Capacity / Size</th>
-                  <th data-key="th-price">Price (ETB)</th>
+                  <th data-key="th-size">መጠን / ሊትር</th>
+                  <th data-key="th-price">ዋጋ (ብር)</th>
                 </tr>
               </thead>
               <tbody id="pdpTiersBody">
@@ -204,16 +439,16 @@
 
           <!-- Order Actions -->
           <div class="pdp-actions">
-            <a id="pdpTelegramCta" href="" target="_blank" class="btn-pdp-telegram">
+            <a id="pdpTelegramCta" href="" target="_blank" class="btn-pdp-telegram" rel="noopener">
               <svg class="tg-svg-icon" viewBox="0 0 24 24" style="margin-right: 8px;">
                 <path fill="currentColor"
                   d="M9.78 18.65l.28-4.28 7.76-7.01c.34-.3-.07-.47-.52-.18L7.79 12.06l-4.14-1.3c-.9-.28-.92-.9.19-1.33L20 3.7c.83-.3 1.54.19 1.27 1.27l-2.85 13.43c-.2 1-.8 1.24-1.64.77l-4.34-3.2-2.09 2.01c-.24.24-.44.44-.9.44z" />
               </svg>
-              <span data-key="order-telegram">Order via Telegram</span>
+              <span data-key="order-telegram">በቴሌግራም እዘዝ</span>
             </a>
             <a id="pdpCallCta" href="tel:0903115548" class="btn-pdp-call">
               <span class="btn-icon">📞</span>
-              <span data-key="order-call">Call to Order</span>
+              <span data-key="order-call">ደውለው ለማዘዝ</span>
             </a>
           </div>
         </div>
@@ -221,9 +456,8 @@
     </div>
   </div>
 
-  <!-- Contact & Footer Section (Hill-silhouette on top edge) -->
+  <!-- Contact & Footer Section -->
   <footer class="footer-section">
-    <!-- Hill Silhouette SVG Edge -->
     <div class="footer-silhouette">
       <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
         <path d="M0,40 C360,10 720,70 1080,30 C1260,10 1380,25 1440,30 L1440,80 L0,80 Z" fill="#111E3C"></path>
@@ -232,14 +466,13 @@
 
     <div class="footer-container">
       <div class="footer-brand">
-        <img src="assets/logo.png" alt="Atlantic Trading PLC Logo" class="footer-logo">
+        <img src="assets/logo.webp" alt="Atlantic Trading PLC Logo" class="footer-logo" width="180" height="60" loading="lazy">
         <h3 class="footer-title">Atlantic Trading PLC</h3>
-        <p class="footer-tagline" data-key="hero-subtitle">Your trusted supplier for quality outdoor & plastic products
-          in Ethiopia</p>
+        <p class="footer-tagline" data-key="hero-subtitle">ለቤትዎ እና ለንግድዎ። ምርጥ የፀሐይ ጥላዎች፣ ድንኳኖች፣ የፕላስቲክ ወንበሮች እና የቆሻሻ መጣያ ባልዲዎች በአዲስ አበባ።</p>
       </div>
 
       <div class="footer-contacts">
-        <h4 data-key="footer-contact-us">Get in Touch</h4>
+        <h4 data-key="footer-contact-us">ያግኙን</h4>
         <div class="footer-contact-item">
           <span class="icon">📞</span>
           <a href="tel:0903115548">0903115548</a>
@@ -254,16 +487,16 @@
         </div>
         <div class="footer-contact-item">
           <span class="icon">📍</span>
-          <span data-key="footer-loc-1">Mercato, Anwar Mosque front, Wajidi Market Ctr, 1st floor shop no. 123 & 124</span>
+          <span data-key="footer-loc-1">መርካቶ አንዋር መስጂድ ፊለፊት ዋጂዲ የገበያ መዐከል 1ኛ floor shop no. 123 & 124</span>
         </div>
         <div class="footer-contact-item">
           <span class="icon">📍</span>
-          <span data-key="footer-loc-2">Nigat Birhan Market Center, Shop No. G015</span>
+          <span data-key="footer-loc-2">ንጋት ብርሀን የገበያ መዐከል G015 ቁጥር</span>
         </div>
       </div>
 
       <div class="footer-socials">
-        <h4 data-key="footer-follow-us">Follow Us</h4>
+        <h4 data-key="footer-follow-us">ይከተሉን</h4>
         <div class="social-links">
           <a href="tg://resolve?domain=atlantictradingtent"
             onclick="event.preventDefault();openTelegramLink('tg://resolve?domain=atlantictradingtent','https://t.me/atlantictradingtent')"
@@ -275,15 +508,15 @@
             <span>Telegram</span>
           </a>
           <a href="https://www.tiktok.com/@atlantic.trading" target="_blank" class="social-link-pill"
-            aria-label="TikTok">
+            aria-label="TikTok" rel="noopener">
             <svg class="social-icon" viewBox="0 0 24 24">
               <path fill="currentColor"
-                d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.9a8.27 8.27 0 004.84 1.56V7.02a4.85 4.85 0 01-1.07-.33z" />
+                d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.33-6.34V8.9a8.27 8.27 0 004.84 1.56V7.02a4.85 4.85 0 01-1.07-.33z" />
             </svg>
             <span>TikTok</span>
           </a>
           <a href="https://www.instagram.com/atlantictradingplc" target="_blank" class="social-link-pill"
-            aria-label="Instagram">
+            aria-label="Instagram" rel="noopener">
             <svg class="social-icon" viewBox="0 0 24 24">
               <path fill="currentColor"
                 d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
@@ -295,7 +528,7 @@
     </div>
 
     <div class="footer-bottom">
-      <p>&copy; 2026 Atlantic Trading PLC. <span data-key="footer-rights">All Rights Reserved.</span></p>
+      <p>&copy; 2026 Atlantic Trading PLC. <span data-key="footer-rights">መብቱ በህግ የተጠበቀ ነው።</span></p>
     </div>
   </footer>
 
@@ -304,20 +537,21 @@
     <div class="sticky-cta-container">
       <a href="tg://resolve?domain=atlantictradingtent"
         onclick="event.preventDefault();openTelegramLink('tg://resolve?domain=atlantictradingtent','https://t.me/atlantictradingtent')"
-        class="sticky-btn-telegram">
+        class="sticky-btn-telegram" aria-label="Order on Telegram">
         <svg class="tg-svg-icon" viewBox="0 0 24 24" style="margin-right: 6px;">
           <path fill="currentColor"
             d="M9.78 18.65l.28-4.28 7.76-7.01c.34-.3-.07-.47-.52-.18L7.79 12.06l-4.14-1.3c-.9-.28-.92-.9.19-1.33L20 3.7c.83-.3 1.54.19 1.27 1.27l-2.85 13.43c-.2 1-.8 1.24-1.64.77l-4.34-3.2-2.09 2.01c-.24.24-.44.44-.9.44z" />
-        </svg> <span data-key="sticky-tg">Order on Telegram</span>
+        </svg> <span data-key="sticky-tg">በቴሌግራም እዘዝ</span>
       </a>
-      <a href="tel:0903115548" class="sticky-btn-call">
-        <span class="icon">📞</span> <span data-key="sticky-call">Call</span>
+      <a href="tel:0903115548" class="sticky-btn-call" aria-label="Call Atlantic Trading">
+        <span class="icon">📞</span> <span data-key="sticky-call">ደውል</span>
       </a>
     </div>
   </div>
 
+  <script id="initial-products-data" type="application/json">[{"name_am":"ዘመናዊ የውጪ ፕላስቲክ ወንበሮች","source_post":"https://t.me/atlantictradingtent/277","price":2600,"features_en":["⏩ Ideal for cafes, restaurants, gardens, and outdoor spaces  ","⏩ Lightweight, durable, easy to clean, and weather-resistant"],"description_en":"👉 Bright red and yellow armless plastic chairs with a sleek slatted design  ","negotiable":true,"features_am":["⏩ ለካፌዎች፣ ሬስቶራንቶች፣ ጓሮዎች እና ለተለያዩ የውጪ ቦታዎች ተስማሚ","⏩ ቀላል፣ ጠንካራ፣ ለማፅዳት ቀላል እና የአየር ሁኔታን የሚቋቋሙ"],"tag_en":"Bestseller","description_am":"👉 ውብና ማራኪ ቀይ እና ብጫ ቀለም ያላቸው የፕላስቲክ ወንበሮች  ","price_type":"flat","tag_am":"ተፈላጊ","images":[{"image":"assets/products/gemini_generated_image_u9t603u9t603u9t6.jpeg"}],"id":"injoy-chair","price_display_en":"2600 birr","tiktok_review":"https://vt.tiktok.com/ZSg9P4mHf/","date_published":"2026-10-25","name_en":"Modern Slatted Outdoor Plastic Chairs","category":"chairs-tables","price_display_am":"2600 ብር","image_thumb":"assets/products/gemini_generated_image_u9t603u9t603u9t6-thumb.webp","image_full":"assets/products/gemini_generated_image_u9t603u9t603u9t6-full.webp"},{"name_am":"ጠንካራ የፕላስቲክ የቆሻሻ መጣያ ቢኖች","price":6500,"features_en":["⏩ Available in multiple colors (Green, Yellow, Red, Blue, Grey) for easy waste sorting ","⏩ Ideal for homes, offices, outdoor spaces, and commercial use "],"description_en":"👉 Durable, high-capacity plastic trash bins with wheels and foot pedals ","negotiable":true,"features_am":["⏩ ለቆሻሻ ለይቶ ማስወገድ የሚረዱ በተለያዩ रंगों (አረንጓዴ፣ ብጫ፣ ቀይ፣ ሰማያዊ፣ ግራጫ) የሚገኙ","⏩ ለቤት፣ ቢሮ፣ ለውጪ ቦታዎች እና ለንግድ ድርጅቶች ተስማሚ   "],"tag_en":"New","description_am":"👉 እግር መጫኛ (pedal) እና እግር እግር መንኮራኩር ያላቸው ከፍተኛ መጠን የሚይዙ የቆሻሻ ቢኖች   ","price_type":"flat","tag_am":"ተፈላጊ","images":[{"image":"assets/products/bin.jpg"}],"id":"bin","price_display_en":"6,500 Birr","tiktok_review":"https://vt.tiktok.com/ZSgMtnaFq/","date_published":"2026-10-18","name_en":"Heavy-Duty Outdoor Plastic Dustbins","category":"bins","price_display_am":"6,500 ብር","image_thumb":"assets/products/bin-thumb.webp","image_full":"assets/products/bin-full.webp"},{"name_am":"ዘመናዊ የውጪ ወንበሮች እና ጠረጴዛ","source_post":"https://t.me/atlantictradingtent/258","price":2650,"features_en":["⏩ Ideal for cafes, restaurants, gardens, and patios","⏩ Strong, durable, and weather-resistant"],"description_en":"👉 Modern, stylish plastic chairs with matching table","negotiable":true,"features_am":["⏩ ለካፌ፣ ሬስቶራንት እና ጓሮ ተስማሚ","⏩ ጠንካራ፣ ዘላቂ እና የአየር ሁኔታን የሚቋቋም"],"tag_en":"New","description_am":"👉 ዘመናዊ እና ውብ የፕላስቲክ ወንበሮች ከጠረጴዛ ጋር","price_type":"flat","tag_am":"አዲስ","images":[{"image":"assets/products/img_3657.jpeg"}],"id":"white-chair","price_display_en":"2,600 Birr","date_published":"2026-10-12","name_en":"Modern Outdoor Chairs & Table Set","category":"chairs-tables","price_display_am":"2,600 ብር","image_thumb":"assets/products/img_3657-thumb.webp","image_full":"assets/products/img_3657-full.webp"},{"name_am":"3 በ 3 ሜትር ጎን ሰቀል (Offset) ጥ ጥላ","price":69000,"features_en":["✅ 👉 Ideal for Cafes & Restaurants","✅ 👉 Perfect for Gardens & Patios","✅ 👉 Strong & Durable","✅ 👉 Weather & UV Resistant"],"description_en":"👉 Modern and stylish offset cantilever umbrella ⏩ Perfect for cafes, restaurants, gardens, and outdoor spaces ⏩ Provides full protection from sun and rain\n\"Durable, versatile, and elegant outdoor shade\"","negotiable":true,"features_am":["✅ 👉 ለካፌዎችና ሬስቶራንቶች","✅ 👉 ለግቢና ለውጭ ቦታዎች","✅ 👉 ጠንካራ እና ዘላቂ","✅ 👉 ከፀሐይ እና ከዝናብ የሚከላከል"],"tag_en":"Bestseller","description_am":"👉 ዘመናዊ እና ውብ ዲዛይን ያለው ጎን ሰቀል ጥ ጥላ ⏩ ለካፌዎች፣ ለሬስቶራንቶች፣ ለግቢ እና ለተለያዩ ቦታዎች የሚሆን ⏩ ከፀሐይ እና ከዝናብ አስተማማኝ ከለላ የሚሰጥ\n\"ጥራት ያለው፣ ዘላቂ እና ለተለያዩ አገልግሎቶች የሚሆን\"","price_type":"flat","tag_am":"ተፈላጊ","images":[{"image":"assets/products/chatgpt-image-sep-21-2026-01_52_43-pm.png"}],"id":"shade-one","price_display_en":"69,000 ETB","date_published":"2026-09-21","name_en":"3x3m Offset Hanging Umbrella","category":"umbrellas","price_display_am":"69,000 ብር","image_thumb":"assets/products/chatgpt-image-sep-21-2026-01_52_43-pm-thumb.webp","image_full":"assets/products/chatgpt-image-sep-21-2026-01_52_43-pm-full.webp"},{"name_am":"የህፃናት ወንበር (First & Second Quality)","source_post":"https://t.me/atlantictradingtent/252","features_en":["✅ 👉 Perfect for kids","✅ 👉 Vibrant colors ","✅ 👉 Ideal for homes & schools ","✅ 👉 Strong & durable"],"description_en":"👉 High-quality and child-friendly chair ⏩ Ideal for homes and schools ⏩ Brightly colored, strong, and durable\n\"Durable, safe, and built for kids\"  ","negotiable":true,"features_am":[" ✅ 👉 ለህፃናት ተስማሚ","✅ 👉 በደማቅ നിറሞች የተዘጋጀ","✅ 👉 ለቤት እና ለትምህርት ቤት","✅ 👉 ጠንካራ እና ዘላቂ"],"tag_en":"New","description_am":"👉 ከፍተኛ ጥራት ያለው እና ለህፃናት ምቹ የሆነ ወንበር ⏩ ለቤት እና ለትምህርት ቤት አገልግሎት የሚሆን ⏩ በቀለማት ያሸበረቀ፣ ጠንካራ እና ዘላቂ\n\"ጥራት ያለው፣ ዘላቂ እና ለህፃናት ተስማሚ\"","price_type":"tiered","tag_am":"አዲስ","images":[{"image":"assets/products/photo_2026-09-18_22-09-37.jpg"}],"price_tiers":[{"size":"First quality","price":680},{"size":"Second quality","price":580}],"id":"chair-two","price_display_en":"580","date_published":"2026-09-18","name_en":"Kids Chair (First & Second Quality)","category":"chairs-tables","price_display_am":"580 ጀምሮ","image_thumb":"assets/products/photo_2026-09-18_22-09-37-thumb.webp","image_full":"assets/products/photo_2026-09-18_22-09-37-full.webp"},{"name_am":"4.50 በ 2.60 ሜትር ጥላ","source_post":"https://t.me/atlantictradingtent","price":79000,"features_en":["👉 Cafes","👉 Restaurants","👉 Gardens","👉 Cars/Parking"],"description_en":"👉 Umbrella with a water-refillable base stand\n\n⏩ 3 umbrellas on 1 stand ⏩ Covers space for 2 chair sets\n\n“Quality, durable, wind-resistant”","negotiable":true,"features_am":["👉 ለካፌዎች","👉 ለሬስቶራንቶች","👉 ለጓሮዎች","👉 ለላውንጅ/ለመኪና"],"tag_en":"New","description_am":"👉 ውኃ የሚሞላ መቆሚያ ያለው ጥላ\n⏩ 3 ጥላ በአንድ መቆሚያ (STAND)\n⏩ 2 ሴት ወንበር መሸፈን የሚችል\n“ጥራት ያለው፣ ዘላቂ እና ንፋስ መቋቋም የሚችል”","price_type":"flat","tag_am":"አዲስ","images":[{"image":"assets/products/img_2562.jpeg"},{"image":"assets/products/img_2563.jpeg"},{"image":"assets/products/img_2564.jpeg"}],"id":"bale3-tila","price_display_en":"79,000 ETB","tiktok_review":"https://vt.tiktok.com/ZSVGGSdAY/","date_published":"2026-08-28","name_en":"4.50 x 2.60 Meter Umbrella","category":"tents","price_display_am":"79,000 ብር","image_thumb":"assets/products/img_2562-thumb.webp","image_full":"assets/products/img_2562-full.webp"},{"name_am":"ዘመናዊ የ7-ቁራጭ የራትዝ (Rattan) የባርና የፓቲዮ ረጅም ጠረጴዛና ወንበሮች ሴት","features_en":["Set Includes: 1 rectangular glass-top high bar table and 6 matching backless woven rattan bar stools.","Design: Clean modern silhouette with backless bar stools designed for effortless tuck-away storage.","Durability: Heavy-duty, weather-resistant woven synthetic wicker build that stands up to sun, rain, and frequent commercial use.","Versatility: Ideal for commercial outdoor bars, hotel rooftops, garden patios, poolside lounges, or home entertainment spaces."],"description_en":"Elevate your outdoor entertaining area, rooftop lounge, or resort patio with this high-top synthetic rattan bar dining set. Designed with a sleek rectangular counter-height table featuring a tempered glass top and six space-saving backless woven bar stools that nest conveniently when not in use.","features_am":["የሴቱ ይዘት፦ 1 ረጅም አራት ማዕዘን የመስታወት ላዩ ያለው ጠረጴዛ እና 6 ተዛማጅ የራትዝ ባር ወንበሮች።","ዲዛይን፦ ዘመናዊ ረጅም ቅርፅ ያለው እና ወንበሮቹ ከጠረጴዛው ሥር በቀላሉ የሚገቡ ቦታ ቆጣቢ ዲዛይን።","ጥንካሬ፦ ለአየር ንብረት (ፀሐይና ዝናብ) የማይበላሽ፣ ውሃ ተቋቋሚ እና ለማፅዳት በጣም ቀላል።","ባለብዙ አገልግሎት፦ ለባርና ሬስቶራንት፣ ለሆቴል ፎቅ ማስተናገጃ፣ ለበረንዳ ወይም ለቤት ውስጥ መዝናኛ ቦታ ተስማሚ።"],"tag_en":"New","description_am":"ለካፌና ባሮች፣ ለሆቴል ፎቅ (Rooftop)፣ ለበረንዳ ወይም ለቤትዎ የመዝናኛ ቦታ የሚሆን ዘመናዊ ባለ 7-ቁራጭ የራትዝ (Rattan) የባር ጠረጴዛና ወንበር ሴት! 1 ረጅም አራት ማዕዘን የመስታወት ላዩ ያለው ጠረጴዛ እና 6 ቦታ ቆጣቢ የሆኑ የባር ወንበሮችን ይዟል።","price_type":"flat","tag_am":"አዲስ","images":[{"image":"assets/products/gemini_generated_image_n10a2mn10a2mn10a.jpeg"}],"id":"table-set","date_published":"2026-08-27","name_en":"7-Piece Rattan Bar Height Dining Set / Outdoor Pub Table Set","category":"chairs-tables","negotiable":true,"image_thumb":"assets/products/gemini_generated_image_n10a2mn10a2mn10a-thumb.webp","image_full":"assets/products/gemini_generated_image_n10a2mn10a2mn10a-full.webp"},{"name_am":"ዘመናዊ የ3-ቁራጭ ጥቁር ግራጫ የራትዝ (Rattan) የቡናና የሻይ ማረፊያ ሴት","features_en":["Set Includes: 2 comfortable barrel-style armchairs and 1 matching round drum coffee table with a glass top.","Design: Deep-seat ergonomic tub chairs with a stylish fully woven round side table.","Durability: All-weather synthetic wicker frame designed to withstand outdoor conditions and easy to wipe clean.","Versatility: Perfectly compact for cozy balconies, cafes, living room corners, patio areas, or poolside lounges."],"description_en":"Create a cozy and sophisticated relaxing spot with this 3-piece woven synthetic rattan bistro set. Featuring two curved tub-style armchairs and a matching round drum-style coffee table with a tempered glass top, this set is built for both indoor and outdoor lounging.","features_am":["የሴቱ ይዘት፦ 2 ምቹ ክብ ቅርፅ ያላቸው ወንበሮች እና 1 ክብ የመስታወት ላዩ ያለው ጠረጴዛ።","ዲዛይን፦ ዘመናዊ ጥቁር ግራጫ የራትዝ ሽመና እና ለሰውነት ምቾት በሚሰጥ መልኩ የተቀረፀ የወንበር ቅርፅ።","ጥንካሬ፦ ለአየር ንብረት (ፀሐይና ዝናብ) የማይበላሽ፣ ውሃ ተቋቋሚ እና ለማፅዳት በጣም ቀላል።","ባለብዙ አገልግሎት፦ ለትንሽ በረንዳዎች፣ ለካፌ መዝናኛ፣ ለቤት ውስጥ የቡና ቦታ ወይም ለግቢ ተስማሚ።"],"tag_en":"New","description_am":"ለበረንዳ፣ ለካፌ፣ ለቤት ውስጥ የቡና ጥግ ወይም ለግቢዎ ውበት የሚያበዛ ባለ 3-ቁራጭ ዘመናዊ የራትዝ (Rattan) የማረፊያ ሴት! ምቹ ክብ ቅርፅ ያላቸው ሁለት ወንበሮችን እና ሙሉ በሙሉ በራትዝ ከተሸፈነ የመስታወት ላዩ ጠረጴዛ ጋር ይዟል።","price_type":"flat","tag_am":"አዲስ","images":[{"image":"assets/products/gemini_generated_image_726djp726djp726d.jpeg"}],"price_tiers":[],"id":"bistro-set","date_published":"2026-08-26","name_en":"3-Piece Dark Grey Round Rattan Bistro Set","category":"chairs-tables","negotiable":true,"image_thumb":"assets/products/gemini_generated_image_726djp726djp726d-thumb.webp","image_full":"assets/products/gemini_generated_image_726djp726djp726d-full.webp"},{"name_am":"ዘመናዊ የ5-ቁራጭ የክሬም/ቤዥ የራትዝ (Rattan) የጠረጴዛና ወንበሮች ሴት","features_en":["Set Includes: 4 ergonomic woven armchairs and 1 square dining table with a tinted glass top.","Design: Light beige hand-woven wicker with supportive curved backrests and armrests.","Durability: Heavy-duty, weather-resistant rattan frame that is low-maintenance and easy to clean.","Versatility: Ideal for cafes, restaurants, balcony dining, patio areas, or home garden spaces."],"description_en":"Brighten up your cafe, patio, or dining terrace with this charming 5-piece woven synthetic rattan dining set. Crafted in a clean beige finish, it features four comfortable curved armchairs paired with a matching square dining table with a dark glass top.","features_am":["የሴቱ ይዘት፦ 4 ምቹ የክሬም ከለር የራትዝ ወንበሮች እና 1 ካሬ የመስታወት ላዩ ያለው ጠረጴዛ።","ዲዛይን፦ ውብ የክሬም ከለር የራትዝ ሽመና እና ለጀርባ ምቾት በሚሰጥ መልኩ የተቀረፀ ቅርፅ።","ጥንካሬ፦ ለአየር ንብረት (ፀሐይና ዝናብ) የማይበላሽ፣ ውሃ ተቋቋሚ እና ለማፅዳት በጣም ቀላል።","ባለብዙ አገልግሎት፦ ለካፌና ሬስቶራንት ማስተናገጃ፣ ለበረንዳ፣ ለቤት ውስጥ ምግብ ቦታ ወይም ለግቢ ተስማሚ።"],"tag_en":"Bundle Discount","description_am":"ለካፌ፣ ለሬስቶራንት፣ ለበረንዳ ወይም ለቤትዎ የምግብ ቦታ ብሩህነትና ውበት የሚጨምር ባለ 5-ቁራጭ የራትዝ (Rattan) የጠረጴዛና ወንበር ሴት! 4 ምቹ የቤዥ/ክሬም ወንበሮች እና 1 ካሬ የጠቆረ መስታወት ላዩ ያለው ጠረጴዛ ይዟል።","price_type":"flat","tag_am":"ቅናሽ","images":[{"image":"assets/products/gemini_generated_image_l2qdrsl2qdrsl2qd.jpeg"}],"id":"bistro-set-two","date_published":"2026-08-26","name_en":"5-Piece Beige Rattan Dining & Outdoor Bistro Set","category":"chairs-tables","negotiable":true,"image_thumb":"assets/products/gemini_generated_image_l2qdrsl2qdrsl2qd-thumb.webp","image_full":"assets/products/gemini_generated_image_l2qdrsl2qdrsl2qd-full.webp"},{"name_am":"ዘመናዊ ረጅም ደጋፊ ያለው የራትዝ (Rattan) የካፌና የሬስቶራንት ሶፋ/ቤንች","features_en":["Design: High straight backrest with a seamless, space-saving bench silhouette.","Durability: Heavy-duty, weather-resistant woven rattan that is easy to wipe down and maintain.","Versatility: Ideal for restaurant booth dining, cafe seating, waiting areas, or patio setups."],"description_en":"Elevate your cafe, restaurant, or home dining setup with this sleek, high-backed synthetic rattan bench. Featuring a dark woven wicker finish and a sturdy, space-saving design, it provides exceptional comfort and back support for indoor or outdoor seating areas.","features_am":["ዲዛይን፦ ረጅም ቀጥ ያለ የጀርባ ደጋፊ ያለው እና ቦታ ቆጣቢ ዘመናዊ ቅርፅ።","ጥንካሬ፦ ለአየር ንብረት የማይበላሽ፣ ውሃና ቆሻሻ በቀላሉ የሚጠረግበት የራትዝ ሽመና።","ባለብዙ አገልግሎት፦ ለካፌ እና ሬስቶራንት ማስተናገጃ፣ ለበረንዳ፣ ለሆቴል ወይም ለቤት ውስጥ ምግብ ቦታ ተስማሚ።"],"tag_en":"New","description_am":"ለካፌ፣ ለሬስቶራንት፣ ለቢሮ ወይም ለቤትዎ የምግብ ቦታ ተስማሚ የሆነ ዘመናዊ እና ውብ የራትዝ (Rattan) የረጅም ደጋፊ ወንበር/ቤንች! ቦታ የማይይዝ፣ ለማፅዳት ቀላል እና ለረጅም ጊዜ የሚያገለግል የጥራት እቃ።","price_type":"flat","tag_am":"አዲስ","images":[{"image":"assets/products/gemini_generated_image_qwfwsqqwfwsqqwfw.jpeg"}],"id":"booth","date_published":"2026-08-26","name_en":"Modern High-Back Rattan Bench / Restaurant Booth","category":"chairs-tables","negotiable":true,"image_thumb":"assets/products/gemini_generated_image_qwfwsqqwfwsqqwfw-thumb.webp","image_full":"assets/products/gemini_generated_image_qwfwsqqwfwsqqwfw-full.webp"}]</script>
   <!-- Javascript Logic -->
-  <script src="app.js?v=10"></script>
+  <script src="app.js?v=11" defer></script>
 </body>
 
 </html>
