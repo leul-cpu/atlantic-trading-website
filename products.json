@@ -51,7 +51,7 @@
     "tag_am": "ተፈላጊ",
     "images": [
       {
-        "image": "assets/products/bin.jpg"
+        "image": "assets/products/colorful-wheelie-bin-product-showcase.png"
       }
     ],
     "id": "bin",
@@ -61,8 +61,8 @@
     "name_en": "Heavy-Duty Outdoor Plastic Dustbins",
     "category": "bins",
     "price_display_am": "6,500 ብር",
-    "image_thumb": "assets/products/bin-thumb.webp",
-    "image_full": "assets/products/bin-full.webp"
+    "image_thumb": "assets/products/colorful-wheelie-bin-product-showcase-thumb.webp",
+    "image_full": "assets/products/colorful-wheelie-bin-product-showcase-full.webp"
   },
   {
     "name_am": "ዘመናዊ የውጪ ወንበሮች እና ጠረጴዛ",
