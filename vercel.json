@@ -1,9 +1,10 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "outputDirectory": ".",
   "headers": [
     {
-      "source": "/assets/:path*",
+      "source": "/assets/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -12,7 +13,7 @@
       ]
     },
     {
-      "source": "/:path*.:ext(js|css|woff2|webp|svg|png|jpg|jpeg|ico)",
+      "source": "/(.*)\\.(js|css|woff2|webp|svg|png|jpg|jpeg|ico)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -21,7 +22,7 @@
       ]
     },
     {
-      "source": "/:file(products|categories).min.json",
+      "source": "/(products|categories)\\.min\\.json",
       "headers": [
         {
           "key": "Cache-Control",
@@ -30,7 +31,16 @@
       ]
     },
     {
-      "source": "/:path*",
+      "source": "/(products|categories)\\.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60, s-maxage=300, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -42,7 +52,7 @@
         },
         {
           "key": "X-Frame-Options",
-          "value": "DENY"
+          "value": "SAMEORIGIN"
         }
       ]
     }

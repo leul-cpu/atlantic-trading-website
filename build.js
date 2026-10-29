@@ -81,6 +81,13 @@ const products = files.map(file => {
     item.image_thumb = resolveWebpThumb(primaryImage);
     item.image_full  = resolveWebpFull(primaryImage);
 
+    // Clean up empty string prices or parse numeric strings
+    if (item.price === "" || (typeof item.price === "string" && item.price.trim() === "")) {
+      delete item.price;
+    } else if (typeof item.price === "string" && /^\d+$/.test(item.price.trim())) {
+      item.price = parseInt(item.price.trim(), 10);
+    }
+
     return item;
   } catch (err) {
     console.error(`ERROR parsing ${file}: ${err.message}`);
@@ -169,8 +176,10 @@ if (fs.existsSync(INDEX_HTML_FILE)) {
     const priceTextRawAm = prod.price_display_am || prod.price_display_en;
     const priceTextEn = priceTextRawEn || fallbackPriceEn;
     const priceTextAm = priceTextRawAm || fallbackPriceAm;
-    const priceLabelEn = (prod.price_type === "tiered" && priceTextRawEn) ? "From " : "";
-    const priceLabelAm = (prod.price_type === "tiered" && priceTextRawAm) ? "ከ " : "";
+    const hasFromEn = priceTextRawEn && /^from\b/i.test(priceTextRawEn.trim());
+    const hasFromAm = priceTextRawAm && priceTextRawAm.trim().startsWith("ከ");
+    const priceLabelEn = (prod.price_type === "tiered" && priceTextRawEn && !hasFromEn) ? "From " : "";
+    const priceLabelAm = (prod.price_type === "tiered" && priceTextRawAm && !hasFromAm) ? "ከ " : "";
 
     const isNegotiable = prod.negotiable !== false;
     const negStatusLabelEn = isNegotiable ? "Negotiable" : "Fixed Price";
@@ -205,21 +214,42 @@ if (fs.existsSync(INDEX_HTML_FILE)) {
         </button>
       </div>` : "";
 
-  // Replace or inject content inside designated IDs
-  html = html.replace(
-    /(<div class="categories-scroll" id="categoriesScroll">)[\s\S]*?(<\/div>)/,
-    `$1<!-- SSR_CATEGORIES -->\n${categoriesHtml}\n    $2`
-  );
+  // Replace or inject content inside designated IDs cleanly using boundary markers
+  if (html.includes("<!-- SSR_CATEGORIES_START -->")) {
+    html = html.replace(
+      /<!-- SSR_CATEGORIES_START -->[\s\S]*?<!-- SSR_CATEGORIES_END -->/,
+      `<!-- SSR_CATEGORIES_START -->\n${categoriesHtml}\n    <!-- SSR_CATEGORIES_END -->`
+    );
+  } else {
+    html = html.replace(
+      /(<div class="categories-scroll" id="categoriesScroll">)[\s\S]*?(<\/div>\s*<\/section>)/,
+      `$1\n    <!-- SSR_CATEGORIES_START -->\n${categoriesHtml}\n    <!-- SSR_CATEGORIES_END -->\n    </div>\n  </section>`
+    );
+  }
 
-  html = html.replace(
-    /(<div class="filter-tabs" id="filterTabs">)[\s\S]*?(<\/div>)/,
-    `$1<!-- SSR_TABS -->\n${tabsHtml}\n      $2`
-  );
+  if (html.includes("<!-- SSR_TABS_START -->")) {
+    html = html.replace(
+      /<!-- SSR_TABS_START -->[\s\S]*?<!-- SSR_TABS_END -->/,
+      `<!-- SSR_TABS_START -->\n${tabsHtml}\n      <!-- SSR_TABS_END -->`
+    );
+  } else {
+    html = html.replace(
+      /(<div class="filter-tabs" id="filterTabs">)[\s\S]*?(<\/div>\s*<\/div>\s*<!-- 2-Column Product Grid -->)/,
+      `$1\n      <!-- SSR_TABS_START -->\n${tabsHtml}\n      <!-- SSR_TABS_END -->\n      </div>\n    </div>\n\n    <!-- 2-Column Product Grid -->`
+    );
+  }
 
-  html = html.replace(
-    /(<div class="product-grid" id="productGrid">)[\s\S]*?(<\/div>\s*<\/section>)/,
-    `$1<!-- SSR_PRODUCTS -->\n${productsHtml}\n${loadMoreHtml}\n    </div>\n  </section>`
-  );
+  if (html.includes("<!-- SSR_PRODUCTS_START -->")) {
+    html = html.replace(
+      /<!-- SSR_PRODUCTS_START -->[\s\S]*?<!-- SSR_PRODUCTS_END -->/,
+      `<!-- SSR_PRODUCTS_START -->\n${productsHtml}\n${loadMoreHtml}\n    <!-- SSR_PRODUCTS_END -->`
+    );
+  } else {
+    html = html.replace(
+      /(<div class="product-grid" id="productGrid">)[\s\S]*?(<\/div>\s*<\/section>)/,
+      `$1\n    <!-- SSR_PRODUCTS_START -->\n${productsHtml}\n${loadMoreHtml}\n    <!-- SSR_PRODUCTS_END -->\n    </div>\n  </section>`
+    );
+  }
 
   // Inject inlined initial data script before closing body
   const inlinedDataScript = `<script id="initial-products-data" type="application/json">${JSON.stringify(initialProducts)}</script>`;

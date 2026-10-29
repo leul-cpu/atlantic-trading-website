@@ -439,7 +439,8 @@ function renderProducts() {
     const fallbackPrice = currentLang === "en" ? "Contact for price" : "ያግኙን";
     const priceTextRaw = currentLang === "en" ? prod.price_display_en : (prod.price_display_am || prod.price_display_en);
     const priceText = priceTextRaw || fallbackPrice;
-    const priceLabel = (prod.price_type === "tiered" && priceTextRaw) ? (currentLang === "en" ? "From " : "ከ ") : "";
+    const hasFrom = priceTextRaw && (currentLang === "en" ? /^from\b/i.test(priceTextRaw.trim()) : priceTextRaw.trim().startsWith("ከ"));
+    const priceLabel = (prod.price_type === "tiered" && priceTextRaw && !hasFrom) ? (currentLang === "en" ? "From " : "ከ ") : "";
 
     const tagEn = prod.tag_en || "";
     const tagAm = prod.tag_am || tagEn;
