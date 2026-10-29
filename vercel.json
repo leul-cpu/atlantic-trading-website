@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/assets/(.*)",
+      "source": "/assets/:path*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "source": "/(.*)\\.(js|css|woff2|webp|svg|png|jpg|jpeg|ico)",
+      "source": "/:path*.:ext(js|css|woff2|webp|svg|png|jpg|jpeg|ico)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "source": "/(products|categories)\\.min?\\.json",
+      "source": "/:file(products|categories).min.json",
       "headers": [
         {
           "key": "Cache-Control",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "headers": [
         {
           "key": "Cache-Control",
