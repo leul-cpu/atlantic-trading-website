@@ -339,6 +339,26 @@ a {
   margin-right: 8px;
 }
 
+/* Load More Button – override btn-secondary for light background */
+.load-more-btn {
+  background-color: var(--primary-color);
+  color: var(--white) !important;
+  border: none !important;
+  border-radius: 6px;
+  max-width: 260px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-smooth);
+}
+
+.load-more-btn:hover {
+  background-color: var(--accent-color) !important;
+  color: var(--white) !important;
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
 /* Section Header & Laurel Divider Motif */
 .section-header {
   text-align: center;
