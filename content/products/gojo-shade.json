@@ -23,10 +23,10 @@
   "image_full": "assets/products/gojo-shade-full.webp",
   "images": [
     {
-      "image": "https://5.imimg.com/data5/TR/EK/MY-3122059/garden-umbrella-8-27-wine-red-500x500.jpg"
+      "image": "assets/products/3m-x-3m-beige-patio-umbrella-set.png"
     },
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv5VunN7p9AYBMxfOoq93vkB4VKY7sPnk035xHYkcFtJLyTRNw"
+      "image": "assets/products/photo_2026-11-03_17-33-14.jpg"
     }
   ],
   "price_tiers": [
