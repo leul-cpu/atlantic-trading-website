@@ -9,8 +9,7 @@ let currentLang = localStorage.getItem("atlantic_lang") || "am";
 let currentCategory = "all";
 let searchQuery = "";
 let searchDebounceTimer = null;
-let visibleCount = 10;
-const BATCH_SIZE = 10;
+
 const CACHE_KEY = "atlantic_catalog_v2";
 
 const dictionary = {
@@ -341,7 +340,7 @@ function toggleLanguage() {
 // ──────────────────────────────────────
 function selectCategory(categoryId) {
   currentCategory = categoryId;
-  visibleCount = BATCH_SIZE;
+
 
   // Update tab active classes
   document.querySelectorAll(".filter-tab").forEach(tab => {
@@ -363,7 +362,7 @@ function handleSearch() {
   searchDebounceTimer = setTimeout(() => {
     const input = document.getElementById("searchInput");
     searchQuery = input ? input.value.trim().toLowerCase() : "";
-    visibleCount = BATCH_SIZE;
+
     renderProducts();
   }, 150);
 }
@@ -375,10 +374,7 @@ function resetFilters() {
   selectCategory("all");
 }
 
-function loadMoreProducts() {
-  visibleCount += BATCH_SIZE;
-  renderProducts();
-}
+
 
 // ──────────────────────────────────────
 // Render Products Grid
@@ -416,10 +412,9 @@ function renderProducts() {
     return;
   }
 
-  const itemsToRender = filtered.slice(0, visibleCount);
   const fragment = document.createDocumentFragment();
 
-  itemsToRender.forEach((prod, idx) => {
+  filtered.forEach((prod, idx) => {
     const card = document.createElement("div");
     card.className = "product-card";
     card.tabIndex = 0;
@@ -470,18 +465,6 @@ function renderProducts() {
     fragment.appendChild(card);
   });
 
-  // Load more button
-  if (filtered.length > visibleCount) {
-    const loadMoreContainer = document.createElement("div");
-    loadMoreContainer.id = "loadMoreContainer";
-    loadMoreContainer.style.cssText = "grid-column: 1 / -1; text-align: center; margin-top: 1.5rem;";
-    loadMoreContainer.innerHTML = `
-      <button class="btn-secondary load-more-btn" onclick="loadMoreProducts()" style="padding: 0.8rem 2rem; cursor: pointer;">
-        <span>${dictionary[currentLang]["load-more"]}</span>
-      </button>
-    `;
-    fragment.appendChild(loadMoreContainer);
-  }
 
   grid.innerHTML = "";
   grid.appendChild(fragment);
