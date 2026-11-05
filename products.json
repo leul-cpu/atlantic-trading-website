@@ -309,6 +309,7 @@
       "Versatility: Perfectly compact for cozy balconies, cafes, living room corners, patio areas, or poolside lounges."
     ],
     "description_en": "Create a cozy and sophisticated relaxing spot with this 3-piece woven synthetic rattan bistro set. Featuring two curved tub-style armchairs and a matching round drum-style coffee table with a tempered glass top, this set is built for both indoor and outdoor lounging.",
+    "negotiable": true,
     "features_am": [
       "የሴቱ ይዘት፦ 2 ምቹ ክብ ቅርፅ ያላቸው ወንበሮች እና 1 ክብ የመስታወት ላዩ ያለው ጠረጴዛ።",
       "ዲዛይን፦ ዘመናዊ ጥቁር ግራጫ የራትዝ ሽመና እና ለሰውነት ምቾት በሚሰጥ መልኩ የተቀረፀ የወንበር ቅርፅ።",
@@ -321,7 +322,7 @@
     "tag_am": "አዲስ",
     "images": [
       {
-        "image": "assets/products/gemini_generated_image_726djp726djp726d.jpeg"
+        "image": "assets/products/gemini_generated_image_8qv50l8qv50l8qv5.jpeg"
       }
     ],
     "price_tiers": [],
@@ -329,9 +330,8 @@
     "date_published": "2026-08-26",
     "name_en": "3-Piece Dark Grey Round Rattan Bistro Set",
     "category": "chairs-tables",
-    "negotiable": true,
-    "image_thumb": "assets/products/gemini_generated_image_726djp726djp726d-thumb.webp",
-    "image_full": "assets/products/gemini_generated_image_726djp726djp726d-full.webp"
+    "image_thumb": "assets/products/gemini_generated_image_8qv50l8qv50l8qv5-thumb.webp",
+    "image_full": "assets/products/gemini_generated_image_8qv50l8qv50l8qv5-full.webp"
   },
   {
     "name_am": "ዘመናዊ የ5-ቁራጭ የክሬም/ቤዥ የራትዝ (Rattan) የጠረጴዛና ወንበሮች ሴት",
