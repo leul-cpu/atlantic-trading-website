@@ -1,5 +1,33 @@
 [
   {
+    "name_am": "ዘመናዊ የፈረንሳይ ስታይል ካፌ የውጭ ወንበርና ጠረጴዛ ስብስብ ",
+    "features_en": [
+      "✅ ⏩ Ideal for cafes, restaurants, patios, gardens, balconies, and indoor/outdoor lounge areas",
+      "✅ ⏩ Sturdy bamboo-look metal frames, lightweight, easy to clean, and fully weather-resistant for long-lasting outdoor use"
+    ],
+    "description_en": "👉 Elegant French-style cafe dining set featuring 4 matching chairs and a round table with a striking black and white zigzag woven pattern",
+    "negotiable": true,
+    "features_am": [
+      "✅ ⏩ ለካፌዎች፣ ለሬስቶራንቶች፣ ለቤት ግቢ፣ ለበረንዳ (ባልኮኒ) እና ለተለያዩ የመዝናኛ ቦታዎች ተስማሚ",
+      "✅ ⏩ ጠንካራ የቀርከሃ/የእንጨት መልክ ባለው ብረት የተሰራ፣ ቀላል፣ ለማፅዳትና ለመደርደር አመቺ እንዲሁም የዝናብና የፀሐይ ብርሃንን የሚቋቋም (Weather-resistant)"
+    ],
+    "tag_en": "New",
+    "description_am": "👉 በጥቁርና ነጭ የዚግዛግ ጥልፍ ዲዛይን የተዋቡ 4 ወንበሮች እና 1 ክብ ጠረጴዛ የያዘ፣ ለቤትዎና ለንግድዎ ልዩ ድምቀት የሚሰጥ የራታን ስብስብ",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_hesv9ohesv9ohesv.jpeg"
+      }
+    ],
+    "id": "four-set-chair",
+    "date_published": "2026-11-08",
+    "name_en": "French Bistro Outdoor Dining Set (1 Table + 4 Chairs)",
+    "category": "chairs-tables",
+    "image_thumb": "assets/products/gemini_generated_image_hesv9ohesv9ohesv-thumb.webp",
+    "image_full": "assets/products/gemini_generated_image_hesv9ohesv9ohesv-full.webp"
+  },
+  {
     "name_am": "ዘመናዊ የራታን/የራት ገበታ እና ወንበሮች (Outdoor Rattan Dining Set)",
     "features_en": [
       "✅ Ideal for cafes, restaurants, balconies, patios, and modern indoor/outdoor seating areas",
