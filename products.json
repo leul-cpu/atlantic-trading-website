@@ -1,5 +1,33 @@
 [
   {
+    "name_am": "የቅንጦት ሞዛይክ የውጭ ወንበርና ጠረጴዛ",
+    "features_en": [
+      "✅ ⏩ Perfect for cafes, restaurants, patios, gardens, balconies, and indoor/outdoor dining spaces",
+      "✅ ⏩ Weather-resistant and rustproof cast metal frame, durable ceramic tile tabletop, and comfortable, removable cushions for easy cleaning"
+    ],
+    "description_en": "👉 Elegant patio bistro set featuring a square ceramic mosaic tile tabletop and two ornate cast metal armchairs with comfortable seat cushions",
+    "negotiable": true,
+    "features_am": [
+      "✅ ⏩ ለካፌዎች፣ ለሬስቶራንቶች፣ ለቤት ውስጥና ለውጭ በረንዳዎች (ባልኮኒ)፣ ለግቢ እና ለመዝናኛ ቦታዎች ተስማሚ",
+      "✅ ⏩ ዝገትና የአየር ሁኔታን የሚቋቋም ጠንካራ የብረት ፍሬም፣ በቀላሉ ሊነሱና ሊታጠቡ የሚችሉ ምቹ ትራሶች፣ እና ልዩ ጥንካሬ ያለው የሴራሚክ ሞዛይክ ጠረጴዛ"
+    ],
+    "tag_en": "Premium",
+    "description_am": "👉 ውብ በሆነ የሴራሚክ ሞዛይክ ንጣፍ ያጌጠ ካሬ ጠረጴዛ እና እጅግ በጣም ምቹ ትራስ ካላቸው ሁለት ጠንካራ የብረት ወንበሮች ጋር የተዘጋጀ ልዩ ስብስብ",
+    "price_type": "flat",
+    "tag_am": "ልዩ ምርት",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_tivnootivnootivn.jpeg"
+      }
+    ],
+    "id": "chair-two",
+    "date_published": "2026-11-08",
+    "name_en": "Luxury Mosaic Outdoor Bistro Set (1 Table + 2 Chairs)",
+    "category": "chairs-tables",
+    "image_thumb": "assets/products/gemini_generated_image_tivnootivnootivn-thumb.webp",
+    "image_full": "assets/products/gemini_generated_image_tivnootivnootivn-full.webp"
+  },
+  {
     "name_am": "ዘመናዊ የፈረንሳይ ስታይል ካፌ የውጭ ወንበርና ጠረጴዛ ስብስብ ",
     "features_en": [
       "✅ ⏩ Ideal for cafes, restaurants, patios, gardens, balconies, and indoor/outdoor lounge areas",
