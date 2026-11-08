@@ -80,6 +80,37 @@
     "image_full": "assets/products/gemini_generated_image_u4w8auu4w8auu4w8-full.webp"
   },
   {
+    "name_am": "የሚታጠፍ የውጭ እና የቤት ውስጥ ጠረጴዛ ",
+    "features_en": [
+      "✅ ⏩ Ideal for balconies, patios, cafes, small dining areas, outdoor events, and camping   ",
+      "✅ ⏩ Foldable and space-saving design, easy to clean, highly portable, and built with sturdy metal legs"
+    ],
+    "description_en": "👉 Compact and portable folding bistro set featuring a clean white tabletop and lightweight foldable tables",
+    "negotiable": true,
+    "features_am": [
+      "✅ ⏩ ለካፌዎች፣ ለባልኮኒ፣ ለበረንዳ፣ ለካምፒንግ፣ ለዝግጅቶች እና ለተለያዩ ቦታዎች ተስማሚ   ",
+      "✅ ⏩ በቀላሉ የሚታጠፍና ቦታ ቆጣቢ ዲዛይን፣ ለማፅዳትና ለመሸከም ቀላል፣ እንዲሁም ጠንካራ የብረት እግሮች ያሉት   "
+    ],
+    "tag_en": "New",
+    "description_am": "👉 ቦታ የማይይዝ፣ በቀላሉ የሚታጠፍና የሚንቀሳቀስ፣ ነጭ አናት ያለው ዘመናዊ የውጭና የቤት ውስጥ ጠረጴዛ ",
+    "price_type": "flat",
+    "tag_am": "አዲስ",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_9zoino9zoino9zoi.jpeg"
+      },
+      {
+        "image": "assets/products/photo_2026-11-08_22-54-23.jpg"
+      }
+    ],
+    "id": "table-two",
+    "date_published": "2026-11-08",
+    "name_en": "Portable Folding Bistro Table",
+    "category": "chairs-tables",
+    "image_thumb": "assets/products/gemini_generated_image_9zoino9zoino9zoi-thumb.webp",
+    "image_full": "assets/products/gemini_generated_image_9zoino9zoino9zoi-full.webp"
+  },
+  {
     "name_am": "ባለ 3 x 3 ጐጆ ጥላ",
     "source_post": "https://t.me/atlantictradingtent/84",
     "features_en": [
