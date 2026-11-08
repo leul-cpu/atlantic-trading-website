@@ -1,5 +1,33 @@
 [
   {
+    "name_am": "ዘመናዊ የቤት እና የውጭ ወንበሮች",
+    "features_en": [
+      "✅ ⏩ Perfect for homes, offices, cafes, balconies, and outdoor patios",
+      "✅ ⏩ Wooden-style chair: Features unique star-patterned cutouts on the backrest with strong chrome metal legs"
+    ],
+    "description_en": "👉 Comfortable, stylish, and durable chairs designed for both indoor living spaces and outdoor seating",
+    "negotiable": true,
+    "features_am": [
+      "✅ ⏩ ለቤት ውስጥ፣ ለቢሮ፣ ለካፌ፣ ለበረንዳ (ባልኮኒ) እና ለተለያዩ የመዝናኛ ቦታዎች ተስማሚ",
+      "✅ ⏩ እንጨት መሰል ወንበር፦ ማራኪ የኮከብ ቅርጽ ዲዛይን ያለውና በጠንካራ የብረት እግር የተሰራ"
+    ],
+    "tag_en": "Discount",
+    "description_am": "👉 ለተለያዩ አገልግሎቶች የሚውሉ፣ ለቤት ውስጥ እና ለውጭ ግቢ የሚሆኑ ምቹ፣ ዘመናዊ እና ጠንካራ ወንበሮች",
+    "price_type": "flat",
+    "tag_am": " የቅናሽ ስብስብ",
+    "images": [
+      {
+        "image": "assets/products/gemini_generated_image_uc9bf4uc9bf4uc9b.jpeg"
+      }
+    ],
+    "id": "chair-single",
+    "date_published": "2026-11-08",
+    "name_en": "Modern Indoor & Outdoor Chairs",
+    "category": "chairs-tables",
+    "image_thumb": "assets/products/gemini_generated_image_uc9bf4uc9bf4uc9b-thumb.webp",
+    "image_full": "assets/products/gemini_generated_image_uc9bf4uc9bf4uc9b-full.webp"
+  },
+  {
     "name_am": "የቅንጦት ሞዛይክ የውጭ ወንበርና ጠረጴዛ",
     "features_en": [
       "✅ ⏩ Perfect for cafes, restaurants, patios, gardens, balconies, and indoor/outdoor dining spaces",
