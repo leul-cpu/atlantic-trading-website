@@ -1,0 +1,29 @@
+{
+  "name_am": "ዘመናዊ ትልቅ የውጭ የፀሐይና የዝናብ ጥላ",
+  "price": 70000,
+  "features_en": [
+    "✅ ⏩ Ideal for cafes, restaurants, outdoor markets, garden patios, and outdoor events",
+    "✅ ⏩ Provides wide coverage, high-density weather-resistant fabric, easy-to-operate opening mechanism, and a strong supporting base"
+  ],
+  "description_en": "👉 Heavy-duty outdoor patio umbrella with a sturdy metal frame, solid base stand, and water/UV-resistant brown canopy",
+  "negotiable": true,
+  "features_am": [
+    "✅ ⏩ ለካፌዎች፣ ለሬስቶራንቶች፣ ለቤት ግቢ፣ ለባልኮኒ እና ለተለያዩ የቤት ውጭ ንግዶችና ዝግጅቶች ተስማሚ",
+    "✅ ⏩ ሰፊ ጥላ የሚሰጥ፣ የፀሐይና የዝናብ ውሃን የሚከላከል የጨርቅ ሽፋን፣ በቀላሉ የሚከፈትና የሚዘጋ እንዲሁም ጠንካራ ማቆሚያ ያለው"
+  ],
+  "tag_en": "New",
+  "description_am": "👉 ለፀሐይና ለዝናብ መከላከያ የሚሆን፣ በጠንካራ የብረት ፍሬም የተሰራና ቋሚ ማቆሚያ (Stand) ያለው ውብ ቡናማ የውጭ ጥላ",
+  "price_type": "flat",
+  "tag_am": "አዲስ",
+  "images": [
+    {
+      "image": "assets/products/img_4194.jpeg"
+    }
+  ],
+  "id": "shade",
+  "price_display_en": "70,000 ETB",
+  "date_published": "2026-11-09",
+  "name_en": "Large Outdoor Patio & Garden Umbrella with Stand",
+  "category": "umbrellas",
+  "price_display_am": "70,000ብር"
+}
