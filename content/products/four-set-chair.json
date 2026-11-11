@@ -1,5 +1,6 @@
 {
   "name_am": "ዘመናዊ የፈረንሳይ ስታይል ካፌ የውጭ ወንበርና ጠረጴዛ ስብስብ ",
+  "price": 165000,
   "features_en": [
     "✅ ⏩ Ideal for cafes, restaurants, patios, gardens, balconies, and indoor/outdoor lounge areas",
     "✅ ⏩ Sturdy bamboo-look metal frames, lightweight, easy to clean, and fully weather-resistant for long-lasting outdoor use"
@@ -20,7 +21,9 @@
     }
   ],
   "id": "four-set-chair",
+  "price_display_en": "165,000 ETB",
   "date_published": "2026-11-08",
   "name_en": "French Bistro Outdoor Dining Set (1 Table + 4 Chairs)",
-  "category": "chairs-tables"
+  "category": "chairs-tables",
+  "price_display_am": "165,000 ብር"
 }
