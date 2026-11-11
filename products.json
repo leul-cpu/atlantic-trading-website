@@ -1651,6 +1651,7 @@
       "Suitable indoors or outdoors"
     ],
     "description_en": "4-chair set with a solid MDF wood table — a sturdier, indoor-friendly alternative.",
+    "negotiable": true,
     "features_am": [
       "4 ወንበሮች",
       "ጠንካራ MDF እንጨት ጠረጴዛ",
@@ -1661,12 +1662,12 @@
     "description_am": "4 ወንበር ከጠንካራ MDF እንጨት ጠረጴዛ ጋር — ለቤት ውስጥም ተስማሚ ጠንካራ አማራጭ።",
     "price_type": "flat",
     "tag_am": "አዲስ",
-    "image_thumb": "https://file.hstatic.net/1000181810/file/bo-ban-ghe-nhua-duc-ngoai-troi-hv3018_8ba013c1cfae4ec1a798de00d3ec697e_grande.jpg",
+    "image_thumb": "assets/products/img_4208-thumb.webp",
     "note": "Only post mentioning the MDF table (Jun 4) — worth double-checking this is still in stock at this price.",
-    "image_full": "https://file.hstatic.net/1000181810/file/bo-ban-ghe-nhua-duc-ngoai-troi-hv3018_8ba013c1cfae4ec1a798de00d3ec697e_grande.jpg",
+    "image_full": "assets/products/img_4208-full.webp",
     "images": [
       {
-        "image": "https://file.hstatic.net/1000181810/file/bo-ban-ghe-nhua-duc-ngoai-troi-hv3018_8ba013c1cfae4ec1a798de00d3ec697e_grande.jpg"
+        "image": "assets/products/img_4208.jpeg"
       }
     ],
     "id": "table-set-mdf",
@@ -1675,8 +1676,7 @@
     "date_published": "2026-08-14",
     "name_en": "4-Chair Set with MDF Table",
     "category": "chairs-tables",
-    "price_display_am": "17,500 ብር",
-    "negotiable": true
+    "price_display_am": "17,500 ብር"
   },
   {
     "name_am": "4 ወንበር ከፕላስቲክ ጠረጴዛ ጋር",
