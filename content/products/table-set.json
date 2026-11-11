@@ -1,5 +1,6 @@
 {
   "name_am": "ዘመናዊ የ7-ቁራጭ የራትዝ (Rattan) የባርና የፓቲዮ ረጅም ጠረጴዛና ወንበሮች ሴት",
+  "price": 95000,
   "features_en": [
     "Set Includes: 1 rectangular glass-top high bar table and 6 matching backless woven rattan bar stools.",
     "Design: Clean modern silhouette with backless bar stools designed for effortless tuck-away storage.",
@@ -7,6 +8,7 @@
     "Versatility: Ideal for commercial outdoor bars, hotel rooftops, garden patios, poolside lounges, or home entertainment spaces."
   ],
   "description_en": "Elevate your outdoor entertaining area, rooftop lounge, or resort patio with this high-top synthetic rattan bar dining set. Designed with a sleek rectangular counter-height table featuring a tempered glass top and six space-saving backless woven bar stools that nest conveniently when not in use.",
+  "negotiable": true,
   "features_am": [
     "የሴቱ ይዘት፦ 1 ረጅም አራት ማዕዘን የመስታወት ላዩ ያለው ጠረጴዛ እና 6 ተዛማጅ የራትዝ ባር ወንበሮች።",
     "ዲዛይን፦ ዘመናዊ ረጅም ቅርፅ ያለው እና ወንበሮቹ ከጠረጴዛው ሥር በቀላሉ የሚገቡ ቦታ ቆጣቢ ዲዛይን።",
@@ -23,8 +25,9 @@
     }
   ],
   "id": "table-set",
+  "price_display_en": "95,000 ETB",
   "date_published": "2026-08-27",
   "name_en": "7-Piece Rattan Bar Height Dining Set / Outdoor Pub Table Set",
   "category": "chairs-tables",
-  "negotiable": true
+  "price_display_am": "95,000 ብር"
 }
