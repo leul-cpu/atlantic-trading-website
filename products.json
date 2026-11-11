@@ -601,6 +601,7 @@
   },
   {
     "name_am": "ዘመናዊ የ5-ቁራጭ የክሬም/ቤዥ የራትዝ (Rattan) የጠረጴዛና ወንበሮች ሴት",
+    "price": 60000,
     "features_en": [
       "Set Includes: 4 ergonomic woven armchairs and 1 square dining table with a tinted glass top.",
       "Design: Light beige hand-woven wicker with supportive curved backrests and armrests.",
@@ -608,6 +609,7 @@
       "Versatility: Ideal for cafes, restaurants, balcony dining, patio areas, or home garden spaces."
     ],
     "description_en": "Brighten up your cafe, patio, or dining terrace with this charming 5-piece woven synthetic rattan dining set. Crafted in a clean beige finish, it features four comfortable curved armchairs paired with a matching square dining table with a dark glass top.",
+    "negotiable": true,
     "features_am": [
       "የሴቱ ይዘት፦ 4 ምቹ የክሬም ከለር የራትዝ ወንበሮች እና 1 ካሬ የመስታወት ላዩ ያለው ጠረጴዛ።",
       "ዲዛይን፦ ውብ የክሬም ከለር የራትዝ ሽመና እና ለጀርባ ምቾት በሚሰጥ መልኩ የተቀረፀ ቅርፅ።",
@@ -624,10 +626,11 @@
       }
     ],
     "id": "bistro-set-two",
+    "price_display_en": "60,000 ETB",
     "date_published": "2026-08-26",
     "name_en": "5-Piece Beige Rattan Dining & Outdoor Bistro Set",
     "category": "chairs-tables",
-    "negotiable": true,
+    "price_display_am": "60,000 ብር",
     "image_thumb": "assets/products/gemini_generated_image_l2qdrsl2qdrsl2qd-thumb.webp",
     "image_full": "assets/products/gemini_generated_image_l2qdrsl2qdrsl2qd-full.webp"
   },
