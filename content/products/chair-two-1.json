@@ -1,5 +1,6 @@
 {
   "name_am": "የቅንጦት ሞዛይክ የውጭ ወንበርና ጠረጴዛ",
+  "price": 210000,
   "features_en": [
     "✅ ⏩ Perfect for cafes, restaurants, patios, gardens, balconies, and indoor/outdoor dining spaces",
     "✅ ⏩ Weather-resistant and rustproof cast metal frame, durable ceramic tile tabletop, and comfortable, removable cushions for easy cleaning"
@@ -20,7 +21,9 @@
     }
   ],
   "id": "chair-two",
+  "price_display_en": "210,000 ETB",
   "date_published": "2026-11-08",
-  "name_en": "Luxury Mosaic Outdoor Bistro Set (1 Table + 2 Chairs)",
-  "category": "chairs-tables"
+  "name_en": "Luxury Mosaic Outdoor Bistro Set (1 Table + 4 Chairs)",
+  "category": "chairs-tables",
+  "price_display_am": "210,000 ብር"
 }
