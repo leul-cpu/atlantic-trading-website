@@ -10,7 +10,7 @@ let currentCategory = "all";
 let searchQuery = "";
 let searchDebounceTimer = null;
 
-const CACHE_KEY = "atlantic_catalog_v2";
+const CACHE_KEY = "atlantic_catalog_v3";
 
 const dictionary = {
   en: {
@@ -42,7 +42,6 @@ const dictionary = {
     "no-results": "No products found. Try a different search.",
     "pdp-negotiable": "Negotiable",
     "pdp-fixed": "Fixed Price",
-    "load-more": "Load more products",
     "offline-error": "Network issue. Please check your connection or order directly via Phone / Telegram:",
     "retry": "Retry"
   },
@@ -75,7 +74,6 @@ const dictionary = {
     "no-results": "ምንም ምርት አልተገኘም። ሌላ ቃል ይሞክሩ።",
     "pdp-negotiable": "ድርድር አለው",
     "pdp-fixed": "የማይቀየር ዋጋ",
-    "load-more": "ተጨማሪ ምርቶችን አሳይ",
     "offline-error": "የኢንተርኔት ግንኙነት ተቋርጧል። እባክዎ እንደገና ይሞክሩ ወይም በቀጥታ በስልክ/ቴሌግራም ይዘዙ፡",
     "retry": "እንደገና ሞክር"
   }
@@ -212,6 +210,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function initApp() {
+  // Immediately remove any legacy load-more buttons
+  const staleBtn = document.getElementById("loadMoreContainer");
+  if (staleBtn) staleBtn.remove();
+  document.querySelectorAll(".load-more-container, .load-more-btn").forEach(el => el.remove());
+
   // 1. Read pre-rendered initial data embedded in HTML
   const initialScript = document.getElementById("initial-products-data");
   if (initialScript) {

@@ -6,9 +6,8 @@
  *    products.json (full) and products.min.json (compact minified).
  * 2. Normalizes image references to high-performance WebP thumbnails.
  * 3. Reads content/categories/ and builds categories.json.
- * 4. Statically bakes the category chips, filter tabs, and initial 10 products
- *    directly into index.html so users on slow 3G get an instant first paint
- *    with zero spinner!
+ * 4. Statically bakes the category chips, filter tabs, and all products
+ *    directly into index.html so users get an instant paint with all products visible!
  */
 
 const fs   = require("fs");
@@ -162,9 +161,8 @@ if (fs.existsSync(INDEX_HTML_FILE)) {
   const tabsHtml = allTabs.map((cat, idx) => `
         <button class="filter-tab ${idx === 0 ? 'active' : ''}" onclick="selectCategory('${cat.id}')" data-cat="${cat.id}" data-en="${cat.name_en}" data-am="${cat.name_am}">${cat.name_am}</button>`).join("\n");
 
-  // 3. Pre-render initial batch of products (first 10)
-  const initialProducts = products.slice(0, 10);
-  const productsHtml = initialProducts.map((prod, idx) => {
+  // 3. Pre-render all products (no pagination, customers see all products at once)
+  const productsHtml = products.map((prod, idx) => {
     const nameEn = (prod.name_en || "").replace(/"/g, '&quot;');
     const nameAm = (prod.name_am || prod.name_en || "").replace(/"/g, '&quot;');
     const tagEn = prod.tag_en || "";
@@ -207,13 +205,6 @@ if (fs.existsSync(INDEX_HTML_FILE)) {
       </div>`;
   }).join("\n");
 
-  const loadMoreHtml = products.length > 10 ? `
-      <div class="load-more-container" id="loadMoreContainer" style="grid-column: 1 / -1; text-align: center; margin-top: 1.5rem;">
-        <button class="btn-secondary load-more-btn" id="loadMoreBtn" onclick="loadMoreProducts()" style="padding: 0.8rem 2rem; cursor: pointer;">
-          <span class="load-more-text" data-en="Load more products" data-am="ተጨማሪ ምርቶችን አሳይ">ተጨማሪ ምርቶችን አሳይ</span>
-        </button>
-      </div>` : "";
-
   // Replace or inject content inside designated IDs cleanly using boundary markers
   if (html.includes("<!-- SSR_CATEGORIES_START -->")) {
     html = html.replace(
@@ -242,17 +233,17 @@ if (fs.existsSync(INDEX_HTML_FILE)) {
   if (html.includes("<!-- SSR_PRODUCTS_START -->")) {
     html = html.replace(
       /<!-- SSR_PRODUCTS_START -->[\s\S]*?<!-- SSR_PRODUCTS_END -->/,
-      `<!-- SSR_PRODUCTS_START -->\n${productsHtml}\n${loadMoreHtml}\n    <!-- SSR_PRODUCTS_END -->`
+      `<!-- SSR_PRODUCTS_START -->\n${productsHtml}\n    <!-- SSR_PRODUCTS_END -->`
     );
   } else {
     html = html.replace(
       /(<div class="product-grid" id="productGrid">)[\s\S]*?(<\/div>\s*<\/section>)/,
-      `$1\n    <!-- SSR_PRODUCTS_START -->\n${productsHtml}\n${loadMoreHtml}\n    <!-- SSR_PRODUCTS_END -->\n    </div>\n  </section>`
+      `$1\n    <!-- SSR_PRODUCTS_START -->\n${productsHtml}\n    <!-- SSR_PRODUCTS_END -->\n    </div>\n  </section>`
     );
   }
 
   // Inject inlined initial data script before closing body
-  const inlinedDataScript = `<script id="initial-products-data" type="application/json">${JSON.stringify(initialProducts)}</script>`;
+  const inlinedDataScript = `<script id="initial-products-data" type="application/json">${JSON.stringify(products)}</script>`;
   if (html.includes('id="initial-products-data"')) {
     html = html.replace(/<script id="initial-products-data" type="application\/json">[\s\S]*?<\/script>/, inlinedDataScript);
   } else {
