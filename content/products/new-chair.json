@@ -1,5 +1,6 @@
 {
   "name_am": "ዘመናዊ የራታን/የራት ገበታ እና ወንበሮች (Outdoor Rattan Dining Set)",
+  "price": 98800,
   "features_en": [
     "✅ Ideal for cafes, restaurants, balconies, patios, and modern indoor/outdoor seating areas",
     "✅ Space-saving nested design (chairs tuck completely inside table), weather-resistant frame, and easy to clean"
@@ -16,7 +17,9 @@
   "tag_am": "አዲስ",
   "id": "new-chair",
   "image": "assets/products/gemini_generated_image_u4w8auu4w8auu4w8.jpeg",
+  "price_display_en": "98,800 ETB",
   "date_published": "2026-11-08",
   "name_en": "Modern Outdoor Rattan Dining Set (1 Table + 2 Chairs)",
-  "category": "chairs-tables"
+  "category": "chairs-tables",
+  "price_display_am": "98,800 ብር"
 }
