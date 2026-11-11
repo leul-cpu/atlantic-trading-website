@@ -1439,6 +1439,7 @@
       "👉For laboratories"
     ],
     "description_en": "Quality, & durable",
+    "negotiable": true,
     "features_am": [
       "👉 ለላብራቶሪዎች",
       "👉 ለሬሰቶራንቶች",
@@ -1456,7 +1457,7 @@
     ],
     "price_tiers": [
       {
-        "size": "600L",
+        "size": "660L",
         "price": 70000
       },
       {
@@ -1470,7 +1471,6 @@
     "name_en": "Garbage Can",
     "category": "bins",
     "price_display_am": "ከ 70,000 ብር ጀምሮ",
-    "negotiable": true,
     "image_thumb": "assets/products/garbage-can-thumb.webp",
     "image_full": "assets/products/garbage-can-full.webp"
   },
